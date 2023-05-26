@@ -194,7 +194,7 @@ export const Spreadsheet = () => {
     );
 
     return (
-      <Stack className="p-4" direction="vertical" style={{ height: 600 }}>
+      <>
         <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
@@ -380,7 +380,7 @@ export const Spreadsheet = () => {
         <CanvasGrid
           {...spreadsheetColors}
           enableTextOverflow
-          stickyEditor={false}
+          stickyEditor={true}
           scale={scale}
           conditionalFormats={conditionalFormats}
           sheetId={activeSheetId}
@@ -504,7 +504,7 @@ export const Spreadsheet = () => {
           sheetId={activeSheetId}
           onDeleteSheet={onDeleteSheet}
         />
-      </Stack>
+      </>
     );
   };
 
