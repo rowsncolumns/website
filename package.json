@@ -26,6 +26,6 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "canvas": "^2.11.2"
+    "canvas": "2.0.1"
   }
 }
