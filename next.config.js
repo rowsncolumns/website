@@ -5,11 +5,7 @@ const nextConfig = {
     return config
   },
   experimental: {
-    outputFileTracingExcludes: {
-      '*': [
-        'node_modules/canvas',
-      ],
-    },
+    outputFileTracingIgnores: ["**canvas**"]    
   }
 }
 
