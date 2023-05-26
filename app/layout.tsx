@@ -9,7 +9,7 @@ import { siteConfig } from "@/config/site";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rows n' Columns",
+  title: "Rows n Columns",
   description: "Spreadsheet 2 - High performance Canvas Spreadsheet component",
 };
 
@@ -35,7 +35,7 @@ export default function RootLayout({
                 height={50}
                 className="rounded-sm"
               />
-              Rows n' Columns
+              Rows n&apos; Columns
             </Link>
             <HeaderMenu />
           </div>
