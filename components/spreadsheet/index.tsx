@@ -57,18 +57,20 @@ import {
   TableEditor,
   DeleteSheetConfirmation,
 } from "@rowsncolumns/spreadsheet-state";
-import { Separator, Stack } from "@rowsncolumns/ui";
+import { Separator } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
-import { mockSheets } from "./mocks";
+import { mockSheets, mockTables } from "./mocks";
+import { mockSheetdata } from "./mock-sheetdata";
 
 export const Spreadsheet = () => {
   const App = () => {
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
-    const [sheetData, onChangeSheetData] = useState<SheetData<CellData>>({});
+    const [sheetData, onChangeSheetData] =
+      useState<SheetData<CellData>>(mockSheetdata);
     const [scale, onChangeScale] = useState(1);
     const [charts, onChangeCharts] = useState<EmbeddedChart[]>([]);
     const [embeds, onChangeEmbeds] = useState<EmbeddedObject[]>([]);
-    const [tables, onChangeTables] = useState<TableView[]>([]);
+    const [tables, onChangeTables] = useState<TableView[]>(mockTables);
     const [namedRanges, onChangeNamedRanges] = useState<NamedRange[]>([]);
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
       defaultSpreadsheetTheme
