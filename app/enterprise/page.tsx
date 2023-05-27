@@ -14,7 +14,7 @@ export default async function Home() {
       <header className="flex flex-col text-center justify-center items-center py-8">
         <PageHeading>Talk to us for Enterprise licenses</PageHeading>
         <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
-          We'll help you find the right plan and pricing for your business.
+          We&apos;ll help you find the right plan and pricing for your business.
         </p>
       </header>
 
