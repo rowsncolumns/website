@@ -48,6 +48,7 @@ import {
   SheetStatus,
   SpreadsheetProvider,
   TableActions,
+  ColorMode,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -61,6 +62,7 @@ import { Separator } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
 import { mockSheets, mockTables } from "./mocks";
 import { mockSheetdata } from "./mock-sheetdata";
+import { useColorMode } from "@/lib/theme";
 
 export const Spreadsheet = () => {
   const App = () => {
@@ -68,6 +70,7 @@ export const Spreadsheet = () => {
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
     const [scale, onChangeScale] = useState(1);
+    const [colorMode, onChangeColorMode] = useColorMode();
     const [charts, onChangeCharts] = useState<EmbeddedChart[]>([]);
     const [embeds, onChangeEmbeds] = useState<EmbeddedObject[]>([]);
     const [tables, onChangeTables] = useState<TableView[]>(mockTables);
@@ -90,7 +93,6 @@ export const Spreadsheet = () => {
       protectedRanges,
       bandedRanges,
       conditionalFormats,
-      colorMode,
       spreadsheetColors,
       canRedo,
       canUndo,
@@ -162,7 +164,6 @@ export const Spreadsheet = () => {
       onFreezeColumn,
       onFreezeRow,
       onChangeSpreadsheetTheme,
-      onChangeColorMode,
       onUpdateNote,
       onInsertNote,
       onSortRange,
@@ -181,7 +182,7 @@ export const Spreadsheet = () => {
       onChangeCharts,
       onChangeTables,
       onChangeTheme,
-      initialColorMode: "light",
+      colorMode,
     });
 
     // Format fo the current cell

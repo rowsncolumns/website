@@ -81,6 +81,14 @@ export function HeaderMenu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
+          <Link href="/enterprise" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Enterprise
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
           <Link href="/pricing" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact us

@@ -1,16 +1,15 @@
 import { Spreadsheet } from "@/components/spreadsheet";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+import { PageHeading } from "@/components/ui/page-heading";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 export default async function Home() {
   return (
-    <main className="flex flex-col min-h-screen p-2 min-w-0">
-      <header className="flex flex-col text-center justify-center items-center py-5">
-        <h1 className="max-w-[900px] pb-5 text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:leading-[1.1]">
-          {siteConfig.tagline}
-        </h1>
+    <main className="flex flex-col min-h-screen p-2 min-w-0 flex-1">
+      <header className="flex flex-col text-center justify-center items-center py-8">
+        <PageHeading>{siteConfig.tagline}</PageHeading>
         <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
           {siteConfig.taglineDescription}
         </p>

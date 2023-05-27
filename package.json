@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/spreadsheet": "^2.1.13",
-    "@rowsncolumns/spreadsheet-state": "^3.0.10",
+    "@rowsncolumns/spreadsheet": "^2.1.18",
+    "@rowsncolumns/spreadsheet-state": "^3.0.12",
     "@types/node": "20.2.1",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
