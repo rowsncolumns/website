@@ -54317,5 +54317,11 @@ export const mockSheetdata: SheetData = {
       ],
     },
   ],
-  "2": [null, null, { values: [null, null, {}, {}] }],
+  "2": [
+    null,
+    null,
+    {
+      values: [null, null, null, {}],
+    },
+  ],
 };

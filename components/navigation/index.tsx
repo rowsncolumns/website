@@ -65,17 +65,20 @@ export function HeaderMenu() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="https://docs.rowsncolumns.app" legacyBehavior passHref>
+          <Link href="/pricing" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
+              Pricing
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/pricing" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Pricing
+          <Link href="https://docs.rowsncolumns.app" legacyBehavior passHref>
+            <NavigationMenuLink
+              target="_blank"
+              className={navigationMenuTriggerStyle()}
+            >
+              Documentation
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

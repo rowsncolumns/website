@@ -5,6 +5,8 @@ import { NextAuthProvider } from "./providers";
 import Link from "next/link";
 import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
+import { Button } from "@/components/ui/button";
+import { MenuIcon } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,17 +26,20 @@ export default function RootLayout({
         <header className="border-b border-site-border">
           <div className="container flex items-center">
             <div className="flex-1 items-center flex py-2">
+              {/* <Button size="sm" className="md:!hidden">
+                <MenuIcon />
+              </Button> */}
               <Link
                 href="/"
-                className="items-center flex gap-2 font-semibold hover:bg-accent p-2 rounded-md text-md"
+                className="items-center flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
                 title={siteConfig.name}
               >
                 <Image
-                  src="/logo-2-full.png"
+                  src="/logo-square.png?v=1"
                   alt="RowsnColumns"
-                  width={50}
-                  height={50}
-                  className="rounded-sm"
+                  width={128}
+                  height={94}
+                  className="rounded-sm max-w-[50px]"
                 />
                 Rows n&apos; Columns
               </Link>
@@ -48,7 +53,7 @@ export default function RootLayout({
         <hr className="border-border" />
         <footer className="bg-background relative">
           <div className="mx-auto max-w-[90rem] py-12 flex justify-center md:justify-center">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 md:gap-12">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 md:gap-12  pl-6 pr-6 flex-1 md:flex-none">
               <div className="mt-12 md:!mt-0">
                 <h3 className="text-sm ">Resources</h3>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
@@ -62,7 +67,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <a
-                      href="https://github.com/vercel/turbo/releases"
+                      href="https://github.com/rowsncolumns/spreadsheet/releases"
                       className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
                     >
                       Releases
@@ -135,12 +140,11 @@ export default function RootLayout({
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
-                      href="/terms"
-                    >
-                      Terms of Service
-                    </a>
+                    <Link href="/terms" legacyBehavior>
+                      <a className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground">
+                        Terms of Service
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
