@@ -23,15 +23,15 @@ export default async function Home() {
 
         <p>
           These Terms of Use constitute a legally binding agreement made between
-          you, whether personally or on behalf of an entity (“you”) and Rows n'
-          Columns ("Company", “we”, “us”, or “our”), concerning your access to
-          and use of the website as well as any other media form, media channel,
-          mobile website or mobile application related, linked, or otherwise
-          connected thereto (collectively, the “Site”). You agree that by
-          accessing the Site, you have read, understood, and agree to be bound
-          by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE
-          TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE
-          AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+          you, whether personally or on behalf of an entity ("you”) and Rows
+          n&apos; Columns ("Company", "we”, "us”, or "our”), concerning your
+          access to and use of the website as well as any other media form,
+          media channel, mobile website or mobile application related, linked,
+          or otherwise connected thereto (collectively, the "Site”). You agree
+          that by accessing the Site, you have read, understood, and agree to be
+          bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF
+          THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE
+          SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
         </p>
 
         <p>
@@ -39,7 +39,7 @@ export default async function Home() {
           the Site from time to time are hereby expressly incorporated herein by
           reference. We reserve the right, in our sole discretion, to make
           changes or modifications to these Terms of Use at any time and for any
-          reason. We will alert you about any changes by updating the “Last
+          reason. We will alert you about any changes by updating the "Last
           updated” date of these Terms of Use, and you waive any right to
           receive specific notice of each such change. It is your responsibility
           to periodically review these Terms of Use to stay informed of updates.
@@ -84,12 +84,12 @@ export default async function Home() {
           Unless otherwise indicated, the Site is our proprietary property and
           all source code, databases, functionality, software, website designs,
           audio, video, text, photographs, and graphics on the Site
-          (collectively, the “Content”) and the trademarks, service marks, and
-          logos contained therein (the “Marks”) are owned or controlled by us or
+          (collectively, the "Content”) and the trademarks, service marks, and
+          logos contained therein (the "Marks”) are owned or controlled by us or
           licensed to us, and are protected by copyright and trademark laws and
           various other intellectual property rights and unfair competition laws
           of the United States, international copyright laws, and international
-          conventions. The Content and the Marks are provided on the Site “AS
+          conventions. The Content and the Marks are provided on the Site "AS
           IS” for your information and personal use only. Except as expressly
           provided in these Terms of Use, no part of the Site and no Content or
           Marks may be copied, reproduced, aggregated, republished, uploaded,
@@ -188,12 +188,12 @@ export default async function Home() {
         <p>
           We may include software for use in connection with our services. If
           such software is accompanied by an end user license agreement
-          (“EULA”), the terms of the EULA will govern your use of the software.
+          ("EULA”), the terms of the EULA will govern your use of the software.
           If such software is not accompanied by a EULA, then we grant to you a
           non-exclusive, revocable, personal, and non-transferable license to
           use such software solely in connection with our services and in
           accordance with these Terms of Use. Any Software and any related
-          documentation is provided “as is” without warranty of any kind, either
+          documentation is provided "as is” without warranty of any kind, either
           express or implied, including, without limitation, the implied
           warranties of merchantability, fitness for a particular purpose, or
           non-infringement. You accept any and all risk arising out of use or
@@ -284,9 +284,9 @@ export default async function Home() {
             Upload or transmit (or attempt to upload or to transmit) any
             material that acts as a passive or active information collection or
             transmission mechanism, including without limitation, clear graphics
-            interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or
-            other similar devices (sometimes referred to as “spyware” or
-            “passive collection mechanisms” or “pcms”).{" "}
+            interchange formats ("gifs”), 1×1 pixels, web bugs, cookies, or
+            other similar devices (sometimes referred to as "spyware” or
+            "passive collection mechanisms” or "pcms”).{" "}
           </li>
           <li>
             Upload or transmit (or attempt to upload or to transmit) viruses,

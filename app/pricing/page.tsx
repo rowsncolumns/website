@@ -141,7 +141,8 @@ export default async function Home() {
               >
                 support@rowsncolumns.app
               </a>{" "}
-              within 30 days and we'll refund you in full, no questions asked.
+              within 30 days and we&apos;ll refund you in full, no questions
+              asked.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -172,7 +173,7 @@ export default async function Home() {
                 in the latest, stable releases of all major browsers, including
                 Chrome, Firefox, Safari, and Edge.
               </p>
-              <p>We don't support Internet Explorer 11.</p>
+              <p>We don&apos;t support Internet Explorer 11.</p>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -187,8 +188,8 @@ export default async function Home() {
             <AccordionContent>
               <p className="pb-4">
                 Yes. Each Professional license is for a Single application use.
-                It is bound to an application name and can't be re-used on other
-                application at the same time.
+                It is bound to an application name and can&apos;t be re-used on
+                other application at the same time.
               </p>
             </AccordionContent>
           </AccordionItem>
@@ -200,9 +201,9 @@ export default async function Home() {
             <AccordionContent>
               <p className="pb-4">
                 <p className="pb-2">
-                  Yup! If you're a solo developer you can start with a personal
-                  license, and then upgrade to the team license later if other
-                  developers join your team.
+                  Yup! If you&apos;re a solo developer you can start with a
+                  personal license, and then upgrade to the team license later
+                  if other developers join your team.
                 </p>
 
                 <p className="pb-2">
@@ -250,11 +251,11 @@ export default async function Home() {
             </AccordionTrigger>
             <AccordionContent>
               <p className="pb-4">
-                Yep! As long as what you're building is some sort of actual
+                Yep! As long as what you&apos;re building is some sort of actual
                 website and not a derivative component library, theme builder,
                 or other product where the primary purpose is clearly to
-                repackage and redistribute our components, it's totally okay for
-                that project to be open source.
+                repackage and redistribute our components, it&apos;s totally
+                okay for that project to be open source.
               </p>
             </AccordionContent>
           </AccordionItem>
@@ -280,7 +281,8 @@ export default async function Home() {
               >
                 support@rowsncolumns.app
               </a>{" "}
-              within 30 days and we'll refund you in full, no questions asked.
+              within 30 days and we&apos;ll refund you in full, no questions
+              asked.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
