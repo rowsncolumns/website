@@ -2,6 +2,7 @@
 import React from "react";
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import docco from "react-syntax-highlighter/dist/esm/styles/prism/coldark-dark";
+//@ts-ignore
 import { typescript } from "react-syntax-highlighter/dist/esm/languages/prism";
 
 SyntaxHighlighter.registerLanguage("jsx", typescript);
