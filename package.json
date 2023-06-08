@@ -11,8 +11,8 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/spreadsheet": "^2.1.19",
-    "@rowsncolumns/spreadsheet-state": "^3.0.13",
+    "@rowsncolumns/spreadsheet": "^2.1.32",
+    "@rowsncolumns/spreadsheet-state": "^3.0.25",
     "@types/node": "20.2.1",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
@@ -27,12 +27,14 @@
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-syntax-highlighter": "^15.5.0",
     "tailwind-merge": "^1.12.0",
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.5",
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@types/react-syntax-highlighter": "^15.5.7",
     "canvas": "^2.11.2"
   }
 }

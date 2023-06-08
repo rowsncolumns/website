@@ -5,10 +5,8 @@ import { NextAuthProvider } from "./providers";
 import Link from "next/link";
 import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
-import { Button } from "@/components/ui/button";
-import { MenuIcon } from "lucide-react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin-ext"] });
 
 export const metadata = {
   title: "Rows n Columns",

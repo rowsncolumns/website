@@ -5,8 +5,11 @@ const nextConfig = {
     return config
   },
   experimental: {
-    outputFileTracingIgnores: ["**canvas**"]    
-  }
+    outputFileTracingIgnores: ["**canvas**"],
+    esmExternals: 'loose'
+  },
+  reactStrictMode: true,
+  // transpilePackages: ['react-syntax-highlighter']
 }
 
 module.exports = nextConfig

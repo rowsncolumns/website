@@ -1,5 +1,4 @@
 import { Sheet, TableView } from "@rowsncolumns/spreadsheet";
-import { SheetData } from "@rowsncolumns/spreadsheet-state";
 
 export const mockSheets: Sheet[] = [
   {
@@ -17,7 +16,33 @@ export const mockSheets: Sheet[] = [
       { size: 104, resizedByUser: false },
     ],
     rowMetadata: [],
-    conditionalFormats: [],
+    conditionalFormats: [
+      {
+        ranges: [
+          {
+            startRowIndex: 2,
+            endRowIndex: 2,
+            startColumnIndex: 1,
+            endColumnIndex: 2,
+          },
+        ],
+        booleanRule: {
+          condition: {
+            type: "NUMBER_LESS",
+            values: [
+              {
+                userEnteredValue: "0.5",
+              },
+            ],
+          },
+          format: {
+            textFormat: {
+              color: "red",
+            },
+          },
+        },
+      },
+    ],
     bandedRanges: [],
   },
   {

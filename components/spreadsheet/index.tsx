@@ -39,7 +39,6 @@ import {
   FormulaBar,
   RangeSelector,
   FormulaBarLabel,
-  ConnectedCellInput,
   CanvasGrid,
   BottomBar,
   NewSheetButton,
@@ -49,6 +48,7 @@ import {
   SpreadsheetProvider,
   TableActions,
   ColorMode,
+  FormulaBarInput,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -57,6 +57,7 @@ import {
   pattern_percent_decimal,
   TableEditor,
   DeleteSheetConfirmation,
+  NamedRangeEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -169,6 +170,11 @@ export const Spreadsheet = () => {
       onSortRange,
       onProtectRange,
       onUnProtectRange,
+      onRequestDefineNamedRange,
+      onRequestUpdateNamedRange,
+      onDeleteNamedRange,
+      onCreateNamedRange,
+      onUpdateNamedRange,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -181,6 +187,7 @@ export const Spreadsheet = () => {
       onChangeEmbeds,
       onChangeCharts,
       onChangeTables,
+      onChangeNamedRanges,
       onChangeTheme,
       colorMode,
     });
@@ -361,6 +368,7 @@ export const Spreadsheet = () => {
 
         <FormulaBar>
           <RangeSelector
+            sheetId={activeSheetId}
             selections={selections}
             activeCell={activeCell}
             onChangeActiveCell={onChangeActiveCell}
@@ -369,12 +377,15 @@ export const Spreadsheet = () => {
             rowCount={rowCount}
             columnCount={columnCount}
             onChangeActiveSheet={onChangeActiveSheet}
+            onRequestDefineNamedRange={onRequestDefineNamedRange}
+            onRequestUpdateNamedRange={onRequestUpdateNamedRange}
+            onDeleteNamedRange={onDeleteNamedRange}
             namedRanges={namedRanges}
             tables={tables}
           />
           <Separator orientation="vertical" />
           <FormulaBarLabel>fx</FormulaBarLabel>
-          <ConnectedCellInput
+          <FormulaBarInput
             activeCell={activeCell}
             functionDescriptions={functionDescriptions}
           />
@@ -452,6 +463,7 @@ export const Spreadsheet = () => {
           onDragOver={onDragOver}
           onDrop={onDrop}
           onRequestEditTable={onRequestEditTable}
+          onRequestDefineNamedRange={onRequestDefineNamedRange}
           onFreezeColumn={onFreezeColumn}
           onFreezeRow={onFreezeRow}
           onUpdateNote={onUpdateNote}
@@ -506,6 +518,14 @@ export const Spreadsheet = () => {
         <DeleteSheetConfirmation
           sheetId={activeSheetId}
           onDeleteSheet={onDeleteSheet}
+        />
+        <NamedRangeEditor
+          sheetId={activeSheetId}
+          rowCount={rowCount}
+          columnCount={columnCount}
+          getSheetName={getSheetName}
+          onCreateNamedRange={onCreateNamedRange}
+          onUpdateNamedRange={onUpdateNamedRange}
         />
       </>
     );

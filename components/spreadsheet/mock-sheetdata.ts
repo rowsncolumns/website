@@ -4,7 +4,9 @@ export const mockSheetdata: SheetData = {
   "1": [
     null,
     null,
-    null,
+    {
+      values: [null],
+    },
     {
       values: [
         null,

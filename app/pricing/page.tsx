@@ -31,7 +31,7 @@ export default async function Home() {
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Personal</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            <s>$4,999</s> <span className="text-green-600 ml-2">$3,499</span>
+            <s>$5,000</s> <span className="text-green-600 ml-2">$3,500</span>
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             If you are a solo developer working on a single application.
@@ -125,7 +125,7 @@ export default async function Home() {
         </h2>
         <p className="text-muted-foreground text-md pb-6">
           If you can&apos;t find what you&apos;re looking for, email our support
-          team and if you&apos;re lucky someone will get back to you.
+          team and someone will get back to you.
         </p>
 
         <h3 className="text-muted-foreground text-md font-semibold">General</h3>
@@ -154,7 +154,7 @@ export default async function Home() {
                 When you purchase Spreadsheet 2, you are granted a license to
                 use a version of the product in perpetuity. There are no further
                 charges until you choose to extend your license to cover newer
-                versions (see next point).{" "}
+                versions.
               </p>
 
               <p>

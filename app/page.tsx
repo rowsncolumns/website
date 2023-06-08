@@ -1,9 +1,12 @@
+import { sample1, sample2, sample3 } from "@/components/code-samples";
 import { Spreadsheet } from "@/components/spreadsheet";
 import { Button, buttonVariants } from "@/components/ui/button";
+import { CodeHighlighter } from "@/components/ui/code-highlighter";
 import { PageHeading } from "@/components/ui/page-heading";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export default async function Home() {
   return (
@@ -37,74 +40,101 @@ export default async function Home() {
       <hr />
 
       <div className="py-8 pl-4 pr-4">
-        <div className="flex flex-col text-center justify-center items-center">
+        <div className="flex flex-col text-center justify-center items-center pb-6">
           <h2 className="max-w-[900px] pb-5 text-3xl font-bold leading-tight tracking-tighter">
-            High performance ReactJS Spreadsheet
+            Built for Developers
           </h2>
           <p className="text-md text-muted-foreground max-w-3xl">
-            Built for developers. Spreadsheet is rendered in HTML Canvas, giving
-            you ~60fps rendering performance and ability to display millions of
-            rows and columns without peformance impact.
+            Spreadsheet is rendered in HTML Canvas, giving you ~60fps rendering
+            performance and ability to display millions of rows and columns
+            without peformance impact. With escape hatches, you can access the
+            internals and customize it to your liking.
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10  lg:grid-cols-3 pb-0">
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Bring your own Data model and State management library.
+        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
+          <div className="col-span-1">
+            <h3 className="text-foreground text-2xl font-semibold pb-2">
+              Compose the perfect Spreadsheet
             </h3>
+
             <p className="pb-4">
-              Developers can choose how to model their Spreadsheet data. It
-              could be array of cells or object of cells. CanvasGrid accepts
-              `getCellData` callback which should return a CellData object
+              Pick and choose the components you need to build your Spreadsheet.
             </p>
 
             <p className="pb-4">
-              We provide an optional `useSpreadsheetState` hook to manage
-              Spreadsheet state.
+              You can also build own custom functionality on top of Spreadsheet
+              2, with the many callbacks from CanvasGrid.
+            </p>
+
+            <Link href="https://docs.rowsncolumns.app/configuration/components">
+              <Button>See all components</Button>
+            </Link>
+          </div>
+          <div className="col-span-2">
+            <CodeHighlighter>{sample1}</CodeHighlighter>
+          </div>
+        </section>
+
+        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
+          <div className="col-span-1">
+            <h3 className="text-foreground text-2xl font-semibold pb-2">
+              Bring your own Data model and State management
+            </h3>
+            <h4 className="pb-2">
+              <em>Or use `useSpreadsheetState` hook</em>
+            </h4>
+
+            <p className="pb-4">
+              Spreadsheet components are all uncontrolled and stateless. It
+              renders based on the props that you pass-in and invokes callbacks
+              to user actions.
+            </p>
+
+            <p className="pb-4">
+              Spreadsheet 2 is agnostic of your data persistence model. You can
+              choose any database for storage or real-time collaboration.
             </p>
 
             <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
               <Button>Learn more</Button>
             </Link>
-          </section>
+          </div>
+          <div className="col-span-2">
+            <CodeHighlighter>{sample2}</CodeHighlighter>
+          </div>
+        </section>
 
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground min-h-full">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Compose the perfect Spreadsheet
+        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
+          <div className="col-span-1">
+            <h3 className="text-foreground text-2xl font-semibold pb-2">
+              useSpreadsheetState hook
             </h3>
             <p className="pb-4">
-              Pick and choose the components you need to build your Spreadsheet.
+              This is an optional (Production grade) hook if you want to get
+              started with the Spreadsheet with complete state management.
             </p>
+            <ul className="list-disc pl-4 pb-4">
+              <li>Uses immer for state management.</li>
+              <li>Full undo/redo capability.</li>
+              <li>Calculation framework with optional web worker support.</li>
+              <li>Real time collaboration built-in.</li>
+            </ul>
 
-            <div className="flex-1"></div>
-
-            <Link href="https://docs.rowsncolumns.app/configuration/components">
-              <Button>See all components</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground  min-h-full">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Structured references and Calculated columns
-            </h3>
-
-            <p className="pb-4">
-              Create tables and reference cells using column names. Add
-              calculated columns, which syncs with dynamic table cells
-            </p>
-
-            <div className="flex-1"></div>
-
-            <Link href="https://docs.rowsncolumns.app/configuration/features/structured-references">
+            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
               <Button>Learn more</Button>
             </Link>
-          </section>
-        </div>
+          </div>
+          <div className="col-span-2">
+            <CodeHighlighter>{sample3}</CodeHighlighter>
+          </div>
+        </section>
       </div>
 
+      <hr />
+
       <div className="py-12 pl-4 pr-4">
-        <div className="flex flex-col text-center justify-center items-center">
+        <div className="flex flex-col text-center justify-center items-center pb-6">
           <h2 className="max-w-[900px] pb-5 text-3xl font-bold leading-tight tracking-tighter">
             Spreadsheet features
           </h2>
@@ -115,190 +145,93 @@ export default async function Home() {
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10  lg:grid-cols-3 pb-0">
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Powerful Calculation Engine
+        <section className="grid grid-cols-2 gap-6 p-6">
+          <div className="shadow-md rounded-md ">
+            <Image
+              src="/screenshot-structured.jpg"
+              alt="Structured references"
+              width={1240}
+              height={567}
+            />
+          </div>
+          <div className="flex-1 max-w-md">
+            <h3 className="text-xl font-semibold pb-2">
+              Structured references and Calculated columns
             </h3>
-            <p className="pb-4">
-              With a chevrotain based formula parser and a JavaScript based
-              calculation engine, its easy to customize and add named formulas.
+
+            <p className="pb-4 text-muted-foreground">
+              Create tables and reference cells using column names. Add
+              calculated columns, which syncs with dynamic table cells
             </p>
 
-            <p className="pb-4">
-              Calculations can also be moved to a web-worker (80% feature
-              complete)
-            </p>
+            <div className="flex-1"></div>
 
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
+            <Link href="https://docs.rowsncolumns.app/configuration/features/structured-references">
               <Button>Learn more</Button>
             </Link>
-          </section>
+          </div>
+        </section>
 
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Asynchonous and Real-time calculations
-            </h3>
-            <p className="pb-4">
-              Allow multiple users to work on a spreadsheet.
+        <section className="grid grid-cols-2 gap-6 p-6">
+          <div className="shadow-md rounded-md ">
+            <Image
+              src="/screenshot-realtime.jpg"
+              alt="Real time formulas"
+              width={720}
+              height={286}
+            />
+          </div>
+          <div className="flex-1 max-w-md">
+            <h3 className="text-xl font-semibold pb-2">Real-time formulas</h3>
+
+            <p className="pb-4 text-muted-foreground">
+              Add named JavaScript functions as formulas, which can connect to
+              real-time data sources.
             </p>
 
-            <p className="pb-4">
-              Agnostic of data strutures (CRDT/OT) or back-end stack. Use
-              partykit, replicache etc.
-            </p>
+            <div className="flex-1"></div>
 
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
+            <Link
+              href="https://docs.rowsncolumns.app/configuration/features/real-time-data"
+              title="Learn more about real-time formulas"
+            >
               <Button>Learn more</Button>
             </Link>
-          </section>
+          </div>
+        </section>
 
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
+        <section className="grid grid-cols-2 gap-6 p-6">
+          <div className="shadow-md rounded-md ">
+            <Image
+              src="/screenshot-collaboration.jpg"
+              alt="Collaborate with users"
+              width={720}
+              height={374}
+            />
+          </div>
+          <div className="flex-1 max-w-md">
+            <h3 className="text-xl font-semibold pb-2">
               Collaborative editing
             </h3>
-            <p className="pb-4">
+
+            <p className="pb-4 text-muted-foreground">
               Allow multiple users to work on a spreadsheet.
             </p>
-
-            <p className="pb-4">
+            <p className="pb-4 text-muted-foreground">
               Agnostic of data strutures (CRDT/OT) or back-end stack. Use
               partykit, replicache etc.
             </p>
 
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
+            <div className="flex-1"></div>
+
+            <Link
+              href="https://docs.rowsncolumns.app/collaboration/real-time-collaboration"
+              title="Learn more about collaboration"
+            >
               <Button>Learn more</Button>
             </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Conditional formatting
-            </h3>
-            <p className="pb-4">
-              Allow multiple users to work on a spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              Agnostic of data strutures (CRDT/OT) or back-end stack. Use
-              partykit, replicache etc.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Data validation
-            </h3>
-            <p className="pb-4">
-              Allow multiple users to work on a spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              Agnostic of data strutures (CRDT/OT) or back-end stack. Use
-              partykit, replicache etc.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Custom Cell Renderers, Editors, Tooltips, Context Menu etc
-            </h3>
-            <p className="pb-4">Custom Cell Renderers, Editors, Tooltips</p>
-
-            <p className="pb-4">
-              Agnostic of data strutures (CRDT/OT) or back-end stack. Use
-              partykit, replicache etc.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Embed Charts, images and external content
-            </h3>
-            <p className="pb-4">
-              Drag and Drop images, CSV files into Spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              With the built-in API to add external content like charts, images,
-              canvas drawings etc, its easy to build a full blown excel like
-              solution.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Import and Export CSV, Excel and Google sheets
-            </h3>
-            <p className="pb-4">
-              Drag and Drop images, CSV files into Spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              With the built-in API to add external content like charts, images,
-              canvas drawings etc, its easy to build a full blown excel like
-              solution.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Insert, delete rows and columns
-            </h3>
-            <p className="pb-4">
-              Drag and Drop images, CSV files into Spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              With the built-in API to add external content like charts, images,
-              canvas drawings etc, its easy to build a full blown excel like
-              solution.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-
-          <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background text-muted-foreground">
-            <h3 className="text-foreground text-xl font-semibold pb-4">
-              Themeing and Dark mode
-            </h3>
-            <p className="pb-4">
-              Drag and Drop images, CSV files into Spreadsheet.
-            </p>
-
-            <p className="pb-4">
-              With the built-in API to add external content like charts, images,
-              canvas drawings etc, its easy to build a full blown excel like
-              solution.
-            </p>
-
-            <Link href="https://docs.rowsncolumns.app/getting-started/spreadsheet-state">
-              <Button>Learn more</Button>
-            </Link>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
     </main>
   );
