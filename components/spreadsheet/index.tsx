@@ -249,12 +249,12 @@ export const Spreadsheet = () => {
           />
           <ToolbarSeparator />
           <FontSizeSelector
-            value={String(
+            value={
               currentCellFormat?.textFormat?.fontSize ?? DEFAULT_FONT_SIZE_PT
-            )}
-            onChange={(value) => {
+            }
+            onChange={(fontSize) => {
               onChangeFormatting(activeSheetId, "textFormat", {
-                fontSize: Number(value),
+                fontSize,
               });
             }}
           />
