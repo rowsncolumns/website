@@ -19,7 +19,7 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="py-0 flex min-h-[600px] w-[1340px] max-w-full flex-col min-w-0">
+      <div className="py-0 flex min-h-[600px] w-[1340px] max-w-full flex-col min-w-0 ml-auto mr-auto">
         <div
           className="ml-auto mr-auto max-w-lg w-2/3 shadow-md p-4 bg-muted rounded-md mb-5 border-border border border-solid
           focus-within:ring-1 focus-within:ring-ring focus-within:ring-offset-0

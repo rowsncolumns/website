@@ -18,6 +18,16 @@ export const EnterpriseContact = () => {
       </Stack>
 
       <Stack direction="vertical" className="gap-2 pb-4">
+        <label className="text-sm">Company name</label>
+        <Input
+          className="focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-0 p-2  bg-background"
+          type="text"
+          name="company_name"
+          required
+        />
+      </Stack>
+
+      <Stack direction="vertical" className="gap-2 pb-4">
         <label className="text-sm">Email</label>
         <Input
           className="focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-0 p-2  bg-background"
