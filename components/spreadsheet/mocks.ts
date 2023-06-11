@@ -42,6 +42,66 @@ export const mockSheets: Sheet[] = [
           },
         },
       },
+      {
+        ranges: [
+          {
+            startRowIndex: 4,
+            endRowIndex: 56,
+            startColumnIndex: 7,
+            endColumnIndex: 7,
+          },
+        ],
+        gradientRule: {
+          minpoint: {
+            color: "#FFCF54",
+            type: "MIN",
+          },
+          maxpoint: {
+            color: "#FFFFFF",
+            type: "MAX",
+          },
+        },
+      },
+      {
+        ranges: [
+          {
+            startRowIndex: 4,
+            endRowIndex: 56,
+            startColumnIndex: 9,
+            endColumnIndex: 9,
+          },
+        ],
+        gradientRule: {
+          minpoint: {
+            color: "#4AB078",
+            type: "MIN",
+          },
+          maxpoint: {
+            color: "#FFFFFF",
+            type: "MAX",
+          },
+        },
+      },
+      {
+        ranges: [
+          {
+            startRowIndex: 4,
+            endRowIndex: 56,
+            startColumnIndex: 6,
+            endColumnIndex: 6,
+          },
+        ],
+        gradientRule: {
+          minpoint: {
+            color: "#FFFFFF",
+            type: "MIN",
+          },
+          maxpoint: {
+            color: "#DE6560",
+            type: "MAX",
+          },
+        },
+      },
     ],
     bandedRanges: [],
   },

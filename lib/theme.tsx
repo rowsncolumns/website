@@ -11,6 +11,7 @@ import {
   useContext,
   useState,
 } from "react";
+import { usePrevious } from "./use-previous";
 
 const MEDIA_QUERY = "(prefers-color-scheme: dark)";
 const themeStorageKey = "rnc-colormode";
@@ -45,23 +46,20 @@ const getSystemTheme = () => {
   return systemTheme;
 };
 
-const initialColorMode = getTheme(
-  themeStorageKey,
-  canUseDOM ? getSystemTheme() : "light"
-);
+const initialColorMode = "light";
+
 export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
   const colorModeContextState = useState<ColorMode | undefined>(
-    initialColorMode
+    canUseDOM ? getSystemTheme() : undefined
   );
   const [colorMode, onChangeColorMode] = colorModeContextState;
+  const previousColorMode = usePrevious(colorMode);
   const useSystemColorMode = true;
 
   // SSR Safety
   useIsomorphicLayoutEffect(() => {
-    const savedTheme = canUseDOM
-      ? localStorage.getItem(themeStorageKey)
-      : undefined;
-
+    const savedTheme =
+      localStorage.getItem(themeStorageKey) ?? getSystemTheme();
     if (savedTheme) {
       onChangeColorMode(savedTheme as ColorMode);
     }
@@ -70,17 +68,18 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
   // Persist color mode
   useIsomorphicLayoutEffect(() => {
     // Persist theme
-    if (colorMode !== initialColorMode && colorMode) {
-      localStorage.setItem(themeStorageKey, colorMode);
-    }
+    // if (previousColorMode && colorMode && colorMode !== previousColorMode) {
+    //   localStorage.setItem(themeStorageKey, colorMode);
+    // }
     // Update classname
     document.documentElement.classList.toggle("dark", colorMode === "dark");
-  }, [colorMode]);
+  }, [colorMode, previousColorMode]);
 
   // Use user's dark mode preferences
   useIsomorphicLayoutEffect(() => {
     if (useSystemColorMode) {
       const listener = (event: MediaQueryListEvent) => {
+        console.log("called");
         onChangeColorMode(event.matches ? "dark" : "light");
       };
 

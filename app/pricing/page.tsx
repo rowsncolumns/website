@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { PageHeading } from "@/components/ui/page-heading";
 import { siteConfig } from "@/config/site";
 import {
@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import { Metadata } from "next";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -79,8 +80,8 @@ export default async function Home() {
           </div>
 
           <div className="mt-6">
-            <Link href="/contact">
-              <Button>Contact Sales</Button>
+            <Link href="/contact" className={cn(buttonVariants())}>
+              Contact Sales
             </Link>
           </div>
         </section>
@@ -111,7 +112,9 @@ export default async function Home() {
           </div>
 
           <div className="mt-6">
-            <Button>Contact Sales</Button>
+            <Link href="/enterprise" className={cn(buttonVariants())}>
+              Contact Sales
+            </Link>
           </div>
         </section>
         {/* / Professional */}
