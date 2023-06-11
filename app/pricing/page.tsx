@@ -134,7 +134,9 @@ export default async function Home() {
         <h3 className="text-muted-foreground text-md font-semibold">General</h3>
         <Accordion type="single" collapsible className="w-full pb-8">
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is your refund policy?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              What is your refund policy?
+            </AccordionTrigger>
             <AccordionContent>
               If you&apos;re unhappy with your purchase for any reason, email us
               at{" "}
@@ -149,7 +151,7 @@ export default async function Home() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               What does perpetual license mean?
             </AccordionTrigger>
             <AccordionContent>
@@ -169,7 +171,9 @@ export default async function Home() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>What browsers are supported?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              What browsers are supported?
+            </AccordionTrigger>
             <AccordionContent>
               <p className="pb-2">
                 The components and templates in Spreadsheet are designed to work
@@ -184,7 +188,7 @@ export default async function Home() {
         <h3 className="text-muted-foreground text-md font-semibold">License</h3>
         <Accordion type="single" collapsible className="w-full pb-8">
           <AccordionItem value="item-1">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Do I need to purchase a license for each project/application I
               work on?
             </AccordionTrigger>
@@ -198,7 +202,7 @@ export default async function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-2">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Can I upgrade to a team license later?
             </AccordionTrigger>
             <AccordionContent>
@@ -223,7 +227,7 @@ export default async function Home() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Can I use Spreadsheet 2 for client projects?
             </AccordionTrigger>
             <AccordionContent>
@@ -241,7 +245,7 @@ export default async function Home() {
           </AccordionItem>
 
           <AccordionItem value="item-4">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Can I use Spreadsheet 2 for my own commercial projects?
             </AccordionTrigger>
             <AccordionContent>
@@ -249,7 +253,7 @@ export default async function Home() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Can I use Spreadsheet 2 in open source projects?
             </AccordionTrigger>
             <AccordionContent>
@@ -267,14 +271,18 @@ export default async function Home() {
         <h3 className="text-muted-foreground text-md font-semibold">Support</h3>
         <Accordion type="single" collapsible className="w-full pb-8">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Do you offer technical support?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              Do you offer technical support?
+            </AccordionTrigger>
             <AccordionContent>
               Yes. We do offer technical support to integrate Spreadsheet 2
               within your application.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>What is your refund policy?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              What is your refund policy?
+            </AccordionTrigger>
             <AccordionContent>
               If you&apos;re unhappy with your purchase for any reason, email us
               at{" "}

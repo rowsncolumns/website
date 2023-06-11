@@ -232,6 +232,34 @@ export default async function Home() {
             </Link>
           </div>
         </section>
+
+        <hr />
+
+        <div className="p-6 pl-4 pr-4">
+          <ol className="grid grid-cols-3 gap-3">
+            <li>Conditional formatting with colors and color scales</li>
+            <li>Data validation</li>
+            <li>Frozen rows and columns</li>
+            <li>Custom editors</li>
+            <li>Custom tooltips</li>
+            <li>Custom cell renderers</li>
+            <li>Custom charts and embeds</li>
+            <li>Cell styling</li>
+            <li>Copy, Paste and Cut support</li>
+            <li>Custom fonts</li>
+            <li>Context menu</li>
+            <li>Merge cells</li>
+            <li>Show, Hide rows and columns</li>
+            <li>Insert, Delete, Move rows and columns</li>
+            <li>Dark mode</li>
+            <li>Custom formula functions</li>
+            <li>Protected ranges</li>
+            <li>Named ranges</li>
+            <li>Banded ranges</li>
+            <li>Calculated columns</li>
+            <li>Sorting filtering sheets and tables</li>
+          </ol>
+        </div>
       </div>
     </main>
   );

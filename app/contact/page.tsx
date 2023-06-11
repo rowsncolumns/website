@@ -23,7 +23,7 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="py-0 w-[1000px] max-w-full min-w-0 grid grid-cols-2 ml-auto mr-auto gap-5">
+      <div className="py-0 w-[1000px] max-w-full min-w-0 grid lg:grid-cols-2 ml-auto mr-auto gap-5">
         <div>
           <h2 className="text-lg font-semibold pb-2 pt-5">Sales enquiries</h2>
           <p className="text-sm pb-2">
@@ -41,7 +41,7 @@ export default async function Home() {
 
           <p className="text-sm pb-2">UEN: 53466564X</p>
         </div>
-        <div className="ml-auto mr-auto w-full shadow-md p-4 bg-muted rounded-md mb-5 border-border border border-solid focus-within:ring-1 focus-within:ring-ring focus-within:ring-offset-0">
+        <div className="ml-auto mr-auto w-full lg:w-full shadow-md p-4 bg-muted rounded-md mb-5 border-border border border-solid focus-within:ring-1 focus-within:ring-ring focus-within:ring-offset-0">
           <EnterpriseContact />
         </div>
       </div>

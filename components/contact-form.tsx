@@ -13,7 +13,6 @@ export const EnterpriseContact = () => {
           type="text"
           name="name"
           required
-          autoFocus
         />
       </Stack>
 
