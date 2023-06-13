@@ -3,90 +3,32 @@
 import * as React from "react";
 import Link from "next/link";
 
-import { cn } from "@/lib/utils";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
-import { siteConfig } from "@/config/site";
+import { buttonVariants } from "../ui/button";
 
 export function HeaderMenu() {
   return (
-    <NavigationMenu className="flex-1 justify-end">
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/pricing" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Pricing
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+    <div className="grid row-start-2 col-span-2 lg:col-span-1 lg:row-start-auto lg:grid-cols-[repeat(5,minmax(min-content,max-content))] lg:gap-3 lg:justify-items-end lg:place-content-end">
+      <Link href="/" className={buttonVariants({ variant: "ghost" })}>
+        Home
+      </Link>
 
-        <NavigationMenuItem>
-          <Link href="https://docs.rowsncolumns.app" legacyBehavior passHref>
-            <NavigationMenuLink
-              target="_blank"
-              className={navigationMenuTriggerStyle()}
-            >
-              Documentation
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+      <Link href="/pricing" className={buttonVariants({ variant: "ghost" })}>
+        Pricing
+      </Link>
+      <Link
+        href="https://docs.rowsncolumns.app"
+        className={buttonVariants({ variant: "ghost" })}
+      >
+        Documentation
+      </Link>
 
-        <NavigationMenuItem>
-          <Link href="/enterprise" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Enterprise
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+      <Link href="/enterprise" className={buttonVariants({ variant: "ghost" })}>
+        Enterprise
+      </Link>
 
-        <NavigationMenuItem>
-          <Link href="/contact" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Contact us
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+      <Link href="/contact" className={buttonVariants({ variant: "ghost" })}>
+        Contact us
+      </Link>
+    </div>
   );
 }
-
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  );
-});
-ListItem.displayName = "ListItem";

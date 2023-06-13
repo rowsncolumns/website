@@ -39,7 +39,7 @@ export default async function Home() {
 
       <hr />
 
-      <div className="py-8 pl-4 pr-4">
+      <div className="py-8 lg:px-4">
         <div className="flex flex-col text-center justify-center items-center pb-6">
           <h2 className="max-w-[900px] pb-5 text-3xl font-bold leading-tight tracking-tighter">
             Built for Developers
@@ -52,8 +52,8 @@ export default async function Home() {
           </p>
         </div>
 
-        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
-          <div className="col-span-1">
+        <section className="grid lg:grid-cols-3 gap-6 py-6 lg:px-6 text-muted-foreground">
+          <div className="lg:col-span-1">
             <h3 className="text-foreground text-2xl font-semibold pb-2">
               Compose the perfect Spreadsheet
             </h3>
@@ -71,13 +71,13 @@ export default async function Home() {
               <Button>See all components</Button>
             </Link>
           </div>
-          <div className="col-span-2">
+          <div className="lg:col-span-2">
             <CodeHighlighter>{sample1}</CodeHighlighter>
           </div>
         </section>
 
-        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
-          <div className="col-span-1">
+        <section className="grid lg:grid-cols-3 gap-6 py-6 lg:px-6 text-muted-foreground">
+          <div className="lg:col-span-1">
             <h3 className="text-foreground text-2xl font-semibold pb-2">
               Bring your own Data model and State management
             </h3>
@@ -100,13 +100,13 @@ export default async function Home() {
               <Button>Learn more</Button>
             </Link>
           </div>
-          <div className="col-span-2">
+          <div className="lg:col-span-2">
             <CodeHighlighter>{sample2}</CodeHighlighter>
           </div>
         </section>
 
-        <section className="grid grid-cols-3 gap-6 p-6 text-muted-foreground">
-          <div className="col-span-1">
+        <section className="grid lg:grid-cols-3 gap-6 py-6 lg:px-6 text-muted-foreground">
+          <div className="lg:col-span-1">
             <h3 className="text-foreground text-2xl font-semibold pb-2">
               useSpreadsheetState hook
             </h3>
@@ -125,7 +125,7 @@ export default async function Home() {
               <Button>Learn more</Button>
             </Link>
           </div>
-          <div className="col-span-2">
+          <div className="lg:col-span-2">
             <CodeHighlighter>{sample3}</CodeHighlighter>
           </div>
         </section>
@@ -133,7 +133,7 @@ export default async function Home() {
 
       <hr />
 
-      <div className="py-12 pl-4 pr-4">
+      <div className="py-12 lg:px-4">
         <div className="flex flex-col text-center justify-center items-center pb-6">
           <h2 className="max-w-[900px] pb-5 text-3xl font-bold leading-tight tracking-tighter">
             Spreadsheet features
@@ -145,7 +145,7 @@ export default async function Home() {
           </p>
         </div>
 
-        <section className="grid grid-cols-2 gap-6 p-6">
+        <section className="grid lg:grid-cols-2 gap-6 py-6 lg:px-6">
           <div className="shadow-md rounded-md ">
             <Image
               src="/screenshot-structured.jpg"
@@ -172,7 +172,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 gap-6 p-6">
+        <section className="grid lg:grid-cols-2 gap-6 py-6 lg:px-6">
           <div className="shadow-md rounded-md ">
             <Image
               src="/screenshot-realtime.jpg"
@@ -200,7 +200,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 gap-6 p-6">
+        <section className="grid lg:grid-cols-2 gap-6 py-6 lg:px-6">
           <div className="shadow-md rounded-md ">
             <Image
               src="/screenshot-collaboration.jpg"
@@ -236,7 +236,7 @@ export default async function Home() {
         <hr />
 
         <div className="p-6 pl-4 pr-4">
-          <ol className="grid grid-cols-3 gap-3">
+          <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
             <li>Conditional formatting with colors and color scales</li>
             <li>Data validation</li>
             <li>Frozen rows and columns</li>

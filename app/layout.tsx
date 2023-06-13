@@ -5,6 +5,8 @@ import { NextAuthProvider } from "./providers";
 import Link from "next/link";
 import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
+import { Button } from "@/components/ui/button";
+import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
@@ -22,11 +24,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <header className="border-b border-site-border">
-          <div className="container flex items-center">
-            <div className="flex-1 items-center flex py-2">
-              {/* <Button size="sm" className="md:!hidden">
-                <MenuIcon />
-              </Button> */}
+          <div className="container items-center">
+            <div className="grid grid-cols-[1fr_auto] grid-rows-[auto_1fr] lg:grid-rows-1 items-center py-2 relative">
               <Link
                 href="/"
                 className="items-center flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
@@ -41,6 +40,11 @@ export default function RootLayout({
                 />
                 Rows n&apos; Columns
               </Link>
+
+              <Button className="lg:!hidden" variant="outline">
+                <HamburgerMenuIcon />
+              </Button>
+
               <HeaderMenu />
             </div>
           </div>
