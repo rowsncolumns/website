@@ -71,7 +71,7 @@ export default async function Home() {
               <Button>See all components</Button>
             </Link>
           </div>
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 min-w-0">
             <CodeHighlighter>{sample1}</CodeHighlighter>
           </div>
         </section>
@@ -100,7 +100,7 @@ export default async function Home() {
               <Button>Learn more</Button>
             </Link>
           </div>
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 min-w-0">
             <CodeHighlighter>{sample2}</CodeHighlighter>
           </div>
         </section>
@@ -125,7 +125,7 @@ export default async function Home() {
               <Button>Learn more</Button>
             </Link>
           </div>
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 min-w-0">
             <CodeHighlighter>{sample3}</CodeHighlighter>
           </div>
         </section>
