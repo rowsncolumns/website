@@ -134,12 +134,12 @@ export default function RootLayout({
                 <h3 className="text-sm text-black dark:text-white">Legal</h3>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   <li>
-                    <a
+                    <Link
                       className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
                       href="/privacy"
                     >
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/terms" legacyBehavior>
