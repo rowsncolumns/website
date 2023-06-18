@@ -10,11 +10,6 @@ import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
-export const metadata = {
-  title: "Rows n Columns",
-  description: "Spreadsheet 2 - High performance Canvas Spreadsheet component",
-};
-
 export default function RootLayout({
   children,
 }: {

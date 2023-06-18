@@ -12,6 +12,8 @@ import { Metadata } from "next";
 export const generateMetadata = (): Metadata => {
   return {
     title: `Home - ${siteConfig.name}`,
+    description:
+      "Spreadsheet 2 - High performance Canvas Spreadsheet component",
   };
 };
 
