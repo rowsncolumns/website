@@ -7,6 +7,13 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const generateMetadata = (): Metadata => {
+  return {
+    title: `Home - ${siteConfig.name}`,
+  };
+};
 
 export default async function Home() {
   return (

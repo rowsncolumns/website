@@ -49,11 +49,17 @@ const getSystemTheme = () => {
 const initialColorMode = "light";
 
 export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
-  const colorModeContextState = useState<ColorMode | undefined>(
-    canUseDOM ? getSystemTheme() : undefined
-  );
+  const colorModeContextState = useState<ColorMode | undefined>(() => {
+    const persistedColorMode = canUseDOM
+      ? (localStorage.getItem(themeStorageKey) as ColorMode)
+      : undefined;
+    if (persistedColorMode) {
+      return persistedColorMode;
+    }
+    return getSystemTheme() ?? initialColorMode;
+  });
   const [colorMode, onChangeColorMode] = colorModeContextState;
-  const previousColorMode = usePrevious(colorMode);
+  let previousColorMode = usePrevious(colorMode);
   const useSystemColorMode = true;
 
   // SSR Safety
@@ -68,9 +74,10 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
   // Persist color mode
   useIsomorphicLayoutEffect(() => {
     // Persist theme
-    // if (previousColorMode && colorMode && colorMode !== previousColorMode) {
-    //   localStorage.setItem(themeStorageKey, colorMode);
-    // }
+    if (previousColorMode && colorMode && colorMode !== previousColorMode) {
+      console.log("called", previousColorMode, colorMode);
+      localStorage.setItem(themeStorageKey, colorMode);
+    }
     // Update classname
     document.documentElement.classList.toggle("dark", colorMode === "dark");
   }, [colorMode, previousColorMode]);
@@ -79,7 +86,8 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
   useIsomorphicLayoutEffect(() => {
     if (useSystemColorMode) {
       const listener = (event: MediaQueryListEvent) => {
-        console.log("called");
+        const newMode = event.matches ? "dark" : "light";
+        previousColorMode = newMode;
         onChangeColorMode(event.matches ? "dark" : "light");
       };
 

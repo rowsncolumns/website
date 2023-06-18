@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Pricing",
+    title: `Pricing - ${siteConfig.name}`,
   };
 };
 

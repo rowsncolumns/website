@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Enterprise",
+    title: `Enterprise - ${siteConfig.name}`,
   };
 };
 

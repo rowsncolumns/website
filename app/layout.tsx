@@ -26,20 +26,22 @@ export default function RootLayout({
         <header className="border-b border-site-border">
           <div className="container items-center">
             <div className="grid grid-cols-[1fr_auto] grid-rows-[auto_1fr] lg:grid-rows-1 items-center py-2 relative">
-              <Link
-                href="/"
-                className="items-center flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
-                title={siteConfig.name}
-              >
-                <Image
-                  src="/logo-square.png?v=1"
-                  alt="RowsnColumns"
-                  width={128}
-                  height={94}
-                  className="rounded-sm max-w-[50px]"
-                />
-                Rows n&apos; Columns
-              </Link>
+              <div className="items-center">
+                <Link
+                  href="/"
+                  className="items-center inline-flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
+                  title={siteConfig.name}
+                >
+                  <Image
+                    src="/logo-square.png?v=1"
+                    alt="RowsnColumns"
+                    width={128}
+                    height={94}
+                    className="rounded-sm max-w-[50px]"
+                  />
+                  Rows n&apos; Columns
+                </Link>
+              </div>
 
               <Button className="lg:!hidden" variant="outline">
                 <HamburgerMenuIcon />

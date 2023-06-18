@@ -1,14 +1,11 @@
 import { EnterpriseContact } from "@/components/contact-form";
-import { buttonVariants } from "@/components/ui/button";
 import { PageHeading } from "@/components/ui/page-heading";
 import { siteConfig } from "@/config/site";
-import { cn } from "@/lib/utils";
 import { Metadata } from "next";
-import Link from "next/link";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Contact us",
+    title: `Contact us - ${siteConfig.name}`,
   };
 };
 
