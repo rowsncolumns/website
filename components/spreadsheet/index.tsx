@@ -393,7 +393,6 @@ export const Spreadsheet = () => {
 
         <CanvasGrid
           {...spreadsheetColors}
-          enableTextOverflow
           stickyEditor={true}
           scale={scale}
           conditionalFormats={conditionalFormats}

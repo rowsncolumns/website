@@ -102,7 +102,7 @@ export default async function Home() {
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
               <li className="flex py-2">1 year of updates and suppport</li>
-              <li className="flex py-2">Single or unlimited application use</li>
+              <li className="flex py-2">Unlimited application use</li>
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">
                 Deploy to internal or external users
@@ -176,9 +176,9 @@ export default async function Home() {
             </AccordionTrigger>
             <AccordionContent>
               <p className="pb-2">
-                The components and templates in Spreadsheet are designed to work
-                in the latest, stable releases of all major browsers, including
-                Chrome, Firefox, Safari, and Edge.
+                The components in Spreadsheet are designed to work in the
+                latest, stable releases of all major browsers, including Chrome,
+                Firefox, Safari, and Edge.
               </p>
               <p>We don&apos;t support Internet Explorer 11.</p>
             </AccordionContent>
@@ -194,9 +194,9 @@ export default async function Home() {
             </AccordionTrigger>
             <AccordionContent>
               <p className="pb-4">
-                Yes. Each Professional license is for a Single application use.
-                It is bound to an application name and can&apos;t be re-used on
-                other application at the same time.
+                Yes. Each Personal or Team license is for a Single application
+                use. It is bound to an application name and can&apos;t be
+                re-used on other application at the same time.
               </p>
             </AccordionContent>
           </AccordionItem>
@@ -233,12 +233,9 @@ export default async function Home() {
             <AccordionContent>
               <p className="pb-2">
                 Yes. Please{" "}
-                <a
-                  href="mailto:support@rowsncolumns.com"
-                  className="text-blue-600 hover:underline"
-                >
+                <Link href="/contact" className="text-blue-600 hover:underline">
                   contact us
-                </a>{" "}
+                </Link>{" "}
                 to purchase an OEM license.
               </p>
             </AccordionContent>
@@ -259,10 +256,10 @@ export default async function Home() {
             <AccordionContent>
               <p className="pb-4">
                 Yep! As long as what you&apos;re building is some sort of actual
-                website and not a derivative component library, theme builder,
-                or other product where the primary purpose is clearly to
-                repackage and redistribute our components, it&apos;s totally
-                okay for that project to be open source.
+                website and not a derivative Spreadsheet library, builder, or
+                other product where the primary purpose is clearly to repackage
+                and redistribute the Spreadsheet, it&apos;s totally okay for
+                that project to be open source.
               </p>
             </AccordionContent>
           </AccordionItem>
