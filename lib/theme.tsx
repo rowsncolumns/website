@@ -56,7 +56,7 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
     if (persistedColorMode) {
       return persistedColorMode;
     }
-    return getSystemTheme() ?? initialColorMode;
+    return canUseDOM ? getSystemTheme() ?? initialColorMode : initialColorMode;
   });
   const [colorMode, onChangeColorMode] = colorModeContextState;
   let previousColorMode = usePrevious(colorMode);
