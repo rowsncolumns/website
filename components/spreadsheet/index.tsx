@@ -68,8 +68,8 @@ import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseClient = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_SUPABASE_KEY,
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_KEY,
   {
     realtime: {
       params: {
