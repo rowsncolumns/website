@@ -23,9 +23,9 @@ const formatLicenseCode = (hash: string) => {
   return licenseCode;
 };
 
-export async function GET(request: Request, params) {
+export async function GET(request: Request) {
   const url = new URL(request.url);
-  const userId = url.searchParams.get("userId");
+  const userId = url.searchParams.get("userId") as string;
   const license = await generateLicenseCode(userId);
   return NextResponse.json({ license });
 }
