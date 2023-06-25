@@ -986,10 +986,10 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^2.1.46":
-  version "2.1.46"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.1.46/d26afc7abc4b6534de7a6a713d66a8a1aafac070#d26afc7abc4b6534de7a6a713d66a8a1aafac070"
-  integrity sha512-JS6rCtl3WysItgB11QEUdIiIITUKwGL/AlTmlAlmqTE+zRLY3TXyr/GhQoTSCJQtW1bOxUxFlEXpGC5XdvFnEQ==
+"@rowsncolumns/spreadsheet@^2.1.47":
+  version "2.1.47"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.1.47/12001c2382d563ff8e3b00a37f985bebe01acecd#12001c2382d563ff8e3b00a37f985bebe01acecd"
+  integrity sha512-k1qtEc2slwsj8GtpFhIVoXUiYz79W94oPO/6OpYiDWcxi32YCkBgjgA7hhPb5/siHJgR6Hu3WVDKh7jlUp9Xcg==
   dependencies:
     "@rowsncolumns/calculator" "^2.0.62"
     "@rowsncolumns/functions" "^1.2.66"
@@ -1007,10 +1007,10 @@
     scheduler "^0.23.0"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/supabase-spreadsheet@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/1.0.1/2e35792dcce5bc1d3ca4c354e8cd7ea54b62e25c#2e35792dcce5bc1d3ca4c354e8cd7ea54b62e25c"
-  integrity sha512-igjqx5T6NVn8VaRqoCz3IDCIbvK6QpeKz7UpyJAyICjDtWgxTDhYq8aID5656maXB6opSk35Kdy6taPZa4t8rg==
+"@rowsncolumns/supabase-spreadsheet@^1.0.2":
+  version "1.0.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/1.0.2/3ecde701c4b4ed3acd2f65560ba9007c63f1a262#3ecde701c4b4ed3acd2f65560ba9007c63f1a262"
+  integrity sha512-qF4noTgfQMTvWOJpGFTptwd38LB3faCDQpvq5mxZ3cp4qkdwX4Lo8jgm8706jPbnaTkTfKjzSyQrd1jI56VhXQ==
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
