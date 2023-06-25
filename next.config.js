@@ -8,6 +8,10 @@ const nextConfig = {
     outputFileTracingIgnores: ["**canvas**"],
     esmExternals: 'loose'
   },
+  env: {
+    SUPABASE_URL: process.env.SUPABASE_URL,
+    SUPABASE_KEY: process.env.SUPABASE_KEY
+  },
   reactStrictMode: true,
   // transpilePackages: ['react-syntax-highlighter']
 }
