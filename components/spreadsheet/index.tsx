@@ -66,6 +66,7 @@ import { mockSheetdata } from "./mock-sheetdata";
 import { useColorMode } from "@/lib/theme";
 import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
 import { createClient } from "@supabase/supabase-js";
+import { getUniqueName } from "./names";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -80,6 +81,7 @@ const supabaseClient = createClient(
 );
 
 const userId = crypto.randomUUID();
+const userName = getUniqueName();
 
 export const Spreadsheet = () => {
   const App = () => {
@@ -215,7 +217,7 @@ export const Spreadsheet = () => {
     const { onBroadcastPatch, users } = useSupabaseSpreadsheet({
       supabase: supabaseClient,
       userId,
-      userName: `Username - ${userId}`,
+      userName,
       activeCell,
       sheetId: activeSheetId,
       onChangeSheetData,
