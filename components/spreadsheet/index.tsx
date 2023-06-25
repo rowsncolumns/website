@@ -64,6 +64,22 @@ import { functionDescriptions, functions } from "@rowsncolumns/functions";
 import { mockSheets, mockTables } from "./mocks";
 import { mockSheetdata } from "./mock-sheetdata";
 import { useColorMode } from "@/lib/theme";
+import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
+import { createClient } from "@supabase/supabase-js";
+
+const supabaseClient = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_KEY,
+  {
+    realtime: {
+      params: {
+        eventsPerSecond: 20,
+      },
+    },
+  }
+);
+
+const userId = crypto.randomUUID();
 
 export const Spreadsheet = () => {
   const App = () => {
@@ -175,6 +191,7 @@ export const Spreadsheet = () => {
       onDeleteNamedRange,
       onCreateNamedRange,
       onUpdateNamedRange,
+      enqueueCalculation,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -189,7 +206,22 @@ export const Spreadsheet = () => {
       onChangeTables,
       onChangeNamedRanges,
       onChangeTheme,
+      onChangeHistory(patches) {
+        onBroadcastPatch(patches);
+      },
       colorMode,
+    });
+
+    const { onBroadcastPatch, users } = useSupabaseSpreadsheet({
+      supabase: supabaseClient,
+      userId,
+      userName: `Username - ${userId}`,
+      activeCell,
+      sheetId: activeSheetId,
+      onChangeSheetData,
+      enqueueCalculation,
+      onChangeSheets,
+      onChangeTables,
     });
 
     // Format fo the current cell
@@ -470,6 +502,9 @@ export const Spreadsheet = () => {
           onProtectRange={onProtectRange}
           onUnProtectRange={onUnProtectRange}
           namedRanges={namedRanges}
+          users={users}
+          userId={userId}
+          licenseKey="evaluation-license"
         />
 
         <BottomBar>
