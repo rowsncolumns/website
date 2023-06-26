@@ -1,7 +1,7 @@
-import "./../styles/globals.css";
+import "./../../styles/globals.css";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { NextAuthProvider } from "./providers";
+import { NextAuthProvider } from "./../providers";
 import Link from "next/link";
 import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin-ext"] });
 
 export default function RootLayout({
   children,
+  ...rest
 }: {
   children: React.ReactNode;
 }) {

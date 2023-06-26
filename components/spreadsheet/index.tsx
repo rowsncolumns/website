@@ -49,6 +49,7 @@ import {
   TableActions,
   ColorMode,
   FormulaBarInput,
+  ButtonInsertImage,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -180,6 +181,7 @@ export const Spreadsheet = () => {
       onUpdateTable,
       onDragOver,
       onDrop,
+      onInsertFile,
       onFreezeColumn,
       onFreezeRow,
       onChangeSpreadsheetTheme,
@@ -377,6 +379,8 @@ export const Spreadsheet = () => {
             }}
           />
           <ToolbarSeparator />
+
+          <ButtonInsertImage onInsertFile={onInsertFile} />
 
           <TableActions
             tables={tables}

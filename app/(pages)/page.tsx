@@ -27,8 +27,8 @@ export default async function Home() {
         </p>
 
         <div className="flex w-full items-center justify-center space-x-4 pb-4 pt-6 md:pb-10">
-          <Link href="/" className={cn(buttonVariants())}>
-            Get Started
+          <Link href="/demo" className={cn(buttonVariants())}>
+            Full Demo
           </Link>
 
           <Link
@@ -267,6 +267,10 @@ export default async function Home() {
             <li>Banded ranges</li>
             <li>Calculated columns</li>
             <li>Sorting filtering sheets and tables</li>
+            <li>
+              Easily integrate 3rd party APIs like OpenAI and other language
+              models.
+            </li>
           </ol>
         </div>
       </div>

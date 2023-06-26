@@ -11,9 +11,9 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/spreadsheet": "^2.1.48",
-    "@rowsncolumns/spreadsheet-state": "^3.0.38",
-    "@rowsncolumns/supabase-spreadsheet": "^1.0.3",
+    "@rowsncolumns/spreadsheet": "^2.1.50",
+    "@rowsncolumns/spreadsheet-state": "^3.0.41",
+    "@rowsncolumns/supabase-spreadsheet": "^1.0.5",
     "@types/node": "20.2.1",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
