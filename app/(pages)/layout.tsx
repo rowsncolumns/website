@@ -57,14 +57,14 @@ export default function RootLayout({
               <div className="mt-12 md:!mt-0">
                 <h3 className="text-sm ">Resources</h3>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
-                  <li>
+                  {/* <li>
                     <a
                       className="text-sm no-underline transition text-muted-foreground hover:text-foreground"
                       href="/blog"
                     >
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://github.com/rowsncolumns/spreadsheet/releases"
@@ -88,28 +88,28 @@ export default function RootLayout({
                       Documentation
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
                       href="/faq"
                     >
                       FAQ
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               <div className="mt-12 md:!mt-0">
                 <h3 className="text-sm text-black dark:text-white">Company</h3>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
-                  <li>
+                  {/* <li>
                     <a
                       href="/about-us"
                       className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
                     >
                       About us
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/contact"
