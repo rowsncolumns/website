@@ -7,6 +7,7 @@ import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
 import { HamburgerMenuIcon } from "@rowsncolumns/icons";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
@@ -171,6 +172,7 @@ export default function RootLayout({
               </div>
             </div>
           </div>
+          <Analytics />
         </footer>
       </body>
     </html>

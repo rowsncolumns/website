@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { HeaderMenu } from "@/components/navigation";
 import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
@@ -48,6 +49,7 @@ export default function RootLayout({
           </div>
         </header>
         <NextAuthProvider>{children}</NextAuthProvider>
+        <Analytics />
       </body>
     </html>
   );
