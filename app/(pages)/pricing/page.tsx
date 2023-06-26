@@ -50,7 +50,9 @@ export default async function Home() {
           </div>
 
           <div className="mt-6">
-            <Button>Buy Personal License</Button>
+            <Link href="/contact" className={cn(buttonVariants())}>
+              Contact Sales
+            </Link>
           </div>
         </section>
         {/* / Personal */}
