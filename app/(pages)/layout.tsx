@@ -23,9 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
-        <GTMHead />
-      </Head>
+      <GTMHead />
       <body className={inter.className}>
         <header className="border-b border-site-border">
           <div className="container items-center">
