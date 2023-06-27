@@ -187,14 +187,6 @@ export default function RootLayout({
           </div>
           <Analytics />
         </footer>
-        <Script
-          id="gtm-footer"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWFSTRX"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`,
-          }}
-        />
       </body>
     </html>
   );
