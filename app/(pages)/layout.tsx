@@ -8,6 +8,8 @@ import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
 import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 import { Analytics } from "@vercel/analytics/react";
+import { GTMHead } from "@/components/gtm-head";
+import { GTMFooter } from "@/components/gtm-footer";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
@@ -19,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <GTMHead />
+      </head>
       <body className={inter.className}>
         <header className="border-b border-site-border">
           <div className="container items-center">
@@ -174,6 +179,7 @@ export default function RootLayout({
           </div>
           <Analytics />
         </footer>
+        <GTMFooter />
       </body>
     </html>
   );
