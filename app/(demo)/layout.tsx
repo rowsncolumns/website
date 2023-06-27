@@ -24,6 +24,7 @@ export default function RootLayout({
     <html lang="en" className="h-full" suppressHydrationWarning>
       <head>
         <Script
+          id="gtm-header"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -63,6 +64,7 @@ export default function RootLayout({
         <NextAuthProvider>{children}</NextAuthProvider>
         <Analytics />
         <Script
+          id="gtm-footer"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWFSTRX"
