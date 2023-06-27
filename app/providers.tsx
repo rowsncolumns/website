@@ -1,7 +1,5 @@
 "use client";
 
-import { ColorMode } from "@rowsncolumns/spreadsheet";
-import { SessionProvider } from "next-auth/react";
 import { ColorModeProvider } from "@/lib/theme";
 
 type Props = {
@@ -9,9 +7,5 @@ type Props = {
 };
 
 export const NextAuthProvider = ({ children }: Props) => {
-  return (
-    <ColorModeProvider>
-      <SessionProvider>{children}</SessionProvider>
-    </ColorModeProvider>
-  );
+  return <ColorModeProvider>{children}</ColorModeProvider>;
 };
