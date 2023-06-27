@@ -10,6 +10,8 @@ import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 import { Analytics } from "@vercel/analytics/react";
 import { GTMHead } from "@/components/gtm-head";
 import { GTMFooter } from "@/components/gtm-footer";
+import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin-ext"] });
 
@@ -21,9 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
+      <Head>
         <GTMHead />
-      </head>
+      </Head>
       <body className={inter.className}>
         <header className="border-b border-site-border">
           <div className="container items-center">
