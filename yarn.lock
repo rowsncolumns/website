@@ -967,6 +967,17 @@
     scroller "^0.0.3"
     tiny-invariant "^1.1.0"
 
+"@rowsncolumns/grid@^1.2.75":
+  version "1.2.75"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/1.2.75/356f7a016cf5389c601b19953e9f78c6b120de69#356f7a016cf5389c601b19953e9f78c6b120de69"
+  integrity sha512-O0toe8dOpYqez3Ga3ZGowd3CnKKqxwvfTODLaM+QyXtXKMkXAnKcn0nfx8ny5px5yfxPDpwzOs6fXZdx4iHNlQ==
+  dependencies:
+    konva "^9.2.0"
+    react-konva "^18.2.9"
+    scheduler "^0.23.0"
+    scroller "^0.0.3"
+    tiny-invariant "^1.1.0"
+
 "@rowsncolumns/icons@^2.0.66":
   version "2.0.66"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/2.0.66/6b63073b5ef3b6ba642ff7e55fd8c5740c9b2db6#6b63073b5ef3b6ba642ff7e55fd8c5740c9b2db6"
@@ -975,10 +986,18 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^3.0.46":
-  version "3.0.46"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/3.0.46/9b4c1ed8cf2976c4a4263cb4cc3216bcca2aca33#9b4c1ed8cf2976c4a4263cb4cc3216bcca2aca33"
-  integrity sha512-pSVMUCkaUVXM/1guuTVLhVt+xO18zN6Fkt9U98bGi1NxguORly2gjYODUS1J8s8yY2/bdsMi8MUeZ1vsq0WxtQ==
+"@rowsncolumns/icons@^2.0.67":
+  version "2.0.67"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/2.0.67/0812a5c8f6757bedb774f9c8e909413d9e86bad9#0812a5c8f6757bedb774f9c8e909413d9e86bad9"
+  integrity sha512-/Yhl9lzXifG/L0YuCUW+cswjnv1SJ9rEnsj0f2cEj9g+gK/lREGxz/ALY/ey7EH6ckdEoUKNMLewB4dNB+RE2g==
+  dependencies:
+    "@radix-ui/react-icons" "^1.3.0"
+    react-icons "^4.8.0"
+
+"@rowsncolumns/spreadsheet-state@^3.0.47":
+  version "3.0.47"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/3.0.47/e0d28a0d21734c7a3fd4866d54f9ace98ef8b91f#e0d28a0d21734c7a3fd4866d54f9ace98ef8b91f"
+  integrity sha512-stWwpdk0LSEW96oN8v5bdLAEc0a5719nxTUdtmlKXc6fmYJoZmZ/NCtB0ipjYiBfxZTmaD6VhSNeDPk3KGmSvw==
   dependencies:
     "@rowsncolumns/toolkit" "^3.0.27"
     formik "^2.2.9"
@@ -986,15 +1005,15 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^2.1.54":
-  version "2.1.54"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.1.54/2f4294bd423d19c2fedb8051564524acfc88afc3#2f4294bd423d19c2fedb8051564524acfc88afc3"
-  integrity sha512-Z7lNGt2ByEqo5HQ7MU9+/8FhRSnLshVJsMnZvWxDgJxvMT7BOvZ+qBhOiYWoYkNYL9XATc6lRLz2Ngf5towNUA==
+"@rowsncolumns/spreadsheet@^2.1.55":
+  version "2.1.55"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.1.55/6a498251ee854d25bb8ba37b80e40f7ed5a97417#6a498251ee854d25bb8ba37b80e40f7ed5a97417"
+  integrity sha512-zz2T0NX/3u+IEsHR779M2qP3+dyE8ANeH3hBXIH4RY/FUIFMXgLI8CksHILgCNEvNqC4nEsjspNJvzUnzPkdHA==
   dependencies:
     "@rowsncolumns/calculator" "^2.0.66"
     "@rowsncolumns/functions" "^1.2.70"
-    "@rowsncolumns/grid" "^1.2.74"
-    "@rowsncolumns/icons" "^2.0.66"
+    "@rowsncolumns/grid" "^1.2.75"
+    "@rowsncolumns/icons" "^2.0.67"
     "@rowsncolumns/ui" "^2.1.39"
     "@rowsncolumns/utils" "^1.2.68"
     "@tanstack/react-virtual" "3.0.0-beta.54"
