@@ -289,7 +289,10 @@ export default async function Home() {
               Can I use Spreadsheet 2 for my own commercial projects?
             </AccordionTrigger>
             <AccordionContent>
-              <p className="pb-4">Sure.</p>
+              <p className="pb-4">
+                All personal, team and enterprise licenses can be used on
+                commercial projects.
+              </p>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
@@ -321,19 +324,16 @@ export default async function Home() {
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-left">
-              What is your refund policy?
+              When will I get a reply to my query?
             </AccordionTrigger>
             <AccordionContent>
-              If you&apos;re unhappy with your purchase for any reason, email us
-              at{" "}
-              <a
-                href="mailto:support@rowsncolumns.com"
-                className="text-blue-600 hover:underline"
-              >
-                support@rowsncolumns.app
-              </a>{" "}
-              within 30 days and we&apos;ll refund you in full, no questions
-              asked.
+              The fastest way to contact us via{" "}
+              <a href="https://discord.gg/K4cNVh6">Discord chat</a>. You can
+              also contact us either via{" "}
+              <a href="mailto:sales@rowsncolumns.app">email</a> or the{" "}
+              <Link href={"/contact"}>contact form</Link> We will reply to your
+              email within 24 hours. Enterprise customers can expect a response
+              within 6-8 hours.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
