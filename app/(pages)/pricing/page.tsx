@@ -117,6 +117,7 @@ export default async function Home() {
                 Flexible licensing based on users/developers.
               </li>
               <li className="flex py-2">Custom payment terms</li>
+              <li className="flex py-2">Use in commercial applications</li>
             </ul>
           </div>
 
@@ -148,6 +149,7 @@ export default async function Home() {
               <li className="flex py-2">
                 Deploy to internal or external users
               </li>
+              <li className="flex py-2">Use in commercial applications</li>
               <li className="flex py-2">Priority support</li>
             </ul>
           </div>
