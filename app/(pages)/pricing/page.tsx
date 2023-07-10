@@ -100,10 +100,10 @@ export default async function Home() {
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Team</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            Upto 25 employees
+            Upto 25 developers
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
-            If you have a team of employees or contractors working on
+            If you have a team of developers or contractors working on
             Spreadsheet 2
           </p>
 
