@@ -3,9 +3,18 @@ import { useRouter } from "next/navigation";
 import { NextResponse } from "next/server";
 
 const secret = "rowsncolumns-license";
+export type LicenseType =
+  | "evaluation"
+  | "solo"
+  | "personal"
+  | "team"
+  | "enterprise";
 
-const generateLicenseCode = async (userId: string) => {
-  const licenseKey = `${userId}-${secret}`; // Combine user ID and email
+const generateLicenseCode = async (
+  userId: string,
+  licenseType: LicenseType
+) => {
+  const licenseKey = `${userId}-${licenseType}-${secret}`; // Combine user ID and email
   const encoder = new TextEncoder();
   const data = encoder.encode(licenseKey);
   const hashBuffer = await crypto.subtle.digest("SHA-256", data); // Generate SHA-256 hash of the license key
@@ -14,7 +23,7 @@ const generateLicenseCode = async (userId: string) => {
     .map((byte) => byte.toString(16).padStart(2, "0"))
     .join(""); // Convert the hash buffer to hexadecimal string
   const formattedLicenseCode = formatLicenseCode(hash); // Format the license code
-  return `${userId}-${formattedLicenseCode}`;
+  return `${userId}-${licenseType}-${formattedLicenseCode}`;
 };
 
 const formatLicenseCode = (hash: string) => {
@@ -26,6 +35,7 @@ const formatLicenseCode = (hash: string) => {
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const userId = url.searchParams.get("userId") as string;
-  const license = await generateLicenseCode(userId);
+  const licenseType = url.searchParams.get("licenseType") as LicenseType;
+  const license = await generateLicenseCode(userId, licenseType);
   return NextResponse.json({ license });
 }

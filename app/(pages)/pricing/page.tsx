@@ -27,12 +27,12 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-6xl lg:grid-cols-3 pb-12">
+      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-4 pb-12">
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background">
-          <h3 className="text-foreground">Personal</h3>
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+          <h3 className="text-foreground">Solo</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            <s>$5,000</s> <span className="text-green-600 ml-2">$3,500</span>
+            <s>$500</s> <span className="text-green-600 ml-2">$299</span>
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             If you are a solo developer working on a single application.
@@ -44,8 +44,18 @@ export default async function Home() {
               <li className="flex py-2">1 year of updates and suppport</li>
               <li className="flex py-2">Single application use</li>
               <li className="flex py-2">Source code included</li>
-              <li className="flex py-2">&#160;</li>
-              <li className="flex py-2">&#160;</li>
+              <li className="flex py-2">Non-commercial use</li>
+              <li className="flex flex-col py-2">
+                Some features are not included
+                <ul className="text-xs italic list-disc pl-4 pt-2">
+                  <li>Moving columns and rows</li>
+                  <li>Hidden rows and columns</li>
+                  <li>Structured references</li>
+                  <li>Charts and embeds</li>
+                  <li>Named ranges</li>
+                  <li>Collaboration</li>
+                </ul>
+              </li>
             </ul>
           </div>
 
@@ -58,7 +68,36 @@ export default async function Home() {
         {/* / Personal */}
 
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+          <h3 className="text-foreground">Personal</h3>
+          <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
+            <s>$5,000</s> <span className="text-green-600 ml-2">$3,500</span>
+          </p>
+          <p className="mt-3 text-sm text-muted-foreground">
+            If you are a developer looking for a full featured spreadsheet.
+          </p>
+
+          <div className="order-last mt-8">
+            <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
+              <li className="flex py-2">Perpetual license</li>
+              <li className="flex py-2">1 year of updates and suppport</li>
+              <li className="flex py-2">Single application use</li>
+              <li className="flex py-2">Source code included</li>
+              <li className="flex py-2">All features included</li>
+              <li className="flex py-2">Use in commercial applications</li>
+            </ul>
+          </div>
+
+          <div className="mt-6">
+            <Link href="/contact" className={cn(buttonVariants())}>
+              Contact Sales
+            </Link>
+          </div>
+        </section>
+        {/* / Personal */}
+
+        {/* Personal */}
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Team</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             Upto 25 employees
@@ -90,7 +129,7 @@ export default async function Home() {
         {/* / Professional */}
 
         {/* Professional */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Enterprise</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             Custom
