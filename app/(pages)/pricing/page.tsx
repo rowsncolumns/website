@@ -29,7 +29,7 @@ export default async function Home() {
 
       <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-4 pb-12">
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Solo</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             <s>$500</s> <span className="text-green-600 ml-2">$299</span>
@@ -68,7 +68,7 @@ export default async function Home() {
         {/* / Personal */}
 
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Personal</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             <s>$5,000</s> <span className="text-green-600 ml-2">$3,500</span>
@@ -97,7 +97,7 @@ export default async function Home() {
         {/* / Personal */}
 
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Team</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             Upto 25 developers
@@ -130,7 +130,7 @@ export default async function Home() {
         {/* / Professional */}
 
         {/* Professional */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 min-h-full shadow-lg border-site-border border bg-background">
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Enterprise</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             Custom
