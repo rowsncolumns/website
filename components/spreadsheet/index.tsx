@@ -178,6 +178,7 @@ export const Spreadsheet = () => {
       onPaste,
       onCreateTable,
       onRequestEditTable,
+      onRepeatFormatting,
       onUpdateTable,
       onDragOver,
       onDrop,
@@ -460,6 +461,7 @@ export const Spreadsheet = () => {
           onSelectNextSheet={onSelectNextSheet}
           onSelectPreviousSheet={onSelectPreviousSheet}
           onChangeFormatting={onChangeFormatting}
+          onRepeatFormatting={onRepeatFormatting}
           onHideColumn={onHideColumn}
           onShowColumn={onShowColumn}
           onHideRow={onHideRow}
