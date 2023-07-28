@@ -512,7 +512,7 @@ export const Spreadsheet = () => {
           namedRanges={namedRanges}
           users={users}
           userId={userId}
-          licenseKey="evaluation-license"
+          licenseKey="rmdort-personal-0adf-45de-5fbc-81ce-b007-99e2-982d-b8bb-df0f-7c84-0ed8-74f2-8dd0-7993-bb88-9f64"
         />
 
         <BottomBar>
