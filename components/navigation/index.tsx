@@ -29,6 +29,13 @@ export function HeaderMenu() {
       <Link href="/contact" className={buttonVariants({ variant: "ghost" })}>
         Contact us
       </Link>
+
+      <Link
+        href="https://discord.gg/K4cNVh6"
+        className={buttonVariants({ variant: "ghost" })}
+      >
+        Chart
+      </Link>
     </div>
   );
 }
