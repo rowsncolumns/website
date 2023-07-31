@@ -33,6 +33,7 @@ export function HeaderMenu() {
       <Link
         href="https://discord.gg/K4cNVh6"
         className={buttonVariants({ variant: "ghost" })}
+        target="_blank"
       >
         Chat
       </Link>
