@@ -7,7 +7,7 @@ import { buttonVariants } from "../ui/button";
 
 export function HeaderMenu() {
   return (
-    <div className="grid row-start-2 col-span-2 lg:col-span-1 lg:row-start-auto lg:grid-cols-[repeat(5,minmax(min-content,max-content))] lg:gap-3 lg:justify-items-end lg:place-content-end">
+    <div className="grid row-start-2 col-span-2 lg:col-span-1 lg:row-start-auto lg:grid-cols-[repeat(6,minmax(min-content,max-content))] lg:gap-3 lg:justify-items-end lg:place-content-end">
       <Link href="/" className={buttonVariants({ variant: "ghost" })}>
         Home
       </Link>
@@ -34,7 +34,7 @@ export function HeaderMenu() {
         href="https://discord.gg/K4cNVh6"
         className={buttonVariants({ variant: "ghost" })}
       >
-        Chart
+        Chat
       </Link>
     </div>
   );
