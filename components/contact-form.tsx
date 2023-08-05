@@ -3,14 +3,17 @@ import React, { useState } from "react";
 import { Stack, Input, canUseDOM } from "@rowsncolumns/ui";
 import { Button } from "./ui/button";
 import Script from "next/script";
+import { Loader2 } from "lucide-react";
 
 const RECAPTCHA_KEY = "6Lfr4s8mAAAAABzgv4bDydj2jaa-621n6Zvuuadz";
 
 export const EnterpriseContact = () => {
   const [result, setResult] = useState<boolean | undefined>(undefined);
+  const [isLoading, setIsLoading] = useState(false);
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (canUseDOM) {
+      setIsLoading(true);
       //@ts-ignore
       grecaptcha.ready(function () {
         //@ts-ignore
@@ -19,7 +22,7 @@ export const EnterpriseContact = () => {
           .then(async () => {
             const formData = new FormData(e.target as HTMLFormElement);
             try {
-              const response = await fetch("/api/mail", {
+              await fetch("/api/mail", {
                 method: "POST",
                 body: JSON.stringify(Object.fromEntries(formData)),
               }).then((res) => {
@@ -29,8 +32,10 @@ export const EnterpriseContact = () => {
               });
 
               setResult(true);
+              setIsLoading(false);
             } catch (err) {
               setResult(false);
+              setIsLoading(false);
             }
           });
       });
@@ -88,7 +93,9 @@ export const EnterpriseContact = () => {
         />
       </Stack>
 
-      <Button>Send</Button>
+      <Button disabled={isLoading} className="gap-2">
+        {isLoading ? <Loader2 className="animate-spin" /> : null} Send
+      </Button>
 
       <Script
         src={`https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_KEY}`}
