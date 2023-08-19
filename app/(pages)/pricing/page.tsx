@@ -27,7 +27,7 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-4 pb-12">
+      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-4 pb-12 auto-rows-[1fr]">
         {/* Personal */}
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Solo</h3>
@@ -183,10 +183,7 @@ export default async function Home() {
             <AccordionContent>
               If you&apos;re unhappy with your purchase for any reason, email us
               at{" "}
-              <a
-                href="mailto:support@rowsncolumns.com"
-                className="text-blue-600 hover:underline"
-              >
+              <a href="mailto:support@rowsncolumns.com" className="underline">
                 support@rowsncolumns.app
               </a>{" "}
               within 30 days and we&apos;ll refund you in full, no questions
@@ -260,7 +257,7 @@ export default async function Home() {
                   Please email{" "}
                   <a
                     href="mailto:support@rowsncolumns.com"
-                    className="text-blue-600 hover:underline"
+                    className="underline"
                   >
                     support@rowsncolumns.app
                   </a>{" "}
@@ -276,7 +273,7 @@ export default async function Home() {
             <AccordionContent>
               <p className="pb-2">
                 Yes. Please{" "}
-                <Link href="/contact" className="text-blue-600 hover:underline">
+                <Link href="/contact" className="underline">
                   contact us
                 </Link>{" "}
                 to purchase an OEM license.
@@ -324,16 +321,23 @@ export default async function Home() {
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-left">
-              When will I get a reply to my query?
+              How can we get in touch?
             </AccordionTrigger>
             <AccordionContent>
               The fastest way to contact us via{" "}
-              <a href="https://discord.gg/K4cNVh6">Discord chat</a>. You can
-              also contact us either via{" "}
-              <a href="mailto:sales@rowsncolumns.app">email</a> or the{" "}
-              <Link href={"/contact"}>contact form</Link> We will reply to your
-              email within 24 hours. Enterprise customers can expect a response
-              within 6-8 hours.
+              <a className="underline" href="https://discord.gg/K4cNVh6">
+                Discord chat
+              </a>
+              . You can also contact us either via{" "}
+              <a className="underline" href="mailto:sales@rowsncolumns.app">
+                email
+              </a>{" "}
+              or the{" "}
+              <Link className="underline" href={"/contact"}>
+                contact form
+              </Link>{" "}
+              We will reply to your email within 24 hours. Enterprise customers
+              can expect a response within 6-8 hours.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
