@@ -975,10 +975,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^4.0.0":
-  version "4.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/4.0.0/4dcfa28b3c1ca1c614322709affc4f6f889d3dfa#4dcfa28b3c1ca1c614322709affc4f6f889d3dfa"
-  integrity sha512-1S3PjPcH3dbCNKIUpgsfohklaJsSEOCxZ/6YBosSYRy+KIYOXN1f0AdHErpgHcLEKMSIKRgJFfQT+gSoN6ftcw==
+"@rowsncolumns/spreadsheet-state@^4.0.1":
+  version "4.0.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/4.0.1/b4fbb7e22cb228d5f42341fc1671b9f7588aed7a#b4fbb7e22cb228d5f42341fc1671b9f7588aed7a"
+  integrity sha512-pkXRnB7SLVVebzfz3F+trgpw7CZu0E8M1p1boxOvScnP4d/1ONolCa2r9aLJa3vwAjFqMPjw87ljHsWsC5onwA==
   dependencies:
     "@rowsncolumns/toolkit" "^4.0.0"
     formik "^2.2.9"
@@ -986,16 +986,16 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^2.2.0":
-  version "2.2.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.2.0/c716b4355fc463375cdba929fe53f33082e3b735#c716b4355fc463375cdba929fe53f33082e3b735"
-  integrity sha512-yXQDCnpLGDGL+TfNt3oFNyaTwOLw+Q2Xlg2wVLT2ss3sAOb5OlXDj8WRKgG4SRXQ6IXSABulbHh9RnRNbEVnvw==
+"@rowsncolumns/spreadsheet@^2.2.1":
+  version "2.2.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.2.1/ad589eecead4eaee47215788c91811fa583bddcf#ad589eecead4eaee47215788c91811fa583bddcf"
+  integrity sha512-OMahUsvJMYt5TnhFKX2PJMsdYwAFy50luXqj45aC2NzbxQoDh+7cVP+/PuwzOzBlc1RoUfbtsfOQ6+FwOsXoVA==
   dependencies:
     "@rowsncolumns/calculator" "^2.1.0"
     "@rowsncolumns/functions" "^1.3.0"
     "@rowsncolumns/grid" "^1.3.0"
     "@rowsncolumns/icons" "^2.1.0"
-    "@rowsncolumns/ui" "^2.2.0"
+    "@rowsncolumns/ui" "^2.2.1"
     "@rowsncolumns/utils" "^1.3.0"
     "@tanstack/react-virtual" "3.0.0-beta.54"
     formik "^2.2.9"
@@ -1021,10 +1021,10 @@
   dependencies:
     exceljs "^4.3.0"
 
-"@rowsncolumns/ui@^2.2.0":
-  version "2.2.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/2.2.0/2e6afb60f036469136541fa4a56564e928076849#2e6afb60f036469136541fa4a56564e928076849"
-  integrity sha512-miRCreOZqEkhJBDEf++Md9VztLQA8uRSyqNiROhj8gs0JPbFeEP9nKXVfh49FwrnzdR9EhNFDyWcAOqK0fgm6A==
+"@rowsncolumns/ui@^2.2.1":
+  version "2.2.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/2.2.1/b60da7d43a7af61394b766e78ddb68a4b9243c05#b60da7d43a7af61394b766e78ddb68a4b9243c05"
+  integrity sha512-a1knTFUTH3IZ/LGcmP4NtsWo4M1MfhsU59IRzCF6JxMXJr3J/jswtRj8lr9fwUYja7qjY0ReQQSy7Lf8wb1WYg==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.4"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
