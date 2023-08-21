@@ -36,7 +36,7 @@ export default function RootLayout({
               <div className="items-center">
                 <Link
                   href="/"
-                  className="items-center inline-flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md h-[40px]"
+                  className="items-center inline-flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
                   title={siteConfig.name}
                 >
                   <Image
