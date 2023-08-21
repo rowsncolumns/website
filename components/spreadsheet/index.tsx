@@ -116,6 +116,7 @@ export const Spreadsheet = () => {
       spreadsheetColors,
       canRedo,
       canUndo,
+      isDarkMode,
       onUndo,
       onRedo,
       getCellData,
@@ -331,6 +332,7 @@ export const Spreadsheet = () => {
           <TextColorSelector
             color={currentCellFormat?.textFormat?.color}
             theme={theme}
+            isDarkMode={isDarkMode}
             onChange={(color) => {
               onChangeFormatting(activeSheetId, "textFormat", {
                 color,
@@ -351,6 +353,7 @@ export const Spreadsheet = () => {
             sheetId={activeSheetId}
             onChange={onChangeBorder}
             theme={theme}
+            isDarkMode={isDarkMode}
           />
           <MergeCellsSelector
             activeCell={activeCell}
