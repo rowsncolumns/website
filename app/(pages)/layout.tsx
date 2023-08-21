@@ -36,14 +36,14 @@ export default function RootLayout({
               <div className="items-center">
                 <Link
                   href="/"
-                  className="items-center inline-flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md"
+                  className="items-center inline-flex gap-4 font-semibold hover:bg-accent p-2 rounded-md text-md h-[40px]"
                   title={siteConfig.name}
                 >
                   <Image
                     src="/logo-square.png?v=1"
                     alt="RowsnColumns"
-                    width={128}
-                    height={94}
+                    width={50}
+                    height={39}
                     className="rounded-sm max-w-[50px]"
                   />
                   Rows n&apos; Columns
