@@ -10,6 +10,8 @@ import {
 import { Metadata } from "next";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { createCheckoutSession } from "@/lib/stripe";
+import { CheckoutForm } from "@/components/checkout-form";
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -59,11 +61,10 @@ export default async function Home() {
             </ul>
           </div>
 
-          <div className="mt-6">
-            <Link href="/contact" className={cn(buttonVariants())}>
-              Contact Sales
-            </Link>
-          </div>
+          <CheckoutForm
+            priceId="price_1NVG6kHsnQr5Cbr9qgnGfX71"
+            label="Buy Solo License"
+          />
         </section>
         {/* / Personal */}
 
@@ -88,11 +89,10 @@ export default async function Home() {
             </ul>
           </div>
 
-          <div className="mt-6">
-            <Link href="/contact" className={cn(buttonVariants())}>
-              Contact Sales
-            </Link>
-          </div>
+          <CheckoutForm
+            priceId="price_1NiUoJHsnQr5Cbr9MutUBHWw"
+            label="Buy Personal License"
+          />
         </section>
         {/* / Personal */}
 
