@@ -42,7 +42,7 @@ export default async function Home() {
         </div>
       </header>
 
-      <div className="py-0 mb-12 flex min-h-[610px] w-[1340px] max-w-full ml-auto mr-auto flex-col min-w-0">
+      <div className="py-0 mb-12 flex min-h-[610px] w-[1340px] max-w-full ml-auto mr-auto flex-col min-w-0  relative">
         <Spreadsheet />
       </div>
 

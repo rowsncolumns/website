@@ -50,6 +50,7 @@ import {
   ColorMode,
   FormulaBarInput,
   ButtonInsertImage,
+  SheetSearch,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -59,13 +60,15 @@ import {
   TableEditor,
   DeleteSheetConfirmation,
   NamedRangeEditor,
+  useSearch,
 } from "@rowsncolumns/spreadsheet-state";
-import { Separator } from "@rowsncolumns/ui";
+import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
 import { mockSheets, mockTables } from "./mocks";
 import { mockSheetdata } from "./mock-sheetdata";
 import { useColorMode } from "@/lib/theme";
 import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
+import { MagnifyingGlassIcon } from "@rowsncolumns/icons";
 import { createClient } from "@supabase/supabase-js";
 import { getUniqueName } from "./names";
 
@@ -198,6 +201,8 @@ export const Spreadsheet = () => {
       onCreateNamedRange,
       onUpdateNamedRange,
       enqueueCalculation,
+      getNonEmptyColumnCount,
+      getNonEmptyRowCount,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -216,6 +221,23 @@ export const Spreadsheet = () => {
         onBroadcastPatch(patches);
       },
       colorMode,
+    });
+
+    const {
+      onSearch,
+      onResetSearch,
+      onFocusNextResult,
+      onFocusPreviousResult,
+      hasNextResult,
+      hasPreviousResult,
+      borderStyles,
+      isSearchActive,
+      onRequestSearch,
+    } = useSearch({
+      getCellData,
+      sheetId: activeSheetId,
+      getNonEmptyColumnCount,
+      getNonEmptyRowCount,
     });
 
     const { onBroadcastPatch, users } = useSupabaseSpreadsheet({
@@ -406,6 +428,10 @@ export const Spreadsheet = () => {
               onChangeColorMode((prev) => (prev === "dark" ? "light" : "dark"))
             }
           />
+
+          <IconButton onClick={onRequestSearch}>
+            <MagnifyingGlassIcon />
+          </IconButton>
         </Toolbar>
 
         <FormulaBar>
@@ -435,6 +461,7 @@ export const Spreadsheet = () => {
 
         <CanvasGrid
           {...spreadsheetColors}
+          borderStyles={borderStyles}
           stickyEditor={true}
           scale={scale}
           conditionalFormats={conditionalFormats}
@@ -516,6 +543,7 @@ export const Spreadsheet = () => {
           users={users}
           userId={userId}
           licenseKey="rmdort-personal-0adf-45de-5fbc-81ce-b007-99e2-982d-b8bb-df0f-7c84-0ed8-74f2-8dd0-7993-bb88-9f64"
+          onRequestSearch={onRequestSearch}
         />
 
         <BottomBar>
@@ -571,6 +599,16 @@ export const Spreadsheet = () => {
           getSheetName={getSheetName}
           onCreateNamedRange={onCreateNamedRange}
           onUpdateNamedRange={onUpdateNamedRange}
+        />
+
+        <SheetSearch
+          isActive={isSearchActive}
+          onSubmit={onSearch}
+          onReset={onResetSearch}
+          onNext={onFocusNextResult}
+          onPrevious={onFocusPreviousResult}
+          disableNext={!hasNextResult}
+          disablePrevious={!hasPreviousResult}
         />
       </>
     );
