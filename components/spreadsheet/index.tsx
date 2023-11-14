@@ -233,6 +233,8 @@ export const Spreadsheet = () => {
       borderStyles,
       isSearchActive,
       onRequestSearch,
+      currentResult,
+      totalResults,
     } = useSearch({
       getCellData,
       sheetId: activeSheetId,
@@ -609,6 +611,8 @@ export const Spreadsheet = () => {
           onPrevious={onFocusPreviousResult}
           disableNext={!hasNextResult}
           disablePrevious={!hasPreviousResult}
+          currentResult={currentResult}
+          totalResults={totalResults}
         />
       </>
     );
