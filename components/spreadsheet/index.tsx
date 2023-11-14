@@ -235,6 +235,7 @@ export const Spreadsheet = () => {
       onRequestSearch,
       currentResult,
       totalResults,
+      searchQuery,
     } = useSearch({
       getCellData,
       sheetId: activeSheetId,
@@ -613,6 +614,7 @@ export const Spreadsheet = () => {
           disablePrevious={!hasPreviousResult}
           currentResult={currentResult}
           totalResults={totalResults}
+          searchQuery={searchQuery}
         />
       </>
     );
