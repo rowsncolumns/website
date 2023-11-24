@@ -11,8 +11,8 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/spreadsheet": "^2.3.8",
-    "@rowsncolumns/spreadsheet-state": "^5.0.5",
+    "@rowsncolumns/spreadsheet": "^2.3.9",
+    "@rowsncolumns/spreadsheet-state": "^5.0.6",
     "@rowsncolumns/supabase-spreadsheet": "^2.0.1",
     "@sendgrid/mail": "^7.7.0",
     "@types/node": "20.2.1",
