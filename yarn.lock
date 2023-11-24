@@ -1007,10 +1007,10 @@
     scheduler "^0.23.0"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/supabase-spreadsheet@^2.0.1":
-  version "2.0.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/2.0.1/3b637537d5c73f6832eeffbf6e831a6c69de8be1#3b637537d5c73f6832eeffbf6e831a6c69de8be1"
-  integrity sha512-YAJvm6OuE++PhplebjSfAyIZm1bk8YQcvZ1T+3ButVR73ZKQbHX6Z9DYWd5hnqt4KGE/k+QXNHn0KS+RCz6uvw==
+"@rowsncolumns/supabase-spreadsheet@^3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/3.0.1/ed5652663399156591618c2822411e7523267d48#ed5652663399156591618c2822411e7523267d48"
+  integrity sha512-MZkC6gpI0x4AJB2GdxEMAtYfHhplM1cbO6yIlPnAZD0HmMRnMis3+ttqkDI43wldQIQWbfAS/x0J0hLtRiXwqA==
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 

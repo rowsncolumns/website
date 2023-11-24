@@ -71,6 +71,7 @@ import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
 import { MagnifyingGlassIcon } from "@rowsncolumns/icons";
 import { createClient } from "@supabase/supabase-js";
 import { getUniqueName } from "./names";
+import { useSearchParams } from "next/navigation";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -89,6 +90,8 @@ const userName = getUniqueName();
 
 export const Spreadsheet = () => {
   const App = () => {
+    const searchParams = useSearchParams();
+    const collab = searchParams.get("collab") === "false" ? false : true;
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
@@ -249,6 +252,7 @@ export const Spreadsheet = () => {
       userName,
       activeCell,
       sheetId: activeSheetId,
+      disable: collab === false,
       onChangeSheetData,
       enqueueCalculation,
       onChangeSheets,
@@ -268,11 +272,15 @@ export const Spreadsheet = () => {
 
     return (
       <>
-        <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
-          In the demo, data is not persisted on the server database. Hence in
-          collaboration mode, if you see an application exception error, please
-          refresh the browser.
-        </div>
+        {collab ? (
+          <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
+            In the demo, data is not persisted on the server database. Hence in
+            collaboration mode, if you see an application exception error,
+            please refresh the browser.
+          </div>
+        ) : (
+          false
+        )}
         <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />

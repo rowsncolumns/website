@@ -31,6 +31,10 @@ export default async function Home() {
             Full Demo
           </Link>
 
+          <Link href="/demo?collab=false" className={cn(buttonVariants())}>
+            Single user demo
+          </Link>
+
           <Link
             target="_blank"
             rel="noreferrer"
