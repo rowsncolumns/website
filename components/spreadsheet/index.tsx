@@ -269,7 +269,7 @@ export const Spreadsheet = () => {
     return (
       <>
         <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
-          In the demo, data is not persisted on the client-side. Hence in
+          In the demo, data is not persisted on the server database. Hence in
           collaboration mode, if you see an application exception error, please
           refresh the browser.
         </div>
