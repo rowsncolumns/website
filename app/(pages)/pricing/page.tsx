@@ -41,7 +41,7 @@ export default async function Home() {
           <div className="order-last mt-8">
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and suppport</li>
+              <li className="flex py-2">1 year of updates and support</li>
               <li className="flex py-2">Single application use</li>
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">Non-commercial use</li>
@@ -80,7 +80,7 @@ export default async function Home() {
           <div className="order-last mt-8">
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and suppport</li>
+              <li className="flex py-2">1 year of updates and support</li>
               <li className="flex py-2">Single application use</li>
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">All features included</li>
@@ -110,7 +110,7 @@ export default async function Home() {
           <div className="order-last mt-8">
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and suppport</li>
+              <li className="flex py-2">1 year of updates and support</li>
               <li className="flex py-2">Single application use</li>
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">
@@ -143,7 +143,7 @@ export default async function Home() {
           <div className="order-last mt-8">
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and suppport</li>
+              <li className="flex py-2">1 year of updates and support</li>
               <li className="flex py-2">Unlimited application use</li>
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">
