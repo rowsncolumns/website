@@ -131,7 +131,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/rowsncolumns"
+                      href="https://twitter.com/rowsncolumnsapp"
                       className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground"
                     >
                       Twitter

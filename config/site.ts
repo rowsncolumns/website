@@ -7,7 +7,7 @@ export const siteConfig = {
   taglineDescription:
     "Beautifully designed Spreadsheet component for React. Composable. Customizable. Declarative",
   links: {
-    twitter: "https://twitter.com/rowsncolumns",
+    twitter: "https://twitter.com/rowsncolumnsapp",
     github: "https://github.com/rowsncolumns",
     docs: "https://docs.rowsncolumns.app",
   },
