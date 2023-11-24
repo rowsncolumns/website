@@ -975,10 +975,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^5.0.3":
-  version "5.0.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/5.0.3/80d157d961171cc65bfbbacd7fafdf48156dfacd#80d157d961171cc65bfbbacd7fafdf48156dfacd"
-  integrity sha512-JaUEzcl0EniQ9Gptg8Iglg/ERbVyJlOX4855aMeQTkRMd6j4HaYtvfNv6RmQbaBPLE1bKh5pk4+VQ3V2/MMXZQ==
+"@rowsncolumns/spreadsheet-state@^5.0.4":
+  version "5.0.4"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/5.0.4/8eefcf3e60751a98412a3f8c263e866e17d5d899#8eefcf3e60751a98412a3f8c263e866e17d5d899"
+  integrity sha512-E5OBqToPJ9gOe7VNT0v+S/e8JBZgQQZCHQV7lWQuv00prJF7jMttVmq6lDvx+jrk0sIZE+xNKuB5zN1LmEn5eQ==
   dependencies:
     "@rowsncolumns/toolkit" "^5.0.0"
     formik "^2.2.9"
