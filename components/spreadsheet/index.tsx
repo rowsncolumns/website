@@ -272,7 +272,7 @@ export const Spreadsheet = () => {
 
     return (
       <>
-        {collab ? (
+        {/* {collab ? (
           <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
             In the demo, data is not stored permanently in the server database.
             Therefore, in collaboration mode, if you encounter an application
@@ -280,7 +280,7 @@ export const Spreadsheet = () => {
           </div>
         ) : (
           false
-        )}
+        )} */}
         <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
