@@ -272,15 +272,15 @@ export const Spreadsheet = () => {
 
     return (
       <>
-        {/* {collab ? (
+        {collab ? (
           <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
             In the demo, data is not stored permanently in the server database.
-            Therefore, in collaboration mode, if you encounter an application
-            exception error, kindly refresh the browser.
+            So, in collaboration mode, if you encounter an application exception
+            error, kindly refresh the browser.
           </div>
         ) : (
           false
-        )} */}
+        )}
         <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
