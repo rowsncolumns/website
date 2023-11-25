@@ -975,10 +975,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^5.0.6":
-  version "5.0.6"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/5.0.6/a873709fecdce37729778f031b0e4a794e0a0fbc#a873709fecdce37729778f031b0e4a794e0a0fbc"
-  integrity sha512-dI4uw8dWm8Fnoh1D2seMB8jBSXM/Fndg3TmnogtJ9EG+1yQrye/oxonqlShHa4CxKMKGAXDbr0Eh0+c5y/rTnA==
+"@rowsncolumns/spreadsheet-state@^5.0.7":
+  version "5.0.7"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/5.0.7/829a21fb87e13fa63c7e4477928bab2c95608091#829a21fb87e13fa63c7e4477928bab2c95608091"
+  integrity sha512-ybfl5AB7ORZfc2HEnGDxkyX7R6pvSR+yGH4J0RMsaca2kCeq/FsuNp0NODs2sGjNpSqqsOvqIdKQtCcOZsyWng==
   dependencies:
     "@rowsncolumns/toolkit" "^5.0.0"
     formik "^2.2.9"
@@ -1007,10 +1007,10 @@
     scheduler "^0.23.0"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/supabase-spreadsheet@^3.0.1":
-  version "3.0.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/3.0.1/ed5652663399156591618c2822411e7523267d48#ed5652663399156591618c2822411e7523267d48"
-  integrity sha512-MZkC6gpI0x4AJB2GdxEMAtYfHhplM1cbO6yIlPnAZD0HmMRnMis3+ttqkDI43wldQIQWbfAS/x0J0hLtRiXwqA==
+"@rowsncolumns/supabase-spreadsheet@^3.0.2":
+  version "3.0.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/3.0.2/e274cbbbefe827048229d76d126308617bc0c1e0#e274cbbbefe827048229d76d126308617bc0c1e0"
+  integrity sha512-qx8MBYJ2VEl8dBUJ5NGNUUvMFr8XVVsYcCspO1GQkXhxbZlIdbM9GBCfkTXelo7h4MkhS7dwKgcYHVO8AqotBw==
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
