@@ -50,10 +50,6 @@ export default function RootLayout({
                 </Link>
               </div>
 
-              <Button className="lg:!hidden" variant="outline">
-                <HamburgerMenuIcon />
-              </Button>
-
               <HeaderMenu />
             </div>
           </div>
