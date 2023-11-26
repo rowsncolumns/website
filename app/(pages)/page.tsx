@@ -20,7 +20,7 @@ export const generateMetadata = (): Metadata => {
 export default async function Home() {
   return (
     <main className="flex flex-col min-h-screen p-2 pl-0 pr-0 min-w-0 flex-1">
-      <header className="flex flex-col text-center justify-center items-center py-8">
+      <header className="flex flex-col text-center justify-center items-center py-4 lg:py-8">
         <PageHeading>{siteConfig.tagline}</PageHeading>
         <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
           {siteConfig.taglineDescription}

@@ -5,8 +5,7 @@ import { NextAuthProvider } from "./../providers";
 import Link from "next/link";
 import { HeaderMenu } from "@/components/navigation";
 import { siteConfig } from "@/config/site";
-import { Button } from "@/components/ui/button";
-import { HamburgerMenuIcon } from "@rowsncolumns/icons";
+
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin-ext"] });
@@ -49,10 +48,6 @@ export default function RootLayout({
                   Rows n&apos; Columns
                 </Link>
               </div>
-
-              <Button className="lg:!hidden" variant="outline">
-                <HamburgerMenuIcon />
-              </Button>
 
               <HeaderMenu />
             </div>
