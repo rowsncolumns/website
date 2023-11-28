@@ -997,10 +997,10 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^2.3.11":
-  version "2.3.11"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.3.11/69a183ebe23a0770203e3e250d5624b0a98318a1#69a183ebe23a0770203e3e250d5624b0a98318a1"
-  integrity sha512-bQ/maXEy0vBf+EuRmRNib4GGAxNga2kawOnkChCF8SiFSz3H9Njnq2S+NuNLaKuxng2VBkWtSIBsadT0fJRBwQ==
+"@rowsncolumns/spreadsheet@^2.3.14":
+  version "2.3.14"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/2.3.14/2344b75b64528a53cc2b60c485f73c1a2751092a#2344b75b64528a53cc2b60c485f73c1a2751092a"
+  integrity sha512-rXcDsUEXTdLCEPcZbbmDcZdHlYLaf1DV0wAgJDNFO+fj5os+ykyqh3fAV/icZssmrIOX+e6Mqw+XvlQDAl7SEw==
   dependencies:
     "@rowsncolumns/calculator" "^2.1.1"
     "@rowsncolumns/functions" "^1.3.1"
