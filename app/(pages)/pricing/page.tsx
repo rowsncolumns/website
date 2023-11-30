@@ -186,8 +186,8 @@ export default async function Home() {
               <a href="mailto:support@rowsncolumns.com" className="underline">
                 support@rowsncolumns.app
               </a>{" "}
-              within 30 days and we&apos;ll refund you in full, no questions
-              asked.
+              within 7 days(Solo) and 30 days (All other licenses) and
+              we&apos;ll refund you in full, no questions asked.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
