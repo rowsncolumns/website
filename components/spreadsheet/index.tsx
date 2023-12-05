@@ -51,6 +51,8 @@ import {
   FormulaBarInput,
   ButtonInsertImage,
   SheetSearch,
+  ButtonDecreaseIndent,
+  ButtonIncreaseIndent,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -206,6 +208,8 @@ export const Spreadsheet = () => {
       enqueueCalculation,
       getNonEmptyColumnCount,
       getNonEmptyRowCount,
+      onIncreaseIndent,
+      onDecreaseIndent,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -289,18 +293,30 @@ export const Spreadsheet = () => {
           <ToolbarSeparator />
           <ButtonFormatCurrency
             onClick={() => {
-              onChangeFormatting(activeSheetId, "numberFormat", {
-                type: "CURRENCY",
-                pattern: pattern_currency_decimal,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "numberFormat",
+                {
+                  type: "CURRENCY",
+                  pattern: pattern_currency_decimal,
+                }
+              );
             }}
           />
           <ButtonFormatPercent
             onClick={() => {
-              onChangeFormatting(activeSheetId, "numberFormat", {
-                type: "PERCENT",
-                pattern: pattern_percent_decimal,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "numberFormat",
+                {
+                  type: "PERCENT",
+                  pattern: pattern_percent_decimal,
+                }
+              );
             }}
           />
           <ButtonDecreaseDecimal
@@ -310,17 +326,30 @@ export const Spreadsheet = () => {
             onClick={() => onChangeDecimals(activeSheetId, "increment")}
           />
           <TextFormatSelector
-            sheetId={activeSheetId}
-            onChangeFormatting={onChangeFormatting}
+            onChangeFormatting={(type, value) => {
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                type,
+                value
+              );
+            }}
           />
           <ToolbarSeparator />
           <FontFamilySelector
             value={currentCellFormat?.textFormat?.fontFamily}
             theme={theme}
             onChange={(value) => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                fontFamily: value,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  fontFamily: value,
+                }
+              );
             }}
           />
           <ToolbarSeparator />
@@ -329,42 +358,72 @@ export const Spreadsheet = () => {
               currentCellFormat?.textFormat?.fontSize ?? DEFAULT_FONT_SIZE_PT
             }
             onChange={(fontSize) => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                fontSize,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  fontSize,
+                }
+              );
             }}
           />
           <ToolbarSeparator />
           <ButtonBold
             isActive={currentCellFormat?.textFormat?.bold}
             onClick={() => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                bold: !currentCellFormat?.textFormat?.bold,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  bold: !currentCellFormat?.textFormat?.bold,
+                }
+              );
             }}
           />
           <ButtonItalic
             isActive={currentCellFormat?.textFormat?.italic}
             onClick={() => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                italic: !currentCellFormat?.textFormat?.italic,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  italic: !currentCellFormat?.textFormat?.italic,
+                }
+              );
             }}
           />
           <ButtonUnderline
             isActive={currentCellFormat?.textFormat?.underline}
             onClick={() => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                underline: !currentCellFormat?.textFormat?.underline,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  underline: !currentCellFormat?.textFormat?.underline,
+                }
+              );
             }}
           />
           <ButtonStrikethrough
             isActive={currentCellFormat?.textFormat?.strikethrough}
             onClick={() => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                strikethrough: !currentCellFormat?.textFormat?.strikethrough,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  strikethrough: !currentCellFormat?.textFormat?.strikethrough,
+                }
+              );
             }}
           />
           <TextColorSelector
@@ -372,9 +431,15 @@ export const Spreadsheet = () => {
             theme={theme}
             isDarkMode={isDarkMode}
             onChange={(color) => {
-              onChangeFormatting(activeSheetId, "textFormat", {
-                color,
-              });
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "textFormat",
+                {
+                  color,
+                }
+              );
             }}
           />
           <ToolbarSeparator />
@@ -382,14 +447,28 @@ export const Spreadsheet = () => {
             color={currentCellFormat?.backgroundColor}
             theme={theme}
             onChange={(color) => {
-              onChangeFormatting(activeSheetId, "backgroundColor", color);
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "backgroundColor",
+                color
+              );
             }}
           />
 
           <BorderSelector
             borders={currentCellFormat?.borders}
-            sheetId={activeSheetId}
-            onChange={onChangeBorder}
+            onChange={(location, color, style) => {
+              onChangeBorder(
+                activeSheetId,
+                activeCell,
+                selections,
+                location,
+                color,
+                style
+              );
+            }}
             theme={theme}
             isDarkMode={isDarkMode}
           />
@@ -405,19 +484,49 @@ export const Spreadsheet = () => {
           <TextHorizontalAlignSelector
             value={currentCellFormat?.horizontalAlignment}
             onChange={(value) => {
-              onChangeFormatting(activeSheetId, "horizontalAlignment", value);
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "horizontalAlignment",
+                value
+              );
+            }}
+          />
+          <ButtonDecreaseIndent
+            onClick={() => {
+              onDecreaseIndent(activeSheetId, activeCell, selections);
+            }}
+          />
+
+          <ButtonIncreaseIndent
+            onClick={() => {
+              console.log("activeCell, selections", activeCell, selections);
+              onIncreaseIndent(activeSheetId, activeCell, selections);
             }}
           />
           <TextVerticalAlignSelector
             value={currentCellFormat?.verticalAlignment}
             onChange={(value) => {
-              onChangeFormatting(activeSheetId, "verticalAlignment", value);
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "verticalAlignment",
+                value
+              );
             }}
           />
           <TextWrapSelector
             value={currentCellFormat?.wrapStrategy}
             onChange={(value) => {
-              onChangeFormatting(activeSheetId, "wrapStrategy", value);
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                "wrapStrategy",
+                value
+              );
             }}
           />
           <ToolbarSeparator />
