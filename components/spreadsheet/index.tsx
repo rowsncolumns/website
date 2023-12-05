@@ -320,10 +320,24 @@ export const Spreadsheet = () => {
             }}
           />
           <ButtonDecreaseDecimal
-            onClick={() => onChangeDecimals(activeSheetId, "decrement")}
+            onClick={() =>
+              onChangeDecimals(
+                activeSheetId,
+                activeCell,
+                selections,
+                "decrement"
+              )
+            }
           />
           <ButtonIncreaseDecimal
-            onClick={() => onChangeDecimals(activeSheetId, "increment")}
+            onClick={() =>
+              onChangeDecimals(
+                activeSheetId,
+                activeCell,
+                selections,
+                "increment"
+              )
+            }
           />
           <TextFormatSelector
             onChangeFormatting={(type, value) => {
