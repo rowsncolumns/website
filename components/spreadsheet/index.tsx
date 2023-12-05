@@ -501,7 +501,6 @@ export const Spreadsheet = () => {
 
           <ButtonIncreaseIndent
             onClick={() => {
-              console.log("activeCell, selections", activeCell, selections);
               onIncreaseIndent(activeSheetId, activeCell, selections);
             }}
           />
