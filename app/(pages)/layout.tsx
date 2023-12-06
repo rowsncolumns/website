@@ -37,9 +37,15 @@ export default function RootLayout({
           property="og:description"
           content="Spreadsheet 2 - High performance Canvas Spreadsheet component"
         />
-        <meta property="og:image" content="/logo-square.png" />
+        <meta
+          property="og:image"
+          content="https://www.rowsncolumns.app/logo-square.png"
+        />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="/logo-square.png" />
+        <meta
+          property="twitter:image"
+          content="https://www.rowsncolumns.app/logo-square.png"
+        />
       </head>
       <body className={inter.className}>
         <header className="border-b border-site-border">
