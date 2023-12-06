@@ -27,6 +27,19 @@ export default function RootLayout({
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MWFSTRX');`,
           }}
         />
+        <meta
+          property="og:description"
+          content="Spreadsheet 2 - High performance Canvas Spreadsheet component"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Rows n' Columns" />
+        <meta
+          property="og:description"
+          content="Spreadsheet 2 - High performance Canvas Spreadsheet component"
+        />
+        <meta property="og:image" content="/logo-square.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:image" content="/logo-square.png" />
       </head>
       <body className={inter.className}>
         <header className="border-b border-site-border">
