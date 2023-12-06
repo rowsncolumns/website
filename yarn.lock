@@ -990,12 +990,12 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^9.0.3":
-  version "9.0.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/9.0.3/a4a645d0e47c40e9ba15759820ec4467b5d875d6#a4a645d0e47c40e9ba15759820ec4467b5d875d6"
-  integrity sha512-JzQrAewqfkMJbWuH7ns3uNLuVv+DzpMjNPDkNEqeR/+VgnLHHgvGNo+GeAwzaZDBP7y6myACI4hMB+vlyqTAyQ==
+"@rowsncolumns/spreadsheet-state@^9.1.0":
+  version "9.1.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/9.1.0/479c86d5bd24274d6436eb28dc67468a266a1a61#479c86d5bd24274d6436eb28dc67468a266a1a61"
+  integrity sha512-WOI/8O1lMF0p+LGNww+I+pnisakR/hyp98gmgZt9EE8MNkVg+p7QNhsH3RfMBiU+MDWMXpXjOQE9FXimzMWpFg==
   dependencies:
-    "@rowsncolumns/toolkit" "^9.0.0"
+    "@rowsncolumns/toolkit" "^10.0.0"
     formik "^2.2.9"
     immer "^10.0.3"
     recoil "^0.7.7"
@@ -1022,17 +1022,17 @@
     scheduler "^0.23.0"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/supabase-spreadsheet@^7.0.0":
-  version "7.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/7.0.0/30eb3f0f1dd23da4c8bc154ebe32a0cff4d6594b#30eb3f0f1dd23da4c8bc154ebe32a0cff4d6594b"
-  integrity sha512-68oo/nxyvxyQYO1xQcG5/K0Mzr1PkMY0TMdCOZOr1S6i+XR8RkHm8oe5TRpbtxaPA/v3N+YUYhkz4paTagmm0Q==
+"@rowsncolumns/supabase-spreadsheet@^8.0.0":
+  version "8.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/8.0.0/ca38225c430605776eeb7d5c6360fba93e89e0d6#ca38225c430605776eeb7d5c6360fba93e89e0d6"
+  integrity sha512-/OBmXTiYky25Wp0BWp0tLBq7Lau7EtLJdBRZV23Lg6ll2HYKa9Fxa0BcFAQSYvQzI/8nulog7o2UGR0rvLj+gQ==
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^9.0.0":
-  version "9.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/9.0.0/548c922065ccbb36f0292a48f3bf15d6cfd27537#548c922065ccbb36f0292a48f3bf15d6cfd27537"
-  integrity sha512-oe/2xI5wIjsBn7X1BeARNCPxiC2m7e3o1k74gngi7JrkMDlwyiCFyiOKcrH2h5TqDdgWrOt5DWXi+lbr97eFHw==
+"@rowsncolumns/toolkit@^10.0.0":
+  version "10.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/10.0.0/a2196fba6a5aa88373f922fecb78e18b95bc447b#a2196fba6a5aa88373f922fecb78e18b95bc447b"
+  integrity sha512-aY6icC0aJIwqKJSAkfvRvNiQ97bLY0fu7lLTMMaFqS2pLMT7uww6dc0Wijmto4LTIhF+mimkMCR/9dpZ/HxYFA==
   dependencies:
     exceljs "^4.3.0"
 
