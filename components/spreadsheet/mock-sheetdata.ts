@@ -254,18 +254,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "08/03/2021" },
           effectiveValue: { numberValue: 44263 },
-          formattedValue: "2021-03-08T00:00:00",
+          formattedValue: "2021-03-08 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -302,18 +302,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "08/03/2021" },
           effectiveValue: { numberValue: 44263 },
-          formattedValue: "2021-03-08T00:00:00",
+          formattedValue: "2021-03-08 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -479,18 +479,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "07/03/2021" },
           effectiveValue: { numberValue: 44262 },
-          formattedValue: "2021-03-07T00:00:00",
+          formattedValue: "2021-03-07 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -527,18 +527,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "07/03/2021" },
           effectiveValue: { numberValue: 44262 },
-          formattedValue: "2021-03-07T00:00:00",
+          formattedValue: "2021-03-07 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -704,18 +704,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "06/03/2021" },
           effectiveValue: { numberValue: 44261 },
-          formattedValue: "2021-03-06T00:00:00",
+          formattedValue: "2021-03-06 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -752,18 +752,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "06/03/2021" },
           effectiveValue: { numberValue: 44261 },
-          formattedValue: "2021-03-06T00:00:00",
+          formattedValue: "2021-03-06 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -929,18 +929,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "05/03/2021" },
           effectiveValue: { numberValue: 44260 },
-          formattedValue: "2021-03-05T00:00:00",
+          formattedValue: "2021-03-05 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -977,18 +977,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "05/03/2021" },
           effectiveValue: { numberValue: 44260 },
-          formattedValue: "2021-03-05T00:00:00",
+          formattedValue: "2021-03-05 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1154,18 +1154,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "04/03/2021" },
           effectiveValue: { numberValue: 44259 },
-          formattedValue: "2021-03-04T00:00:00",
+          formattedValue: "2021-03-04 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1202,18 +1202,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "04/03/2021" },
           effectiveValue: { numberValue: 44259 },
-          formattedValue: "2021-03-04T00:00:00",
+          formattedValue: "2021-03-04 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1379,18 +1379,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "03/03/2021" },
           effectiveValue: { numberValue: 44258 },
-          formattedValue: "2021-03-03T00:00:00",
+          formattedValue: "2021-03-03 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1427,18 +1427,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "03/03/2021" },
           effectiveValue: { numberValue: 44258 },
-          formattedValue: "2021-03-03T00:00:00",
+          formattedValue: "2021-03-03 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1604,18 +1604,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "02/03/2021" },
           effectiveValue: { numberValue: 44257 },
-          formattedValue: "2021-03-02T00:00:00",
+          formattedValue: "2021-03-02 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1652,18 +1652,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "02/03/2021" },
           effectiveValue: { numberValue: 44257 },
-          formattedValue: "2021-03-02T00:00:00",
+          formattedValue: "2021-03-02 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1829,18 +1829,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "01/03/2021" },
           effectiveValue: { numberValue: 44256 },
-          formattedValue: "2021-03-01T00:00:00",
+          formattedValue: "2021-03-01 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -1877,18 +1877,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "01/03/2021" },
           effectiveValue: { numberValue: 44256 },
-          formattedValue: "2021-03-01T00:00:00",
+          formattedValue: "2021-03-01 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2054,18 +2054,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "28/02/2021" },
           effectiveValue: { numberValue: 44255 },
-          formattedValue: "2021-02-28T00:00:00",
+          formattedValue: "2021-02-28 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2102,18 +2102,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "28/02/2021" },
           effectiveValue: { numberValue: 44255 },
-          formattedValue: "2021-02-28T00:00:00",
+          formattedValue: "2021-02-28 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2279,18 +2279,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "27/02/2021" },
           effectiveValue: { numberValue: 44254 },
-          formattedValue: "2021-02-27T00:00:00",
+          formattedValue: "2021-02-27 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2327,18 +2327,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "27/02/2021" },
           effectiveValue: { numberValue: 44254 },
-          formattedValue: "2021-02-27T00:00:00",
+          formattedValue: "2021-02-27 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2504,18 +2504,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "26/02/2021" },
           effectiveValue: { numberValue: 44253 },
-          formattedValue: "2021-02-26T00:00:00",
+          formattedValue: "2021-02-26 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2552,18 +2552,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "26/02/2021" },
           effectiveValue: { numberValue: 44253 },
-          formattedValue: "2021-02-26T00:00:00",
+          formattedValue: "2021-02-26 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2729,18 +2729,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "25/02/2021" },
           effectiveValue: { numberValue: 44252 },
-          formattedValue: "2021-02-25T00:00:00",
+          formattedValue: "2021-02-25 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2777,18 +2777,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "25/02/2021" },
           effectiveValue: { numberValue: 44252 },
-          formattedValue: "2021-02-25T00:00:00",
+          formattedValue: "2021-02-25 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -2954,18 +2954,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "24/02/2021" },
           effectiveValue: { numberValue: 44251 },
-          formattedValue: "2021-02-24T00:00:00",
+          formattedValue: "2021-02-24 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3002,18 +3002,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "24/02/2021" },
           effectiveValue: { numberValue: 44251 },
-          formattedValue: "2021-02-24T00:00:00",
+          formattedValue: "2021-02-24 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3179,18 +3179,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "23/02/2021" },
           effectiveValue: { numberValue: 44250 },
-          formattedValue: "2021-02-23T00:00:00",
+          formattedValue: "2021-02-23 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3227,18 +3227,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "23/02/2021" },
           effectiveValue: { numberValue: 44250 },
-          formattedValue: "2021-02-23T00:00:00",
+          formattedValue: "2021-02-23 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3404,18 +3404,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "22/02/2021" },
           effectiveValue: { numberValue: 44249 },
-          formattedValue: "2021-02-22T00:00:00",
+          formattedValue: "2021-02-22 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3452,18 +3452,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "22/02/2021" },
           effectiveValue: { numberValue: 44249 },
-          formattedValue: "2021-02-22T00:00:00",
+          formattedValue: "2021-02-22 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3629,18 +3629,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "21/02/2021" },
           effectiveValue: { numberValue: 44248 },
-          formattedValue: "2021-02-21T00:00:00",
+          formattedValue: "2021-02-21 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3677,18 +3677,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "21/02/2021" },
           effectiveValue: { numberValue: 44248 },
-          formattedValue: "2021-02-21T00:00:00",
+          formattedValue: "2021-02-21 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3854,18 +3854,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "20/02/2021" },
           effectiveValue: { numberValue: 44247 },
-          formattedValue: "2021-02-20T00:00:00",
+          formattedValue: "2021-02-20 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -3902,18 +3902,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "20/02/2021" },
           effectiveValue: { numberValue: 44247 },
-          formattedValue: "2021-02-20T00:00:00",
+          formattedValue: "2021-02-20 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4079,18 +4079,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "19/02/2021" },
           effectiveValue: { numberValue: 44246 },
-          formattedValue: "2021-02-19T00:00:00",
+          formattedValue: "2021-02-19 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4127,18 +4127,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "19/02/2021" },
           effectiveValue: { numberValue: 44246 },
-          formattedValue: "2021-02-19T00:00:00",
+          formattedValue: "2021-02-19 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4304,18 +4304,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "18/02/2021" },
           effectiveValue: { numberValue: 44245 },
-          formattedValue: "2021-02-18T00:00:00",
+          formattedValue: "2021-02-18 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4352,18 +4352,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "18/02/2021" },
           effectiveValue: { numberValue: 44245 },
-          formattedValue: "2021-02-18T00:00:00",
+          formattedValue: "2021-02-18 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4529,18 +4529,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "17/02/2021" },
           effectiveValue: { numberValue: 44244 },
-          formattedValue: "2021-02-17T00:00:00",
+          formattedValue: "2021-02-17 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4577,18 +4577,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "17/02/2021" },
           effectiveValue: { numberValue: 44244 },
-          formattedValue: "2021-02-17T00:00:00",
+          formattedValue: "2021-02-17 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4754,18 +4754,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "16/02/2021" },
           effectiveValue: { numberValue: 44243 },
-          formattedValue: "2021-02-16T00:00:00",
+          formattedValue: "2021-02-16 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4802,18 +4802,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "16/02/2021" },
           effectiveValue: { numberValue: 44243 },
-          formattedValue: "2021-02-16T00:00:00",
+          formattedValue: "2021-02-16 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -4979,18 +4979,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "15/02/2021" },
           effectiveValue: { numberValue: 44242 },
-          formattedValue: "2021-02-15T00:00:00",
+          formattedValue: "2021-02-15 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5027,18 +5027,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "15/02/2021" },
           effectiveValue: { numberValue: 44242 },
-          formattedValue: "2021-02-15T00:00:00",
+          formattedValue: "2021-02-15 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5204,18 +5204,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "14/02/2021" },
           effectiveValue: { numberValue: 44241 },
-          formattedValue: "2021-02-14T00:00:00",
+          formattedValue: "2021-02-14 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5252,18 +5252,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "14/02/2021" },
           effectiveValue: { numberValue: 44241 },
-          formattedValue: "2021-02-14T00:00:00",
+          formattedValue: "2021-02-14 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5429,18 +5429,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "13/02/2021" },
           effectiveValue: { numberValue: 44240 },
-          formattedValue: "2021-02-13T00:00:00",
+          formattedValue: "2021-02-13 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5477,18 +5477,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "13/02/2021" },
           effectiveValue: { numberValue: 44240 },
-          formattedValue: "2021-02-13T00:00:00",
+          formattedValue: "2021-02-13 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5654,18 +5654,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "12/02/2021" },
           effectiveValue: { numberValue: 44239 },
-          formattedValue: "2021-02-12T00:00:00",
+          formattedValue: "2021-02-12 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5702,18 +5702,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "12/02/2021" },
           effectiveValue: { numberValue: 44239 },
-          formattedValue: "2021-02-12T00:00:00",
+          formattedValue: "2021-02-12 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5879,18 +5879,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "11/02/2021" },
           effectiveValue: { numberValue: 44238 },
-          formattedValue: "2021-02-11T00:00:00",
+          formattedValue: "2021-02-11 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -5927,18 +5927,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "11/02/2021" },
           effectiveValue: { numberValue: 44238 },
-          formattedValue: "2021-02-11T00:00:00",
+          formattedValue: "2021-02-11 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6104,18 +6104,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "10/02/2021" },
           effectiveValue: { numberValue: 44237 },
-          formattedValue: "2021-02-10T00:00:00",
+          formattedValue: "2021-02-10 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6152,18 +6152,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "10/02/2021" },
           effectiveValue: { numberValue: 44237 },
-          formattedValue: "2021-02-10T00:00:00",
+          formattedValue: "2021-02-10 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6329,18 +6329,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "09/02/2021" },
           effectiveValue: { numberValue: 44236 },
-          formattedValue: "2021-02-09T00:00:00",
+          formattedValue: "2021-02-09 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6377,18 +6377,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "09/02/2021" },
           effectiveValue: { numberValue: 44236 },
-          formattedValue: "2021-02-09T00:00:00",
+          formattedValue: "2021-02-09 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6554,18 +6554,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "08/02/2021" },
           effectiveValue: { numberValue: 44235 },
-          formattedValue: "2021-02-08T00:00:00",
+          formattedValue: "2021-02-08 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6602,18 +6602,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "08/02/2021" },
           effectiveValue: { numberValue: 44235 },
-          formattedValue: "2021-02-08T00:00:00",
+          formattedValue: "2021-02-08 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6779,18 +6779,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "07/02/2021" },
           effectiveValue: { numberValue: 44234 },
-          formattedValue: "2021-02-07T00:00:00",
+          formattedValue: "2021-02-07 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -6827,18 +6827,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "07/02/2021" },
           effectiveValue: { numberValue: 44234 },
-          formattedValue: "2021-02-07T00:00:00",
+          formattedValue: "2021-02-07 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7004,18 +7004,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "06/02/2021" },
           effectiveValue: { numberValue: 44233 },
-          formattedValue: "2021-02-06T00:00:00",
+          formattedValue: "2021-02-06 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7052,18 +7052,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "06/02/2021" },
           effectiveValue: { numberValue: 44233 },
-          formattedValue: "2021-02-06T00:00:00",
+          formattedValue: "2021-02-06 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7229,18 +7229,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "05/02/2021" },
           effectiveValue: { numberValue: 44232 },
-          formattedValue: "2021-02-05T00:00:00",
+          formattedValue: "2021-02-05 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7277,18 +7277,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "05/02/2021" },
           effectiveValue: { numberValue: 44232 },
-          formattedValue: "2021-02-05T00:00:00",
+          formattedValue: "2021-02-05 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7454,18 +7454,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "04/02/2021" },
           effectiveValue: { numberValue: 44231 },
-          formattedValue: "2021-02-04T00:00:00",
+          formattedValue: "2021-02-04 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7502,18 +7502,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "04/02/2021" },
           effectiveValue: { numberValue: 44231 },
-          formattedValue: "2021-02-04T00:00:00",
+          formattedValue: "2021-02-04 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7679,18 +7679,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "03/02/2021" },
           effectiveValue: { numberValue: 44230 },
-          formattedValue: "2021-02-03T00:00:00",
+          formattedValue: "2021-02-03 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7727,18 +7727,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "03/02/2021" },
           effectiveValue: { numberValue: 44230 },
-          formattedValue: "2021-02-03T00:00:00",
+          formattedValue: "2021-02-03 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7904,18 +7904,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "02/02/2021" },
           effectiveValue: { numberValue: 44229 },
-          formattedValue: "2021-02-02T00:00:00",
+          formattedValue: "2021-02-02 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -7952,18 +7952,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "02/02/2021" },
           effectiveValue: { numberValue: 44229 },
-          formattedValue: "2021-02-02T00:00:00",
+          formattedValue: "2021-02-02 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8129,18 +8129,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "01/02/2021" },
           effectiveValue: { numberValue: 44228 },
-          formattedValue: "2021-02-01T00:00:00",
+          formattedValue: "2021-02-01 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8177,18 +8177,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "01/02/2021" },
           effectiveValue: { numberValue: 44228 },
-          formattedValue: "2021-02-01T00:00:00",
+          formattedValue: "2021-02-01 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8354,18 +8354,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "31/01/2021" },
           effectiveValue: { numberValue: 44227 },
-          formattedValue: "2021-01-31T00:00:00",
+          formattedValue: "2021-01-31 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8402,18 +8402,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "31/01/2021" },
           effectiveValue: { numberValue: 44227 },
-          formattedValue: "2021-01-31T00:00:00",
+          formattedValue: "2021-01-31 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8579,18 +8579,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "30/01/2021" },
           effectiveValue: { numberValue: 44226 },
-          formattedValue: "2021-01-30T00:00:00",
+          formattedValue: "2021-01-30 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8627,18 +8627,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "30/01/2021" },
           effectiveValue: { numberValue: 44226 },
-          formattedValue: "2021-01-30T00:00:00",
+          formattedValue: "2021-01-30 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8804,18 +8804,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "29/01/2021" },
           effectiveValue: { numberValue: 44225 },
-          formattedValue: "2021-01-29T00:00:00",
+          formattedValue: "2021-01-29 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -8852,18 +8852,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "29/01/2021" },
           effectiveValue: { numberValue: 44225 },
-          formattedValue: "2021-01-29T00:00:00",
+          formattedValue: "2021-01-29 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9029,18 +9029,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "28/01/2021" },
           effectiveValue: { numberValue: 44224 },
-          formattedValue: "2021-01-28T00:00:00",
+          formattedValue: "2021-01-28 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9077,18 +9077,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "28/01/2021" },
           effectiveValue: { numberValue: 44224 },
-          formattedValue: "2021-01-28T00:00:00",
+          formattedValue: "2021-01-28 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9254,18 +9254,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "27/01/2021" },
           effectiveValue: { numberValue: 44223 },
-          formattedValue: "2021-01-27T00:00:00",
+          formattedValue: "2021-01-27 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9302,18 +9302,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "27/01/2021" },
           effectiveValue: { numberValue: 44223 },
-          formattedValue: "2021-01-27T00:00:00",
+          formattedValue: "2021-01-27 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9479,18 +9479,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "26/01/2021" },
           effectiveValue: { numberValue: 44222 },
-          formattedValue: "2021-01-26T00:00:00",
+          formattedValue: "2021-01-26 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9527,18 +9527,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "26/01/2021" },
           effectiveValue: { numberValue: 44222 },
-          formattedValue: "2021-01-26T00:00:00",
+          formattedValue: "2021-01-26 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9704,18 +9704,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "25/01/2021" },
           effectiveValue: { numberValue: 44221 },
-          formattedValue: "2021-01-25T00:00:00",
+          formattedValue: "2021-01-25 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9752,18 +9752,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "25/01/2021" },
           effectiveValue: { numberValue: 44221 },
-          formattedValue: "2021-01-25T00:00:00",
+          formattedValue: "2021-01-25 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9929,18 +9929,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "24/01/2021" },
           effectiveValue: { numberValue: 44220 },
-          formattedValue: "2021-01-24T00:00:00",
+          formattedValue: "2021-01-24 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -9977,18 +9977,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "24/01/2021" },
           effectiveValue: { numberValue: 44220 },
-          formattedValue: "2021-01-24T00:00:00",
+          formattedValue: "2021-01-24 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10154,18 +10154,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "23/01/2021" },
           effectiveValue: { numberValue: 44219 },
-          formattedValue: "2021-01-23T00:00:00",
+          formattedValue: "2021-01-23 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10202,18 +10202,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "23/01/2021" },
           effectiveValue: { numberValue: 44219 },
-          formattedValue: "2021-01-23T00:00:00",
+          formattedValue: "2021-01-23 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10379,18 +10379,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "22/01/2021" },
           effectiveValue: { numberValue: 44218 },
-          formattedValue: "2021-01-22T00:00:00",
+          formattedValue: "2021-01-22 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10427,18 +10427,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "22/01/2021" },
           effectiveValue: { numberValue: 44218 },
-          formattedValue: "2021-01-22T00:00:00",
+          formattedValue: "2021-01-22 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10604,18 +10604,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "21/01/2021" },
           effectiveValue: { numberValue: 44217 },
-          formattedValue: "2021-01-21T00:00:00",
+          formattedValue: "2021-01-21 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10652,18 +10652,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "21/01/2021" },
           effectiveValue: { numberValue: 44217 },
-          formattedValue: "2021-01-21T00:00:00",
+          formattedValue: "2021-01-21 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10829,18 +10829,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "20/01/2021" },
           effectiveValue: { numberValue: 44216 },
-          formattedValue: "2021-01-20T00:00:00",
+          formattedValue: "2021-01-20 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -10877,18 +10877,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "20/01/2021" },
           effectiveValue: { numberValue: 44216 },
-          formattedValue: "2021-01-20T00:00:00",
+          formattedValue: "2021-01-20 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11054,18 +11054,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "19/01/2021" },
           effectiveValue: { numberValue: 44215 },
-          formattedValue: "2021-01-19T00:00:00",
+          formattedValue: "2021-01-19 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11102,18 +11102,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "19/01/2021" },
           effectiveValue: { numberValue: 44215 },
-          formattedValue: "2021-01-19T00:00:00",
+          formattedValue: "2021-01-19 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11279,18 +11279,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "18/01/2021" },
           effectiveValue: { numberValue: 44214 },
-          formattedValue: "2021-01-18T00:00:00",
+          formattedValue: "2021-01-18 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11327,18 +11327,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "18/01/2021" },
           effectiveValue: { numberValue: 44214 },
-          formattedValue: "2021-01-18T00:00:00",
+          formattedValue: "2021-01-18 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11504,18 +11504,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "17/01/2021" },
           effectiveValue: { numberValue: 44213 },
-          formattedValue: "2021-01-17T00:00:00",
+          formattedValue: "2021-01-17 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11552,18 +11552,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "17/01/2021" },
           effectiveValue: { numberValue: 44213 },
-          formattedValue: "2021-01-17T00:00:00",
+          formattedValue: "2021-01-17 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11729,18 +11729,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "16/01/2021" },
           effectiveValue: { numberValue: 44212 },
-          formattedValue: "2021-01-16T00:00:00",
+          formattedValue: "2021-01-16 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11777,18 +11777,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "16/01/2021" },
           effectiveValue: { numberValue: 44212 },
-          formattedValue: "2021-01-16T00:00:00",
+          formattedValue: "2021-01-16 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -11954,18 +11954,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "15/01/2021" },
           effectiveValue: { numberValue: 44211 },
-          formattedValue: "2021-01-15T00:00:00",
+          formattedValue: "2021-01-15 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12002,18 +12002,18 @@ export const mockSheetdata: SheetData = {
         {
           userEnteredValue: { stringValue: "15/01/2021" },
           effectiveValue: { numberValue: 44211 },
-          formattedValue: "2021-01-15T00:00:00",
+          formattedValue: "2021-01-15 00:00:00",
           effectiveFormat: {
             horizontalAlignment: "right",
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12100,13 +12100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12126,13 +12126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12220,13 +12220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12246,13 +12246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12340,13 +12340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12366,13 +12366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12460,13 +12460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12486,13 +12486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12580,13 +12580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12606,13 +12606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12700,13 +12700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12726,13 +12726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12820,13 +12820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12846,13 +12846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12940,13 +12940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -12966,13 +12966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13060,13 +13060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13086,13 +13086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13180,13 +13180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13206,13 +13206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13300,13 +13300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13326,13 +13326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13420,13 +13420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13446,13 +13446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13540,13 +13540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13566,13 +13566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13660,13 +13660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13686,13 +13686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13780,13 +13780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13806,13 +13806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13900,13 +13900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -13926,13 +13926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14020,13 +14020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14046,13 +14046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14140,13 +14140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14166,13 +14166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14260,13 +14260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14286,13 +14286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14380,13 +14380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14406,13 +14406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14500,13 +14500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14526,13 +14526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14620,13 +14620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14646,13 +14646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14740,13 +14740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14766,13 +14766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14860,13 +14860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14886,13 +14886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -14980,13 +14980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15006,13 +15006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15100,13 +15100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15126,13 +15126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15220,13 +15220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15246,13 +15246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15340,13 +15340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15366,13 +15366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15460,13 +15460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15486,13 +15486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15580,13 +15580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15606,13 +15606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15700,13 +15700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15726,13 +15726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15820,13 +15820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15846,13 +15846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15940,13 +15940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -15966,13 +15966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16060,13 +16060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16086,13 +16086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16180,13 +16180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16206,13 +16206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16300,13 +16300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16326,13 +16326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16420,13 +16420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16446,13 +16446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16540,13 +16540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16566,13 +16566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16660,13 +16660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16686,13 +16686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16780,13 +16780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16806,13 +16806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16900,13 +16900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -16926,13 +16926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17020,13 +17020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17046,13 +17046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17140,13 +17140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17166,13 +17166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17260,13 +17260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17286,13 +17286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17380,13 +17380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17406,13 +17406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17500,13 +17500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17526,13 +17526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17620,13 +17620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17646,13 +17646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17740,13 +17740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17766,13 +17766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17860,13 +17860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17886,13 +17886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -17980,13 +17980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18006,13 +18006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18100,13 +18100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18126,13 +18126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18220,13 +18220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18246,13 +18246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18340,13 +18340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18366,13 +18366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18460,13 +18460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18486,13 +18486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18580,13 +18580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18606,13 +18606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18700,13 +18700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18726,13 +18726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18820,13 +18820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18846,13 +18846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18940,13 +18940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -18966,13 +18966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19060,13 +19060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19086,13 +19086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19180,13 +19180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19206,13 +19206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19300,13 +19300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19326,13 +19326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19420,13 +19420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19446,13 +19446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19540,13 +19540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19566,13 +19566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19660,13 +19660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19686,13 +19686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19780,13 +19780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19806,13 +19806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19900,13 +19900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -19926,13 +19926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20020,13 +20020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20046,13 +20046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20140,13 +20140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20166,13 +20166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20260,13 +20260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20286,13 +20286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20380,13 +20380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20406,13 +20406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20500,13 +20500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20526,13 +20526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20620,13 +20620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20646,13 +20646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20740,13 +20740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20766,13 +20766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20860,13 +20860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20886,13 +20886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -20980,13 +20980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21006,13 +21006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21100,13 +21100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21126,13 +21126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21220,13 +21220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21246,13 +21246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21340,13 +21340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21366,13 +21366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21460,13 +21460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21486,13 +21486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21580,13 +21580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21606,13 +21606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21700,13 +21700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21726,13 +21726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21820,13 +21820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21846,13 +21846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21940,13 +21940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -21966,13 +21966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22060,13 +22060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22086,13 +22086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22180,13 +22180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22206,13 +22206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22300,13 +22300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22326,13 +22326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22420,13 +22420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22446,13 +22446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22540,13 +22540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22566,13 +22566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22660,13 +22660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22686,13 +22686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22780,13 +22780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22806,13 +22806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22900,13 +22900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -22926,13 +22926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23020,13 +23020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23046,13 +23046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23140,13 +23140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23166,13 +23166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23260,13 +23260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23286,13 +23286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23380,13 +23380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23406,13 +23406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23500,13 +23500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23526,13 +23526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23620,13 +23620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23646,13 +23646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23740,13 +23740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23766,13 +23766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23860,13 +23860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23886,13 +23886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -23980,13 +23980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24006,13 +24006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24100,13 +24100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24126,13 +24126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24220,13 +24220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24246,13 +24246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24340,13 +24340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24366,13 +24366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24460,13 +24460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24486,13 +24486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24580,13 +24580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24606,13 +24606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24700,13 +24700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24726,13 +24726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24820,13 +24820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24846,13 +24846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24940,13 +24940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -24966,13 +24966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25060,13 +25060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25086,13 +25086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25180,13 +25180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25206,13 +25206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25300,13 +25300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25326,13 +25326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25420,13 +25420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25446,13 +25446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25540,13 +25540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25566,13 +25566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25660,13 +25660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25686,13 +25686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25780,13 +25780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25806,13 +25806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25900,13 +25900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -25926,13 +25926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26020,13 +26020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26046,13 +26046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26140,13 +26140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26166,13 +26166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26260,13 +26260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26286,13 +26286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26380,13 +26380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26406,13 +26406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26500,13 +26500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26526,13 +26526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26620,13 +26620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26646,13 +26646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26740,13 +26740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26766,13 +26766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26860,13 +26860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26886,13 +26886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -26980,13 +26980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27006,13 +27006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27100,13 +27100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27126,13 +27126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27220,13 +27220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27246,13 +27246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27340,13 +27340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27366,13 +27366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27460,13 +27460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27486,13 +27486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27580,13 +27580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27606,13 +27606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27700,13 +27700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27726,13 +27726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27820,13 +27820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27846,13 +27846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27940,13 +27940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -27966,13 +27966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28060,13 +28060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28086,13 +28086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28180,13 +28180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28206,13 +28206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28300,13 +28300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28326,13 +28326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28420,13 +28420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28446,13 +28446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28540,13 +28540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28566,13 +28566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28660,13 +28660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28686,13 +28686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28780,13 +28780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28806,13 +28806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28900,13 +28900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -28926,13 +28926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29020,13 +29020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29046,13 +29046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29140,13 +29140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29166,13 +29166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29260,13 +29260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29286,13 +29286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29380,13 +29380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29406,13 +29406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29500,13 +29500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29526,13 +29526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29620,13 +29620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29646,13 +29646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29740,13 +29740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29766,13 +29766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29860,13 +29860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29886,13 +29886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -29980,13 +29980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30006,13 +30006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30100,13 +30100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30126,13 +30126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30220,13 +30220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30246,13 +30246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30340,13 +30340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30366,13 +30366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30460,13 +30460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30486,13 +30486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30580,13 +30580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30606,13 +30606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30700,13 +30700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30726,13 +30726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30820,13 +30820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30846,13 +30846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30940,13 +30940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -30966,13 +30966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31060,13 +31060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31086,13 +31086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31180,13 +31180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31206,13 +31206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31300,13 +31300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31326,13 +31326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31420,13 +31420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31446,13 +31446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31540,13 +31540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31566,13 +31566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31660,13 +31660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31686,13 +31686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31780,13 +31780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31806,13 +31806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31900,13 +31900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -31926,13 +31926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32020,13 +32020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32046,13 +32046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32140,13 +32140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32166,13 +32166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32260,13 +32260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32286,13 +32286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32380,13 +32380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32406,13 +32406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32500,13 +32500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32526,13 +32526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32620,13 +32620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32646,13 +32646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32740,13 +32740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32766,13 +32766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32860,13 +32860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32886,13 +32886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -32980,13 +32980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33006,13 +33006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33100,13 +33100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33126,13 +33126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33220,13 +33220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33246,13 +33246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33340,13 +33340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33366,13 +33366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33460,13 +33460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33486,13 +33486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33580,13 +33580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33606,13 +33606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33700,13 +33700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33726,13 +33726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33820,13 +33820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33846,13 +33846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33940,13 +33940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -33966,13 +33966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34060,13 +34060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34086,13 +34086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34180,13 +34180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34206,13 +34206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34300,13 +34300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34326,13 +34326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34420,13 +34420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34446,13 +34446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34540,13 +34540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34566,13 +34566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34660,13 +34660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34686,13 +34686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34780,13 +34780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34806,13 +34806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34900,13 +34900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -34926,13 +34926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35020,13 +35020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35046,13 +35046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35140,13 +35140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35166,13 +35166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35260,13 +35260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35286,13 +35286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35380,13 +35380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35406,13 +35406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35500,13 +35500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35526,13 +35526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35620,13 +35620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35646,13 +35646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35740,13 +35740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35766,13 +35766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35860,13 +35860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35886,13 +35886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -35980,13 +35980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36006,13 +36006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36100,13 +36100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36126,13 +36126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36220,13 +36220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36246,13 +36246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36340,13 +36340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36366,13 +36366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36460,13 +36460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36486,13 +36486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36580,13 +36580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36606,13 +36606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36700,13 +36700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36726,13 +36726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36820,13 +36820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36846,13 +36846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36940,13 +36940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -36966,13 +36966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37060,13 +37060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37086,13 +37086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37180,13 +37180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37206,13 +37206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37300,13 +37300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37326,13 +37326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37420,13 +37420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37446,13 +37446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37540,13 +37540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37566,13 +37566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37660,13 +37660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37686,13 +37686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37780,13 +37780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37806,13 +37806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37900,13 +37900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -37926,13 +37926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38020,13 +38020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38046,13 +38046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38140,13 +38140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38166,13 +38166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38260,13 +38260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38286,13 +38286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38380,13 +38380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38406,13 +38406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38500,13 +38500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38526,13 +38526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38620,13 +38620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38646,13 +38646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38740,13 +38740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38766,13 +38766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38860,13 +38860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38886,13 +38886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -38980,13 +38980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39006,13 +39006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39100,13 +39100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39126,13 +39126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39220,13 +39220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39246,13 +39246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39340,13 +39340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39366,13 +39366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39460,13 +39460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39486,13 +39486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39580,13 +39580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39606,13 +39606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39700,13 +39700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39726,13 +39726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39820,13 +39820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39846,13 +39846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39940,13 +39940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -39966,13 +39966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40060,13 +40060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40086,13 +40086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40180,13 +40180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40206,13 +40206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40300,13 +40300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40326,13 +40326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40420,13 +40420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40446,13 +40446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40540,13 +40540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40566,13 +40566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40660,13 +40660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40686,13 +40686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40780,13 +40780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40806,13 +40806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40900,13 +40900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -40926,13 +40926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41020,13 +41020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41046,13 +41046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41140,13 +41140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41166,13 +41166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41260,13 +41260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41286,13 +41286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41380,13 +41380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41406,13 +41406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41500,13 +41500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41526,13 +41526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41620,13 +41620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41646,13 +41646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41740,13 +41740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41766,13 +41766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41860,13 +41860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41886,13 +41886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -41980,13 +41980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42006,13 +42006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42100,13 +42100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42126,13 +42126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42220,13 +42220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42246,13 +42246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42340,13 +42340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42366,13 +42366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42460,13 +42460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42486,13 +42486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42580,13 +42580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42606,13 +42606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42700,13 +42700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42726,13 +42726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42820,13 +42820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42846,13 +42846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42940,13 +42940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -42966,13 +42966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43060,13 +43060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43086,13 +43086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43180,13 +43180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43206,13 +43206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43300,13 +43300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43326,13 +43326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43420,13 +43420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43446,13 +43446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43540,13 +43540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43566,13 +43566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43660,13 +43660,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43686,13 +43686,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43780,13 +43780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43806,13 +43806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43900,13 +43900,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -43926,13 +43926,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44020,13 +44020,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44046,13 +44046,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44140,13 +44140,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44166,13 +44166,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44260,13 +44260,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44286,13 +44286,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44380,13 +44380,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44406,13 +44406,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44500,13 +44500,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44526,13 +44526,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44620,13 +44620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44646,13 +44646,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44740,13 +44740,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44766,13 +44766,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44860,13 +44860,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44886,13 +44886,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -44980,13 +44980,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45006,13 +45006,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45100,13 +45100,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45126,13 +45126,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45220,13 +45220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45246,13 +45246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45340,13 +45340,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45366,13 +45366,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45460,13 +45460,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45486,13 +45486,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45580,13 +45580,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45606,13 +45606,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45700,13 +45700,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45726,13 +45726,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45820,13 +45820,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45846,13 +45846,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45940,13 +45940,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -45966,13 +45966,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46060,13 +46060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46086,13 +46086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46180,13 +46180,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46206,13 +46206,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46300,13 +46300,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46326,13 +46326,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46420,13 +46420,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46446,13 +46446,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46540,13 +46540,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46566,13 +46566,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46657,13 +46657,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46683,13 +46683,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46774,13 +46774,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46800,13 +46800,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46891,13 +46891,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -46917,13 +46917,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47008,13 +47008,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47034,13 +47034,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47125,13 +47125,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47151,13 +47151,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47242,13 +47242,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47268,13 +47268,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47356,13 +47356,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47382,13 +47382,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47464,13 +47464,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47490,13 +47490,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47572,13 +47572,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47598,13 +47598,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47680,13 +47680,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47706,13 +47706,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47788,13 +47788,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47814,13 +47814,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47896,13 +47896,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -47922,13 +47922,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48004,13 +48004,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48030,13 +48030,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48112,13 +48112,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48138,13 +48138,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48220,13 +48220,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48246,13 +48246,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48325,13 +48325,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48351,13 +48351,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48430,13 +48430,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48456,13 +48456,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48535,13 +48535,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48561,13 +48561,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48640,13 +48640,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48666,13 +48666,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48745,13 +48745,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48771,13 +48771,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48850,13 +48850,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48876,13 +48876,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48955,13 +48955,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -48981,13 +48981,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49060,13 +49060,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49086,13 +49086,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49165,13 +49165,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49191,13 +49191,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49270,13 +49270,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49296,13 +49296,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49375,13 +49375,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49401,13 +49401,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49480,13 +49480,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49506,13 +49506,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49585,13 +49585,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49611,13 +49611,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49684,13 +49684,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49707,13 +49707,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49780,13 +49780,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49803,13 +49803,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49876,13 +49876,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49899,13 +49899,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49969,13 +49969,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -49992,13 +49992,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50062,13 +50062,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50085,13 +50085,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50155,13 +50155,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50178,13 +50178,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50248,13 +50248,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50271,13 +50271,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50341,13 +50341,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50364,13 +50364,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50434,13 +50434,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50457,13 +50457,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50527,13 +50527,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50550,13 +50550,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50620,13 +50620,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50643,13 +50643,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50713,13 +50713,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50736,13 +50736,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50806,13 +50806,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50829,13 +50829,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50899,13 +50899,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50922,13 +50922,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -50992,13 +50992,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51015,13 +51015,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51085,13 +51085,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51108,13 +51108,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51178,13 +51178,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51201,13 +51201,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51271,13 +51271,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51294,13 +51294,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51364,13 +51364,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51387,13 +51387,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51457,13 +51457,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51480,13 +51480,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51550,13 +51550,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51573,13 +51573,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51643,13 +51643,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51666,13 +51666,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51736,13 +51736,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51759,13 +51759,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51829,13 +51829,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51849,13 +51849,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51919,13 +51919,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -51939,13 +51939,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52009,13 +52009,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52029,13 +52029,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52099,13 +52099,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52119,13 +52119,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52189,13 +52189,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52209,13 +52209,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52279,13 +52279,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52299,13 +52299,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52369,13 +52369,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52389,13 +52389,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52459,13 +52459,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52479,13 +52479,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52549,13 +52549,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52569,13 +52569,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52639,13 +52639,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52659,13 +52659,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52729,13 +52729,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52749,13 +52749,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52819,13 +52819,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52839,13 +52839,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52909,13 +52909,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52929,13 +52929,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -52999,13 +52999,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53019,13 +53019,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53089,13 +53089,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53109,13 +53109,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53179,13 +53179,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53199,13 +53199,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53269,13 +53269,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53289,13 +53289,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53359,13 +53359,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53379,13 +53379,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53449,13 +53449,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53469,13 +53469,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53539,13 +53539,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53559,13 +53559,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53629,13 +53629,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53649,13 +53649,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53719,13 +53719,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53739,13 +53739,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53809,13 +53809,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53829,13 +53829,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53899,13 +53899,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53919,13 +53919,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -53989,13 +53989,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54009,13 +54009,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54079,13 +54079,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54099,13 +54099,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54169,13 +54169,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54189,13 +54189,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54256,13 +54256,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },
@@ -54276,13 +54276,13 @@ export const mockSheetdata: SheetData = {
           effectiveFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
           userEnteredFormat: {
             numberFormat: {
               type: "DATE",
-              pattern: "yyyy-mm-dd\\\\Thh:mm:ss",
+              pattern: "yyyy-mm-dd hh:mm:ss",
             },
           },
         },

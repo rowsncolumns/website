@@ -955,10 +955,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^10.0.0":
-  version "10.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/10.0.0/ab87b3752dd7a6bc5238b2c8a3c2d8328e4f78e0#ab87b3752dd7a6bc5238b2c8a3c2d8328e4f78e0"
-  integrity sha512-iRFYatJNZ5TJ9EMInFq/TibEjlJp+bTO9XTUw5oBO2vfQSjsRCulLBZEtuTz73GloopphItFrAfFhXmEVOQ+9g==
+"@rowsncolumns/spreadsheet-state@^10.0.1":
+  version "10.0.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/10.0.1/3c56cb0033fe2cf7be8a19b1995ec29238edc686#3c56cb0033fe2cf7be8a19b1995ec29238edc686"
+  integrity sha512-/vo5LOr/iUWUYtvTthaa41OzDhfaLrJbmXTfxx2AtHn54r1bhASv9EWYLeQZ5fVKtXLDbsrr106v/rJQwO9f4w==
   dependencies:
     "@rowsncolumns/toolkit" "^11.0.0"
     formik "^2.2.9"
@@ -966,17 +966,17 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.2.2":
-  version "5.2.2"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.2/114d4f4bd51b43923fb7aab9121c3c682bcaa14d#114d4f4bd51b43923fb7aab9121c3c682bcaa14d"
-  integrity sha512-n0FiHGnnMkMuMsEZmajmO9MXJkGX0RD0w/UcPVSCL6Go5OC98rlQX3aP9LKr9qFEOoifrR5kLvKE5giWqh8Www==
+"@rowsncolumns/spreadsheet@^5.2.3":
+  version "5.2.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.3/40e50b59aad5c3df88e4d02538fca81aa3aa8368#40e50b59aad5c3df88e4d02538fca81aa3aa8368"
+  integrity sha512-ah/aA2VnW2mMjLxII/n7xBWM9xYNLnQMGCBNEG7VhQ7prfY1ziuR6OVMQCz1xswEXbY/1qFFIPcv5mp53rAD3A==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.1"
     "@rowsncolumns/functions" "^2.0.1"
     "@rowsncolumns/grid" "^2.0.0"
     "@rowsncolumns/icons" "^3.0.1"
     "@rowsncolumns/ui" "^3.1.1"
-    "@rowsncolumns/utils" "^3.0.1"
+    "@rowsncolumns/utils" "^3.0.2"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
     lodash "^4.17.21"
@@ -1038,6 +1038,13 @@
   version "3.0.1"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.1/b3b9b455130384e360f8db5e65783b5dbc7fa2c6#b3b9b455130384e360f8db5e65783b5dbc7fa2c6"
   integrity sha512-MNPqLCoLdComiVGISHbLUFArvGMbFmE3N2YJhvuGVtvgcmrcLzASUhgmbqJmoUYdks9yLgYtC3vKKpaLPTi7OQ==
+  dependencies:
+    "@rowsncolumns/grid" "^2.0.0"
+
+"@rowsncolumns/utils@^3.0.2":
+  version "3.0.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.2/346c626d840221b915a9f05a6638ba9206f265a9#346c626d840221b915a9f05a6638ba9206f265a9"
+  integrity sha512-JebIFsVftRQo7/Hozy318j4UUr2bvMfwaP1f9cHKeT2jgDUo2m9C8NenaDB/RP28yk9DkN27UihpbfNWP21vAA==
   dependencies:
     "@rowsncolumns/grid" "^2.0.0"
 
