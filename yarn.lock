@@ -966,10 +966,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^10.0.6":
-  version "10.0.6"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/10.0.6/16e5b8ebe8b618ac6d8dc3500fe2df2996f5f49c#16e5b8ebe8b618ac6d8dc3500fe2df2996f5f49c"
-  integrity sha512-GuUAgGRmiSkmmJFHk2R9PlDB9rQ/m2drzhV5W9so+16E8979a8/nwVP4VhbeRvDXdDnqlN/caSDpKLqgv/b3Qg==
+"@rowsncolumns/spreadsheet-state@^10.0.7":
+  version "10.0.7"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/10.0.7/b10b3c1505c6b9be939bc3fa9d17d15b27aa286d#b10b3c1505c6b9be939bc3fa9d17d15b27aa286d"
+  integrity sha512-HizzsxHObl0aN4Bb7VH9BFM9uoNA4EexiLlUvkJNos6C7xpAxcQzfGkf7AO/ClIpvoOKsPuDBARycIKdf7QQPw==
   dependencies:
     "@rowsncolumns/toolkit" "^11.0.0"
     formik "^2.2.9"
@@ -977,17 +977,17 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.2.7":
-  version "5.2.7"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.7/ae4d14e16c05bfccecf1ba92bb69aedba053c75f#ae4d14e16c05bfccecf1ba92bb69aedba053c75f"
-  integrity sha512-CCSGxE6dCNgbYUxRzvJLcyySueKt6dT7liVl1hFIFy+PW3MBw8qeSMt/wShmDvBcKk+fcI2U8cbTh0PKq3H5XA==
+"@rowsncolumns/spreadsheet@^5.2.8":
+  version "5.2.8"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.8/c1d0b669fc360d4641b84df18e0215f5a801fdc9#c1d0b669fc360d4641b84df18e0215f5a801fdc9"
+  integrity sha512-6DwfJub3RF33osIipDfFaltQoULqWXHO4aZGf7x7r/8G3o6MTBS34AyCE0VUM7DXbnsD+hhR2YaPSp8elLQpLg==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.2"
     "@rowsncolumns/functions" "^2.0.2"
     "@rowsncolumns/grid" "^2.0.1"
     "@rowsncolumns/icons" "^3.0.1"
     "@rowsncolumns/ui" "^3.1.2"
-    "@rowsncolumns/utils" "^3.0.2"
+    "@rowsncolumns/utils" "^3.0.3"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
     lodash "^4.17.21"
@@ -1044,6 +1044,14 @@
   integrity sha512-JebIFsVftRQo7/Hozy318j4UUr2bvMfwaP1f9cHKeT2jgDUo2m9C8NenaDB/RP28yk9DkN27UihpbfNWP21vAA==
   dependencies:
     "@rowsncolumns/grid" "^2.0.0"
+
+"@rowsncolumns/utils@^3.0.3":
+  version "3.0.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.3/17ab53be17601a01ce9c2eb9efb1cbcbe9483750#17ab53be17601a01ce9c2eb9efb1cbcbe9483750"
+  integrity sha512-uoLtiN8LFSC8GwEzOl+E5782n4wXTIXLxmIxzLmakM6V5xLpSKs+7g2QpKPz0vs9CHq7drVp5cylhdJ5cYSB3w==
+  dependencies:
+    "@rowsncolumns/grid" "^2.0.0"
+    ssf "^0.11.2"
 
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
