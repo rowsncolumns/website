@@ -901,12 +901,28 @@
     "@rowsncolumns/fast-formula-parser" "^2.0.0"
     "@rowsncolumns/utils" "^3.0.2"
 
+"@rowsncolumns/calculator@^3.0.3":
+  version "3.0.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.3/07e5991896ccafd5f8e4451611328b542bb5f616#07e5991896ccafd5f8e4451611328b542bb5f616"
+  integrity sha512-VSo6naKWdHd59dYno+fRJ8JCPsVvZUzWJFnn4GZuKMyOOwJrevOQHt6WgsXGZ0lXZgTav5bo8t6wXYE4UfI6Sg==
+  dependencies:
+    "@rowsncolumns/dag" "^3.0.3"
+    "@rowsncolumns/fast-formula-parser" "^2.0.0"
+    "@rowsncolumns/utils" "^3.0.3"
+
 "@rowsncolumns/dag@^3.0.2":
   version "3.0.2"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.2/a6a822e7696a115c0414c7f439cac7e7a2b9eedd#a6a822e7696a115c0414c7f439cac7e7a2b9eedd"
   integrity sha512-Rl9JtZSStLno3O/QMZ7E6SUTkHxvrMMZv2u0QyQy3ldMhnNPysiNZvDbv4e5ypwGY4AStpdEAVVVly24WXR99Q==
   dependencies:
     "@rowsncolumns/utils" "^3.0.2"
+
+"@rowsncolumns/dag@^3.0.3":
+  version "3.0.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.3/5f03e51a2c8f097d074de317fde876dea9875614#5f03e51a2c8f097d074de317fde876dea9875614"
+  integrity sha512-t4uhXAP2QLIQijFUOfL7yuV7VDY2IIrI8t8HQ+8ScPo6gw7+EphkQ1fi90NzHFjO8zdtuQGz2ZGJbsAgGR1WeQ==
+  dependencies:
+    "@rowsncolumns/utils" "^3.0.3"
 
 "@rowsncolumns/fast-formula-parser@^2.0.0":
   version "2.0.0"
@@ -927,6 +943,15 @@
     "@rowsncolumns/calculator" "^3.0.2"
     "@rowsncolumns/fast-formula-parser" "^2.0.0"
     "@rowsncolumns/utils" "^3.0.2"
+
+"@rowsncolumns/functions@^2.0.3":
+  version "2.0.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/functions/2.0.3/52b8889566205605908b7607d3a24e65adf413da#52b8889566205605908b7607d3a24e65adf413da"
+  integrity sha512-9esIlheMczsK8rFwOPsKbTdPIv8l/+TkAEhzNY2nzONO7UjCK+w31hXft9P8L8o3SdZH6ie+hM9kh5dStUpYYw==
+  dependencies:
+    "@rowsncolumns/calculator" "^3.0.3"
+    "@rowsncolumns/fast-formula-parser" "^2.0.0"
+    "@rowsncolumns/utils" "^3.0.3"
 
 "@rowsncolumns/grid@^2.0.0":
   version "2.0.0"
@@ -977,16 +1002,16 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.2.8":
-  version "5.2.8"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.8/c1d0b669fc360d4641b84df18e0215f5a801fdc9#c1d0b669fc360d4641b84df18e0215f5a801fdc9"
-  integrity sha512-6DwfJub3RF33osIipDfFaltQoULqWXHO4aZGf7x7r/8G3o6MTBS34AyCE0VUM7DXbnsD+hhR2YaPSp8elLQpLg==
+"@rowsncolumns/spreadsheet@^5.2.9":
+  version "5.2.9"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.9/3e60525138664294eba2763410faae3ba374eda6#3e60525138664294eba2763410faae3ba374eda6"
+  integrity sha512-8EMvte5b+leaujxw9aCNbbaaTjQT+PXPpvyIChwXOhNpL5EmXrXcr3wBgs+hfMVjCXCYIp4C3/jG5D+bajq4Cg==
   dependencies:
-    "@rowsncolumns/calculator" "^3.0.2"
-    "@rowsncolumns/functions" "^2.0.2"
+    "@rowsncolumns/calculator" "^3.0.3"
+    "@rowsncolumns/functions" "^2.0.3"
     "@rowsncolumns/grid" "^2.0.1"
     "@rowsncolumns/icons" "^3.0.1"
-    "@rowsncolumns/ui" "^3.1.2"
+    "@rowsncolumns/ui" "^3.1.3"
     "@rowsncolumns/utils" "^3.0.3"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -1028,6 +1053,32 @@
     "@rowsncolumns/functions" "^2.0.2"
     "@rowsncolumns/icons" "^3.0.0"
     "@rowsncolumns/utils" "^3.0.2"
+    class-variance-authority "^0.7.0"
+    clsx "^2.0.0"
+    date-fns "^2.30.0"
+    react-day-picker "^8.9.1"
+    react-draggable "^4.4.5"
+    slate "^0.73.1"
+    slate-history "^0.66.0"
+    slate-react "0.66.7"
+    tailwind-merge "^2.1.0"
+
+"@rowsncolumns/ui@^3.1.3":
+  version "3.1.3"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.3/40dee5d00bbecfd699db8e5f3ffff3a219e778ae#40dee5d00bbecfd699db8e5f3ffff3a219e778ae"
+  integrity sha512-QdCAGdXgk3Z8nGYefn3r4MVqZ6lemm6/dT2e6+epN8zlS5Zkfl3bjkugGa9ZZnI+xcd5wVQnnFQEiVsZZ2UllA==
+  dependencies:
+    "@radix-ui/react-dialog" "^1.0.5"
+    "@radix-ui/react-dropdown-menu" "^2.0.5"
+    "@radix-ui/react-popover" "^1.0.7"
+    "@radix-ui/react-select" "^2.0.0"
+    "@radix-ui/react-separator" "^1.0.3"
+    "@radix-ui/react-tooltip" "^1.0.6"
+    "@rowsncolumns/calculator" "^3.0.3"
+    "@rowsncolumns/fast-formula-parser" "^2.0.0"
+    "@rowsncolumns/functions" "^2.0.3"
+    "@rowsncolumns/icons" "^3.0.0"
+    "@rowsncolumns/utils" "^3.0.3"
     class-variance-authority "^0.7.0"
     clsx "^2.0.0"
     date-fns "^2.30.0"
