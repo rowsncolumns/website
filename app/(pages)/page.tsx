@@ -33,13 +33,13 @@ export default async function Home() {
           >
             Full Demo
           </Link>
-
+          {/* 
           <Link
             href="/demo?collab=false"
             className={cn(buttonVariants(), "whitespace-nowrap")}
           >
             Single user demo
-          </Link>
+          </Link> */}
 
           <Link
             target="_blank"
