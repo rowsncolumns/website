@@ -955,27 +955,27 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^9.1.3":
-  version "9.1.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/9.1.3/b1ef8efc90a51b043808f083937ff46af4e9987b#b1ef8efc90a51b043808f083937ff46af4e9987b"
-  integrity sha512-bTbXx2xgtbLPL6W/Mr6ndGVv4Y78mQZppkM7pwhdVO+vplJ/O2rTAMovuIWDUZh/o9juLjN8UtC22xqPfxr0uQ==
+"@rowsncolumns/spreadsheet-state@^10.0.0":
+  version "10.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/10.0.0/ab87b3752dd7a6bc5238b2c8a3c2d8328e4f78e0#ab87b3752dd7a6bc5238b2c8a3c2d8328e4f78e0"
+  integrity sha512-iRFYatJNZ5TJ9EMInFq/TibEjlJp+bTO9XTUw5oBO2vfQSjsRCulLBZEtuTz73GloopphItFrAfFhXmEVOQ+9g==
   dependencies:
-    "@rowsncolumns/toolkit" "^10.0.0"
+    "@rowsncolumns/toolkit" "^11.0.0"
     formik "^2.2.9"
     immer "^10.0.3"
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.1.13":
-  version "5.1.13"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.1.13/7ee7447eb9fd12035dd387592cff1cba1394ee7a#7ee7447eb9fd12035dd387592cff1cba1394ee7a"
-  integrity sha512-jSxWz9M/7+9/059OxU75xJT7nCFWm4gumLWKqt82zqR414XU1C8ohMml476oIyPRTHi+VwJIPHVPoNp4myzKZw==
+"@rowsncolumns/spreadsheet@^5.2.0":
+  version "5.2.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.0/9f406206e02cc713296b299534e969db33ba38f6#9f406206e02cc713296b299534e969db33ba38f6"
+  integrity sha512-fa5uda0oISQlC8rztVF/RV8o3E+bhLj6uv5QbTG3uORKq1Puf1H0QBG7vTsSAFV4ruCa4lpNLcsspBkVTTyUOg==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.1"
     "@rowsncolumns/functions" "^2.0.1"
     "@rowsncolumns/grid" "^2.0.0"
     "@rowsncolumns/icons" "^3.0.1"
-    "@rowsncolumns/ui" "^3.0.5"
+    "@rowsncolumns/ui" "^3.1.0"
     "@rowsncolumns/utils" "^3.0.0"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -987,24 +987,24 @@
     scheduler "^0.23.0"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/supabase-spreadsheet@^8.0.0":
-  version "8.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/8.0.0/ca38225c430605776eeb7d5c6360fba93e89e0d6#ca38225c430605776eeb7d5c6360fba93e89e0d6"
-  integrity sha512-/OBmXTiYky25Wp0BWp0tLBq7Lau7EtLJdBRZV23Lg6ll2HYKa9Fxa0BcFAQSYvQzI/8nulog7o2UGR0rvLj+gQ==
+"@rowsncolumns/supabase-spreadsheet@^9.0.0":
+  version "9.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/9.0.0/84a9912a784408845a7f765be46d08545375bfa8#84a9912a784408845a7f765be46d08545375bfa8"
+  integrity sha512-Z8fB+vmovq7cLugW6YN1WQBp238DhgC0XPMjzcuLjwQHxYRXkBPuP46BZIK8IX88QJcJk1KwLo1JvP3EM2Fugg==
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^10.0.0":
-  version "10.0.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/10.0.0/a2196fba6a5aa88373f922fecb78e18b95bc447b#a2196fba6a5aa88373f922fecb78e18b95bc447b"
-  integrity sha512-aY6icC0aJIwqKJSAkfvRvNiQ97bLY0fu7lLTMMaFqS2pLMT7uww6dc0Wijmto4LTIhF+mimkMCR/9dpZ/HxYFA==
+"@rowsncolumns/toolkit@^11.0.0":
+  version "11.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/11.0.0/8ab7d0261681e7756d05bf4fa752b7d81dac0021#8ab7d0261681e7756d05bf4fa752b7d81dac0021"
+  integrity sha512-xWKxoC9QF4NXb3CNkBkUG+jtRUiqEWUsomhSQ+Qpwb+uN+S3MMwg06Erieewcu9TnVUTNBYHWVWBpL9DmMjyUA==
   dependencies:
     exceljs "^4.3.0"
 
-"@rowsncolumns/ui@^3.0.5":
-  version "3.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.0.5/80a6cec1db3275b85bd7e2da5d52c86ecb6307a3#80a6cec1db3275b85bd7e2da5d52c86ecb6307a3"
-  integrity sha512-exEm4ZNWbltHQaxEcu9WOHigzTT2GnOhttpagvqe3GY8itxE78mvvyPqnDkG759C+AUDZy9gW2M6LG67hAtMKw==
+"@rowsncolumns/ui@^3.1.0":
+  version "3.1.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.0/aa0f04994591603dcb74eb03bda194bfe8407aa7#aa0f04994591603dcb74eb03bda194bfe8407aa7"
+  integrity sha512-lcRmNeU1H89H/jXxBqcyrLBkd3JZmNOWFHsO9bh/zTqj6G82Bs8wJGeJ4R8fl95U3XV0/ocypuKED6mqyHa/Ww==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
@@ -1019,6 +1019,7 @@
     "@rowsncolumns/utils" "^3.0.0"
     class-variance-authority "^0.7.0"
     clsx "^2.0.0"
+    react-day-picker "^8.9.1"
     react-draggable "^4.4.5"
     slate "^0.73.1"
     slate-history "^0.66.0"
@@ -4006,6 +4007,11 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+react-day-picker@^8.9.1:
+  version "8.9.1"
+  resolved "https://registry.yarnpkg.com/react-day-picker/-/react-day-picker-8.9.1.tgz#62dcc2bc1282ac72d057266112d9c8558334e757"
+  integrity sha512-W0SPApKIsYq+XCtfGeMYDoU0KbsG3wfkYtlw8l+vZp6KoBXGOlhzBUp4tNx1XiwiOZwhfdGOlj7NGSCKGSlg5Q==
 
 react-dom@18.2.0:
   version "18.2.0"
