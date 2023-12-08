@@ -14,7 +14,7 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@babel/runtime@^7.23.5":
+"@babel/runtime@^7.21.0", "@babel/runtime@^7.23.5":
   version "7.23.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.5.tgz#11edb98f8aeec529b82b211028177679144242db"
   integrity sha512-NdUTHcPe4C99WxPub+K9l9tK5/lV4UXIoaHSYgzco9BCyjKAAwzdBI+wWtYqHt7LJdbo74ZjRPJgzVweq1sz0w==
@@ -966,17 +966,17 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.2.0":
-  version "5.2.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.0/9f406206e02cc713296b299534e969db33ba38f6#9f406206e02cc713296b299534e969db33ba38f6"
-  integrity sha512-fa5uda0oISQlC8rztVF/RV8o3E+bhLj6uv5QbTG3uORKq1Puf1H0QBG7vTsSAFV4ruCa4lpNLcsspBkVTTyUOg==
+"@rowsncolumns/spreadsheet@^5.2.1":
+  version "5.2.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.1/016f6e458c06aba4d8af1b6418a02a3ae1f89c48#016f6e458c06aba4d8af1b6418a02a3ae1f89c48"
+  integrity sha512-wJ3k1bN16kEtpolxcIW8le9u4nfcYjo9wooBwBmtV6AnPjltK1/cC9ogkRBU0eoH1UQcueVxqxCeo6Pdl8Y9qA==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.1"
     "@rowsncolumns/functions" "^2.0.1"
     "@rowsncolumns/grid" "^2.0.0"
     "@rowsncolumns/icons" "^3.0.1"
-    "@rowsncolumns/ui" "^3.1.0"
-    "@rowsncolumns/utils" "^3.0.0"
+    "@rowsncolumns/ui" "^3.1.1"
+    "@rowsncolumns/utils" "^3.0.1"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
     lodash "^4.17.21"
@@ -1001,10 +1001,10 @@
   dependencies:
     exceljs "^4.3.0"
 
-"@rowsncolumns/ui@^3.1.0":
-  version "3.1.0"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.0/aa0f04994591603dcb74eb03bda194bfe8407aa7#aa0f04994591603dcb74eb03bda194bfe8407aa7"
-  integrity sha512-lcRmNeU1H89H/jXxBqcyrLBkd3JZmNOWFHsO9bh/zTqj6G82Bs8wJGeJ4R8fl95U3XV0/ocypuKED6mqyHa/Ww==
+"@rowsncolumns/ui@^3.1.1":
+  version "3.1.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.1/d5ba6e7d12f02d23c37787fee686f76229945382#d5ba6e7d12f02d23c37787fee686f76229945382"
+  integrity sha512-0n7Cmf4xuuwjhKWb2qFx2j1xjbq0V2gcWbWic0Y/RdvBJQwt3xAU6XUsCCeDdQ9COsy6bY2j5dze6D0cQDXnkg==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
@@ -1016,9 +1016,10 @@
     "@rowsncolumns/fast-formula-parser" "^2.0.0"
     "@rowsncolumns/functions" "^2.0.1"
     "@rowsncolumns/icons" "^3.0.0"
-    "@rowsncolumns/utils" "^3.0.0"
+    "@rowsncolumns/utils" "^3.0.1"
     class-variance-authority "^0.7.0"
     clsx "^2.0.0"
+    date-fns "^2.30.0"
     react-day-picker "^8.9.1"
     react-draggable "^4.4.5"
     slate "^0.73.1"
@@ -1030,6 +1031,13 @@
   version "3.0.0"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.0/7c99916cbf68f320f47494288e8fdcac5669d214#7c99916cbf68f320f47494288e8fdcac5669d214"
   integrity sha512-BhgW64BImT2oZVOaSru+KwKkZvTaxpogPEUC4kqWdReUl9SWBWHtNCdTL2UB3Gvm1uq76FVMmApFp8+bBD5ZoA==
+  dependencies:
+    "@rowsncolumns/grid" "^2.0.0"
+
+"@rowsncolumns/utils@^3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.1/b3b9b455130384e360f8db5e65783b5dbc7fa2c6#b3b9b455130384e360f8db5e65783b5dbc7fa2c6"
+  integrity sha512-MNPqLCoLdComiVGISHbLUFArvGMbFmE3N2YJhvuGVtvgcmrcLzASUhgmbqJmoUYdks9yLgYtC3vKKpaLPTi7OQ==
   dependencies:
     "@rowsncolumns/grid" "^2.0.0"
 
@@ -1862,6 +1870,13 @@ damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
+
+date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 dayjs@^1.8.34:
   version "1.11.7"
