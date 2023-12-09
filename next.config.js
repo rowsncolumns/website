@@ -8,11 +8,10 @@ const nextConfig = {
   },
   experimental: {
     // outputFileTracingRoot: path.join(__dirname, '../../'),
-    // outputFileTracingExcludes: {
-    //   '*/': ["**canvas**"],
-    //   '*/**/*': ["**canvas**"],
-    // },
-    outputFileTracingIgnores: ["**canvas**"],
+    outputFileTracingExcludes: {
+      '**/*': ["**canvas**"],
+    },
+    // outputFileTracingIgnores: ["**canvas**"],
     // esmExternals: 'loose'
   },
   env: {
