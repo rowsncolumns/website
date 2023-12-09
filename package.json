@@ -14,7 +14,7 @@
     "@rowsncolumns/calculator": "^3.0.2",
     "@rowsncolumns/functions": "^2.0.2",
     "@rowsncolumns/spreadsheet": "^5.2.11",
-    "@rowsncolumns/spreadsheet-state": "^10.0.9",
+    "@rowsncolumns/spreadsheet-state": "^10.0.10",
     "@rowsncolumns/supabase-spreadsheet": "^9.0.1",
     "@rowsncolumns/ui": "^3.1.2",
     "@sendgrid/mail": "^7.7.0",
