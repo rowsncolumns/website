@@ -6,7 +6,7 @@ const nextConfig = {
   },
   experimental: {
     outputFileTracingExcludes: {
-      '/*': ["**canvas**"]
+      '*': ['node_modules/canvas'],
     },
     // outputFileTracingIgnores: ["**canvas**"],
     esmExternals: 'loose'
