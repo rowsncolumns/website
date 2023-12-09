@@ -7,12 +7,13 @@ const nextConfig = {
     return config
   },
   experimental: {
-    outputFileTracingRoot: path.join(__dirname, '../../'),
+    // outputFileTracingRoot: path.join(__dirname, '../../'),
     outputFileTracingExcludes: {
-      '*': ['node_modules/canvas'],
+      '*/': ["**canvas**"],
+      '*/**/*': ["**canvas**"],
     },
     // outputFileTracingIgnores: ["**canvas**"],
-    esmExternals: 'loose'
+    // esmExternals: 'loose'
   },
   env: {
     SUPABASE_URL: process.env.SUPABASE_URL,
