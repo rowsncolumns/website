@@ -4,9 +4,6 @@ const nextConfig = {
     config.externals.push('canvas')
     return config
   },
-  // experimental: {
-  //   esmExternals: 'loose'
-  // },
   env: {
     SUPABASE_URL: process.env.SUPABASE_URL,
     SUPABASE_KEY: process.env.SUPABASE_KEY
