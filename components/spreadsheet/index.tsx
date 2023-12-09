@@ -63,6 +63,7 @@ import {
   DeleteSheetConfirmation,
   NamedRangeEditor,
   useSearch,
+  ResizeDimension,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -210,6 +211,8 @@ export const Spreadsheet = () => {
       getNonEmptyRowCount,
       onIncreaseIndent,
       onDecreaseIndent,
+      onRequestResize,
+      onAutoResize,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -682,6 +685,8 @@ export const Spreadsheet = () => {
           userId={userId}
           licenseKey="rmdort-personal-0adf-45de-5fbc-81ce-b007-99e2-982d-b8bb-df0f-7c84-0ed8-74f2-8dd0-7993-bb88-9f64"
           onRequestSearch={onRequestSearch}
+          onRequestResize={onRequestResize}
+          onAutoResize={onAutoResize}
         />
 
         <BottomBar>
@@ -751,6 +756,8 @@ export const Spreadsheet = () => {
           totalResults={totalResults}
           searchQuery={searchQuery}
         />
+
+        <ResizeDimension onResize={onResize} onAutoResize={onAutoResize} />
       </>
     );
   };
