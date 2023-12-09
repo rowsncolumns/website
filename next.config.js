@@ -9,7 +9,7 @@ const nextConfig = {
       '/*': ["**canvas**"]
     },
     // outputFileTracingIgnores: ["**canvas**"],
-    // esmExternals: 'loose'
+    esmExternals: 'loose'
   },
   env: {
     SUPABASE_URL: process.env.SUPABASE_URL,
