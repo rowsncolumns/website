@@ -1013,16 +1013,16 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.2.11":
-  version "5.2.11"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.11/a0dcc1b72743a7b1db2baefa2a55092ed67d296c#a0dcc1b72743a7b1db2baefa2a55092ed67d296c"
-  integrity sha512-cvLsYXuF5nuXdjyhV3CYJXWB0PGkEzd4rPpoWCcsTdQDvTwRNHeKn3Fby5H2hGBx/LOdwKt3id49FjZe01rcLA==
+"@rowsncolumns/spreadsheet@^5.2.12":
+  version "5.2.12"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.2.12/37e2ccbbddd805c53e917505526af5949087f8aa#37e2ccbbddd805c53e917505526af5949087f8aa"
+  integrity sha512-qZlNkxCa2hQEP0fEHr0tfcpwTJ+3DZbri2Cwy/nYPfWnyGixe0uuFh6+y6S9+fdz7Nl30o28TsIKltayza7yMw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.4"
     "@rowsncolumns/functions" "^2.0.4"
     "@rowsncolumns/grid" "^2.0.2"
     "@rowsncolumns/icons" "^3.0.2"
-    "@rowsncolumns/ui" "^3.1.4"
+    "@rowsncolumns/ui" "^3.1.5"
     "@rowsncolumns/utils" "^3.0.4"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -1074,10 +1074,10 @@
     slate-react "0.66.7"
     tailwind-merge "^2.1.0"
 
-"@rowsncolumns/ui@^3.1.4":
-  version "3.1.4"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.4/c36f2d009fbf8f8b6b10a4791cb63969070e4832#c36f2d009fbf8f8b6b10a4791cb63969070e4832"
-  integrity sha512-kxYNLxHLM0F7DQtAMhbPNFaOfMb+eNS3Vm6WBwFngVJA+3QHQYsMMFdVeDV+ssRsHyEZRQXEZKVV436oEbvgoQ==
+"@rowsncolumns/ui@^3.1.5":
+  version "3.1.5"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.1.5/741b99f56cd575be61052895b2d498792af3f982#741b99f56cd575be61052895b2d498792af3f982"
+  integrity sha512-OMDZ5wrg7tIJHvcP61JCtcsGJeSRvNo3RNvCpIN8m0rY4x2y3i7nrAXTtcVz6S2WTrg6PioWIIhqVZKl3wYSSw==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
