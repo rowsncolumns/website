@@ -13,7 +13,7 @@
     "@radix-ui/react-navigation-menu": "^1.1.1",
     "@rowsncolumns/calculator": "^3.0.2",
     "@rowsncolumns/functions": "^2.0.2",
-    "@rowsncolumns/spreadsheet": "^5.3.2",
+    "@rowsncolumns/spreadsheet": "^5.3.3",
     "@rowsncolumns/spreadsheet-state": "^11.0.2",
     "@rowsncolumns/supabase-spreadsheet": "^10.0.0",
     "@rowsncolumns/ui": "^3.1.2",
