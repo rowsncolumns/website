@@ -1002,10 +1002,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^11.0.1":
-  version "11.0.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/11.0.1/f124ccebd400c29b075158d25cd8b3db5d201848#f124ccebd400c29b075158d25cd8b3db5d201848"
-  integrity sha512-HX+qCPCDAZUQRz0fEn6ao7Z3Fw7y2P5VR1fONGYg2njv95ZXQTV+ERjD/Zq4LMGLdSLYEmq85AL/4aktvok/Ug==
+"@rowsncolumns/spreadsheet-state@^11.0.2":
+  version "11.0.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/11.0.2/10afe23915cf17c8a9d431eea244b919f1a2cb9f#10afe23915cf17c8a9d431eea244b919f1a2cb9f"
+  integrity sha512-Epm7AZkWkZ0hmxFccLHE/8r+xsKePp7GBa1Pt+JI6goSJQYMR1A6ciGacioWt8JTZhhEESmSx9/Gn6O38SMBDA==
   dependencies:
     "@rowsncolumns/toolkit" "^12.0.0"
     formik "^2.2.9"
@@ -1013,10 +1013,10 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.3.1":
-  version "5.3.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.3.1/506f751e51e900dddffea520f6ec53fdaf18105f#506f751e51e900dddffea520f6ec53fdaf18105f"
-  integrity sha512-UoUjVGvJrdyCXELuzYDFhAZWtI24MLVaE7dnEMFRVD9ZjdvKMVjBGIv4DPTJCPwHZLSqrde9fFa7IwjUR+6f4A==
+"@rowsncolumns/spreadsheet@^5.3.2":
+  version "5.3.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.3.2/9aff57081c548548460f3a833cf8ccd701be539a#9aff57081c548548460f3a833cf8ccd701be539a"
+  integrity sha512-uS8wYcu2gsKGvLncAlAoZBlFiGNJGpALXlZqLAhBUE1P6UQAgzP2QUss5szHTkJOd84VDDZqC9e6vouL9N9uMw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.4"
     "@rowsncolumns/functions" "^2.0.4"
