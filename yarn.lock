@@ -958,17 +958,17 @@
     recoil "^0.7.7"
     ssf "^0.11.2"
 
-"@rowsncolumns/spreadsheet@^5.3.8":
-  version "5.3.8"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.3.8/e8584402b6e86b0cac4d013c1f52fca8ee8b5894#e8584402b6e86b0cac4d013c1f52fca8ee8b5894"
-  integrity sha512-tgZzL0abBmfD1UbzJjjvUCV62/73ppWxhyF2Ea9GdJCN4wRAW3CHw7ft2UlStUgEt3fdoY8CGBLLUNb6TevNqA==
+"@rowsncolumns/spreadsheet@^5.3.9":
+  version "5.3.9"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.3.9/aa8ded5ce31f17afbb453adc7f45ff3d43f59948#aa8ded5ce31f17afbb453adc7f45ff3d43f59948"
+  integrity sha512-qJWw32gPALmBZzCR5r4Ml7JScqrqVq8XDHN2ELUUusYq3W+kVBXK+gG/3VHg24PBTIllvjrFPAspMGHcXCDFzw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.6"
     "@rowsncolumns/functions" "^2.0.6"
     "@rowsncolumns/grid" "^2.0.3"
     "@rowsncolumns/icons" "^3.0.4"
     "@rowsncolumns/ui" "^3.2.2"
-    "@rowsncolumns/utils" "^3.0.7"
+    "@rowsncolumns/utils" "^3.0.8"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
     lodash "^4.17.21"
@@ -1023,6 +1023,14 @@
   version "3.0.7"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.7/17e4fdceb695c3509f9d9da9561c55744c13268d#17e4fdceb695c3509f9d9da9561c55744c13268d"
   integrity sha512-xAEhnU8sILcUxgs5iXC7lr58rAoowyKpANNXgPWomU2KhjnBH8xlYYGwVwsP1L3OoALERQX9bu8M9b/vJj4aOQ==
+  dependencies:
+    "@rowsncolumns/grid" "^2.0.3"
+    ssf "^0.11.2"
+
+"@rowsncolumns/utils@^3.0.8":
+  version "3.0.8"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.8/2ef1512e0d199cc4788c52e95bf3f75e1cec8e5a#2ef1512e0d199cc4788c52e95bf3f75e1cec8e5a"
+  integrity sha512-cRXLDkEz6pGDxwK2eJ+J5aKmLorTKLHspmNEdegBsGfxsZYfmy4xHoz8+3LfI2Uh5BT1uCYh5p7V8/nppVlFSQ==
   dependencies:
     "@rowsncolumns/grid" "^2.0.3"
     ssf "^0.11.2"
