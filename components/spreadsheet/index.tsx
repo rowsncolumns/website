@@ -497,6 +497,10 @@ export const Spreadsheet = () => {
             }}
             theme={theme}
             isDarkMode={isDarkMode}
+            userDefinedColors={userDefinedColors}
+            onAddUserDefinedColor={(color) =>
+              setUserDefinedColors((prev) => prev.concat(color))
+            }
           />
           <MergeCellsSelector
             activeCell={activeCell}
