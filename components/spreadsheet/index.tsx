@@ -107,6 +107,7 @@ export const Spreadsheet = () => {
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
       defaultSpreadsheetTheme
     );
+    const [userDefinedColors, setUserDefinedColors] = useState<string[]>([]);
 
     const {
       activeCell,
@@ -458,6 +459,10 @@ export const Spreadsheet = () => {
                 }
               );
             }}
+            userDefinedColors={userDefinedColors}
+            onAddUserDefinedColor={(color) =>
+              setUserDefinedColors((prev) => prev.concat(color))
+            }
           />
           <ToolbarSeparator />
           <BackgroundColorSelector
@@ -472,6 +477,10 @@ export const Spreadsheet = () => {
                 color
               );
             }}
+            userDefinedColors={userDefinedColors}
+            onAddUserDefinedColor={(color) =>
+              setUserDefinedColors((prev) => prev.concat(color))
+            }
           />
 
           <BorderSelector
@@ -712,6 +721,10 @@ export const Spreadsheet = () => {
             onProtectSheet={onProtectSheet}
             onUnProtectSheet={onUnProtectSheet}
             onDuplicateSheet={onDuplicateSheet}
+            userDefinedColors={userDefinedColors}
+            onAddUserDefinedColor={(color) =>
+              setUserDefinedColors((prev) => prev.concat(color))
+            }
           />
 
           <SheetStatus
