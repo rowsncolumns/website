@@ -924,10 +924,10 @@
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/functions/2.0.8/1263dfc24be14842336bdebae859c56f544fe5f6#1263dfc24be14842336bdebae859c56f544fe5f6"
   integrity sha512-ywDhnaam4nl+VcrQANzHceW65RVfWXA3vK7CGDu+EFBC058Wu8zVD0Puk870R6nD6Z1ZkQvFHJlrsFQmp25M2Q==
 
-"@rowsncolumns/grid@^2.0.3":
-  version "2.0.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.0.3/51712a570f90532fbd0cbdaa0910b59fcc7238cd#51712a570f90532fbd0cbdaa0910b59fcc7238cd"
-  integrity sha512-8+Al/8PnSv0oglKUK3iDct24e8S4t0cq8ruZ6UBm5ii8cOfS33C7mZ9ye8mS/QPcGS6m0Y7f4fDR/Y+iaY0aAQ==
+"@rowsncolumns/grid@^2.0.4":
+  version "2.0.4"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.0.4/fa007447fbf9006a0ee3a276a6ad73c7ed188218#fa007447fbf9006a0ee3a276a6ad73c7ed188218"
+  integrity sha512-WA/bRZKZikV76KYnXOPwW7KYQvs2c/NpaJ8rWXTXMAvBZOxUqste31125BESAQiV2uoqLv9u/9CHd5+xwMJuKw==
   dependencies:
     konva "^9.2.3"
     react-konva "^18.2.10"
@@ -943,16 +943,15 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.5":
-  version "13.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.5/ab8b58012ef6822b1dbc91e2aa8ffdb2917bfa66#ab8b58012ef6822b1dbc91e2aa8ffdb2917bfa66"
-  integrity sha512-fwCnH/TglBAF4D4d6O/ycK6awTccT86NKYh7ySkbJNp8mdYvn027KaZlamysl0EwxCQK1leJVzCV3D1tEKQkBg==
+"@rowsncolumns/spreadsheet-state@^13.0.6":
+  version "13.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.6/1457cc88e1c401c54c81de21cfc4644dc353a1ab#1457cc88e1c401c54c81de21cfc4644dc353a1ab"
+  integrity sha512-W1NyKGUlEP3Q9cCotomj+PV/BdtTynbyt6qyLou3xap+iFYu3I6Z/mVp2R9ixKMLD6WucZhD3qK8LJlFyVxqdw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/dag" "^3.0.8"
     "@rowsncolumns/fast-formula-parser" "^2.0.5"
     "@rowsncolumns/functions" "^2.0.7"
-    "@rowsncolumns/grid" "^2.0.3"
     "@rowsncolumns/icons" "^3.1.0"
     "@rowsncolumns/toolkit" "^14.0.0"
     "@rowsncolumns/ui" "^3.3.5"
@@ -962,14 +961,14 @@
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
-"@rowsncolumns/spreadsheet@^5.5.5":
-  version "5.5.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.5/2f26869395baec4a45468102dbe93513b6a78af3#2f26869395baec4a45468102dbe93513b6a78af3"
-  integrity sha512-zEpivPjwdE5jJLnarrImWFLup1QQozx9Gd3CG758xqpLCKukxHpxKqOtt5+7VQQ2bAnZ/5AZxil/3wCtwCgkWA==
+"@rowsncolumns/spreadsheet@^5.5.6":
+  version "5.5.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.6/49f89e24b101da8767885d076da54c05e3ed87e1#49f89e24b101da8767885d076da54c05e3ed87e1"
+  integrity sha512-MuOa8Dc6Qu60HSNWeLekTqOnfGq7qxBbaZEH7PuCHaBAVsNwX/VUHFxb27QR6r+m1UYltu5qKtD99aQBRHeYQA==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/functions" "^2.0.8"
-    "@rowsncolumns/grid" "^2.0.3"
+    "@rowsncolumns/grid" "^2.0.4"
     "@rowsncolumns/icons" "^3.1.0"
     "@rowsncolumns/ui" "^3.3.5"
     "@rowsncolumns/utils" "^3.0.9"
