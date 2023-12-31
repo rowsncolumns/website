@@ -943,10 +943,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.6":
-  version "13.0.6"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.6/1457cc88e1c401c54c81de21cfc4644dc353a1ab#1457cc88e1c401c54c81de21cfc4644dc353a1ab"
-  integrity sha512-W1NyKGUlEP3Q9cCotomj+PV/BdtTynbyt6qyLou3xap+iFYu3I6Z/mVp2R9ixKMLD6WucZhD3qK8LJlFyVxqdw==
+"@rowsncolumns/spreadsheet-state@^13.0.7":
+  version "13.0.7"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.7/f7dec674d8bb7147c0ae15e82108107ef161b1a0#f7dec674d8bb7147c0ae15e82108107ef161b1a0"
+  integrity sha512-VKFefqfWNOH7SdB19vH5IziA9xd6007k78lN7sOqHnc0kq8BTqsjQqZf4eZzPBWKdwCP1RV58XtcAcjvX1ADeA==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/dag" "^3.0.8"
