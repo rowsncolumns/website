@@ -589,6 +589,7 @@ export const Spreadsheet = () => {
               onClearFormatting(activeSheetId, activeCell, selections)
             }
             theme={theme}
+            isDarkMode={isDarkMode}
           />
 
           <ThemeSelector
