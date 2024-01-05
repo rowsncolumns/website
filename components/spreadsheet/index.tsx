@@ -53,6 +53,7 @@ import {
   SheetSearch,
   ButtonDecreaseIndent,
   ButtonIncreaseIndent,
+  CellStyleSelector,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -576,6 +577,24 @@ export const Spreadsheet = () => {
             theme={theme}
             onChangeTheme={onChangeSpreadsheetTheme}
           />
+
+          <CellStyleSelector
+            currency={"USD"}
+            onChangeFormatting={(...args) => {
+              onChangeFormatting(
+                activeSheetId,
+                activeCell,
+                selections,
+                ...args
+              );
+            }}
+            selectedFormat={currentCellFormat}
+            onClearFormatting={() =>
+              onClearFormatting(activeSheetId, activeCell, selections)
+            }
+            theme={theme}
+          />
+
           <ButtonSwitchColorMode
             colorMode={colorMode}
             onClick={() =>
