@@ -10,7 +10,7 @@ export const generateMetadata = (): Metadata => {
 
 export default async function Demo() {
   return (
-    <div className="p-2 flex-1 flex flex-col min-h-0 relative">
+    <div className="m-2 flex-1 flex flex-col min-h-0 relative">
       <Spreadsheet />
     </div>
   );

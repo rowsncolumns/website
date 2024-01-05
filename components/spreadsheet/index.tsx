@@ -573,10 +573,6 @@ export const Spreadsheet = () => {
           />
 
           <ToolbarSeparator />
-          <ThemeSelector
-            theme={theme}
-            onChangeTheme={onChangeSpreadsheetTheme}
-          />
 
           <CellStyleSelector
             currency={"USD"}
@@ -593,6 +589,11 @@ export const Spreadsheet = () => {
               onClearFormatting(activeSheetId, activeCell, selections)
             }
             theme={theme}
+          />
+
+          <ThemeSelector
+            theme={theme}
+            onChangeTheme={onChangeSpreadsheetTheme}
           />
 
           <ButtonSwitchColorMode

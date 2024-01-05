@@ -954,10 +954,18 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.13":
-  version "13.0.13"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.13/72abe9b4f4e6a3893a726e6f530576163ddd1675#72abe9b4f4e6a3893a726e6f530576163ddd1675"
-  integrity sha512-NJ1zdgjSq2hqmtjd3CmPXP1HY4g2antaPLwrKERHrmDrXAxuQTWrzU+5IVehV3UuUHAlz60LnRLwdE5wrcHeiQ==
+"@rowsncolumns/icons@^3.1.1":
+  version "3.1.1"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/3.1.1/5accd8d1e88dcb82a64bba1579dc7551d3f66e9d#5accd8d1e88dcb82a64bba1579dc7551d3f66e9d"
+  integrity sha512-ufLABgb3X7sJa4MCYDJLX1Lodr+U/eKchTeivGIzI958HdJn1HgcufrblW1gjdj1iK9KgLfqbwkFX7wt7czgyA==
+  dependencies:
+    "@radix-ui/react-icons" "^1.3.0"
+    react-icons "^4.8.0"
+
+"@rowsncolumns/spreadsheet-state@^13.0.14":
+  version "13.0.14"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.14/f79aea2ae16dab4f4842f8ad20912ce82f7f76e9#f79aea2ae16dab4f4842f8ad20912ce82f7f76e9"
+  integrity sha512-TLd41L4GWfVprpBnh5GEOV37a3LdgSix63JhLd/CLNtH1YTkcbIAaXcdnEkUfoDKPZhu4fKPduI63zcXnHaj7g==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/dag" "^3.0.8"
@@ -972,15 +980,15 @@
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
-"@rowsncolumns/spreadsheet@^5.5.13":
-  version "5.5.13"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.13/e7a7c48bd7fae3bdfd91629609d31f43c035a5cf#e7a7c48bd7fae3bdfd91629609d31f43c035a5cf"
-  integrity sha512-G3P+rBB/nthvI7DHVEdlg9YjYr6vNQ3n0yBXI8qJ7s3Mg+qmChlyek9T/v8DMgjhcP+GHRDjyiPz8cORxssCig==
+"@rowsncolumns/spreadsheet@^5.5.15":
+  version "5.5.15"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.15/08a10bce9bc1f3030e15ed0440f45fc22bb227fb#08a10bce9bc1f3030e15ed0440f45fc22bb227fb"
+  integrity sha512-p2dRXvJ84BiRM9RCg/0sRTe6klj7ml9sOgKEPtpmVGD92YVF5a46wcuM2K/TwWtjVI6RBk9h9cQS5TjAAXqbPw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/functions" "^2.0.8"
     "@rowsncolumns/grid" "^2.0.4"
-    "@rowsncolumns/icons" "^3.1.0"
+    "@rowsncolumns/icons" "^3.1.1"
     "@rowsncolumns/ui" "^3.3.5"
     "@rowsncolumns/utils" "^3.0.9"
     "@tanstack/react-virtual" "3.0.1"
