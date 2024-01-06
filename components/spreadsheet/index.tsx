@@ -189,6 +189,7 @@ export const Spreadsheet = () => {
       onCopy,
       onPaste,
       onCreateTable,
+      onRemoveTable,
       onRequestEditTable,
       onRepeatFormatting,
       onUpdateTable,
@@ -721,6 +722,8 @@ export const Spreadsheet = () => {
           onRequestSearch={onRequestSearch}
           onRequestResize={onRequestResize}
           onAutoResize={onAutoResize}
+          onCreateTable={onCreateTable}
+          onRemoveTable={onRemoveTable}
         />
 
         <BottomBar>
