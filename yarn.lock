@@ -980,10 +980,10 @@
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
-"@rowsncolumns/spreadsheet@^5.5.16":
-  version "5.5.16"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.16/be0d13a17f5e85f7079fd612cdf9c7e986922e83#be0d13a17f5e85f7079fd612cdf9c7e986922e83"
-  integrity sha512-8Tk1ayQcHp0SWkR0TVLQJLq/kT3EzYLn1XOhm2NGXrUmCPIjALBEiIbBesq/+7miAFjoaQM/Ytjo5CPRsfEdBg==
+"@rowsncolumns/spreadsheet@^5.5.17":
+  version "5.5.17"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.17/a4a3dfc2929f92f3bde8332ba0c7f805cd6061a0#a4a3dfc2929f92f3bde8332ba0c7f805cd6061a0"
+  integrity sha512-oi0TnPf6BPdQIhgtrlHq239+f6p4frDnQbki6yXTgDh79Kf8JG5XYC/QIuqbMWYAhHpm1Mpcqcve7EI/b7pdyw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/functions" "^2.0.8"
