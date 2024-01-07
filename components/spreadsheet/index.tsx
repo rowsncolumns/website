@@ -774,6 +774,7 @@ export const Spreadsheet = () => {
           columnCount={columnCount}
           getSheetName={getSheetName}
           onSubmit={onUpdateTable}
+          theme={theme}
         />
         <DeleteSheetConfirmation
           sheetId={activeSheetId}
