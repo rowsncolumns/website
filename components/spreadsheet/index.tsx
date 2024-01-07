@@ -54,6 +54,7 @@ import {
   ButtonDecreaseIndent,
   ButtonIncreaseIndent,
   CellStyleSelector,
+  TableStyleSelector,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -564,16 +565,17 @@ export const Spreadsheet = () => {
 
           <ButtonInsertImage onInsertFile={onInsertFile} />
 
-          <TableActions
+          <ToolbarSeparator />
+
+          <TableStyleSelector
+            theme={theme}
             tables={tables}
             activeCell={activeCell}
             selections={selections}
             sheetId={activeSheetId}
-            onRequestEditTable={onRequestEditTable}
             onCreateTable={onCreateTable}
+            onUpdateTable={onUpdateTable}
           />
-
-          <ToolbarSeparator />
 
           <CellStyleSelector
             currency={"USD"}
@@ -590,13 +592,14 @@ export const Spreadsheet = () => {
               onClearFormatting(activeSheetId, activeCell, selections)
             }
             theme={theme}
-            isDarkMode={isDarkMode}
           />
 
           <ThemeSelector
             theme={theme}
             onChangeTheme={onChangeSpreadsheetTheme}
           />
+
+          <ToolbarSeparator />
 
           <ButtonSwitchColorMode
             colorMode={colorMode}

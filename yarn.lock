@@ -962,10 +962,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.16":
-  version "13.0.16"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.16/0139c2fcba7f957d3de974a05c6b8ffeb5ed41cc#0139c2fcba7f957d3de974a05c6b8ffeb5ed41cc"
-  integrity sha512-FgieEuiSFOVyNfgxcAnLqLWyGinvSwepuSLqDgMJOQj8ttivUwLrKiDMY7l67Dq4vLt85otjDL0U5PHX/1lo2A==
+"@rowsncolumns/spreadsheet-state@^13.0.19":
+  version "13.0.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.19/86b30d7c9415ddbcf1091e35b917fcc181214b85#86b30d7c9415ddbcf1091e35b917fcc181214b85"
+  integrity sha512-8ufX4AS1xv/Ln/+Rb9XyNMR+C7I9dH3utgYKQ+4iQpAOrPR0b38c2IjSBVBNOdbGU63O7bOGU+43bVhNLbpmSg==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/dag" "^3.0.8"
@@ -973,23 +973,23 @@
     "@rowsncolumns/functions" "^2.0.7"
     "@rowsncolumns/icons" "^3.1.0"
     "@rowsncolumns/toolkit" "^14.0.0"
-    "@rowsncolumns/utils" "^3.0.9"
+    "@rowsncolumns/utils" "^3.0.10"
     formik "^2.2.9"
     immer "^10.0.3"
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
-"@rowsncolumns/spreadsheet@^5.5.19":
-  version "5.5.19"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.19/1e0b4dcf6e61028436252d8c2fb991a15b988d7a#1e0b4dcf6e61028436252d8c2fb991a15b988d7a"
-  integrity sha512-X98juDiHUrvBAMDi3Ax2azfCbg1Gpfxgm2637+9UUZbrs0dDDs7FgR8og1Wxdr3o+8s+cycaugqYKm6kBOPLeA==
+"@rowsncolumns/spreadsheet@^5.5.21":
+  version "5.5.21"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.21/83bb426db7732d466fc80cda804e094374df386c#83bb426db7732d466fc80cda804e094374df386c"
+  integrity sha512-9JHuJo3Jgntf+N60EeVVczTdNndosxhHhTVJXG1kyd6cwfoU2WLXmRQNBJUu3FqM2zhswzM/+4mo9j2NhYjeEg==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.8"
     "@rowsncolumns/functions" "^2.0.8"
     "@rowsncolumns/grid" "^2.0.4"
     "@rowsncolumns/icons" "^3.1.1"
     "@rowsncolumns/ui" "^3.3.6"
-    "@rowsncolumns/utils" "^3.0.9"
+    "@rowsncolumns/utils" "^3.0.10"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
     lodash "^4.17.21"
@@ -1035,6 +1035,13 @@
     slate-history "^0.66.0"
     slate-react "0.66.7"
     tailwind-merge "^2.1.0"
+
+"@rowsncolumns/utils@^3.0.10":
+  version "3.0.10"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/3.0.10/d13e59cfc8e938b4c4dbeebf451f2824e5e1ba1c#d13e59cfc8e938b4c4dbeebf451f2824e5e1ba1c"
+  integrity sha512-H+npf9qvGrrU2PtkF/bLPGE6qrbjbwfJu4Pw01b4XjYhRS27/VRgt3FYmVfM0S1NqHdIwAyrMe35JHjVgkmQDg==
+  dependencies:
+    ssf "^0.11.2"
 
 "@rowsncolumns/utils@^3.0.9":
   version "3.0.9"

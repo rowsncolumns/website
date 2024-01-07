@@ -150,6 +150,36 @@ export const mockTables: TableView[] = [
       { name: "totalTestResults" },
       { name: "lastModified" },
     ],
+    bandedRange: {
+      bandedRangeId: 1,
+      rowProperties: {
+        headerBorder: {
+          top: {
+            width: 1,
+            style: "solid",
+            color: {
+              theme: 1,
+            },
+          },
+          bottom: {
+            width: 1,
+            style: "solid",
+            color: {
+              theme: 1,
+            },
+          },
+        },
+        footerBorder: {
+          bottom: {
+            width: 1,
+            style: "solid",
+            color: {
+              theme: 1,
+            },
+          },
+        },
+      },
+    },
     filterSpecs: [],
     headerRow: true,
     filterButton: true,
