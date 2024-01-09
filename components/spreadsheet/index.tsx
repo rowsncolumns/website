@@ -224,6 +224,7 @@ export const Spreadsheet = () => {
       functions,
       namedRanges,
       theme,
+      colorMode,
       onChangeSheets,
       onChangeSheetData,
       onChangeEmbeds,
@@ -234,7 +235,6 @@ export const Spreadsheet = () => {
       onChangeHistory(patches) {
         onBroadcastPatch(patches);
       },
-      colorMode,
     });
 
     const {
