@@ -961,16 +961,16 @@
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
-"@rowsncolumns/spreadsheet@^5.5.35":
-  version "5.5.35"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.35/e5c8b88ead3f7f3a0f1d39804e410b51e2d0a872#e5c8b88ead3f7f3a0f1d39804e410b51e2d0a872"
-  integrity sha512-eLpY1wjR2z3DJl97qreHft8bsNPkb93LhoYYy8LsNmbA2fNchN06p1Xkp7L3+WEonfKXbppopoAbRT3+EM2d/w==
+"@rowsncolumns/spreadsheet@^5.5.36":
+  version "5.5.36"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.36/12b5d8458532c74318a8e276b9ab8ab116de0442#12b5d8458532c74318a8e276b9ab8ab116de0442"
+  integrity sha512-eMOTLyka9cF5XaLR/fgFBGqnA8diN2qYhBJSFGmnSMbvSqE+CREUuKLQwyJkdWInZMakGlfu5INTmFFoBg/oRQ==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.10"
     "@rowsncolumns/functions" "^2.0.9"
     "@rowsncolumns/grid" "^2.0.4"
     "@rowsncolumns/icons" "^3.1.1"
-    "@rowsncolumns/ui" "^3.3.7"
+    "@rowsncolumns/ui" "^3.3.8"
     "@rowsncolumns/utils" "^3.0.10"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -996,10 +996,10 @@
   dependencies:
     exceljs "^4.3.0"
 
-"@rowsncolumns/ui@^3.3.7":
-  version "3.3.7"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.7/8e3ff78ac48ad3671c1a624f5162a408457c7301#8e3ff78ac48ad3671c1a624f5162a408457c7301"
-  integrity sha512-L+9IkIORwnVSw2MUacNi5ssbf8rho22MpWrvfis3hN6wVWfl9DMeCG9y9G4ghzvdvBuV1wTbJP4SbkARfLj5AA==
+"@rowsncolumns/ui@^3.3.8":
+  version "3.3.8"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.8/e1c55802d375fca1005f9a706d516b5fbf68299d#e1c55802d375fca1005f9a706d516b5fbf68299d"
+  integrity sha512-mcJHNsrmqICNRqQWXymJkUGkIHX5sSyfHtoe2v7NFc7g0VwWj/RpQmYnAo/xPBQ1+OwsTKm1DL0x8IJ4p3/aKA==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"

@@ -526,17 +526,7 @@ export const Spreadsheet = () => {
               );
             }}
           />
-          <ButtonDecreaseIndent
-            onClick={() => {
-              onDecreaseIndent(activeSheetId, activeCell, selections);
-            }}
-          />
 
-          <ButtonIncreaseIndent
-            onClick={() => {
-              onIncreaseIndent(activeSheetId, activeCell, selections);
-            }}
-          />
           <TextVerticalAlignSelector
             value={currentCellFormat?.verticalAlignment}
             onChange={(value) => {
@@ -559,6 +549,18 @@ export const Spreadsheet = () => {
                 "wrapStrategy",
                 value
               );
+            }}
+          />
+
+          <ButtonDecreaseIndent
+            onClick={() => {
+              onDecreaseIndent(activeSheetId, activeCell, selections);
+            }}
+          />
+
+          <ButtonIncreaseIndent
+            onClick={() => {
+              onIncreaseIndent(activeSheetId, activeCell, selections);
             }}
           />
           <ToolbarSeparator />
