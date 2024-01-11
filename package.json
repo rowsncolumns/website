@@ -12,7 +12,7 @@
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
     "@rowsncolumns/spreadsheet": "^5.5.36",
-    "@rowsncolumns/spreadsheet-state": "^13.0.27",
+    "@rowsncolumns/spreadsheet-state": "^13.0.28",
     "@rowsncolumns/supabase-spreadsheet": "^12.0.0",
     "@sendgrid/mail": "^7.7.0",
     "@types/node": "20.2.1",
