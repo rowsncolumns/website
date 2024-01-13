@@ -151,7 +151,6 @@ export const mockTables: TableView[] = [
       { name: "lastModified" },
     ],
     bandedRange: {
-      bandedRangeId: 1,
       rowProperties: {
         headerBorder: {
           top: {
