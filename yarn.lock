@@ -945,10 +945,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.29":
-  version "13.0.29"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.29/0bcab8c9642958b139eded085f8ab2c985ef42dc#0bcab8c9642958b139eded085f8ab2c985ef42dc"
-  integrity sha512-wMTCQxIo6ubqCJ75QF64gqguh5mMASvhYnZHSrA/he8XR6KWEOheQehwonQujZCZI5fTWe+K5/u3GndEsNOQbA==
+"@rowsncolumns/spreadsheet-state@^13.0.30":
+  version "13.0.30"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.30/69cdc7e3cde6c1929695c3c78527ea660755cdba#69cdc7e3cde6c1929695c3c78527ea660755cdba"
+  integrity sha512-+l4+7r/4W98lUiae/ZsH0UCCBVkZLghg31Zzm/oL1RgpLpbH6ns1FY0p44y1W587kB1EY6Eb5qRlKKcU61/lmQ==
   dependencies:
     "@rowsncolumns/dag" "^3.0.9"
     "@rowsncolumns/functions" "^2.0.9"
@@ -956,7 +956,7 @@
     "@rowsncolumns/toolkit" "^14.0.0"
     "@rowsncolumns/utils" "^3.0.10"
     formik "^2.2.9"
-    immer "^10.0.3"
+    immer "^9.0.21"
     recoil "^0.7.7"
     rxjs "^7.8.1"
 
@@ -2878,12 +2878,7 @@ immediate@~3.0.5:
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
   integrity sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==
 
-immer@^10.0.3:
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-10.0.3.tgz#a8de42065e964aa3edf6afc282dfc7f7f34ae3c9"
-  integrity sha512-pwupu3eWfouuaowscykeckFmVTpqbzW+rXFCX8rQLkZzM9ftBmU/++Ra+o+L27mz03zJTlyV4UUr+fdKNffo4A==
-
-immer@^9.0.6:
+immer@^9.0.21, immer@^9.0.6:
   version "9.0.21"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.21.tgz#1e025ea31a40f24fb064f1fef23e931496330176"
   integrity sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==
