@@ -119,6 +119,7 @@ export const Spreadsheet = () => {
       columnCount,
       frozenColumnCount,
       frozenRowCount,
+      showGridLines,
       rowMetadata,
       columnMetadata,
       merges,
@@ -642,6 +643,7 @@ export const Spreadsheet = () => {
 
         <CanvasGrid
           {...spreadsheetColors}
+          showGridLines={showGridLines}
           borderStyles={borderStyles}
           stickyEditor={true}
           scale={scale}
