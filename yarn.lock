@@ -945,14 +945,14 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.0.43":
-  version "13.0.43"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.43/823dcb8912adad5414c49f22a3d83cd75651dac9#823dcb8912adad5414c49f22a3d83cd75651dac9"
-  integrity sha512-rXatv7ypFVC38N3dpXZYTNk4aFU/KuRytFINgEx7/slKPJIu54pfLZaZqUERBQdUT5TmYE3VNM0ltMzSUWYrpA==
+"@rowsncolumns/spreadsheet-state@^13.0.44":
+  version "13.0.44"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.0.44/a270f492e23a20fe2d8de8983719b5e7e35cab56#a270f492e23a20fe2d8de8983719b5e7e35cab56"
+  integrity sha512-9pbqKUGvcDOJgOOUtze2frLW87BVu1A1E80zUElLSmBW4U+A7reV0CjEnquqzYZHyKjuO6djhtxNeBA88sQRfw==
   dependencies:
     "@rowsncolumns/functions" "^2.0.11"
     "@rowsncolumns/icons" "^3.1.1"
-    "@rowsncolumns/toolkit" "^14.0.10"
+    "@rowsncolumns/toolkit" "^14.0.15"
     formik "^2.2.9"
     immer "^9.0.21"
     recoil "^0.7.7"
@@ -987,10 +987,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^14.0.10":
-  version "14.0.10"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/14.0.10/9cbbdf7e5593753714aee9461679aee59b0037bb#9cbbdf7e5593753714aee9461679aee59b0037bb"
-  integrity sha512-jh1dp1Wkauxm9zw/3+DCD86xO/KVhVYg8U+wO2/C6ZH+MJEzPImyazieG8crU93lzZwRwawaLocljPyJcuadgA==
+"@rowsncolumns/toolkit@^14.0.15":
+  version "14.0.15"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/14.0.15/827408b81e9d193b3fd876d46907543c97332d28#827408b81e9d193b3fd876d46907543c97332d28"
+  integrity sha512-OtVzKNWDZLKn7RLVtziXixVIgs8DIdqe/RbjDZQmNP0nFegx5UjmF2+kwCUCdegQ0hiDsXVigcllHhfzU5aFbQ==
   dependencies:
     exceljs "^4.3.0"
     papaparse "^5.4.1"
