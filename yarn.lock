@@ -892,13 +892,13 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@rowsncolumns/calculator@^3.0.16":
-  version "3.0.16"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.16/1846b55a0b32b5db7abb8f9f1e783eed67fc2fb6#1846b55a0b32b5db7abb8f9f1e783eed67fc2fb6"
-  integrity sha512-Uvhqz7v61ZsJVcxw8kCy+mvl/KhDaBxZDc5YSRrXlU1O/9uFkCn5r2I2plIoE4ox+JgY0y6Mh5HvNemk/iKoNw==
+"@rowsncolumns/calculator@^3.0.17":
+  version "3.0.17"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.17/a028fc362f091b19f9c175b6afee863d847369aa#a028fc362f091b19f9c175b6afee863d847369aa"
+  integrity sha512-mvZsgUigr22lF67BucHZxRkRiM+av4CwoZWjeKvqfAqFV4NdFo/0M7t8uy/RQEwbDB2R+fTvpH2eumaHrQR+Sg==
   dependencies:
     "@rowsncolumns/dag" "^3.0.13"
-    "@rowsncolumns/fast-formula-parser" "^2.0.8"
+    "@rowsncolumns/fast-formula-parser" "^2.0.9"
     "@rowsncolumns/utils" "^3.0.13"
 
 "@rowsncolumns/dag@^3.0.13":
@@ -908,10 +908,10 @@
   dependencies:
     "@rowsncolumns/utils" "^3.0.13"
 
-"@rowsncolumns/fast-formula-parser@^2.0.8":
-  version "2.0.8"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/fast-formula-parser/2.0.8/25774d512f1ddd9c5a785cfc8a3aea58c6562b03#25774d512f1ddd9c5a785cfc8a3aea58c6562b03"
-  integrity sha512-4tQdfhiToGMID0eMZg09UTfn6zeZH56MDHp5XybhKp5SjtqzAJ9u8V+N0v1RYwagxKnnBmSn7WIo7XiJjeYf3g==
+"@rowsncolumns/fast-formula-parser@^2.0.9":
+  version "2.0.9"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/fast-formula-parser/2.0.9/7d92b5614016a33a14df0ed027b8fe151ca4c269#7d92b5614016a33a14df0ed027b8fe151ca4c269"
+  integrity sha512-L31olRvFZ7NQ/FwSjSJdq2lJdg/lB1W01PtIkBRqS9TGd8NNf4pPKPA5aeQW/XnBzg6L3kmGlZt8WIL7qWzhPw==
   dependencies:
     bahttext "^1.1.0"
     bessel "^1.0.2"
@@ -959,16 +959,16 @@
     rxjs "^7.8.1"
     yup "^1.3.3"
 
-"@rowsncolumns/spreadsheet@^5.5.49":
-  version "5.5.49"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.49/1a57f0dd753206807ed1ffad4522d61630a20c52#1a57f0dd753206807ed1ffad4522d61630a20c52"
-  integrity sha512-58tl8BV2qzw29Mi8Mcs87xHdqTxCpI6Sm2OEKGGzIYN49kWJBRprbPruvjUG8g03/t4Jjt65633ZFlga9eJAyQ==
+"@rowsncolumns/spreadsheet@^5.5.52":
+  version "5.5.52"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.5.52/59ae08646c495875fa51f24775692312f09a2d8b#59ae08646c495875fa51f24775692312f09a2d8b"
+  integrity sha512-aDPnKBlo7c+JQC33/eHsa3agu0Mx2EjUD5lSx68c9pJuGvRU0Gj3kIPUkjDjxNF/b2OgPI4fa617XF05gyh5BA==
   dependencies:
-    "@rowsncolumns/calculator" "^3.0.16"
+    "@rowsncolumns/calculator" "^3.0.17"
     "@rowsncolumns/functions" "^2.0.11"
     "@rowsncolumns/grid" "^2.0.4"
     "@rowsncolumns/icons" "^3.1.1"
-    "@rowsncolumns/ui" "^3.3.10"
+    "@rowsncolumns/ui" "^3.3.11"
     "@rowsncolumns/utils" "^3.0.13"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -995,10 +995,10 @@
     exceljs "^4.3.0"
     papaparse "^5.4.1"
 
-"@rowsncolumns/ui@^3.3.10":
-  version "3.3.10"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.10/e740522886ef20721ed96bf98a78bc3387f9a4d8#e740522886ef20721ed96bf98a78bc3387f9a4d8"
-  integrity sha512-ohc/nbl+OOTduySHyhsBw57aYxK+f63mx+OaZOgbtlrypkYIiBdWwGqFwERqBwdTJflLxWwW9F8hIEZqzuXnJQ==
+"@rowsncolumns/ui@^3.3.11":
+  version "3.3.11"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.11/2916e4f66112b6d714b7f126e65b88353e8c3b3f#2916e4f66112b6d714b7f126e65b88353e8c3b3f"
+  integrity sha512-gHryGWkMhn6jXZU8Gb0HRV/rLCudm4J87mvAQ1aDHGtrlzJL3vNTa0IH9U8jrcMOXnwlN/FmLTINJIVF+6sgVQ==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
