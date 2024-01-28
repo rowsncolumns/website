@@ -51,12 +51,12 @@ export function HeaderMenu() {
           Contact us
         </Link>
 
-        <Link
+        {/* <Link
           href="https://calendly.com/rowsncolumns/30min"
           className={buttonVariants({ variant: "ghost" })}
         >
           Schedule a call
-        </Link>
+        </Link> */}
 
         <Link
           href="https://discord.gg/K4cNVh6"
