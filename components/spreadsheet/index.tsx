@@ -55,6 +55,7 @@ import {
   ButtonIncreaseIndent,
   CellStyleSelector,
   TableStyleSelector,
+  LoadingIndicator,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -732,6 +733,8 @@ export const Spreadsheet = () => {
           onCreateTable={onCreateTable}
           onRemoveTable={onRemoveTable}
         />
+
+        <LoadingIndicator />
 
         <BottomBar>
           <NewSheetButton onClick={onCreateNewSheet} />
