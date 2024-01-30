@@ -27,49 +27,10 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-4 pb-12 auto-rows-[1fr]">
+      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 md:grid-cols-2 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-2 pb-12 auto-rows-[1fr]">
         {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
-          <h3 className="text-foreground">Solo</h3>
-          <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            <s>$500</s> <span className="text-green-600 ml-2">$299</span>
-          </p>
-          <p className="mt-3 text-sm text-muted-foreground">
-            If you are a solo developer working on a single application.
-          </p>
-
-          <div className="order-last mt-8">
-            <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
-              <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and support</li>
-              <li className="flex py-2">Single application use</li>
-              <li className="flex py-2">Source code included</li>
-              <li className="flex py-2">Non-commercial use</li>
-              <li className="flex flex-col py-2">
-                Some features are not included
-                <ul className="text-xs italic list-disc pl-4 pt-2">
-                  <li>Moving columns and rows</li>
-                  <li>Hidden rows and columns</li>
-                  <li>Structured references</li>
-                  <li>Charts and embeds</li>
-                  <li>Named ranges</li>
-                  <li>Collaboration</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-          <div className="mt-6">
-            <Link href="/contact" className={cn(buttonVariants())}>
-              Contact Sales
-            </Link>
-          </div>
-        </section>
-        {/* / Personal */}
-
-        {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
-          <h3 className="text-foreground">Personal</h3>
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background max-w-[440px]">
+          <h3 className="text-foreground">Professional</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             <s>$5,000</s> <span className="text-green-600 ml-2">$1,999</span>
           </p>
@@ -96,42 +57,9 @@ export default async function Home() {
         </section>
         {/* / Personal */}
 
-        {/* Personal */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
-          <h3 className="text-foreground">Team</h3>
-          <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            Upto 25 developers
-          </p>
-          <p className="mt-3 text-sm text-muted-foreground">
-            If you have a team of developers or contractors working on
-            Spreadsheet 2
-          </p>
-
-          <div className="order-last mt-8">
-            <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
-              <li className="flex py-2">Perpetual license</li>
-              <li className="flex py-2">1 year of updates and support</li>
-              <li className="flex py-2">Single application use</li>
-              <li className="flex py-2">Source code included</li>
-              <li className="flex py-2">
-                Flexible licensing based on users/developers.
-              </li>
-              <li className="flex py-2">Custom payment terms</li>
-              <li className="flex py-2">Use in commercial applications</li>
-            </ul>
-          </div>
-
-          <div className="mt-6">
-            <Link href="/contact" className={cn(buttonVariants())}>
-              Contact Sales
-            </Link>
-          </div>
-        </section>
-        {/* / Professional */}
-
         {/* Professional */}
-        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
-          <h3 className="text-foreground">Enterprise</h3>
+        <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background max-w-[440px]">
+          <h3 className="text-foreground">Enterprise/Team</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
             Custom
           </p>
