@@ -135,6 +135,7 @@ export const Spreadsheet = () => {
       onRedo,
       getCellData,
       getSheetName,
+      getSheetId,
       getUserEnteredFormat,
       onRequestCalculate,
       onChangeActiveCell,
@@ -644,6 +645,7 @@ export const Spreadsheet = () => {
 
         <CanvasGrid
           {...spreadsheetColors}
+          getSheetId={getSheetId}
           showGridLines={showGridLines}
           borderStyles={borderStyles}
           stickyEditor={true}
