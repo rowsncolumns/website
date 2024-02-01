@@ -734,6 +734,7 @@ export const Spreadsheet = () => {
           onAutoResize={onAutoResize}
           onCreateTable={onCreateTable}
           onRemoveTable={onRemoveTable}
+          onChangeScale={onChangeScale}
         />
 
         <LoadingIndicator />
