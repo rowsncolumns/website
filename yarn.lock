@@ -926,10 +926,10 @@
   dependencies:
     papaparse "^5.4.1"
 
-"@rowsncolumns/grid@^2.0.10":
-  version "2.0.10"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.0.10/9c58a3cdb1bdcb6aa67572d3384a9eac461cf592#9c58a3cdb1bdcb6aa67572d3384a9eac461cf592"
-  integrity sha512-pT7ak8SlBMhGLpIHBnEBA5zb7HnR130u3vtz3xg49FbjHkO00BB6du24+VI8G4I5KBiUansxhU0uXBk1G6pz3Q==
+"@rowsncolumns/grid@^2.0.11":
+  version "2.0.11"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.0.11/d3e886a4632fb443e4a62cb7730e36c218745138#d3e886a4632fb443e4a62cb7730e36c218745138"
+  integrity sha512-Ix/iyd226eZOwyafI4cSNO0KwzA2n460g6WSoEfFOGdCQ3Ak5xH+AdrzcwOq0qsxO0LR012zQDMz/IcvMXXsxA==
   dependencies:
     konva "^9.2.3"
     react-konva "^18.2.10"
@@ -945,10 +945,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.1.16":
-  version "13.1.16"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.1.16/618bfcfff552dc09178c8e1023990f90e4cc3610#618bfcfff552dc09178c8e1023990f90e4cc3610"
-  integrity sha512-QPv6GUODZN6u2PAx1L3xwTsP7HnSQExOoH+Ec5GtdrEaVE9c7rBtRK+Gdy569s0gEy2TQ5NO83VACdniNBsF9g==
+"@rowsncolumns/spreadsheet-state@^13.1.17":
+  version "13.1.17"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.1.17/3fdb752228456014c25de5789bd1ff47c77b3e57#3fdb752228456014c25de5789bd1ff47c77b3e57"
+  integrity sha512-THMJoonuQLG31zZA6VtbmBD+zAiRh4mltBzlLFaUV3pYSZbwX7T92TcLKdgyUwCzY0qQFpDiDKty144ayv0cqg==
   dependencies:
     "@rowsncolumns/functions" "^2.0.12"
     "@rowsncolumns/toolkit" "^14.1.10"
@@ -958,14 +958,14 @@
     rxjs "^7.8.1"
     yup "^1.3.3"
 
-"@rowsncolumns/spreadsheet@^5.6.31":
-  version "5.6.31"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.6.31/9a6d01881bbe78034ae0f0c25fcaa2f97dd7d89e#9a6d01881bbe78034ae0f0c25fcaa2f97dd7d89e"
-  integrity sha512-b+VcXuR9m1WKeWpFpt+5s+KgvT2a3V1li8BCuDe9R+Wh0St8XQnNQRVh9XGXIpE0gU9rugtdmWow6Ri3bBRZqw==
+"@rowsncolumns/spreadsheet@^5.6.32":
+  version "5.6.32"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.6.32/67c31cc3baa1ef014b409b2251d374e697483ce2#67c31cc3baa1ef014b409b2251d374e697483ce2"
+  integrity sha512-g3qLHwFZXVAqf3rTcMCAJbW+Tz7E1ygsB5inGqsgqn6sbA5Zr8nJ0N3UnlVnGU52S98RCt/+apw3mLy7j7jJCw==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.25"
     "@rowsncolumns/functions" "^2.0.12"
-    "@rowsncolumns/grid" "^2.0.10"
+    "@rowsncolumns/grid" "^2.0.11"
     "@rowsncolumns/icons" "^3.1.2"
     "@rowsncolumns/ui" "^3.3.15"
     "@rowsncolumns/utils" "^3.0.16"
