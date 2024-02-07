@@ -222,6 +222,7 @@ export const Spreadsheet = () => {
       onAutoResize,
       onInsertDate,
       onInsertTime,
+      onInsertDateTime,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -739,6 +740,7 @@ export const Spreadsheet = () => {
           onChangeScale={onChangeScale}
           onInsertDate={onInsertDate}
           onInsertTime={onInsertTime}
+          onInsertDateTime={onInsertDateTime}
         />
 
         <LoadingIndicator />
