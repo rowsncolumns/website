@@ -945,10 +945,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^13.1.22":
-  version "13.1.22"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.1.22/6513c7ce0595e52390b8585227dd0f79ba092f18#6513c7ce0595e52390b8585227dd0f79ba092f18"
-  integrity sha512-LS125y/fFN0ZP3oWE3R24wwhRB3uBucWkB0gcrda6lXfWh+Ko1VD4PX5eYcN9JM+v3nwzh5ZBBcE+5bO0j3iYQ==
+"@rowsncolumns/spreadsheet-state@^13.1.23":
+  version "13.1.23"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/13.1.23/07e1e53907ff4e0ed15c9e5b7f5d432df428c86f#07e1e53907ff4e0ed15c9e5b7f5d432df428c86f"
+  integrity sha512-x/OEgO1ApANrNo0R1xxqsMV0WBjCYP2TffbKY06nmIj2mMUvE3d+fas1cHkceJOqeWjEYRdxJc17QhC3nYWAcg==
   dependencies:
     "@rowsncolumns/functions" "^2.0.12"
     "@rowsncolumns/toolkit" "^14.1.12"
@@ -958,16 +958,16 @@
     rxjs "^7.8.1"
     yup "^1.3.3"
 
-"@rowsncolumns/spreadsheet@^5.6.36":
-  version "5.6.36"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.6.36/0b9999749540a303fe3d351ddb989331af0a89d3#0b9999749540a303fe3d351ddb989331af0a89d3"
-  integrity sha512-4p5Bw+gWvW5nRzYLiJOHVQstkz/UpUyL0h/1nGih2d9m+Y5lBDwfjfvOBzj7FUVTpHK4tjTgXURQj7e5UmM84Q==
+"@rowsncolumns/spreadsheet@^5.6.37":
+  version "5.6.37"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/5.6.37/9cc15c3f9996604be1f171eb11b084f5ccaa57dd#9cc15c3f9996604be1f171eb11b084f5ccaa57dd"
+  integrity sha512-NQCeeDmvMeXl27QIcLgIl0xpOuIu5LwK2YRT6/idx1TBXBjBJXm9zwLlyAKNRWTqOCxBt+EjOhkaZP0ty/aQ+w==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.27"
     "@rowsncolumns/functions" "^2.0.12"
     "@rowsncolumns/grid" "^2.0.11"
     "@rowsncolumns/icons" "^3.1.2"
-    "@rowsncolumns/ui" "^3.3.15"
+    "@rowsncolumns/ui" "^3.3.16"
     "@rowsncolumns/utils" "^3.0.16"
     "@tanstack/react-virtual" "3.0.1"
     formik "^2.2.9"
@@ -994,10 +994,10 @@
     exceljs "^4.3.0"
     papaparse "^5.4.1"
 
-"@rowsncolumns/ui@^3.3.15":
-  version "3.3.15"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.15/b02fd92fb7760c562731a36ded6bebab74e16f15#b02fd92fb7760c562731a36ded6bebab74e16f15"
-  integrity sha512-bTg+Hc0P7FVmZG0MjXKGpnH57D6DvhbhqwUBGcKnXMl8lz0Uvx1j7HMSEitjoqoCbhEbjumExliir5Zj3mUpsQ==
+"@rowsncolumns/ui@^3.3.16":
+  version "3.3.16"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/3.3.16/56dbe9a3764952bb68814a49b8746aa2f8040e8c#56dbe9a3764952bb68814a49b8746aa2f8040e8c"
+  integrity sha512-O0L4irxnhl30rtbLXgpTz5DvtPsadcTbsWh9Ebhflk91kOSi7nYuP/mlL+5xwbnL5N5Lq/Sim3x7Z3wvH2I+lQ==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.5"
