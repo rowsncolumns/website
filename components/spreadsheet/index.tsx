@@ -637,6 +637,7 @@ export const Spreadsheet = () => {
             onDeleteNamedRange={onDeleteNamedRange}
             namedRanges={namedRanges}
             tables={tables}
+            merges={merges}
           />
           <Separator orientation="vertical" />
           <FormulaBarLabel>fx</FormulaBarLabel>
@@ -781,6 +782,7 @@ export const Spreadsheet = () => {
             onRequestCalculate={onRequestCalculate}
             rowCount={rowCount}
             columnCount={columnCount}
+            merges={merges}
           />
         </BottomBar>
 
@@ -791,6 +793,7 @@ export const Spreadsheet = () => {
           getSheetName={getSheetName}
           onSubmit={onUpdateTable}
           theme={theme}
+          merges={merges}
         />
         <DeleteSheetConfirmation
           sheetId={activeSheetId}
@@ -803,6 +806,7 @@ export const Spreadsheet = () => {
           getSheetName={getSheetName}
           onCreateNamedRange={onCreateNamedRange}
           onUpdateNamedRange={onUpdateNamedRange}
+          merges={merges}
         />
 
         <SheetSearch
