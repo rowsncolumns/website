@@ -56,6 +56,8 @@ import {
   CellStyleSelector,
   TableStyleSelector,
   LoadingIndicator,
+  ConditionalFormatRule,
+  ProtectedRange,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -110,6 +112,12 @@ export const Spreadsheet = () => {
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
       defaultSpreadsheetTheme
     );
+    const [conditionalFormats, onChangeConditionalFormats] = useState<
+      ConditionalFormatRule[]
+    >([]);
+    const [protectedRanges, onChangeProtectedRanges] = useState<
+      ProtectedRange[]
+    >([]);
     const [userDefinedColors, setUserDefinedColors] = useState<string[]>([]);
 
     const {
@@ -124,9 +132,7 @@ export const Spreadsheet = () => {
       rowMetadata,
       columnMetadata,
       merges,
-      protectedRanges,
       bandedRanges,
-      conditionalFormats,
       spreadsheetColors,
       canRedo,
       canUndo,
