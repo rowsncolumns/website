@@ -72,7 +72,7 @@ import {
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
-import { mockSheets, mockTables } from "./mocks";
+import { mockConditionalFormatting, mockSheets, mockTables } from "./mocks";
 import { mockSheetdata } from "./mock-sheetdata";
 import { useColorMode } from "@/lib/theme";
 import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
@@ -114,7 +114,7 @@ export const Spreadsheet = () => {
     );
     const [conditionalFormats, onChangeConditionalFormats] = useState<
       ConditionalFormatRule[]
-    >([]);
+    >(mockConditionalFormatting);
     const [protectedRanges, onChangeProtectedRanges] = useState<
       ProtectedRange[]
     >([]);
@@ -247,6 +247,8 @@ export const Spreadsheet = () => {
       onChangeHistory(patches) {
         onBroadcastPatch(patches);
       },
+      onChangeProtectedRanges,
+      onChangeConditionalFormats,
     });
 
     const {

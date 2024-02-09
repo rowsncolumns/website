@@ -1,4 +1,8 @@
-import { Sheet, TableView } from "@rowsncolumns/spreadsheet";
+import {
+  ConditionalFormatRule,
+  Sheet,
+  TableView,
+} from "@rowsncolumns/spreadsheet";
 
 export const mockSheets: Sheet[] = [
   {
@@ -26,6 +30,98 @@ export const mockSheets: Sheet[] = [
     frozenRowCount: 0,
     columnMetadata: [],
     rowMetadata: [],
+  },
+];
+
+export const mockConditionalFormatting: ConditionalFormatRule[] = [
+  {
+    ranges: [
+      {
+        sheetId: 1,
+        startRowIndex: 2,
+        endRowIndex: 2,
+        startColumnIndex: 1,
+        endColumnIndex: 2,
+      },
+    ],
+    booleanRule: {
+      condition: {
+        type: "NUMBER_LESS",
+        values: [
+          {
+            userEnteredValue: "0.5",
+          },
+        ],
+      },
+      format: {
+        textFormat: {
+          color: "red",
+        },
+      },
+    },
+  },
+  {
+    ranges: [
+      {
+        sheetId: 1,
+        startRowIndex: 4,
+        endRowIndex: 56,
+        startColumnIndex: 7,
+        endColumnIndex: 7,
+      },
+    ],
+    gradientRule: {
+      minpoint: {
+        color: "#FFCF54",
+        type: "MIN",
+      },
+      maxpoint: {
+        color: "#FFFFFF",
+        type: "MAX",
+      },
+    },
+  },
+  {
+    ranges: [
+      {
+        sheetId: 1,
+        startRowIndex: 4,
+        endRowIndex: 56,
+        startColumnIndex: 9,
+        endColumnIndex: 9,
+      },
+    ],
+    gradientRule: {
+      minpoint: {
+        color: "#4AB078",
+        type: "MIN",
+      },
+      maxpoint: {
+        color: "#FFFFFF",
+        type: "MAX",
+      },
+    },
+  },
+  {
+    ranges: [
+      {
+        sheetId: 1,
+        startRowIndex: 4,
+        endRowIndex: 56,
+        startColumnIndex: 6,
+        endColumnIndex: 6,
+      },
+    ],
+    gradientRule: {
+      minpoint: {
+        color: "#FFFFFF",
+        type: "MIN",
+      },
+      maxpoint: {
+        color: "#DE6560",
+        type: "MAX",
+      },
+    },
   },
 ];
 
