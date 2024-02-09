@@ -766,6 +766,7 @@ export const Spreadsheet = () => {
 
           <SheetTabs
             sheets={sheets}
+            protectedRanges={protectedRanges}
             activeSheetId={activeSheetId}
             theme={theme}
             onChangeActiveSheet={onChangeActiveSheet}
