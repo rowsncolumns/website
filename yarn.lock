@@ -945,13 +945,13 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^14.0.11":
-  version "14.0.11"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/14.0.11/91ea7bd68b11442a264f5824ea0143fdbabe75b4#91ea7bd68b11442a264f5824ea0143fdbabe75b4"
-  integrity sha512-Yi5qO5zFYX729730zfrOe10JwfJW6XfGPsB3c/KhY+LSPrmpDyujL3aLZxWM0pxwfYuktIXiKYCcSeBfbJ2ZXA==
+"@rowsncolumns/spreadsheet-state@^14.0.12":
+  version "14.0.12"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/14.0.12/948fba2964b8ace043652f41ff2fdcfc7bb0c91b#948fba2964b8ace043652f41ff2fdcfc7bb0c91b"
+  integrity sha512-EP1+ComySwuNalIcdFTuFT+RyCD9GkGGHQJz9orqEnv6GXRce0gNI/WNPEIy7cZRfhEtsXhUl4hYr9xQMjkHzw==
   dependencies:
     "@rowsncolumns/functions" "^2.0.12"
-    "@rowsncolumns/toolkit" "^15.0.3"
+    "@rowsncolumns/toolkit" "^15.0.4"
     formik "^2.2.9"
     immer "^9.0.21"
     recoil "^0.7.7"
@@ -986,12 +986,12 @@
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^15.0.3":
-  version "15.0.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/15.0.3/4e42d2af401634e63beddacb2fc7209602666e08#4e42d2af401634e63beddacb2fc7209602666e08"
-  integrity sha512-uh9Ha2HXxR7VgXuo1Fr7gaPTFWjlwYopSn3yOgWmVWomVQ2sthu4Gkre3AqC/HeawHfe7SWEgRh2H9VkbCnvJg==
+"@rowsncolumns/toolkit@^15.0.4":
+  version "15.0.4"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/15.0.4/c5970f8acb175bad9f15a6282effea9492512e24#c5970f8acb175bad9f15a6282effea9492512e24"
+  integrity sha512-OvGwycpxitJ7f3FnbYmXskkDQ/bFWboLp7f+BKHPfwURuQrUUy3J1Vl8n9qe4/Y4EzTBFT7tlTHB7uZH9uJp9A==
   dependencies:
-    exceljs "^4.3.0"
+    exceljs "^4.4.0"
     papaparse "^5.4.1"
 
 "@rowsncolumns/ui@^3.3.16":
@@ -2379,15 +2379,15 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-exceljs@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/exceljs/-/exceljs-4.3.0.tgz#939bc0d4c59c200acadb7051be34d25c109853c4"
-  integrity sha512-hTAeo5b5TPvf8Z02I2sKIT4kSfCnOO2bCxYX8ABqODCdAjppI3gI9VYiGCQQYVcBaBSKlFDMKlAQRqC+kV9O8w==
+exceljs@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/exceljs/-/exceljs-4.4.0.tgz#cfb1cb8dcc82c760a9fc9faa9e52dadab66b0156"
+  integrity sha512-XctvKaEMaj1Ii9oDOqbW/6e1gXknSY4g/aLCDicOXqBE4M0nRWkUu0PTp++UPNzoFY12BNHMfs/VadKIS6llvg==
   dependencies:
     archiver "^5.0.0"
     dayjs "^1.8.34"
     fast-csv "^4.3.1"
-    jszip "^3.5.0"
+    jszip "^3.10.1"
     readable-stream "^3.6.0"
     saxes "^5.0.1"
     tmp "^0.2.0"
@@ -3237,7 +3237,7 @@ jstat@^1.9.3:
     array-includes "^3.1.5"
     object.assign "^4.1.3"
 
-jszip@^3.5.0:
+jszip@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.10.1.tgz#34aee70eb18ea1faec2f589208a157d1feb091c2"
   integrity sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==
