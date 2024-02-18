@@ -908,10 +908,10 @@
   dependencies:
     "@rowsncolumns/utils" "^3.0.18"
 
-"@rowsncolumns/date-parser@^1.0.3":
-  version "1.0.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/1.0.3/49c0f0332d2f150258750085a4453f731e036c64#49c0f0332d2f150258750085a4453f731e036c64"
-  integrity sha512-tvnseJohdmeMvAQ5HyxAohZxkuIidU3wiFIpWBD8XHXBFbYIyj9Kf5dG0+T7NQSBaTv3CMslDUWRFFfDMJ1bvg==
+"@rowsncolumns/date-parser@^1.0.4":
+  version "1.0.4"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/1.0.4/1b13f808e02a0d2568891176602848921a734f7a#1b13f808e02a0d2568891176602848921a734f7a"
+  integrity sha512-l9t6jZ8jr6MdYtBIky12aXQr5cZcvQxbZamc75iAMLSLnohUmFQ/7RZF4/m87ZSslX+jUNO1Rpdb+OZ/aoj5ng==
 
 "@rowsncolumns/fast-formula-parser@^2.0.16":
   version "2.0.16"
@@ -950,12 +950,12 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^4.8.0"
 
-"@rowsncolumns/spreadsheet-state@^14.0.18":
-  version "14.0.18"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/14.0.18/7f62e8d9144b9775f6b84837d455facc70874d0c#7f62e8d9144b9775f6b84837d455facc70874d0c"
-  integrity sha512-EPR5FDG99gUIaycnwKFGwEC5lxuDGCYFswAUF7fx0VmbSUEpGVhcnT5CH77syNZCRMIGOJt4ten826/tu34jzw==
+"@rowsncolumns/spreadsheet-state@^14.0.19":
+  version "14.0.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/14.0.19/8c0f92acc61f7ad3d5626f90fc1b4613fdbbedd8#8c0f92acc61f7ad3d5626f90fc1b4613fdbbedd8"
+  integrity sha512-4yWYrG0wXAGiV1+m8ba/MMq+Q21WlsK6PXr5kGPBXDD/SfvKr98TabsAtKELr9Z5WOjxD54nyePv5En8ea1ZVg==
   dependencies:
-    "@rowsncolumns/date-parser" "^1.0.3"
+    "@rowsncolumns/date-parser" "^1.0.4"
     "@rowsncolumns/functions" "^2.0.12"
     "@rowsncolumns/toolkit" "^15.0.5"
     formik "^2.2.9"
