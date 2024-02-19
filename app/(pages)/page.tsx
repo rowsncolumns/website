@@ -55,7 +55,7 @@ export default async function Home() {
           </Link>
         </div>
 
-        <div className="p-2 text-sm flex gap-1 place-items-center">
+        <div className="gap-1 place-items-center p-2 text-sm md:flex md:flex-row">
           Current version:
           <div className="bg-slate-300 p-2 rounded-sm text-black">
             @rowsncolumns/spreadsheet{" "}
