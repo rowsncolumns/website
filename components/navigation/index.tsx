@@ -22,7 +22,7 @@ export function HeaderMenu() {
       </Button>
       <div
         className={cn(
-          "grid row-start-2 col-span-2 lg:col-span-1 lg:row-start-auto lg:grid-cols-[repeat(7,minmax(min-content,max-content))] lg:gap-1 lg:justify-items-end lg:place-content-end lg:!grid",
+          "grid row-start-2 col-span-2 lg:!col-span-1 lg:row-start-auto lg:grid-cols-[repeat(7,minmax(min-content,max-content))] lg:gap-1 lg:justify-items-end lg:place-content-end lg:!grid",
           isVisible ? undefined : "hidden"
         )}
       >
