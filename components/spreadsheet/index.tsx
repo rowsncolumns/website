@@ -146,6 +146,7 @@ export const Spreadsheet = () => {
       getSheetId,
       getUserEnteredFormat,
       onRequestCalculate,
+      onRequestFormatCells,
       onChangeActiveCell,
       onChangeActiveSheet,
       onSelectNextSheet,
@@ -753,6 +754,7 @@ export const Spreadsheet = () => {
           onInsertDate={onInsertDate}
           onInsertTime={onInsertTime}
           onInsertDateTime={onInsertDateTime}
+          onRequestFormatCells={onRequestFormatCells}
         />
 
         <LoadingIndicator />
