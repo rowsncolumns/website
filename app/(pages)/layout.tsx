@@ -1,3 +1,4 @@
+import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
 import "./../../styles/globals.css";
 import Image from "next/image";
 import { Inter } from "next/font/google";

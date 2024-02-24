@@ -1,12 +1,11 @@
+import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
 import "./../../styles/globals.css";
 import Link from "next/link";
 import { NextAuthProvider } from "./../providers";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
-import { Button } from "@/components/ui/button";
 import { HeaderMenu } from "@/components/navigation";
-import { HamburgerMenuIcon } from "@rowsncolumns/icons";
 import { cn } from "@/lib/utils";
 import Script from "next/script";
 
