@@ -69,6 +69,8 @@ import {
   NamedRangeEditor,
   useSearch,
   ResizeDimension,
+  CellFormatEditorDialog,
+  CellFormatEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -222,6 +224,7 @@ export const Spreadsheet = () => {
       enqueueCalculation,
       getNonEmptyColumnCount,
       getNonEmptyRowCount,
+      getEffectiveValue,
       onIncreaseIndent,
       onDecreaseIndent,
       onRequestResize,
@@ -830,6 +833,21 @@ export const Spreadsheet = () => {
           totalResults={totalResults}
           searchQuery={searchQuery}
         />
+
+        <CellFormatEditorDialog>
+          <CellFormatEditor
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            selections={selections}
+            onChangeFormatting={onChangeFormatting}
+            cellFormat={currentCellFormat}
+            getEffectiveValue={getEffectiveValue}
+            onMergeCells={onMergeCells}
+            theme={theme}
+            isDarkMode={isDarkMode}
+            onChangeBorder={onChangeBorder}
+          />
+        </CellFormatEditorDialog>
 
         <ResizeDimension onResize={onResize} onAutoResize={onAutoResize} />
       </>
