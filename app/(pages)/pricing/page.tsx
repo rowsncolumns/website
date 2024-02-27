@@ -27,7 +27,7 @@ export default async function Home() {
         </p>
       </header>
 
-      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 md:grid-cols-2 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full lg:grid-cols-2 pb-12 auto-rows-[1fr]">
+      <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 md:!grid-cols-2 items-start gap-x-8 gap-y-10 sm:mt-10 lg:max-w-full pb-12 auto-rows-[1fr]">
         {/* Personal */}
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background max-w-[440px]">
           <h3 className="text-foreground">Professional</h3>
