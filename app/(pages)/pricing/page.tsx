@@ -32,7 +32,7 @@ export default async function Home() {
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background max-w-[440px]">
           <h3 className="text-foreground">Professional</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            <s>$5,000</s> <span className="text-green-600 ml-2">$1,999</span>
+            <span className="text-green-600 ml-2">$3,500</span>
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             If you are a developer looking for a full featured spreadsheet.
