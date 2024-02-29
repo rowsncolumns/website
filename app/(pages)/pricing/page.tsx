@@ -72,12 +72,14 @@ export default async function Home() {
             <ul className="-my-2 divide-y text-sm divide-muted text-muted-foreground">
               <li className="flex py-2">Perpetual license</li>
               <li className="flex py-2">1 year of updates and support</li>
-              <li className="flex py-2">Unlimited application use</li>
+              <li className="flex py-2">Use in Unlimited applications</li>
               <li className="flex py-2">Source code included</li>
-              <li className="flex py-2">
-                Deploy to internal or external users
-              </li>
               <li className="flex py-2">Use in commercial applications</li>
+              <li className="flex py-2">
+                Deploy to internal (included) and external users (with
+                Deployment license)
+              </li>
+              <li className="flex py-2">Bulk discounts</li>
               <li className="flex py-2">Priority support</li>
             </ul>
           </div>
