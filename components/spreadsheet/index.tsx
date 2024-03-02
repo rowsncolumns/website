@@ -374,6 +374,7 @@ export const Spreadsheet = () => {
                 value
               );
             }}
+            onRequestFormatCells={onRequestFormatCells}
           />
           <ToolbarSeparator />
           <FontFamilySelector
