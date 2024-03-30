@@ -32,7 +32,7 @@ export default async function Home() {
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background">
           <h3 className="text-foreground">Solo</h3>
           <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            <s>$500</s> <span className="text-green-600 ml-2">$299</span>
+            $299
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             If you are a solo developer working on a single application.
