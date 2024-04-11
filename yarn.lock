@@ -979,10 +979,10 @@
     rxjs "^7.8.1"
     yup "^1.3.3"
 
-"@rowsncolumns/spreadsheet@^6.1.4":
-  version "6.1.4"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.1.4/84c5bccb3dbbd4cee5546ce97ec92675ac585a08#84c5bccb3dbbd4cee5546ce97ec92675ac585a08"
-  integrity sha512-VMdXfobkJTbzH3RsM3vFygwgDT+Q7oigj3yNv8vgjfjacOUqUQb/ydODOYxgxhZaK1/W/cKgECSZgVdddSR+DA==
+"@rowsncolumns/spreadsheet@^6.1.5":
+  version "6.1.5"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.1.5/9b0464779325eda5378bc446409fcfe6801960e7#9b0464779325eda5378bc446409fcfe6801960e7"
+  integrity sha512-PlG8l1ycGRGFe86PVThrhMvDuJolMmQD/NCAaIMvK9oX8tRnGTg5jY5seQaSIb7pasTNFlFn0Fid5H0BcM+3hg==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.30"
     "@rowsncolumns/functions" "^2.0.12"
