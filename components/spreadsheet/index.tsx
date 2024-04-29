@@ -655,6 +655,7 @@ export const Spreadsheet = () => {
           <Separator orientation="vertical" />
           <FormulaBarLabel>fx</FormulaBarLabel>
           <FormulaBarInput
+            sheetId={activeSheetId}
             activeCell={activeCell}
             functionDescriptions={functionDescriptions}
           />
