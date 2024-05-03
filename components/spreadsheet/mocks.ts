@@ -4,11 +4,12 @@ import {
   TableView,
 } from "@rowsncolumns/spreadsheet";
 import { uuid } from "@rowsncolumns/utils";
+const sheetId = uuid();
 
 export const mockSheets: Sheet[] = [
   {
     title: "Sheet 1",
-    sheetId: uuid(),
+    sheetId,
     rowCount: 1000,
     columnCount: 100,
     frozenColumnCount: 0,
@@ -38,7 +39,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
     ranges: [
       {
-        sheetId: 1,
+        sheetId,
         startRowIndex: 2,
         endRowIndex: 2,
         startColumnIndex: 1,
@@ -64,7 +65,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
     ranges: [
       {
-        sheetId: 1,
+        sheetId,
         startRowIndex: 4,
         endRowIndex: 56,
         startColumnIndex: 7,
@@ -85,7 +86,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
     ranges: [
       {
-        sheetId: 1,
+        sheetId,
         startRowIndex: 4,
         endRowIndex: 56,
         startColumnIndex: 9,
@@ -106,7 +107,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
     ranges: [
       {
-        sheetId: 1,
+        sheetId,
         startRowIndex: 4,
         endRowIndex: 56,
         startColumnIndex: 6,
@@ -135,7 +136,7 @@ export const mockTables: TableView[] = [
       endColumnIndex: 18,
       endRowIndex: 56,
     },
-    sheetId: 1,
+    sheetId,
     title: "Covid Data",
     columns: [
       { name: "date" },
