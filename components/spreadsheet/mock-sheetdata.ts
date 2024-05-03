@@ -1,7 +1,7 @@
 import { SheetData } from "@rowsncolumns/spreadsheet-state";
-
+import { sheetId } from "./mocks";
 export const mockSheetdata: SheetData = {
-  "1": [
+  [sheetId]: [
     null,
     null,
     {
