@@ -3,11 +3,12 @@ import {
   Sheet,
   TableView,
 } from "@rowsncolumns/spreadsheet";
+import { uuid } from "@rowsncolumns/utils";
 
 export const mockSheets: Sheet[] = [
   {
     title: "Sheet 1",
-    sheetId: 1,
+    sheetId: uuid(),
     rowCount: 1000,
     columnCount: 100,
     frozenColumnCount: 0,
