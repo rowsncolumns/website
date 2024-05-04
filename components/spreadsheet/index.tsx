@@ -1,5 +1,5 @@
 "use client";
-// import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
+import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
 import { useState, useMemo } from "react";
 import {
   Sheet,
