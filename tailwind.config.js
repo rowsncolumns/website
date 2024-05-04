@@ -1,9 +1,13 @@
-const { fontFamily } = require("tailwindcss/defaultTheme")
- 
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ['class'],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
+  darkMode: ["class"],
+  content: [
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+    "./node_modules/@rowsncolumns/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -48,8 +52,8 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         site: {
-          border: "hsl(var(--site-border))"
-        }
+          border: "hsl(var(--site-border))",
+        },
       },
       borderRadius: {
         lg: `var(--radius)`,
@@ -76,4 +80,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

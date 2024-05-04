@@ -11,7 +11,9 @@ export const generateMetadata = (): Metadata => {
 export default async function Demo() {
   return (
     <div className="m-2 flex-1 flex flex-col min-h-0 relative">
-      <Spreadsheet />
+      <div className="h-[400px]">
+        <Spreadsheet />
+      </div>
     </div>
   );
 }
