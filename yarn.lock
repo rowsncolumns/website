@@ -932,10 +932,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.7":
-  version "6.2.7"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.7/e250e756cb6b095eedf62ae384dbb5501c1e2807#e250e756cb6b095eedf62ae384dbb5501c1e2807"
-  integrity sha512-TKqT4OOKWJzG+Oje+DIJmKp3Ewni6meYJvekWJ3Hz9Qc2x8RGUDUKWTkYfGCzC5Cf3LzySBZr+0jU+kYTXCvYw==
+"@rowsncolumns/spreadsheet@^6.2.8":
+  version "6.2.8"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.8/e85bcaa882190bb22f64901593bc9ae14df88247#e85bcaa882190bb22f64901593bc9ae14df88247"
+  integrity sha512-aNWma2KxBXnQKUQ3/wFiWijMvDnLAfLJ4uB/J32eVw/t9rMnaBreh/5Q6ecAT8hE9rwO7PnISw0lIE9LBhPrlQ==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.31"
     "@rowsncolumns/functions" "^3.0.0"
