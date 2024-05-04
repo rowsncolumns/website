@@ -899,10 +899,10 @@
   dependencies:
     papaparse "^5.4.1"
 
-"@rowsncolumns/grid@^2.1.1":
-  version "2.1.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.1.1/d77cdeb76486480ff093d297b00f9ed96166e1e6#d77cdeb76486480ff093d297b00f9ed96166e1e6"
-  integrity sha512-56jvo2JwyREF/jBGIQu6RIJzUsKqqYhSIp9FHaPbg7Q/tOGIErLg1QZMfILZPXxufuVZu/YOE2FqjrduGEOkyA==
+"@rowsncolumns/grid@^2.1.2":
+  version "2.1.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.1.2/e3c9da7d8634b4bfc2780c248cd4d6573a628cce#e3c9da7d8634b4bfc2780c248cd4d6573a628cce"
+  integrity sha512-5d0khvqbKdp1XacwD9u6Iny5FwEYTC52UXYKRtGnzMjkbueXrKzyTtZiZ1EGNUBQM+eR9Z6vQVKUw5n6Im0e9g==
   dependencies:
     konva "^9.3.6"
     react-konva "^18.2.10"
@@ -932,14 +932,14 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.3":
-  version "6.2.3"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.3/ba22e6d21921e92fed4b63a36f7b307bdc5fa27c#ba22e6d21921e92fed4b63a36f7b307bdc5fa27c"
-  integrity sha512-CATJ2mU97ePBFFhn4rBDeHrPc37ajte5cVrdVFyT3wgz85vhdMxUWIU4ta0Wc2hP0pn3gi9gaNu6yhq6JHuatw==
+"@rowsncolumns/spreadsheet@^6.2.4":
+  version "6.2.4"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.4/12e3b168f3a9ce085c0cd6338b93c1bb70d29fb1#12e3b168f3a9ce085c0cd6338b93c1bb70d29fb1"
+  integrity sha512-aMsg5bad+FKRwHsHmCZbwmVaqjlfW0ZvkmEG4hSjtcetIHjIw5M4VTXXTPdm5Fj6pPyz56mqOfPl75Xk2zkdNQ==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.31"
     "@rowsncolumns/functions" "^3.0.0"
-    "@rowsncolumns/grid" "^2.1.1"
+    "@rowsncolumns/grid" "^2.1.2"
     "@rowsncolumns/icons" "^3.2.0"
     "@rowsncolumns/ui" "^4.0.0"
     "@rowsncolumns/utils" "^4.0.0"
