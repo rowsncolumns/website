@@ -13,7 +13,7 @@ import {
 } from "react";
 import { usePrevious } from "./use-previous";
 
-const MEDIA_QUERY = "(prefers-color-scheme: dark)";
+const MEDIA_QUERY = "(only screen and (prefers-color-scheme: dark))";
 const themeStorageKey = "rnc-colormode";
 
 // Theme provider
