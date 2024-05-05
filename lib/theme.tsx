@@ -75,7 +75,6 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
   useIsomorphicLayoutEffect(() => {
     // Persist theme
     if (previousColorMode && colorMode && colorMode !== previousColorMode) {
-      console.log("called", previousColorMode, colorMode);
       localStorage.setItem(themeStorageKey, colorMode);
     }
     // Update classname
