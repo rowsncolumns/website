@@ -233,6 +233,8 @@ export const Spreadsheet = () => {
       onInsertDate,
       onInsertTime,
       onInsertDateTime,
+      getSheetColumnCount,
+      getSheetRowCount,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -757,6 +759,8 @@ export const Spreadsheet = () => {
           onInsertTime={onInsertTime}
           onInsertDateTime={onInsertDateTime}
           onRequestFormatCells={onRequestFormatCells}
+          getSheetColumnCount={getSheetColumnCount}
+          getSheetRowCount={getSheetRowCount}
         />
 
         <LoadingIndicator />
