@@ -71,6 +71,7 @@ import {
   ResizeDimension,
   CellFormatEditorDialog,
   CellFormatEditor,
+  ConditionalFormatEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -235,6 +236,8 @@ export const Spreadsheet = () => {
       onInsertDateTime,
       getSheetColumnCount,
       getSheetRowCount,
+      createHistory,
+      onRequestConditionalFormat,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -759,6 +762,7 @@ export const Spreadsheet = () => {
           onInsertTime={onInsertTime}
           onInsertDateTime={onInsertDateTime}
           onRequestFormatCells={onRequestFormatCells}
+          onRequestConditionalFormat={onRequestConditionalFormat}
           getSheetColumnCount={getSheetColumnCount}
           getSheetRowCount={getSheetRowCount}
         />
@@ -805,6 +809,18 @@ export const Spreadsheet = () => {
             merges={merges}
           />
         </BottomBar>
+
+        <ConditionalFormatEditor
+          sheetId={activeSheetId}
+          rowCount={rowCount}
+          columnCount={columnCount}
+          getSheetName={getSheetName}
+          getSheetId={getSheetId}
+          theme={theme}
+          conditionalFormats={conditionalFormats}
+          onChangeConditionalFormats={onChangeConditionalFormats}
+          createHistory={createHistory}
+        />
 
         <TableEditor
           sheetId={activeSheetId}
