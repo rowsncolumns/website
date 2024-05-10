@@ -37,6 +37,7 @@ export const mockSheets: Sheet[] = [
 
 export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
+    id: uuid(),
     ranges: [
       {
         sheetId,
@@ -63,6 +64,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
     },
   },
   {
+    id: uuid(),
     ranges: [
       {
         sheetId,
@@ -84,6 +86,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
     },
   },
   {
+    id: uuid(),
     ranges: [
       {
         sheetId,
@@ -105,6 +108,7 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
     },
   },
   {
+    id: uuid(),
     ranges: [
       {
         sheetId,
