@@ -72,6 +72,7 @@ import {
   CellFormatEditorDialog,
   CellFormatEditor,
   ConditionalFormatEditor,
+  ConditionalFormatDialog,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -810,17 +811,19 @@ export const Spreadsheet = () => {
           />
         </BottomBar>
 
-        <ConditionalFormatEditor
-          sheetId={activeSheetId}
-          rowCount={rowCount}
-          columnCount={columnCount}
-          getSheetName={getSheetName}
-          getSheetId={getSheetId}
-          theme={theme}
-          conditionalFormats={conditionalFormats}
-          onChangeConditionalFormats={onChangeConditionalFormats}
-          createHistory={createHistory}
-        />
+        <ConditionalFormatDialog>
+          <ConditionalFormatEditor
+            sheetId={activeSheetId}
+            rowCount={rowCount}
+            columnCount={columnCount}
+            getSheetName={getSheetName}
+            getSheetId={getSheetId}
+            theme={theme}
+            conditionalFormats={conditionalFormats}
+            onChangeConditionalFormats={onChangeConditionalFormats}
+            createHistory={createHistory}
+          />
+        </ConditionalFormatDialog>
 
         <TableEditor
           sheetId={activeSheetId}
