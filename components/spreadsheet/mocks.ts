@@ -166,30 +166,13 @@ export const mockTables: TableView[] = [
     ],
     bandedRange: {
       rowProperties: {
+        firstBandColor: { theme: 4, tint: 1 },
         headerBorder: {
-          top: {
-            width: 1,
-            style: "solid",
-            color: {
-              theme: 1,
-            },
-          },
-          bottom: {
-            width: 1,
-            style: "solid",
-            color: {
-              theme: 1,
-            },
-          },
+          top: { width: 1, style: "solid", color: { theme: 4 } },
+          bottom: { width: 1, style: "solid", color: { theme: 4 } },
         },
         footerBorder: {
-          bottom: {
-            width: 1,
-            style: "solid",
-            color: {
-              theme: 1,
-            },
-          },
+          bottom: { width: 1, style: "solid", color: { theme: 4 } },
         },
       },
     },
