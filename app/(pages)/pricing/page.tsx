@@ -70,8 +70,8 @@ export default async function Home() {
         {/* Personal */}
         <section className="flex flex-col overflow-hidden rounded-3xl p-6 lg:min-h-full shadow-lg border-site-border border bg-background max-w-[440px]">
           <h3 className="text-foreground">Professional</h3>
-          <p className="relative mt-5 flex text-3xl tracking-tight text-foreground">
-            $3,500
+          <p className="relative mt-5 flex text-3xl tracking-tight text-foreground items-baseline gap-2">
+            $3,500 <span className="text-sm">(15% Discount for startups)</span>
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             If you are a developer looking for a full featured spreadsheet.
@@ -85,6 +85,9 @@ export default async function Home() {
               <li className="flex py-2">Source code included</li>
               <li className="flex py-2">All features included</li>
               <li className="flex py-2">Use in commercial applications</li>
+              <li className="flex py-2">
+                15% discount for startups (&lt;= 5 employees)
+              </li>
             </ul>
           </div>
 
