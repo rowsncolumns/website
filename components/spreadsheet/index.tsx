@@ -239,6 +239,10 @@ export const Spreadsheet = () => {
       getSheetRowCount,
       createHistory,
       onRequestConditionalFormat,
+      onCreateConditionalFormattingRule,
+      onUpdateConditionalFormattingRule,
+      onDeleteConditionalFormattingRule,
+      onPreviewConditionalFormattingRule,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -820,8 +824,10 @@ export const Spreadsheet = () => {
             getSheetId={getSheetId}
             theme={theme}
             conditionalFormats={conditionalFormats}
-            onChangeConditionalFormats={onChangeConditionalFormats}
-            createHistory={createHistory}
+            onCreateRule={onCreateConditionalFormattingRule}
+            onDeleteRule={onDeleteConditionalFormattingRule}
+            onUpdateRule={onUpdateConditionalFormattingRule}
+            onPreviewRule={onPreviewConditionalFormattingRule}
           />
         </ConditionalFormatDialog>
 
