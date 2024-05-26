@@ -58,6 +58,7 @@ import {
   LoadingIndicator,
   ConditionalFormatRule,
   ProtectedRange,
+  ButtonInsertChart,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -68,7 +69,7 @@ import {
   DeleteSheetConfirmation,
   NamedRangeEditor,
   useSearch,
-  ResizeDimension,
+  ResizeDimensionEditor,
   CellFormatEditorDialog,
   CellFormatEditor,
   ConditionalFormatEditor,
@@ -84,6 +85,12 @@ import { MagnifyingGlassIcon } from "@rowsncolumns/icons";
 import { createClient } from "@supabase/supabase-js";
 import { getUniqueName } from "./names";
 import { useSearchParams } from "next/navigation";
+import {
+  ChartEditor,
+  ChartEditorDialog,
+  useCharts,
+  ChartComponent,
+} from "@rowsncolumns/charts";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -180,9 +187,6 @@ export const Spreadsheet = () => {
       onShowRow,
       onFill,
       onFillRange,
-      onMoveChart,
-      onResizeChart,
-      onDeleteChart,
       onMoveEmbed,
       onResizeEmbed,
       onDeleteEmbed,
@@ -243,6 +247,9 @@ export const Spreadsheet = () => {
       onUpdateConditionalFormattingRule,
       onDeleteConditionalFormattingRule,
       onPreviewConditionalFormattingRule,
+      getSeriesValuesFromRange,
+      getDomainValuesFromRange,
+      sheetObserver,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -296,6 +303,20 @@ export const Spreadsheet = () => {
       enqueueCalculation,
       onChangeSheets,
       onChangeTables,
+    });
+
+    // Charts module
+    const {
+      onRequestEditChart,
+      onDeleteChart,
+      onMoveChart,
+      onResizeChart,
+      onUpdateChart,
+      onCreateChart,
+      selectedChart,
+    } = useCharts({
+      createHistory,
+      onChangeCharts,
     });
 
     // Format fo the current cell
@@ -594,6 +615,10 @@ export const Spreadsheet = () => {
           />
           <ToolbarSeparator />
 
+          <ButtonInsertChart
+            onClick={() => onCreateChart(activeSheetId, activeCell, selections)}
+          />
+
           <ButtonInsertImage onInsertFile={onInsertFile} />
 
           <ToolbarSeparator />
@@ -770,6 +795,17 @@ export const Spreadsheet = () => {
           onRequestConditionalFormat={onRequestConditionalFormat}
           getSheetColumnCount={getSheetColumnCount}
           getSheetRowCount={getSheetRowCount}
+          getChartComponent={(props) => (
+            <ChartComponent
+              {...props}
+              isDarkMode={isDarkMode}
+              getSeriesValuesFromRange={getSeriesValuesFromRange}
+              getDomainValuesFromRange={getDomainValuesFromRange}
+              sheetObserver={sheetObserver}
+              onRequestEdit={onRequestEditChart}
+              onRequestCalculate={onRequestCalculate}
+            />
+          )}
         />
 
         <LoadingIndicator />
@@ -882,7 +918,22 @@ export const Spreadsheet = () => {
           />
         </CellFormatEditorDialog>
 
-        <ResizeDimension onResize={onResize} onAutoResize={onAutoResize} />
+        <ResizeDimensionEditor
+          onResize={onResize}
+          onAutoResize={onAutoResize}
+        />
+
+        <ChartEditorDialog>
+          <ChartEditor
+            sheetId={activeSheetId}
+            chart={selectedChart}
+            onSubmit={onUpdateChart}
+            rowCount={rowCount}
+            columnCount={columnCount}
+            getSheetName={getSheetName}
+            getSheetId={getSheetId}
+          />
+        </ChartEditorDialog>
       </>
     );
   };
