@@ -59,6 +59,8 @@ import {
   ConditionalFormatRule,
   ProtectedRange,
   ButtonInsertChart,
+  InsertMenu,
+  ButtonInsertLink,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -74,6 +76,10 @@ import {
   CellFormatEditor,
   ConditionalFormatEditor,
   ConditionalFormatDialog,
+  InsertImageDialog,
+  InsertImageEditor,
+  InsertLinkDialog,
+  InsertLinkEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -239,6 +245,11 @@ export const Spreadsheet = () => {
       onInsertDate,
       onInsertTime,
       onInsertDateTime,
+      onInsertImage,
+      onInsertLink,
+      onInsertCheckbox,
+      onRequestInsertImage,
+      onRequestInsertLink,
       getSheetColumnCount,
       getSheetRowCount,
       createHistory,
@@ -615,11 +626,32 @@ export const Spreadsheet = () => {
           />
           <ToolbarSeparator />
 
+          <InsertMenu
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            selections={selections}
+            onCreateNewSheet={onCreateNewSheet}
+            onCreateChart={onCreateChart}
+            onRequestInsertImage={onRequestInsertImage}
+            onRequestInsertLink={onRequestInsertLink}
+            onInsertCellsShiftDown={onInsertCellsShiftDown}
+            onInsertCellsShiftRight={onInsertCellsShiftRight}
+            onInsertColumn={onInsertColumn}
+            onInsertRow={onInsertRow}
+            onInsertCheckbox={onInsertCheckbox}
+          />
+
           <ButtonInsertChart
             onClick={() => onCreateChart(activeSheetId, activeCell, selections)}
           />
 
           <ButtonInsertImage onInsertFile={onInsertFile} />
+
+          <ButtonInsertLink
+            onClick={() =>
+              onRequestInsertLink(activeSheetId, activeCell, selections)
+            }
+          />
 
           <ToolbarSeparator />
 
@@ -934,6 +966,24 @@ export const Spreadsheet = () => {
             getSheetId={getSheetId}
           />
         </ChartEditorDialog>
+
+        <InsertImageDialog>
+          <InsertImageEditor
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            selections={selections}
+            onInsertImage={onInsertImage}
+          />
+        </InsertImageDialog>
+
+        <InsertLinkDialog>
+          <InsertLinkEditor
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            selections={selections}
+            onInsertLink={onInsertLink}
+          />
+        </InsertLinkDialog>
       </>
     );
   };
