@@ -269,6 +269,7 @@ export const Spreadsheet = () => {
       namedRanges,
       theme,
       colorMode,
+      conditionalFormats,
       onChangeSheets,
       onChangeSheetData,
       onChangeEmbeds,
