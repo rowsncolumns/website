@@ -860,12 +860,12 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@rowsncolumns/calculator@^3.0.36":
-  version "3.0.36"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.36/6cf87342c7ee660f68511d46956f73581ab64669#6cf87342c7ee660f68511d46956f73581ab64669"
-  integrity sha512-IqrZrATtodGb7+9L6fcfr2rLEuW/ZuPdciyPLaFGLpBpahoByKQ90nkNdC44zvpYriTHMb9jH5/A6/jZ93Kfmw==
+"@rowsncolumns/calculator@^3.0.37":
+  version "3.0.37"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.37/b88a673c8ed4855e9036a814fa7a92089e65c232#b88a673c8ed4855e9036a814fa7a92089e65c232"
+  integrity sha512-8BnOR4dZgNA5fw3gIIP3ElfpSy3YIveoFmvC0DXFObXUEv8I6rtALyN68cWxq8gUDojsLYJ7BnxnjFyd88NR3g==
   dependencies:
-    "@rowsncolumns/dag" "^3.0.26"
+    "@rowsncolumns/dag" "^3.0.27"
     "@rowsncolumns/fast-formula-parser" "^2.1.4"
     "@rowsncolumns/utils" "^4.0.6"
 
@@ -877,10 +877,10 @@
     echarts "^5.5.0"
     formik "^2.4.6"
 
-"@rowsncolumns/dag@^3.0.26":
-  version "3.0.26"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.26/caf0eaff8ac198835436ec0ca5d30b2ea9d8225c#caf0eaff8ac198835436ec0ca5d30b2ea9d8225c"
-  integrity sha512-UsqEpThSS/oUNsM7BovLTXqg0PDAraC6eJwogxOadtB5nsL7sX/qOWHkaBZ6KZVamVFXTutPK0mR7tC34+qQXw==
+"@rowsncolumns/dag@^3.0.27":
+  version "3.0.27"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.27/3a13507b0cd8d28f2c50b5809cf54271e9181ac6#3a13507b0cd8d28f2c50b5809cf54271e9181ac6"
+  integrity sha512-RMdJtxnkuq2VW/vYyrcbc4u5MpzGh4q8xHGowSSf9+1q2cDOZR4OVhNHcrCrzw75JOStfL7hxF7E687UlmtDxA==
   dependencies:
     "@rowsncolumns/utils" "^4.0.6"
 
@@ -926,26 +926,26 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.33":
-  version "16.0.33"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.33/a40d97a10c35a37fcc28b12c4f737eb311af64af#a40d97a10c35a37fcc28b12c4f737eb311af64af"
-  integrity sha512-BtNkd31xXW+ENoJ6DRm0EPsFSRTzUu727v1SlJ+Eq5RZbD+eWewGDSy+0LlbQ/OECXohBJwTVtajQjTC1Zxv2w==
+"@rowsncolumns/spreadsheet-state@^16.0.34":
+  version "16.0.34"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.34/8423fb7b6a8958b956457dc89e9c3beaa7da4b9f#8423fb7b6a8958b956457dc89e9c3beaa7da4b9f"
+  integrity sha512-8GJTuzWBGeBsnklKatmLTvij6b2Rg9OBav8AxrDEXgWHj9tQ42M4KrLgYvM4Z53wbHRfb7N5EhgOtKmis/oeyQ==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.5"
     "@rowsncolumns/functions" "^3.0.5"
-    "@rowsncolumns/toolkit" "^18.0.9"
+    "@rowsncolumns/toolkit" "^18.0.10"
     formik "^2.4.6"
     immer "^9.0.21"
     recoil "^0.7.7"
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.41":
-  version "6.2.41"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.41/9dfd7f44c2610c452fe2b55c55865cb755d456c6#9dfd7f44c2610c452fe2b55c55865cb755d456c6"
-  integrity sha512-HGqp7DctH9cdox0rxaqM4zrFBAl2DKL5QEPLWEQdtHniWzXdGtMphOZy9bzMYViKF0zQ09JkGo2VGILUs3nibQ==
+"@rowsncolumns/spreadsheet@^6.2.42":
+  version "6.2.42"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.42/54bee6aa00ca04a5c605758470df1ed40c82c26b#54bee6aa00ca04a5c605758470df1ed40c82c26b"
+  integrity sha512-Bb6whLEUWe7r3+kxvtiHa0toItsOdHmz8YVOrGsqb4mckf9X14NN0R9JDuHiJyRapyFBPSA3dkNnKvI57oyN7w==
   dependencies:
-    "@rowsncolumns/calculator" "^3.0.36"
+    "@rowsncolumns/calculator" "^3.0.37"
     "@rowsncolumns/functions" "^3.0.5"
     "@rowsncolumns/grid" "^2.1.16"
     "@rowsncolumns/icons" "^3.2.8"
@@ -968,10 +968,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^18.0.9":
-  version "18.0.9"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/18.0.9/6786e90cebeee4f04695f6337a176a37a9f316b9#6786e90cebeee4f04695f6337a176a37a9f316b9"
-  integrity sha512-EHXa2JJm67828EssOnx8/VDS4pX9y1tIEFDKtaaeYTXW6zQUz36WQJRVkEWmwvJ/j6Xh8cNHJP1DduhWoRiFNA==
+"@rowsncolumns/toolkit@^18.0.10":
+  version "18.0.10"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/18.0.10/1ceddae333dc2e464444da29d57eebe5fd4d4251#1ceddae333dc2e464444da29d57eebe5fd4d4251"
+  integrity sha512-0vBMlgUQSzjKqDFhAgroBx8HvoDhiA04Z3P8Rj+pQ63V6r2vajJHOi3o7oc2uTBrmAX6c9kIrvrtO4+w9cjKLw==
   dependencies:
     exceljs "^4.4.0"
     papaparse "^5.4.1"
