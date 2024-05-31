@@ -889,8 +889,6 @@ export const Spreadsheet = () => {
             sheetId={activeSheetId}
             rowCount={rowCount}
             columnCount={columnCount}
-            getSheetName={getSheetName}
-            getSheetId={getSheetId}
             theme={theme}
             conditionalFormats={conditionalFormats}
             onCreateRule={onCreateConditionalFormattingRule}
@@ -963,8 +961,6 @@ export const Spreadsheet = () => {
             onSubmit={onUpdateChart}
             rowCount={rowCount}
             columnCount={columnCount}
-            getSheetName={getSheetName}
-            getSheetId={getSheetId}
           />
         </ChartEditorDialog>
 
