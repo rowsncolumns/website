@@ -902,7 +902,6 @@ export const Spreadsheet = () => {
           sheetId={activeSheetId}
           rowCount={rowCount}
           columnCount={columnCount}
-          getSheetName={getSheetName}
           onSubmit={onUpdateTable}
           theme={theme}
           merges={merges}
@@ -915,7 +914,6 @@ export const Spreadsheet = () => {
           sheetId={activeSheetId}
           rowCount={rowCount}
           columnCount={columnCount}
-          getSheetName={getSheetName}
           onCreateNamedRange={onCreateNamedRange}
           onUpdateNamedRange={onUpdateNamedRange}
           merges={merges}
