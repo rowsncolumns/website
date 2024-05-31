@@ -4,7 +4,7 @@ import {
   TableView,
 } from "@rowsncolumns/spreadsheet";
 import { uuid } from "@rowsncolumns/utils";
-export const sheetId = uuid();
+export const sheetId = 1;
 
 export const mockSheets: Sheet[] = [
   {
