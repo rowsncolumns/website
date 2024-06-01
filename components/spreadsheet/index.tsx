@@ -61,6 +61,7 @@ import {
   ButtonInsertChart,
   InsertMenu,
   ButtonInsertLink,
+  DataValidationRuleRecord,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -80,6 +81,8 @@ import {
   InsertImageEditor,
   InsertLinkDialog,
   InsertLinkEditor,
+  DataValidationEditorDialog,
+  DataValidationEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -132,6 +135,9 @@ export const Spreadsheet = () => {
     const [conditionalFormats, onChangeConditionalFormats] = useState<
       ConditionalFormatRule[]
     >(mockConditionalFormatting);
+    const [dataValidations, onChangeDataValidations] = useState<
+      DataValidationRuleRecord[]
+    >([]);
     const [protectedRanges, onChangeProtectedRanges] = useState<
       ProtectedRange[]
     >([]);
@@ -258,6 +264,10 @@ export const Spreadsheet = () => {
       onUpdateConditionalFormattingRule,
       onDeleteConditionalFormattingRule,
       onPreviewConditionalFormattingRule,
+      onCreateDataValidationRule,
+      onUpdateDataValidationRule,
+      onDeleteDataValidationRule,
+      onDeleteDataValidationRules,
       getSeriesValuesFromRange,
       getDomainValuesFromRange,
       sheetObserver,
@@ -282,6 +292,7 @@ export const Spreadsheet = () => {
       },
       onChangeProtectedRanges,
       onChangeConditionalFormats,
+      onChangeDataValidations,
     });
 
     const {
@@ -897,6 +908,19 @@ export const Spreadsheet = () => {
             onPreviewRule={onPreviewConditionalFormattingRule}
           />
         </ConditionalFormatDialog>
+
+        <DataValidationEditorDialog>
+          <DataValidationEditor
+            dataValidations={dataValidations}
+            sheetId={activeSheetId}
+            rowCount={rowCount}
+            columnCount={columnCount}
+            onDeleteRules={onDeleteDataValidationRules}
+            onDeleteRule={onDeleteDataValidationRule}
+            onCreateRule={onCreateDataValidationRule}
+            onUpdateRule={onUpdateDataValidationRule}
+          />
+        </DataValidationEditorDialog>
 
         <TableEditor
           sheetId={activeSheetId}
