@@ -260,6 +260,7 @@ export const Spreadsheet = () => {
       getSheetRowCount,
       createHistory,
       onRequestConditionalFormat,
+      onRequestDataValidation,
       onCreateConditionalFormattingRule,
       onUpdateConditionalFormattingRule,
       onDeleteConditionalFormattingRule,
@@ -837,6 +838,7 @@ export const Spreadsheet = () => {
           onInsertDateTime={onInsertDateTime}
           onRequestFormatCells={onRequestFormatCells}
           onRequestConditionalFormat={onRequestConditionalFormat}
+          onRequestDataValidation={onRequestDataValidation}
           getSheetColumnCount={getSheetColumnCount}
           getSheetRowCount={getSheetRowCount}
           getChartComponent={(props) => (
