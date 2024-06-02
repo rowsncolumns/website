@@ -743,6 +743,7 @@ export const Spreadsheet = () => {
 
         <CanvasGrid
           {...spreadsheetColors}
+          showSelectionResizeHandles
           getSheetId={getSheetId}
           showGridLines={showGridLines}
           borderStyles={borderStyles}
