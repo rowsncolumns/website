@@ -651,7 +651,7 @@ export const Spreadsheet = () => {
             onInsertCellsShiftRight={onInsertCellsShiftRight}
             onInsertColumn={onInsertColumn}
             onInsertRow={onInsertRow}
-            onInsertCheckbox={onInsertCheckbox}
+            onRequestDataValidation={onRequestDataValidation}
           />
 
           <ButtonInsertChart
