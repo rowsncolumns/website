@@ -6,7 +6,7 @@ const secret = "rowsncolumns-license";
 export type LicenseType =
   | "evaluation"
   | "solo"
-  | "personal"
+  | "professional"
   | "team"
   | "enterprise";
 
@@ -36,6 +36,10 @@ export async function GET(request: Request) {
   const url = new URL(request.url);
   const userId = url.searchParams.get("userId") as string;
   const licenseType = url.searchParams.get("licenseType") as LicenseType;
-  const license = await generateLicenseCode(userId, licenseType);
-  return NextResponse.json({ license });
+  const licenseTypes = ["solo", "professional", "team", "enterprise"];
+  if (licenseTypes.includes(licenseType)) {
+    const license = await generateLicenseCode(userId, licenseType);
+    return NextResponse.json({ license });
+  }
+  return NextResponse.rewrite(`/404`);
 }
