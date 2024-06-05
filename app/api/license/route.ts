@@ -41,5 +41,5 @@ export async function GET(request: Request) {
     const license = await generateLicenseCode(userId, licenseType);
     return NextResponse.json({ license });
   }
-  return NextResponse.rewrite(`/404`);
+  return NextResponse.json({}, { status: 404 });
 }
