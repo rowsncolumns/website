@@ -7,6 +7,13 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
+"@babel/runtime@^7.12.5":
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
+  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/runtime@^7.13.10", "@babel/runtime@^7.20.13", "@babel/runtime@^7.20.7":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
@@ -945,16 +952,16 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.65":
-  version "6.2.65"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.65/688a69985b56ee0b422e4302f9a0e5e46c1681cb#688a69985b56ee0b422e4302f9a0e5e46c1681cb"
-  integrity sha512-WhOSyYqsHb3FAcJdLUtRsNaOLdL0HjqoJAahs2c0hg5RR28D+jNvPGLUxacB7NU8blDPA2EgN9ncmVIK48dcWg==
+"@rowsncolumns/spreadsheet@^6.2.66":
+  version "6.2.66"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.66/88e6e6ebe59eb6cdf2d51ce56b104e0a7d0d6113#88e6e6ebe59eb6cdf2d51ce56b104e0a7d0d6113"
+  integrity sha512-jf6xHFkeMdyfx82d91kpVyqWlm9Zv+ZUsh2Av9iHz5qJhDf9rkwaQBeem2iNI/1s1TRBcag1/RXHylrrk6zjow==
   dependencies:
     "@rowsncolumns/calculator" "^3.0.41"
     "@rowsncolumns/functions" "^3.0.5"
     "@rowsncolumns/grid" "^2.1.17"
     "@rowsncolumns/icons" "^3.2.9"
-    "@rowsncolumns/ui" "^4.0.14"
+    "@rowsncolumns/ui" "^4.0.15"
     "@rowsncolumns/utils" "^4.0.7"
     "@tanstack/react-virtual" "3.5.0"
     formik "^2.4.6"
@@ -981,10 +988,10 @@
     exceljs "^4.4.0"
     papaparse "^5.4.1"
 
-"@rowsncolumns/ui@^4.0.14":
-  version "4.0.14"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.14/7ad26a5e07001785b1032f2405d240bb5b844773#7ad26a5e07001785b1032f2405d240bb5b844773"
-  integrity sha512-Ck+Dw6m03HdVwMkeefugxbq3tDtSd8WTCByLi02X5X9cy5XtVw9R68p70Vqz3LMzZk4A4fn4F/cKx3JUlR/3WQ==
+"@rowsncolumns/ui@^4.0.15":
+  version "4.0.15"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.15/dba1276da6f4abb0b915b8b25bdaecb4f92df850#dba1276da6f4abb0b915b8b25bdaecb4f92df850"
+  integrity sha512-9GUVCdwCFLbLIVp+lmAtsxhwC6nttdALcU8Du3Q93Q7AjDs4IMSwzo7e5V6p6owWNWOxQZnwu90scxmFrvH3rg==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.6"
@@ -999,6 +1006,7 @@
     react-colorful "^5.6.1"
     react-day-picker "^8.10.1"
     react-draggable "^4.4.6"
+    react-error-boundary "^4.0.13"
     slate "^0.103.0"
     slate-history "^0.100.0"
     slate-react "^0.105.0"
@@ -4058,6 +4066,13 @@ react-draggable@^4.4.6:
   dependencies:
     clsx "^1.1.1"
     prop-types "^15.8.1"
+
+react-error-boundary@^4.0.13:
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-4.0.13.tgz#80386b7b27b1131c5fbb7368b8c0d983354c7947"
+  integrity sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
 
 react-fast-compare@^2.0.1:
   version "2.0.4"
