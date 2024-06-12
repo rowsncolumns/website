@@ -905,6 +905,7 @@ export const Spreadsheet = () => {
             columnCount={columnCount}
             theme={theme}
             conditionalFormats={conditionalFormats}
+            functionDescriptions={functionDescriptions}
             onCreateRule={onCreateConditionalFormattingRule}
             onDeleteRule={onDeleteConditionalFormattingRule}
             onUpdateRule={onUpdateConditionalFormattingRule}
@@ -918,6 +919,7 @@ export const Spreadsheet = () => {
             sheetId={activeSheetId}
             rowCount={rowCount}
             columnCount={columnCount}
+            functionDescriptions={functionDescriptions}
             onDeleteRules={onDeleteDataValidationRules}
             onDeleteRule={onDeleteDataValidationRule}
             onCreateRule={onCreateDataValidationRule}
