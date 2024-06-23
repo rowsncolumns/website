@@ -1,6 +1,6 @@
 "use client";
 import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
-import { useState, useMemo } from "react";
+import { useState, useMemo, Suspense } from "react";
 import {
   Sheet,
   CellData,
@@ -1013,8 +1013,10 @@ export const Spreadsheet = () => {
   };
 
   return (
-    <SpreadsheetProvider>
-      <App />
-    </SpreadsheetProvider>
+    <Suspense>
+      <SpreadsheetProvider>
+        <App />
+      </SpreadsheetProvider>
+    </Suspense>
   );
 };
