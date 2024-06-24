@@ -93,7 +93,6 @@ import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
 import { MagnifyingGlassIcon } from "@rowsncolumns/icons";
 import { createClient } from "@supabase/supabase-js";
 import { getUniqueName } from "./names";
-import { useSearchParams } from "next/navigation";
 import {
   ChartEditor,
   ChartEditorDialog,
@@ -118,8 +117,7 @@ const userName = getUniqueName();
 
 export const Spreadsheet = () => {
   const App = () => {
-    const searchParams = useSearchParams();
-    const collab = searchParams.get("collab") === "false" ? false : true;
+    const collab = true;
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
@@ -1013,10 +1011,8 @@ export const Spreadsheet = () => {
   };
 
   return (
-    <Suspense>
-      <SpreadsheetProvider>
-        <App />
-      </SpreadsheetProvider>
-    </Suspense>
+    <SpreadsheetProvider>
+      <App />
+    </SpreadsheetProvider>
   );
 };
