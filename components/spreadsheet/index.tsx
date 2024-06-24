@@ -154,6 +154,7 @@ export const Spreadsheet = () => {
       columnMetadata,
       merges,
       bandedRanges,
+      basicFilter,
       spreadsheetColors,
       canRedo,
       canUndo,
@@ -217,6 +218,7 @@ export const Spreadsheet = () => {
       onResizeTable,
       onCopy,
       onPaste,
+      onCreateBasicFilter,
       onCreateTable,
       onRemoveTable,
       onRequestEditTable,
@@ -320,7 +322,7 @@ export const Spreadsheet = () => {
       userName,
       activeCell,
       sheetId: activeSheetId,
-      disable: collab === false,
+      disable: false,
       onChangeSheetData,
       enqueueCalculation,
       onChangeSheets,
@@ -761,6 +763,7 @@ export const Spreadsheet = () => {
           merges={merges}
           charts={charts}
           embeds={embeds}
+          basicFilter={basicFilter}
           tables={tables}
           protectedRanges={protectedRanges}
           bandedRanges={bandedRanges}
@@ -829,6 +832,7 @@ export const Spreadsheet = () => {
           onRequestSearch={onRequestSearch}
           onRequestResize={onRequestResize}
           onAutoResize={onAutoResize}
+          onCreateBasicFilter={onCreateBasicFilter}
           onCreateTable={onCreateTable}
           onRemoveTable={onRemoveTable}
           onChangeScale={onChangeScale}
