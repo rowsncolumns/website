@@ -951,10 +951,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.84":
-  version "16.0.84"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.84/d6c2a892d23532222da21fe53b47dfaab1b3ea8d#d6c2a892d23532222da21fe53b47dfaab1b3ea8d"
-  integrity sha512-ovL9/LdTgTKmYFC3/k/pbIjlpH0mZz6bwKbtDZqqi38Hd8KI1JHj8IWKJDAtQ3zCvlXGNodgQ3k5HqynoxgfDw==
+"@rowsncolumns/spreadsheet-state@^16.0.85":
+  version "16.0.85"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.85/08f31e824412685d55d198eba5b3b1b55d2bce56#08f31e824412685d55d198eba5b3b1b55d2bce56"
+  integrity sha512-L9JSj6SFd6JdYjuoi6AXeXNTMl+UKcS4nfpf2tO2qpX3V7M7q2qodeDPa4qVbl5s7Hvrm8kJUViFuTDhmYwraQ==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.5"
     "@rowsncolumns/functions" "^3.0.10"
@@ -965,10 +965,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.82":
-  version "6.2.82"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.82/52559570e1d0b87c3ddbf467dcc13a2150250c1c#52559570e1d0b87c3ddbf467dcc13a2150250c1c"
-  integrity sha512-I/5WcfSrxcucJVA64ZiQlk/Lw1bZFMI1AfunxSLRxma4Y/SVpHvxMxQDC5Wg4A/kZHFXr8UzEgzop6gwET3DJQ==
+"@rowsncolumns/spreadsheet@^6.2.83":
+  version "6.2.83"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.83/0c084b93b895a64d63fef3052c68c469542ce4b3#0c084b93b895a64d63fef3052c68c469542ce4b3"
+  integrity sha512-ro8AJ2GMcs/eVxgy24beFK7+p4MqC0x3dsiy3EHXZOXMkWlhdprTp5Ns4EtSdSSv1AaoaarVLK9dATzXj8Poqw==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
