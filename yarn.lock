@@ -885,27 +885,27 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@rowsncolumns/calculator@^3.0.47":
-  version "3.0.47"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.47/123bf351b6ce7118031d7409834512dd48215b92#123bf351b6ce7118031d7409834512dd48215b92"
-  integrity sha512-DFUVA4jzKxIpo65XXuUVd79SPfFNaNT/llcq8Gdqv8d/jkF/KCqwpsIlf04J0pNW32A3wVegju+55LKpBxvbHg==
+"@rowsncolumns/calculator@^3.0.48":
+  version "3.0.48"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.48/6b27aed2ae0fd6e81f7d0264ed0bc742ede40ac6#6b27aed2ae0fd6e81f7d0264ed0bc742ede40ac6"
+  integrity sha512-zukkfnzBThc09kznniAI7fo4AMA0KxX+OyASzFNjLhHVH1BxSXnZqVFq/3ioGfa6gfmDoU7MoA01gAzo0UB1xw==
   dependencies:
-    "@rowsncolumns/dag" "^3.0.35"
+    "@rowsncolumns/dag" "^3.0.36"
     "@rowsncolumns/fast-formula-parser" "^2.1.9"
     "@rowsncolumns/utils" "^4.0.9"
 
-"@rowsncolumns/charts@^15.0.15":
-  version "15.0.15"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/15.0.15/879a2d33e1fce2baf45be83574953ce743e6114b#879a2d33e1fce2baf45be83574953ce743e6114b"
-  integrity sha512-a6O+GG19JC/KiTR7GUz0lPrYPq6dAgBEjqeK87csWTBGTp+fQ2X7tWU3Kgb9ULwhEZmT5Hr0exvH5pD/KVlXPQ==
+"@rowsncolumns/charts@^15.0.16":
+  version "15.0.16"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/15.0.16/f4311f45cd3dbdd873c915027c25b2b3b94710ff#f4311f45cd3dbdd873c915027c25b2b3b94710ff"
+  integrity sha512-Iq497Fa+C/Dp4wqp+76h9dlW5DfDzMKoUXf+1cSHBRt82J/K4AC89oUuKt8L+uw9mryDL3pTi/pEBNlBc0U7kw==
   dependencies:
     echarts "^5.5.0"
     formik "^2.4.6"
 
-"@rowsncolumns/dag@^3.0.35":
-  version "3.0.35"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.35/2026cb15e5bb658cf1993f7485dc5df181c9c9b6#2026cb15e5bb658cf1993f7485dc5df181c9c9b6"
-  integrity sha512-VzpJlsJyd/qo4SJF+4ZCzIAWzxUDfhv2o0fsK5tsNCV4h8RoDPjTKtvVDagwJiWQph5RqcwjRIBWtdsny/L7Zw==
+"@rowsncolumns/dag@^3.0.36":
+  version "3.0.36"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/3.0.36/1f4673e83eddfcd5fe4402965362c7a365687d00#1f4673e83eddfcd5fe4402965362c7a365687d00"
+  integrity sha512-CHrtkKCXsymKmdHHzgl72akXcjElKWC38QMDrwx6d/Get+RdbBXOG9YbmC1ScJwpP/7FtqiJP7ruu7EntKqCDQ==
   dependencies:
     "@rowsncolumns/utils" "^4.0.9"
 
@@ -951,10 +951,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.107":
-  version "16.0.107"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.107/b21f83a9182dc1d6606ba9a3011165d360357915#b21f83a9182dc1d6606ba9a3011165d360357915"
-  integrity sha512-Dc+6LLYuE2xD6cPWzUZy4cQ6+O6CaCkR4wuA8cChrQW00Ei5/9CwcL53EH0B9GZwIo6ZwBPawLhXQcHDkY6Tdw==
+"@rowsncolumns/spreadsheet-state@^16.0.108":
+  version "16.0.108"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.108/e74bbb275626002f8eadfe2eaf2108f0740657a9#e74bbb275626002f8eadfe2eaf2108f0740657a9"
+  integrity sha512-9ORHQaRjjg/6OJL7P3EPlRPl0RrgR+Jrn4K+Sc/KD0QjLXotXxg4qqWBHa0Tdsxz9QKsz2p5ApUgVfAZxdA2rQ==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.5"
     "@rowsncolumns/functions" "^3.0.10"
@@ -965,16 +965,16 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.102":
-  version "6.2.102"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.102/464e8cbc5305d037dd72a27e5273d2fe396980dd#464e8cbc5305d037dd72a27e5273d2fe396980dd"
-  integrity sha512-Qw72Z1kM6CUqsr9YDVMuQSZ6644cyXHHC1PjGW6+vjmpItcgiYXPKJ5OUDNG7YgMGtV0IoMfz6gn9CVnEl30xw==
+"@rowsncolumns/spreadsheet@^6.2.103":
+  version "6.2.103"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.103/57dcb96e368ef7307bbb5d8f13a2aceb5e31c0f4#57dcb96e368ef7307bbb5d8f13a2aceb5e31c0f4"
+  integrity sha512-JNTsX5pzp5395rZXjsQJFRBK2nu6X6tOA8c/Zuva24gcMSz5vT5ViBAtHfqFiZXgKjiG6mXRgQbbasbNzH0YDQ==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
     "@dnd-kit/sortable" "^8.0.0"
     "@dnd-kit/utilities" "^3.2.2"
-    "@rowsncolumns/calculator" "^3.0.47"
+    "@rowsncolumns/calculator" "^3.0.48"
     "@rowsncolumns/functions" "^3.0.10"
     "@rowsncolumns/grid" "^2.1.18"
     "@rowsncolumns/icons" "^3.2.11"
