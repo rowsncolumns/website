@@ -943,18 +943,18 @@
     scroller "^0.0.3"
     tiny-invariant "^1.3.3"
 
-"@rowsncolumns/icons@^3.2.11":
-  version "3.2.11"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/3.2.11/9625e94daa15218a88c7be3ab01a06677d5c5005#9625e94daa15218a88c7be3ab01a06677d5c5005"
-  integrity sha512-norASATUJELZTYeDvTTTQot90lnOxXZQ2K5JEfBPnTguYrKMiEY4Ci1q1j7oMoxBF5+SbjR668QkOIhlc1WE4g==
+"@rowsncolumns/icons@^3.2.12":
+  version "3.2.12"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/3.2.12/7b3e417b04e85887d8047250126ff6ab2d210b9b#7b3e417b04e85887d8047250126ff6ab2d210b9b"
+  integrity sha512-DdsSKGILWKVmeL7SjfhZeV+vuUTLJZx4d/z5sQn0dE/2GBeSRaSEt57oYd35EP8e+5ZVpbFyZq7csml54cu2mg==
   dependencies:
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.108":
-  version "16.0.108"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.108/e74bbb275626002f8eadfe2eaf2108f0740657a9#e74bbb275626002f8eadfe2eaf2108f0740657a9"
-  integrity sha512-9ORHQaRjjg/6OJL7P3EPlRPl0RrgR+Jrn4K+Sc/KD0QjLXotXxg4qqWBHa0Tdsxz9QKsz2p5ApUgVfAZxdA2rQ==
+"@rowsncolumns/spreadsheet-state@^16.0.110":
+  version "16.0.110"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.110/a6268724b6c23ba8a16ee411647168100f45ffb0#a6268724b6c23ba8a16ee411647168100f45ffb0"
+  integrity sha512-manBud/xIkjUkrZoD998eBdGvusJ8cIVzaE2v/akjNuiV9azj9lD3TY/KZsXJ2us+vJdYfPjsuKrX5F6pev7WQ==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.5"
     "@rowsncolumns/functions" "^3.0.10"
@@ -965,10 +965,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.103":
-  version "6.2.103"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.103/57dcb96e368ef7307bbb5d8f13a2aceb5e31c0f4#57dcb96e368ef7307bbb5d8f13a2aceb5e31c0f4"
-  integrity sha512-JNTsX5pzp5395rZXjsQJFRBK2nu6X6tOA8c/Zuva24gcMSz5vT5ViBAtHfqFiZXgKjiG6mXRgQbbasbNzH0YDQ==
+"@rowsncolumns/spreadsheet@^6.2.105":
+  version "6.2.105"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.105/58b0ec0bea0de7882d334416165a8ddfdf5fa9ec#58b0ec0bea0de7882d334416165a8ddfdf5fa9ec"
+  integrity sha512-w1ngUxbwYkN75j+89/6U3qo/i3uGxhbrBLKO1DRVNKn8t079perMvebmBouRzCkmakWu5B9oNd0zd3PM7GZ4Jg==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
@@ -977,7 +977,7 @@
     "@rowsncolumns/calculator" "^3.0.48"
     "@rowsncolumns/functions" "^3.0.10"
     "@rowsncolumns/grid" "^2.1.18"
-    "@rowsncolumns/icons" "^3.2.11"
+    "@rowsncolumns/icons" "^3.2.12"
     "@rowsncolumns/ui" "^4.0.23"
     "@rowsncolumns/utils" "^4.0.9"
     "@tanstack/react-virtual" "3.5.0"
