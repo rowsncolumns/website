@@ -272,6 +272,8 @@ export const Spreadsheet = () => {
       getSeriesValuesFromRange,
       getDomainValuesFromRange,
       sheetObserver,
+      onInsertTableColumn,
+      onDeleteTableColumn,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -855,6 +857,8 @@ export const Spreadsheet = () => {
               onRequestCalculate={onRequestCalculate}
             />
           )}
+          onInsertTableColumn={onInsertTableColumn}
+          onDeleteTableColumn={onDeleteTableColumn}
         />
 
         <LoadingIndicator />
