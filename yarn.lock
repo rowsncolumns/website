@@ -948,6 +948,17 @@
     scroller "^0.0.3"
     tiny-invariant "^1.3.3"
 
+"@rowsncolumns/grid@^2.1.19":
+  version "2.1.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.1.19/20679e9a126e30021c9f66041b76a198fecb81b4#20679e9a126e30021c9f66041b76a198fecb81b4"
+  integrity sha512-Ogq2uOdUgCEebW2FcO1RaRR0JcIMO3tH4stj9RR1xtUSOjWRVUJSNZi/eIxAfap6orsMkorNK9+1HBSMOh8lbw==
+  dependencies:
+    konva "^9.3.6"
+    react-konva "^18.2.10"
+    scheduler "^0.23.2"
+    scroller "^0.0.3"
+    tiny-invariant "^1.3.3"
+
 "@rowsncolumns/icons@^3.2.12":
   version "3.2.12"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/3.2.12/7b3e417b04e85887d8047250126ff6ab2d210b9b#7b3e417b04e85887d8047250126ff6ab2d210b9b"
@@ -984,10 +995,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.120":
-  version "6.2.120"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.120/474b658884443ddc1a4753b2ad221abdfe7d3ca0#474b658884443ddc1a4753b2ad221abdfe7d3ca0"
-  integrity sha512-dwXavaACd1If3dDAFSMNejrTMeyKh4zrM/Bk/0lx5lYL+mGjuTQSJdUSSX1XTWPMtiJdLJ/Hn9f7kURnVPNOkg==
+"@rowsncolumns/spreadsheet@^6.2.122":
+  version "6.2.122"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.122/a6763e5cab36a97447c023c35228724ae35613e3#a6763e5cab36a97447c023c35228724ae35613e3"
+  integrity sha512-CMSD/1opNK8JhhXu90cZubuNNe9/FgitQTjGgdQLH5RixYP1KXMvf9O90QDyrjVXhaJLm4BnGh30qrkAvk+zaw==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
@@ -996,7 +1007,7 @@
     "@rowsncolumns/calculator" "^3.0.50"
     "@rowsncolumns/common-types" "^1.0.3"
     "@rowsncolumns/functions" "^3.0.13"
-    "@rowsncolumns/grid" "^2.1.18"
+    "@rowsncolumns/grid" "^2.1.19"
     "@rowsncolumns/icons" "^3.2.12"
     "@rowsncolumns/ui" "^4.0.23"
     "@rowsncolumns/utils" "^4.0.9"
