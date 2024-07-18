@@ -83,6 +83,7 @@ import {
   InsertLinkEditor,
   DataValidationEditorDialog,
   DataValidationEditor,
+  ErrorStateDialog,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -1014,6 +1015,8 @@ export const Spreadsheet = () => {
             onInsertLink={onInsertLink}
           />
         </InsertLinkDialog>
+
+        <ErrorStateDialog />
       </>
     );
   };
