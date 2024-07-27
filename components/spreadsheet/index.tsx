@@ -275,6 +275,8 @@ export const Spreadsheet = () => {
       sheetObserver,
       onInsertTableColumn,
       onDeleteTableColumn,
+      onDeleteTableRow,
+      onInsertTableRow,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -860,6 +862,8 @@ export const Spreadsheet = () => {
           )}
           onInsertTableColumn={onInsertTableColumn}
           onDeleteTableColumn={onDeleteTableColumn}
+          onDeleteTableRow={onDeleteTableRow}
+          onInsertTableRow={onInsertTableRow}
         />
 
         <LoadingIndicator />

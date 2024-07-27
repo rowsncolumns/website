@@ -1001,10 +1001,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.154":
-  version "16.0.154"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.154/3d5c09a215f9e2177e11f062a93a0ad0659d17b0#3d5c09a215f9e2177e11f062a93a0ad0659d17b0"
-  integrity sha512-h7bv/Ldns7yE/pwxclZpb0I3CgRpF2TS63LMXphTlWND+OFMoDUl/+D9fn8tcZoeDt0UX8pgG1OGhzdTdmgNoA==
+"@rowsncolumns/spreadsheet-state@^16.0.155":
+  version "16.0.155"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.155/8eb6a20087b240da6b337d53ccb63b04809f2f4d#8eb6a20087b240da6b337d53ccb63b04809f2f4d"
+  integrity sha512-NInFiEzk4L6M/BWI/SRAGAiyuHkQn5U57v5Blvykcptm0JckOSGiEqpDKgwAMl1HcuhtLUmN7Hxhnn/ELpmEYw==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.6"
     "@rowsncolumns/functions" "^3.0.14"
@@ -1041,10 +1041,10 @@
     scheduler "^0.23.2"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/spreadsheet@^6.2.137":
-  version "6.2.137"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.137/d78c66854854bb35dbe0f9d97c781ee55c00c8cc#d78c66854854bb35dbe0f9d97c781ee55c00c8cc"
-  integrity sha512-Q8S6O2lyxFqjamuwcmg+wf6i+mjDmRagQIR1UyJMbNr+1bopLSAloLm29fDIni+7kgeXXhb2wtzdQPkRMDFVCA==
+"@rowsncolumns/spreadsheet@^6.2.138":
+  version "6.2.138"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.138/d67be6647f7913e7df7d0dbb151e8a5d27573e91#d67be6647f7913e7df7d0dbb151e8a5d27573e91"
+  integrity sha512-PWyK14majKr7wqAs1iyUm6pUU7Ssz5a3NA7MlHjZ5tuDcj/3GW2a7y52KSHauhai4IpB5jjL9K7vgY1N3dA84w==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
@@ -1055,7 +1055,7 @@
     "@rowsncolumns/functions" "^3.0.14"
     "@rowsncolumns/grid" "^2.1.21"
     "@rowsncolumns/icons" "^3.2.13"
-    "@rowsncolumns/ui" "^4.0.24"
+    "@rowsncolumns/ui" "^4.0.25"
     "@rowsncolumns/utils" "^4.0.10"
     "@tanstack/react-virtual" "3.5.0"
     formik "^2.4.6"
@@ -1089,6 +1089,30 @@
   version "4.0.24"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.24/0c20fa3b61e07a4ea80355216cb8dee904eab3d4#0c20fa3b61e07a4ea80355216cb8dee904eab3d4"
   integrity sha512-8hYqreld1rsRQUbIm9uEnqDYbNEYeK7+SyehZffSbfh8YLIQvEXvcU4AjE4rBq9z+R/vt2iDFauTydBokhQuxg==
+  dependencies:
+    "@radix-ui/react-dialog" "^1.0.5"
+    "@radix-ui/react-dropdown-menu" "^2.0.6"
+    "@radix-ui/react-popover" "^1.0.7"
+    "@radix-ui/react-select" "^2.0.0"
+    "@radix-ui/react-separator" "^1.0.3"
+    "@radix-ui/react-tabs" "^1.0.4"
+    "@radix-ui/react-tooltip" "^1.0.7"
+    class-variance-authority "^0.7.0"
+    clsx "^2.1.1"
+    date-fns "^3.6.0"
+    react-colorful "^5.6.1"
+    react-day-picker "^8.10.1"
+    react-draggable "^4.4.6"
+    react-error-boundary "^4.0.13"
+    slate "^0.103.0"
+    slate-history "^0.100.0"
+    slate-react "^0.105.0"
+    tailwind-merge "^2.3.0"
+
+"@rowsncolumns/ui@^4.0.25":
+  version "4.0.25"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.25/a5fb9087592e6e27dfc83472ae2bdf5c0394876c#a5fb9087592e6e27dfc83472ae2bdf5c0394876c"
+  integrity sha512-fOuhHgYtWJ4dwEQ06h6k+WDSd5ZbpHBLBPYb6jIFWdEy8YYY1d2XTwBzSKvx2qwHyCcdpAU+TYTYgkASF0H7Cg==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.6"
