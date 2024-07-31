@@ -1001,10 +1001,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.157":
-  version "16.0.157"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.157/e2fc22f83536562a37c9d43186b80898697d787f#e2fc22f83536562a37c9d43186b80898697d787f"
-  integrity sha512-4kjF3hnWyIA1Vmj0XzZuQj4HoU4y1Eh6QAGxzwyx4D0+MfdAx3KQj22BV+S2EYkoizj+iG0HOdHS1nvOF3KZnQ==
+"@rowsncolumns/spreadsheet-state@^16.0.158":
+  version "16.0.158"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.158/017cc5df90fe8285e3473777d2d8114881ec219e#017cc5df90fe8285e3473777d2d8114881ec219e"
+  integrity sha512-qn0rC7AmawrrzTzDzLt6S3nSprcMRFB8x4I9zkqGDaT3VPChkp4vWWrOWNbbJhwSPg/SlLuAVSSDXlQl4J+e/g==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.6"
     "@rowsncolumns/functions" "^3.0.14"
@@ -1041,10 +1041,10 @@
     scheduler "^0.23.2"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/spreadsheet@^6.2.139":
-  version "6.2.139"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.139/3e736c5c276e72d9b1bed9ae5f75631a0e116276#3e736c5c276e72d9b1bed9ae5f75631a0e116276"
-  integrity sha512-fbWOLuS9i2TVDSRbsdx934+P4hjcFT13kUeSCx+WVwAD6nlo8qGONMiWPhPk8mDie6iAvNmmjMZ4axIZ0j2QYw==
+"@rowsncolumns/spreadsheet@^6.2.141":
+  version "6.2.141"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.141/d5c436a6ecc2ada7f94292b7fc1a051041b69b29#d5c436a6ecc2ada7f94292b7fc1a051041b69b29"
+  integrity sha512-Z4ysi2oM5HcVinFjC4kdG1hoB11y6AGVJuqJBDwwm9K1NQkw4lm+RZ0POjF4AhKdJZSjOzOg6ov7qLRcCViE7w==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
@@ -1055,7 +1055,7 @@
     "@rowsncolumns/functions" "^3.0.14"
     "@rowsncolumns/grid" "^2.1.21"
     "@rowsncolumns/icons" "^3.2.13"
-    "@rowsncolumns/ui" "^4.0.25"
+    "@rowsncolumns/ui" "^4.0.27"
     "@rowsncolumns/utils" "^4.0.10"
     "@tanstack/react-virtual" "3.5.0"
     formik "^2.4.6"
@@ -1117,10 +1117,10 @@
     slate-react "^0.105.0"
     tailwind-merge "^2.3.0"
 
-"@rowsncolumns/ui@^4.0.25":
-  version "4.0.25"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.25/a5fb9087592e6e27dfc83472ae2bdf5c0394876c#a5fb9087592e6e27dfc83472ae2bdf5c0394876c"
-  integrity sha512-fOuhHgYtWJ4dwEQ06h6k+WDSd5ZbpHBLBPYb6jIFWdEy8YYY1d2XTwBzSKvx2qwHyCcdpAU+TYTYgkASF0H7Cg==
+"@rowsncolumns/ui@^4.0.27":
+  version "4.0.27"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/4.0.27/ebe1a97c58eb2dd31efa5ce3bec6a099149a0a40#ebe1a97c58eb2dd31efa5ce3bec6a099149a0a40"
+  integrity sha512-6o9LNbHRrNHzot4AagdJ4jkOEN1vNryu7pkyXO3uTSi5eBMP3TESVUlci3vHFTLHLTN+m3gg0MEM0EFulJTgpQ==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.6"
