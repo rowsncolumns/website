@@ -316,8 +316,8 @@ export const Spreadsheet = () => {
       searchQuery,
     } = useSearch({
       sheets,
-      onChangeActiveSheet,
       searchAllSheets: true,
+      onChangeActiveSheet,
       getCellData,
       sheetId: activeSheetId,
       getNonEmptyColumnCount,
