@@ -1001,10 +1001,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.167":
-  version "16.0.167"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.167/4d8108588ec6cff9795f283bd97c2e3275e2c18a#4d8108588ec6cff9795f283bd97c2e3275e2c18a"
-  integrity sha512-7bYL/j94aegzy6xeDElCh874I6/cMzoqPfw7l/IjHVx2kwh8hg80dDoSHxQL5KUy9LIKN8gFZ6ONh3ppskDXuw==
+"@rowsncolumns/spreadsheet-state@^16.0.168":
+  version "16.0.168"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.168/ae6c07f420eb036384096705d01f57bb4a1ae19d#ae6c07f420eb036384096705d01f57bb4a1ae19d"
+  integrity sha512-Qqc/xmHAmWWuMKv6ZzRcp/1IjjF69g9f+wUfHPnKb9oborh5rPVZ1hg+OnI8MRzTSam1BN2E2B1lhEGwJSXWWA==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.6"
     "@rowsncolumns/functions" "^3.0.14"
@@ -1041,10 +1041,10 @@
     scheduler "^0.23.2"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/spreadsheet@^6.2.145":
-  version "6.2.145"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.145/1140dfe1774c19948a93c6b57c8f5af65122048b#1140dfe1774c19948a93c6b57c8f5af65122048b"
-  integrity sha512-5UWKFJ7cETCqT80RQIGJg0VdQfaZ1UzwS+UxaWsjKTsSwg33o1xaajU1TPmInAAC5IrH0zmcpygXZtyrNAS+Jw==
+"@rowsncolumns/spreadsheet@^6.2.146":
+  version "6.2.146"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.146/b07192da34bba6cd49c109af2f96b6df25a98b6d#b07192da34bba6cd49c109af2f96b6df25a98b6d"
+  integrity sha512-nZsXyduKApZmhK52df24QvWlGxydqZ71pawjdRwvDTMBu2znIMz4zJ88ABbUv84Tso4C4o3OgIEkbIpl5nROGg==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
