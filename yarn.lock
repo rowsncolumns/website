@@ -1001,10 +1001,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.170":
-  version "16.0.170"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.170/6788008ab3ff10491505083d222769f960f92c80#6788008ab3ff10491505083d222769f960f92c80"
-  integrity sha512-wb/YEDVYPOHINZMZ+7VlUt2grTxLMC0EMDPUQSr/Q96YnoCfwSoHGnbI61s2yfuiMKHPmTWdKM55JQk4AWZtLQ==
+"@rowsncolumns/spreadsheet-state@^16.0.171":
+  version "16.0.171"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.171/a00ff2d6ae25d23186d13bde4417654091908bc4#a00ff2d6ae25d23186d13bde4417654091908bc4"
+  integrity sha512-pkMgiVc/TtoRzK/3HTfmDwEN32wVRMzJ9+KNRx+EdtDWzN+SyBS23qEpXsBBCrrxFDuJK3cEjD3Dv/dqK9tPZg==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.6"
     "@rowsncolumns/functions" "^3.0.14"
