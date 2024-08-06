@@ -968,10 +968,10 @@
     scroller "^0.0.3"
     tiny-invariant "^1.3.3"
 
-"@rowsncolumns/grid@^2.1.21":
-  version "2.1.21"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.1.21/7cd88b4f505e1d0eb8cb5974804f64abaffddbed#7cd88b4f505e1d0eb8cb5974804f64abaffddbed"
-  integrity sha512-DYQd2+dyzfnf4c4hmHJcGgKm7yF1X9mkmRtE2bmMpXYUWPh5WpHqXovI8fBJhkYdtJNFQy3DQJIKnplhjAFyrg==
+"@rowsncolumns/grid@^2.1.22":
+  version "2.1.22"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/2.1.22/0a862bb02842dae910ab68d2b2424090db300229#0a862bb02842dae910ab68d2b2424090db300229"
+  integrity sha512-U6HWRypVaFzU+wnrVa8RS2mMasDOG7VLXQ2If1XTgh6nDDtSNp4Oan4JCHPgLf7apssNsF4jRz5D+lc3OUWR3Q==
   dependencies:
     konva "^9.3.6"
     react-konva "^18.2.10"
@@ -1001,10 +1001,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.168":
-  version "16.0.168"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.168/ae6c07f420eb036384096705d01f57bb4a1ae19d#ae6c07f420eb036384096705d01f57bb4a1ae19d"
-  integrity sha512-Qqc/xmHAmWWuMKv6ZzRcp/1IjjF69g9f+wUfHPnKb9oborh5rPVZ1hg+OnI8MRzTSam1BN2E2B1lhEGwJSXWWA==
+"@rowsncolumns/spreadsheet-state@^16.0.169":
+  version "16.0.169"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.169/3a64c5750be9af5621e7a74bd9da16408a95b7a8#3a64c5750be9af5621e7a74bd9da16408a95b7a8"
+  integrity sha512-LOzhkuqkCJ/zKCuqu8o7xurPC8/vagspF+r7SVJ/BJANHkigfwCMzx677Z1Cv2rGTKgmK23DS6AoNRfiiLFhPw==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.6"
     "@rowsncolumns/functions" "^3.0.14"
@@ -1041,10 +1041,10 @@
     scheduler "^0.23.2"
     webfontloader "^1.6.28"
 
-"@rowsncolumns/spreadsheet@^6.2.146":
-  version "6.2.146"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.146/b07192da34bba6cd49c109af2f96b6df25a98b6d#b07192da34bba6cd49c109af2f96b6df25a98b6d"
-  integrity sha512-nZsXyduKApZmhK52df24QvWlGxydqZ71pawjdRwvDTMBu2znIMz4zJ88ABbUv84Tso4C4o3OgIEkbIpl5nROGg==
+"@rowsncolumns/spreadsheet@^6.2.147":
+  version "6.2.147"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.147/6f845928a91dc013fd5a998942d48ffd87d13b18#6f845928a91dc013fd5a998942d48ffd87d13b18"
+  integrity sha512-+PivRNGzpq4kZx2Z0wixRgfcFhvLC6WWkzxt0As1du/zc6BXyflfZS8ESrnb85Mj3Vnw8GWCtRLDvnicnnK30Q==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
@@ -1053,7 +1053,7 @@
     "@rowsncolumns/calculator" "^3.0.54"
     "@rowsncolumns/common-types" "^1.0.4"
     "@rowsncolumns/functions" "^3.0.14"
-    "@rowsncolumns/grid" "^2.1.21"
+    "@rowsncolumns/grid" "^2.1.22"
     "@rowsncolumns/icons" "^3.2.13"
     "@rowsncolumns/ui" "^4.0.27"
     "@rowsncolumns/utils" "^4.0.10"
