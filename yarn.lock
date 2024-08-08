@@ -970,6 +970,20 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
+"@rowsncolumns/spreadsheet-state@^16.0.175":
+  version "16.0.175"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.175/ca9b8a2fe38b87224b01122d9c65de00110cc9a4#ca9b8a2fe38b87224b01122d9c65de00110cc9a4"
+  integrity sha512-GUjygVLanbKkBLizs6Sh/D28B+rsnI6V9qXHLarAGrH9lScRxohbfgMqn9BMvy63xx+qq6Dhr1rnJUOcgqlTPw==
+  dependencies:
+    "@rowsncolumns/date-parser" "^2.0.7"
+    "@rowsncolumns/functions" "^3.0.15"
+    "@rowsncolumns/toolkit" "^18.0.24"
+    formik "^2.4.6"
+    immer "^10.1.1"
+    recoil "^0.7.7"
+    rxjs "^7.8.1"
+    yup "^1.4.0"
+
 "@rowsncolumns/spreadsheet@^6.2.150":
   version "6.2.150"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.150/06892fab7f6cebcca0193200dd48f691cb38d6a0#06892fab7f6cebcca0193200dd48f691cb38d6a0"
