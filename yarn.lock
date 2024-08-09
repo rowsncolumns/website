@@ -956,24 +956,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.174":
-  version "16.0.174"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.174/82cb0ab44baeab0c62581b7bfe7f5b235f56d8c4#82cb0ab44baeab0c62581b7bfe7f5b235f56d8c4"
-  integrity sha512-v+Hwoiuv3ZpvWfSgNeDL1bKilAYQ0E5wiujjqyaDP6CtD63bEy/l3NKTCZcty2s+PmwogPrR0tfgKRJL1SuaTA==
-  dependencies:
-    "@rowsncolumns/date-parser" "^2.0.7"
-    "@rowsncolumns/functions" "^3.0.15"
-    "@rowsncolumns/toolkit" "^18.0.24"
-    formik "^2.4.6"
-    immer "^10.1.1"
-    recoil "^0.7.7"
-    rxjs "^7.8.1"
-    yup "^1.4.0"
-
-"@rowsncolumns/spreadsheet-state@^16.0.175":
-  version "16.0.175"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.175/ca9b8a2fe38b87224b01122d9c65de00110cc9a4#ca9b8a2fe38b87224b01122d9c65de00110cc9a4"
-  integrity sha512-GUjygVLanbKkBLizs6Sh/D28B+rsnI6V9qXHLarAGrH9lScRxohbfgMqn9BMvy63xx+qq6Dhr1rnJUOcgqlTPw==
+"@rowsncolumns/spreadsheet-state@^16.0.176":
+  version "16.0.176"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.176/a2f97e4e8eb29847b3cd265b61efb1a7f0abd625#a2f97e4e8eb29847b3cd265b61efb1a7f0abd625"
+  integrity sha512-wj+lpEnuI2dH49Xnde/z/8umacIXuf8zn0hG+US15qabRAASx5hFYyXKhupD25AT/A1gcaYZ3DtaRrjAX2x73Q==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.7"
     "@rowsncolumns/functions" "^3.0.15"
@@ -1009,14 +995,11 @@
     rxjs "^7.8.1"
     scheduler "^0.23.2"
 
-"@rowsncolumns/supabase-spreadsheet@^17.0.10":
-  version "17.0.10"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/17.0.10/374081979ac0aba59fbfb315efee6546bed15499#374081979ac0aba59fbfb315efee6546bed15499"
-  integrity sha512-Tku9dFs63xmKX9PPnqsWhIqMjsdweTxfnnSnIJOnQm6xWMuiwOmckh2doKB0C8/teDZ2H0+AD5ujzZQJEv3o9A==
+"@rowsncolumns/supabase-spreadsheet@^17.0.11":
+  version "17.0.11"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/17.0.11/f6c5c8ff14b6915036da63099c20f729853175c0#f6c5c8ff14b6915036da63099c20f729853175c0"
+  integrity sha512-23DZTeZdW6W/xcsvEvr4wxtPzTTnrlkEB2Afxt38IIGjI0FliZTQHmvj0hoxvLU1w67I+OAI7SpDirve+XViYA==
   dependencies:
-    "@rowsncolumns/dag" "^3.0.38"
-    "@rowsncolumns/spreadsheet" "^6.2.150"
-    "@rowsncolumns/spreadsheet-state" "^16.0.174"
     "@supabase/supabase-js" "^2.26.0"
 
 "@rowsncolumns/toolkit@^18.0.24":
