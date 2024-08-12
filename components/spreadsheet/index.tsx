@@ -165,7 +165,7 @@ export const Spreadsheet = () => {
       getCellData,
       getSheetName,
       getSheetId,
-      getUserEnteredFormat,
+      getEffectiveFormat,
       onRequestCalculate,
       onRequestFormatCells,
       onChangeActiveCell,
@@ -354,12 +354,12 @@ export const Spreadsheet = () => {
     // Format fo the current cell
     const currentCellFormat = useMemo(
       () =>
-        getUserEnteredFormat(
+        getEffectiveFormat(
           activeSheetId,
           activeCell.rowIndex,
           activeCell.columnIndex
         ),
-      [activeSheetId, activeCell, getUserEnteredFormat]
+      [activeSheetId, activeCell, getEffectiveFormat]
     );
 
     return (
