@@ -885,10 +885,10 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@rowsncolumns/calculator@^3.0.56":
-  version "3.0.56"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.56/2d78a84db066a13b63cb18931a0984634682e7dc#2d78a84db066a13b63cb18931a0984634682e7dc"
-  integrity sha512-ZTeYRIAPf58h6I5GUFaRX4RDnvIUW8EE3CA+QcgFnQWinh7xo80K5UB4f15mbpLc9/XsJdRThbMPIfReqsuJVA==
+"@rowsncolumns/calculator@^3.0.57":
+  version "3.0.57"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/3.0.57/fdb91654efddc39bf9079d88f4b887960a74d7ec#fdb91654efddc39bf9079d88f4b887960a74d7ec"
+  integrity sha512-7REwzHz5Vy0joF6JRbJpNGTfRQGKxaWhgREDe9glTVwlNorxAOW7K10MYdEH3UrtUDvgIMhoc9EY5Hlx1NiLmw==
   dependencies:
     "@rowsncolumns/dag" "^3.0.38"
     "@rowsncolumns/fast-formula-parser" "^2.1.17"
@@ -956,10 +956,10 @@
     "@radix-ui/react-icons" "^1.3.0"
     react-icons "^5.2.0"
 
-"@rowsncolumns/spreadsheet-state@^16.0.207":
-  version "16.0.207"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.207/374e47343fbede4a984e442da8f25769d8a8cb26#374e47343fbede4a984e442da8f25769d8a8cb26"
-  integrity sha512-b1eYN/Kae0ycARNiqJiCSPoqUeBtcUSvjIC6DHoWkTGz7D31KW6tc6SQ0OlSm0R21F6RDZMaABv3HkL2dDQHIw==
+"@rowsncolumns/spreadsheet-state@^16.0.209":
+  version "16.0.209"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/16.0.209/8761353411b8f8012610bfcff5092237450a1fdf#8761353411b8f8012610bfcff5092237450a1fdf"
+  integrity sha512-DycEpvzsn5iExeyiOVp0trOdziYgtQBg5t4NmjKpKys84rvAOcT3SVY0v9w2Q0xfb8RsKLOerVSkpnpJ4jJQ3Q==
   dependencies:
     "@rowsncolumns/date-parser" "^2.0.7"
     "@rowsncolumns/functions" "^3.0.15"
@@ -970,16 +970,16 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.163":
-  version "6.2.163"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.163/adb0f41cc62569cc72fd7015e3fe27c09a48395c#adb0f41cc62569cc72fd7015e3fe27c09a48395c"
-  integrity sha512-FKI/RL2x8aOGby7FDFKVe85YQVE0sKbD9kRyg+qXXCWp9tk2BBhzHYIef/T2nvFqqwjBBrCjhZcvIIp6fkVWzw==
+"@rowsncolumns/spreadsheet@^6.2.165":
+  version "6.2.165"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.165/d191f857822fe2781123f6d434c68e1ccf01904e#d191f857822fe2781123f6d434c68e1ccf01904e"
+  integrity sha512-EGwcLLhIYQJWRE2LBG7uJy2mXayZO0khO4et+5jltKXsIf44Dkqjhlc6GY2broPg/2aMJRAgNrx6YVxRRP4EWQ==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
     "@dnd-kit/sortable" "^8.0.0"
     "@dnd-kit/utilities" "^3.2.2"
-    "@rowsncolumns/calculator" "^3.0.56"
+    "@rowsncolumns/calculator" "^3.0.57"
     "@rowsncolumns/common-types" "^1.0.4"
     "@rowsncolumns/functions" "^3.0.15"
     "@rowsncolumns/grid" "^2.1.22"
