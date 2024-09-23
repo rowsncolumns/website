@@ -100,6 +100,7 @@ import {
   useCharts,
   ChartComponent,
 } from "@rowsncolumns/charts";
+import { Styles } from "./style";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -364,6 +365,7 @@ export const Spreadsheet = () => {
 
     return (
       <>
+        <Styles />
         {/* {collab ? (
           <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
             In the demo, data is not stored permanently in the server database.
