@@ -46,3 +46,5 @@ export const Styles = memo(() => {
     />
   );
 });
+
+Styles.displayName = "Styles";
