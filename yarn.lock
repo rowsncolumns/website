@@ -970,10 +970,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^6.2.167":
-  version "6.2.167"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.167/99aa36aa803c8e5afcf1473f954cddaec692c5fa#99aa36aa803c8e5afcf1473f954cddaec692c5fa"
-  integrity sha512-GnXQAfgfB9EDvhSV0qyT7nQ/bgaB6fQ1wNsQSFz7WmgVsQaKG4vSl/8yhkL1QYaMfIE5yAdHTJEVrYsk7NAa5w==
+"@rowsncolumns/spreadsheet@^6.2.168":
+  version "6.2.168"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/6.2.168/9a1426b9b9a3a63b1ef66b37881dcbcd888a6bb3#9a1426b9b9a3a63b1ef66b37881dcbcd888a6bb3"
+  integrity sha512-MLuiM0VDjYCu8MPdDlaCe8g8YVpsF3vAC3/rJ8Md8j/P1muGtE1NWzdrUBuMPEUk2hQN8tMN3DC3GEh9ku6pRA==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/modifiers" "^7.0.0"
