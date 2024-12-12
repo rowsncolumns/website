@@ -78,7 +78,9 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
       localStorage.setItem(themeStorageKey, colorMode);
     }
     // Update classname
-    document.documentElement.classList.toggle("dark", colorMode === "dark");
+    if (canUseDOM) {
+      document.documentElement.classList.toggle("dark", colorMode === "dark");
+    }
   }, [colorMode, previousColorMode]);
 
   // Use user's dark mode preferences
