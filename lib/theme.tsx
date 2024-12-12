@@ -79,7 +79,7 @@ export const ColorModeProvider = ({ children }: { children: ReactNode }) => {
     }
     // Update classname
     if (canUseDOM) {
-      document.documentElement.classList.toggle("dark", colorMode === "dark");
+      // document.documentElement.classList.toggle("dark", colorMode === "dark");
     }
   }, [colorMode, previousColorMode]);
 
