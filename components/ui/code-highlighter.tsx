@@ -13,6 +13,7 @@ export const CodeHighlighter = ({
   children: string | string[];
 }) => {
   return (
+    // @ts-ignore
     <SyntaxHighlighter
       language="javascript"
       style={docco}
