@@ -966,10 +966,10 @@
   dependencies:
     papaparse "^5.4.1"
 
-"@rowsncolumns/grid@^3.0.5":
-  version "3.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/3.0.5/41b7c73d916ab6fe8775fcccf1c4e455be8ede8e#41b7c73d916ab6fe8775fcccf1c4e455be8ede8e"
-  integrity sha512-36gRLF0hd/dxCf6mPc3FKbshj/lpEMbuRxp1yWccbr1JTjeAJNyPOorlBvZ1euymbv/VN3rELUgW0gNBlw2Ddw==
+"@rowsncolumns/grid@^3.0.6":
+  version "3.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/3.0.6/9d844f8c609f52e38b201d5b610c73250435364b#9d844f8c609f52e38b201d5b610c73250435364b"
+  integrity sha512-0BkeKKo12YyCVJEuBJ5j3E7D4tthwE/rtVIQP9mbHWOmoVO4Vrgyj9Qb5QvUk1bVxzma5nmK3H4ucdYRkV5mkA==
   dependencies:
     konva "^9.3.16"
     react-konva "^19.0.1"
@@ -985,10 +985,10 @@
     "@radix-ui/react-icons" "^1.3.2"
     react-icons "^5.4.0"
 
-"@rowsncolumns/spreadsheet-state@^17.0.4":
-  version "17.0.4"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.4/7781aa32621ccdd1bae309672c2c47e6fdb95cf7#7781aa32621ccdd1bae309672c2c47e6fdb95cf7"
-  integrity sha512-9lmRImOPnIlhLSgLS4B0/oKUvSJLjRY9L6zlQfVwqRnVYiLx7+RgDEDRdXykb5U+eFT6cYDsu9wGZP5+GmVWRw==
+"@rowsncolumns/spreadsheet-state@^17.0.5":
+  version "17.0.5"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.5/c5419def2be7e3dfdfb4ed983dd4ee3070d6dd01#c5419def2be7e3dfdfb4ed983dd4ee3070d6dd01"
+  integrity sha512-2DGQzepbPuM8Ot0vH2k7732IljkUQwhbcnwEaIIwQ02UqS+AeIVkoJZY5kAD1ceT5WzBPOKySZ2VIPoH2Qrjjw==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.4"
     "@rowsncolumns/functions" "^4.0.4"
@@ -999,10 +999,10 @@
     rxjs "^7.8.1"
     yup "^1.4.0"
 
-"@rowsncolumns/spreadsheet@^7.0.5":
-  version "7.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.5/b4d9f474c54a41d81f22f09cc2ccb9d3ba31725e#b4d9f474c54a41d81f22f09cc2ccb9d3ba31725e"
-  integrity sha512-CVXEg6IWWU1gYNpg6cWD1i/b5eYg2/1qynBaYYPEpl/ooQ/Rre7L55xVK7Zm/kSOsweluVaKhrAizeDlldmxSQ==
+"@rowsncolumns/spreadsheet@^7.0.6":
+  version "7.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.6/9580a253af58ce1130a95cbed5c45d288ee99762#9580a253af58ce1130a95cbed5c45d288ee99762"
+  integrity sha512-JSPWsM+19eH3oNNCDuXCgkviV3/b1lqY99DTKWoQg+9l9JAGZDZW87wFTnJCu6CPornRXqK0vlegkYsmALAUng==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1011,7 +1011,7 @@
     "@rowsncolumns/calculator" "^4.0.4"
     "@rowsncolumns/common-types" "^2.0.4"
     "@rowsncolumns/functions" "^4.0.4"
-    "@rowsncolumns/grid" "^3.0.5"
+    "@rowsncolumns/grid" "^3.0.6"
     "@rowsncolumns/icons" "^4.0.4"
     "@rowsncolumns/ui" "^5.0.4"
     "@rowsncolumns/utils" "^5.0.4"
