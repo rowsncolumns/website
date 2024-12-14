@@ -273,7 +273,6 @@ export const Spreadsheet = () => {
       onDeleteDataValidationRules,
       getSeriesValuesFromRange,
       getDomainValuesFromRange,
-      sheetObserver,
       onInsertTableColumn,
       onDeleteTableColumn,
       onDeleteTableRow,
