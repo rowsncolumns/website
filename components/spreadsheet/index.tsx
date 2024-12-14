@@ -860,7 +860,6 @@ export const Spreadsheet = () => {
               isDarkMode={isDarkMode}
               getSeriesValuesFromRange={getSeriesValuesFromRange}
               getDomainValuesFromRange={getDomainValuesFromRange}
-              sheetObserver={sheetObserver}
               onRequestEdit={onRequestEditChart}
               onRequestCalculate={onRequestCalculate}
             />
