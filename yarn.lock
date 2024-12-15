@@ -943,10 +943,10 @@
   dependencies:
     "@rowsncolumns/utils" "^5.0.4"
 
-"@rowsncolumns/date-parser@^3.0.4":
-  version "3.0.4"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/3.0.4/193cf7c566f4f5a4b2706fdc100f16b0e6928526#193cf7c566f4f5a4b2706fdc100f16b0e6928526"
-  integrity sha512-EwrQJS/1sZr5YawEi5lM/XldHMgUfABQ5tXUTcmd5yFHtgBdRxv5wuM5YJvinL5s2cuDyKsYDA60aVHnFaoEWQ==
+"@rowsncolumns/date-parser@^3.0.5":
+  version "3.0.5"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/3.0.5/40576f81c94890deea1fe7ff5aeeeb41b8ca7470#40576f81c94890deea1fe7ff5aeeeb41b8ca7470"
+  integrity sha512-OiWSo6q7tiXQueVasy5CWS6F55rCcdQbi8Qh8Dwy230TyN908BvMLmZGuNf76By6vSgDUMcw+k62dgnbwgjQ9Q==
 
 "@rowsncolumns/fast-formula-parser@^3.0.4":
   version "3.0.4"
@@ -985,24 +985,24 @@
     "@radix-ui/react-icons" "^1.3.2"
     react-icons "^5.4.0"
 
-"@rowsncolumns/spreadsheet-state@^17.0.7":
-  version "17.0.7"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.7/ab3308d389f1c5507bcadb6bc0f6803ea7506c8a#ab3308d389f1c5507bcadb6bc0f6803ea7506c8a"
-  integrity sha512-/BAgxXP7G6R8OMkTQrJyhpSqGNzlA6S3COzcAIY2eV79BfcwMiDhOZCnVfU5XhEhXPYshINtcSXZbZ9ypTi6wg==
+"@rowsncolumns/spreadsheet-state@^17.0.8":
+  version "17.0.8"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.8/6dfa12fa70cecab0453cf03730836e1c02e0d5f6#6dfa12fa70cecab0453cf03730836e1c02e0d5f6"
+  integrity sha512-My/t49wyzgApQ+GJcsdbiWNygyfSP05sP6fz8uHDQU5SnOIpG3R2OjGnsvadQH3s+w6CthhwhGgfiJazpmKAAQ==
   dependencies:
-    "@rowsncolumns/date-parser" "^3.0.4"
+    "@rowsncolumns/date-parser" "^3.0.5"
     "@rowsncolumns/functions" "^4.0.4"
-    "@rowsncolumns/toolkit" "^19.0.4"
+    "@rowsncolumns/toolkit" "^19.0.5"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.10.3"
     rxjs "^7.8.1"
-    yup "^1.4.0"
+    yup "^1.5.0"
 
-"@rowsncolumns/spreadsheet@^7.0.10":
-  version "7.0.10"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.10/120d32eb1fd31d83c003fb769f797d3414ae4b40#120d32eb1fd31d83c003fb769f797d3414ae4b40"
-  integrity sha512-4oWI3hoUvGwhmW6bra9VHCcO5CMBx7q7qrlZcyT4gJKRgCraVPeeED+63xGhdhiYMdvsZFIH24QEbxU7Uw9tlw==
+"@rowsncolumns/spreadsheet@^7.0.11":
+  version "7.0.11"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.11/82cccb319457d57a26cf12ea8da0ec3bf7680e2f#82cccb319457d57a26cf12ea8da0ec3bf7680e2f"
+  integrity sha512-jJvAZgZmxjVsMEfUqxLX/ujpv5OmLBnLxMYITfbgovD3ED9sjk8Hd1i+I2swTmKcggk/EsLSJ7cGMcj7Epzndg==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1013,7 +1013,7 @@
     "@rowsncolumns/functions" "^4.0.4"
     "@rowsncolumns/grid" "^3.0.6"
     "@rowsncolumns/icons" "^4.0.4"
-    "@rowsncolumns/ui" "^5.0.5"
+    "@rowsncolumns/ui" "^5.0.6"
     "@rowsncolumns/utils" "^5.0.4"
     "@tanstack/react-virtual" "3.11.1"
     formik "^2.4.6"
@@ -1032,18 +1032,18 @@
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^19.0.4":
-  version "19.0.4"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/19.0.4/a148396198dbcc450e5f6e23cea549c9b7ced0ed#a148396198dbcc450e5f6e23cea549c9b7ced0ed"
-  integrity sha512-+5ETAEiRwyBCkDOhEI9JPGEE4uB4ISQvma+PteQ++9/I37rqv6BzBIJG3EklMB5QGE9/W/SkulOcJTm5Y3EWpw==
+"@rowsncolumns/toolkit@^19.0.5":
+  version "19.0.5"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/19.0.5/e98a794e52990dc383b2c343c9f5e21204c91e41#e98a794e52990dc383b2c343c9f5e21204c91e41"
+  integrity sha512-cdXpCYKZfQLViApPJ97shdRm+msQhOGdTLB0KAndhcJE2/0ZKdYIbtalItuIsSxXJS0WB3fMx5a6YkgOH4NriQ==
   dependencies:
     exceljs "^4.4.0"
     papaparse "^5.4.1"
 
-"@rowsncolumns/ui@^5.0.5":
-  version "5.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/5.0.5/3f169598102dfae12360253e39fa1724c154a8c4#3f169598102dfae12360253e39fa1724c154a8c4"
-  integrity sha512-SlH8MbFip8A3A/WeMK4v2b9pRv4W/pF1qWiWp0+b9we2MzQ/th+g9qAsItd78GwRtOEK+fvMhflUFPE0sowfhw==
+"@rowsncolumns/ui@^5.0.6":
+  version "5.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/5.0.6/8456248616e93df375f03d606b34d00b85308a40#8456248616e93df375f03d606b34d00b85308a40"
+  integrity sha512-kvjNnK5ThY5cOwG89TJD96BaxsdVXd65Av9yyWsYtJvvnxETHD/H+RSzBb+rznFnjlwrUfMg1z/IkXein1m50g==
   dependencies:
     "@radix-ui/react-dialog" "^1.1.3"
     "@radix-ui/react-dropdown-menu" "^2.1.3"
@@ -5902,7 +5902,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-yup@^1.4.0:
+yup@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/yup/-/yup-1.5.0.tgz#1aaa5e453f04424094b9c8a0e5292e0ac2d97246"
   integrity sha512-NJfBIHnp1QbqZwxcgl6irnDMIsb/7d1prNhFx02f1kp8h+orpi4xs3w90szNpOh68a/iHPdMsYvhZWoDmUvXBQ==
