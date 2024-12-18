@@ -923,10 +923,10 @@
     "@rowsncolumns/fast-formula-parser" "^3.0.4"
     "@rowsncolumns/utils" "^5.0.4"
 
-"@rowsncolumns/charts@^16.0.5":
-  version "16.0.5"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/16.0.5/54d9cf2fcf2f32a1f75959f326c4203326304009#54d9cf2fcf2f32a1f75959f326c4203326304009"
-  integrity sha512-rff1WbeWtCtmnM1XGUxGTYkJosX6iJc6XQeFpm4jb4mBIHeVNEIF3lvsy94QKn4cQQRdraU42Ly7u6ASCvbfbg==
+"@rowsncolumns/charts@^16.0.6":
+  version "16.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/16.0.6/497f0d4a418747576fbdb521bb22ef125297213c#497f0d4a418747576fbdb521bb22ef125297213c"
+  integrity sha512-o63JazrifP7S1AD8PFLiGcgLK2payjNuXbqIsyMp0YP3tMgkIoEN/7vqsbH7neWs369lykXrpWn0cpZcHxY04A==
   dependencies:
     echarts "^5.5.0"
     formik "^2.4.6"
@@ -985,10 +985,10 @@
     "@radix-ui/react-icons" "^1.3.2"
     react-icons "^5.4.0"
 
-"@rowsncolumns/spreadsheet-state@^17.0.13":
-  version "17.0.13"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.13/21985450b2018c83cfa620b6eda4ab9ad2f6f97d#21985450b2018c83cfa620b6eda4ab9ad2f6f97d"
-  integrity sha512-8FDiVZyJQZwpXfdJVFjJ2zCybGmq/FDb3fWRkIfIM/8QxvxFoFYgasAHeVFdP5DqxPGLebKSIkSEOOv+3nFjmg==
+"@rowsncolumns/spreadsheet-state@^17.0.14":
+  version "17.0.14"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.14/8dc6c1fabe29e9d3793ed4882501f19490d0f1ed#8dc6c1fabe29e9d3793ed4882501f19490d0f1ed"
+  integrity sha512-rCHP+pvM4XkURfVoskgBYPxG4J9p/Vwma2p2M42AtAU/CMv0kZI9RC0XYbWSWh/WGi/JwXtSv8hudaGRlUWZkw==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.5"
     "@rowsncolumns/functions" "^4.0.4"
