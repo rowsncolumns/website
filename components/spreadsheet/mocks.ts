@@ -181,5 +181,6 @@ export const mockTables: TableView[] = [
     filterButton: true,
     sortSpecs: [],
     showRowStripes: false,
+    theme: "TableStyleLight1",
   },
 ];
