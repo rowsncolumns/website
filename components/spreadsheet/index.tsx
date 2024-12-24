@@ -277,6 +277,7 @@ export const Spreadsheet = () => {
       onDeleteTableColumn,
       onDeleteTableRow,
       onInsertTableRow,
+      onInsertAutoSum,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -867,6 +868,7 @@ export const Spreadsheet = () => {
           onDeleteTableColumn={onDeleteTableColumn}
           onDeleteTableRow={onDeleteTableRow}
           onInsertTableRow={onInsertTableRow}
+          onInsertAutoSum={onInsertAutoSum}
         />
 
         <LoadingIndicator />
