@@ -352,7 +352,7 @@ export const Spreadsheet = () => {
       createHistory,
       onChangeCharts,
     });
-    // console.log(tables, sheets, conditionalFormats, sheetData);
+    console.log(tables, sheets, conditionalFormats, sheetData);
     // Format fo the current cell
     const currentCellFormat = useMemo(
       () =>
