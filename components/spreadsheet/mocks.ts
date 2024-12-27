@@ -10,7 +10,7 @@ export const mockSheets: Sheet[] = [
   {
     title: "Sheet 1",
     sheetId,
-    rowCount: 1000,
+    rowCount: 1600,
     columnCount: 100,
     frozenColumnCount: 0,
     frozenRowCount: 0,
