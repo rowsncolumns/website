@@ -27,11 +27,11 @@ export const mockSheets: Sheet[] = [
         hiddenByUser: true,
       },
       {
-        size: 108,
+        size: 113,
         resizedByUser: false,
       },
       {
-        size: 103,
+        size: 106,
         resizedByUser: false,
       },
       {
@@ -51,7 +51,10 @@ export const mockSheets: Sheet[] = [
         size: 129,
         resizedByUser: false,
       },
-      null,
+      {
+        size: 129,
+        resizedByUser: false,
+      },
       {
         size: 104.5,
         resizedByUser: false,
