@@ -17,9 +17,53 @@ export const mockSheets: Sheet[] = [
     columnMetadata: [
       null,
       null,
+      {
+        size: 135,
+        resizedByUser: true,
+      },
+      {
+        size: 76.5,
+        resizedByUser: false,
+        hiddenByUser: true,
+      },
+      {
+        size: 108,
+        resizedByUser: false,
+      },
+      {
+        size: 103,
+        resizedByUser: false,
+      },
+      {
+        size: 92.5,
+        resizedByUser: false,
+        hiddenByUser: true,
+      },
+      {
+        size: 106,
+        resizedByUser: true,
+      },
+      {
+        size: 129,
+        resizedByUser: false,
+      },
+      {
+        size: 129,
+        resizedByUser: false,
+      },
       null,
-      null,
-      { size: 104, resizedByUser: false },
+      {
+        size: 104.5,
+        resizedByUser: false,
+      },
+      {
+        size: 120,
+        resizedByUser: true,
+      },
+      {
+        size: 300,
+        resizedByUser: true,
+      },
     ],
     rowMetadata: [],
   },
@@ -37,94 +81,57 @@ export const mockSheets: Sheet[] = [
 
 export const mockConditionalFormatting: ConditionalFormatRule[] = [
   {
-    id: uuid(),
+    id: 196120850,
     ranges: [
       {
-        sheetId,
-        startRowIndex: 2,
-        endRowIndex: 2,
-        startColumnIndex: 1,
-        endColumnIndex: 2,
+        startRowIndex: 4,
+        startColumnIndex: 5,
+        endColumnIndex: 5,
+        endRowIndex: 1000,
+        sheetId: 1,
       },
     ],
-    booleanRule: {
-      condition: {
-        type: "NUMBER_LESS",
-        values: [
-          {
-            userEnteredValue: "0.5",
-          },
-        ],
-      },
-      format: {
-        textFormat: {
-          color: "red",
+    gradientRule: {
+      minpoint: {
+        color: {
+          theme: 9,
+          tint: 0.8,
         },
-      },
-    },
-  },
-  {
-    id: uuid(),
-    ranges: [
-      {
-        sheetId,
-        startRowIndex: 4,
-        endRowIndex: 56,
-        startColumnIndex: 7,
-        endColumnIndex: 7,
-      },
-    ],
-    gradientRule: {
-      minpoint: {
-        color: "#FFCF54",
         type: "MIN",
       },
       maxpoint: {
-        color: "#FFFFFF",
+        color: {
+          theme: 9,
+          tint: -0.25,
+        },
         type: "MAX",
       },
     },
   },
   {
-    id: uuid(),
+    id: 266693659,
     ranges: [
       {
-        sheetId,
         startRowIndex: 4,
-        endRowIndex: 56,
-        startColumnIndex: 9,
-        endColumnIndex: 9,
+        startColumnIndex: 4,
+        endColumnIndex: 4,
+        endRowIndex: 1000,
+        sheetId: 1,
       },
     ],
     gradientRule: {
       minpoint: {
-        color: "#4AB078",
+        color: {
+          theme: 5,
+          tint: 0.8,
+        },
         type: "MIN",
       },
       maxpoint: {
-        color: "#FFFFFF",
-        type: "MAX",
-      },
-    },
-  },
-  {
-    id: uuid(),
-    ranges: [
-      {
-        sheetId,
-        startRowIndex: 4,
-        endRowIndex: 56,
-        startColumnIndex: 6,
-        endColumnIndex: 6,
-      },
-    ],
-    gradientRule: {
-      minpoint: {
-        color: "#FFFFFF",
-        type: "MIN",
-      },
-      maxpoint: {
-        color: "#DE6560",
+        color: {
+          theme: 5,
+          tint: 0.4,
+        },
         type: "MAX",
       },
     },
@@ -133,54 +140,62 @@ export const mockConditionalFormatting: ConditionalFormatRule[] = [
 
 export const mockTables: TableView[] = [
   {
-    id: 738655737,
+    id: 532915708,
     range: {
       startRowIndex: 3,
+      endRowIndex: 1077,
       startColumnIndex: 2,
-      endColumnIndex: 18,
-      endRowIndex: 56,
+      endColumnIndex: 13,
     },
-    sheetId,
-    title: "Covid Data",
+    sheetId: 1,
+    title: "Unicorn companies",
     columns: [
-      { name: "date" },
-      { name: "states" },
       {
-        name: "% Negative",
-        formula: "=[@negative]/SUM([@positive],[@negative])",
+        name: "Company",
       },
-      { name: "positive" },
-      { name: "negative" },
-      { name: "pending" },
-      { name: "hospitalizedCurrently" },
-      { name: "hospitalizedCumulative" },
-      { name: "inIcuCurrently" },
-      { name: "inIcuCumulative" },
-      { name: "onVentilatorCurrently" },
-      { name: "onVentilatorCumulative" },
-      { name: "dateChecked" },
-      { name: "death" },
-      { name: "hospitalized" },
-      { name: "totalTestResults" },
-      { name: "lastModified" },
+      {
+        name: "Valuation",
+      },
+      {
+        name: "Valuation ($)",
+        formula:
+          '=VALUE(LEFT(SUBSTITUTE([@Valuation],"$",""),LEN([@Valuation])-2))*IF(RIGHT([@Valuation],1)="B",1000000000,IF(RIGHT([@Valuation],1)="M",1000000,1))',
+      },
+      {
+        name: "Funding ($)",
+        formula:
+          '=VALUE(LEFT(SUBSTITUTE([@Funding],"$",""),LEN([@Funding])-2))*IF(RIGHT([@Funding],1)="B",1000000000,IF(RIGHT([@Funding],1)="M",1000000,1))',
+      },
+      {
+        name: "Funding",
+      },
+      {
+        name: "Date Joined",
+      },
+      {
+        name: "Industry",
+      },
+      {
+        name: "City",
+      },
+      {
+        name: "Country/Region",
+      },
+      {
+        name: "Continent",
+      },
+      {
+        name: "Year Founded",
+      },
+      {
+        name: "Select Investors",
+      },
     ],
-    bandedRange: {
-      rowProperties: {
-        firstBandColor: { theme: 4, tint: 1 },
-        headerBorder: {
-          top: { width: 1, style: "solid", color: { theme: 4 } },
-          bottom: { width: 1, style: "solid", color: { theme: 4 } },
-        },
-        footerBorder: {
-          bottom: { width: 1, style: "solid", color: { theme: 4 } },
-        },
-      },
-    },
     filterSpecs: [],
     headerRow: true,
     filterButton: true,
     sortSpecs: [],
-    showRowStripes: false,
-    theme: "TableStyleLight1",
+    showRowStripes: true,
+    theme: "None",
   },
 ];
