@@ -918,8 +918,6 @@ export const Spreadsheet = () => {
         <ConditionalFormatDialog>
           <ConditionalFormatEditor
             sheetId={activeSheetId}
-            rowCount={rowCount}
-            columnCount={columnCount}
             theme={theme}
             conditionalFormats={conditionalFormats}
             functionDescriptions={functionDescriptions}
@@ -934,8 +932,6 @@ export const Spreadsheet = () => {
           <DataValidationEditor
             dataValidations={dataValidations}
             sheetId={activeSheetId}
-            rowCount={rowCount}
-            columnCount={columnCount}
             functionDescriptions={functionDescriptions}
             onDeleteRules={onDeleteDataValidationRules}
             onDeleteRule={onDeleteDataValidationRule}
@@ -946,11 +942,8 @@ export const Spreadsheet = () => {
 
         <TableEditor
           sheetId={activeSheetId}
-          rowCount={rowCount}
-          columnCount={columnCount}
           onSubmit={onUpdateTable}
           theme={theme}
-          merges={merges}
         />
         <DeleteSheetConfirmation
           sheetId={activeSheetId}
@@ -958,11 +951,8 @@ export const Spreadsheet = () => {
         />
         <NamedRangeEditor
           sheetId={activeSheetId}
-          rowCount={rowCount}
-          columnCount={columnCount}
           onCreateNamedRange={onCreateNamedRange}
           onUpdateNamedRange={onUpdateNamedRange}
-          merges={merges}
         />
 
         <SheetSearch
@@ -1003,8 +993,6 @@ export const Spreadsheet = () => {
             sheetId={activeSheetId}
             chart={selectedChart}
             onSubmit={onUpdateChart}
-            rowCount={rowCount}
-            columnCount={columnCount}
           />
         </ChartEditorDialog>
 
