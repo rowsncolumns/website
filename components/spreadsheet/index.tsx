@@ -62,6 +62,8 @@ import {
   InsertMenu,
   ButtonInsertLink,
   DataValidationRuleRecord,
+  ButtonPrint,
+  ButtonClearFormatting,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -379,6 +381,13 @@ export const Spreadsheet = () => {
         <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
+          <ButtonPrint onClick={() => window.print()} />
+          <ButtonClearFormatting
+            onClick={() => {
+              onClearFormatting(activeSheetId, activeCell, selections);
+            }}
+          />
+          <ToolbarSeparator />
           <ToolbarSeparator />
           <ScaleSelector value={scale} onChange={onChangeScale} />
           <ToolbarSeparator />

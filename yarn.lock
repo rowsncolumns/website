@@ -977,10 +977,10 @@
     scroller "^0.0.3"
     tiny-invariant "^1.3.3"
 
-"@rowsncolumns/icons@^4.0.15":
-  version "4.0.15"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/4.0.15/150f4c5a8b45e0ef06122ed3a1b2b119c5895a06#150f4c5a8b45e0ef06122ed3a1b2b119c5895a06"
-  integrity sha512-wN6rzYtX+w7troau4qIlfGx2Po6kh8fRe8ZINwRwiLyQR1jSWvKQfR0XxJoBJRrFXkhMRmW5nQkAYZcEeqWhHQ==
+"@rowsncolumns/icons@^4.0.16":
+  version "4.0.16"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/4.0.16/97792e4b8962cc11f2931db0c72691cb72bdf096#97792e4b8962cc11f2931db0c72691cb72bdf096"
+  integrity sha512-JQEdY2kXcRrmdgyZsJ91OhBKniqIUT95n9dGb7JeP2eL/s3mJDJslxCjO763+y5j0YbCpvsWPpCcichWyqUHag==
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
@@ -998,10 +998,10 @@
     rxjs "^7.8.1"
     yup "^1.5.0"
 
-"@rowsncolumns/spreadsheet@^7.0.33":
-  version "7.0.33"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.33/874abb53db943df5824f7c298f7a79d9aac65305#874abb53db943df5824f7c298f7a79d9aac65305"
-  integrity sha512-rKmmIsu8wC0DXKTdJNeddHKOeO3gSljceLzzRgZCJ5CBNVo0ZptV2FVsQ1km6hfOXWdM5gyZ8i3oAwKjwi3wFg==
+"@rowsncolumns/spreadsheet@^7.0.34":
+  version "7.0.34"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.34/66133c365bd3f260c24368d29d0bd951442c8c39#66133c365bd3f260c24368d29d0bd951442c8c39"
+  integrity sha512-fuELSfaxFQat0tMZZU0t6o4yYV94Pa8NPhKQpRGFAHc+Otm2wCsImfr/3EbpnSB6ECx3My+fGN++iAybBJHPkA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1011,7 +1011,7 @@
     "@rowsncolumns/common-types" "^2.0.15"
     "@rowsncolumns/functions" "^4.0.15"
     "@rowsncolumns/grid" "^10.0.10"
-    "@rowsncolumns/icons" "^4.0.15"
+    "@rowsncolumns/icons" "^4.0.16"
     "@rowsncolumns/ui" "^5.0.19"
     "@rowsncolumns/utils" "^5.0.15"
     "@tanstack/react-virtual" "3.11.1"
