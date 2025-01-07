@@ -984,10 +984,10 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^17.0.43":
-  version "17.0.43"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.43/6e92051416321b37f69466721b07fb66d006ab44#6e92051416321b37f69466721b07fb66d006ab44"
-  integrity sha512-9bViRqnB5IzLOeEYFhaNN2zmZHS1Q1UguWy48wFb7zrWz8nvCR337AJgUtiUoxUDPsc8FXlUK+LKLhoQ8tbyOA==
+"@rowsncolumns/spreadsheet-state@^17.0.44":
+  version "17.0.44"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.44/d5790eefc7b3b9cbf5b70ce7cd6ce2dd96abd21e#d5790eefc7b3b9cbf5b70ce7cd6ce2dd96abd21e"
+  integrity sha512-3+tXlee6/Gc7jm227WHqRngadgcgrWsWrINu1BIU2VLxSQUdQ/8bSUEG4YxNWaNc+B7cTJhPQ/wtHGJOK6LjqQ==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.20"
     "@rowsncolumns/functions" "^4.0.18"
