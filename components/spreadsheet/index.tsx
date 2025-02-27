@@ -303,6 +303,7 @@ export const Spreadsheet = () => {
       onChangeProtectedRanges,
       onChangeConditionalFormats,
       onChangeDataValidations,
+      fileSizeLimit: 100 * 1024 * 1024, // 100 MB Limit
     });
 
     const {
