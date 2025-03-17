@@ -177,6 +177,7 @@ export const Spreadsheet = () => {
       onSelectPreviousSheet,
       onChangeSelections,
       onChange,
+      onChangeBatch,
       onDelete,
       onChangeFormatting,
       onClearFormatting,
@@ -827,6 +828,7 @@ export const Spreadsheet = () => {
           onMoveSelection={onMoveSelection}
           onCreateNewSheet={onCreateNewSheet}
           onChange={onChange}
+          onChangeBatch={onChangeBatch}
           onUndo={onUndo}
           onRedo={onRedo}
           onSortColumn={onSortColumn}
