@@ -390,7 +390,6 @@ export const Spreadsheet = () => {
             }}
           />
           <ToolbarSeparator />
-          <ToolbarSeparator />
           <ScaleSelector value={scale} onChange={onChangeScale} />
           <ToolbarSeparator />
           <ButtonFormatCurrency
