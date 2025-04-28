@@ -119,7 +119,11 @@ const supabaseClient = createClient(
 const userId = crypto.randomUUID();
 const userName = getUniqueName();
 
-export const Spreadsheet = () => {
+type SpreadsheetProps = {
+  allowUpload?: boolean;
+};
+
+export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
   const App = () => {
     const locale = "en-US";
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
@@ -281,6 +285,9 @@ export const Spreadsheet = () => {
       onDeleteTableRow,
       onInsertTableRow,
       onInsertAutoSum,
+
+      importCSVFile,
+      importExcelFile,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -371,6 +378,25 @@ export const Spreadsheet = () => {
     return (
       <>
         <Styles />
+
+        <div className="p-2">
+          <input
+            type="file"
+            onChange={async (e) => {
+              const file = e.target.files?.[0];
+              if (file) {
+                const isCSV = file.type === "text/csv";
+                const isExcel = file.name.endsWith("xlsx");
+                if (isCSV) {
+                  await importCSVFile(file);
+                } else if (isExcel) {
+                  await importExcelFile(file);
+                }
+              }
+            }}
+          />
+        </div>
+
         {/* {collab ? (
           <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
             In the demo, data is not stored permanently in the server database.
