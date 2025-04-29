@@ -378,24 +378,25 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     return (
       <>
         <Styles />
-
-        <div className="p-2">
-          <input
-            type="file"
-            onChange={async (e) => {
-              const file = e.target.files?.[0];
-              if (file) {
-                const isCSV = file.type === "text/csv";
-                const isExcel = file.name.endsWith("xlsx");
-                if (isCSV) {
-                  await importCSVFile(file);
-                } else if (isExcel) {
-                  await importExcelFile(file);
+        {allowUpload ? (
+          <div className="p-2">
+            <input
+              type="file"
+              onChange={async (e) => {
+                const file = e.target.files?.[0];
+                if (file) {
+                  const isCSV = file.type === "text/csv";
+                  const isExcel = file.name.endsWith("xlsx");
+                  if (isCSV) {
+                    await importCSVFile(file);
+                  } else if (isExcel) {
+                    await importExcelFile(file);
+                  }
                 }
-              }
-            }}
-          />
-        </div>
+              }}
+            />
+          </div>
+        ) : null}
 
         {/* {collab ? (
           <div className="p-2 font-sans italic text-yellow-700 text-sm text-center">
