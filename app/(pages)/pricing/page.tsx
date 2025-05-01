@@ -206,9 +206,9 @@ export default async function Home() {
             </AccordionTrigger>
             <AccordionContent>
               <p className="pb-4">
-                Yes. Each Personal or Team license is for a Single application
-                use. It is bound to an application name and can&apos;t be
-                re-used on other application at the same time.
+                Yes. Each Professional license is for a Single application use.
+                It is bound to an application name and can&apos;t be re-used on
+                other application at the same time.
               </p>
             </AccordionContent>
           </AccordionItem>
@@ -221,8 +221,8 @@ export default async function Home() {
               <p className="pb-4">
                 <p className="pb-2">
                   Yup! If you&apos;re a solo developer you can start with a
-                  personal license, and then upgrade to the team license later
-                  if other developers join your team.
+                  solo/trail license, and then upgrade to the professional
+                  license later if other developers join your team.
                 </p>
 
                 <p className="pb-2">
@@ -259,7 +259,7 @@ export default async function Home() {
             </AccordionTrigger>
             <AccordionContent>
               <p className="pb-4">
-                All personal, team and enterprise licenses can be used on
+                Only professional and enterprise licenses can be used on
                 commercial projects.
               </p>
             </AccordionContent>
