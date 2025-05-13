@@ -941,14 +941,14 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^17.0.82":
-  version "17.0.82"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.82/24599874c6866b72f8dda77280a63c7c95a87f3a#24599874c6866b72f8dda77280a63c7c95a87f3a"
-  integrity sha512-MK/f+SJZZm4nmXuWs1wL7GD0ez4np65Wwaob1gilY5afD6CG48NTQ+IJQNMnt7gJFFc+jj0EguboLAUX4+x7Cw==
+"@rowsncolumns/spreadsheet-state@^17.0.85":
+  version "17.0.85"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.85/c7dd3551da9817299654d376b653e645075946cf#c7dd3551da9817299654d376b653e645075946cf"
+  integrity sha512-cj2jMDZ9glBncMvQk9eVU24ezIHwteV9FXS8B7N7jc//Lp5EpzI4PLhZM+4MIKvMZJT0RlfLOgh82QTneT8fQw==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.42"
     "@rowsncolumns/functions" "^4.0.40"
-    "@rowsncolumns/toolkit" "^19.0.53"
+    "@rowsncolumns/toolkit" "^19.0.55"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.10.3"
@@ -987,10 +987,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.26.0"
 
-"@rowsncolumns/toolkit@^19.0.53":
-  version "19.0.53"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/19.0.53/177cfb4b207d0b43904eae5601201906d4ba7231#177cfb4b207d0b43904eae5601201906d4ba7231"
-  integrity sha512-1J/2008aROaIVqaEpgBqzoCQVyhqlUpJAzu6OVMtruBWL8+cXgNbMQi+4sAi8j6udYtLAuK9EujHGod4eivn1Q==
+"@rowsncolumns/toolkit@^19.0.55":
+  version "19.0.55"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/19.0.55/8f1cedcd13cc07a2a0abbafbef664ef44f86f036#8f1cedcd13cc07a2a0abbafbef664ef44f86f036"
+  integrity sha512-H56Fsv9u/o8sV/Si75e7E7KupvNsODDIq1hKMXPozQoINT2YWK4mn0NKI8L8v+IsNxd0WPirpxnLuQUBDp7yzA==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.0.9"
