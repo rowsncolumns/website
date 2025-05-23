@@ -410,7 +410,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         ) : (
           false
         )} */}
-        <Toolbar className="hidden md:!flex">
+        <Toolbar>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
           <ButtonPrint onClick={() => window.print()} />
@@ -765,7 +765,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           </IconButton>
         </Toolbar>
 
-        <FormulaBar className="hidden md:!flex">
+        <FormulaBar>
           <RangeSelector
             sheetId={activeSheetId}
             selections={selections}
