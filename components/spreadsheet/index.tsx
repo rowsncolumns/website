@@ -1,5 +1,5 @@
 "use client";
-
+import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
 import { useState, useMemo, Suspense } from "react";
 import {
   Sheet,
@@ -410,7 +410,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         ) : (
           false
         )} */}
-        <Toolbar className="hidden md:flex">
+        <Toolbar className="hidden md:!flex">
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
           <ButtonPrint onClick={() => window.print()} />
@@ -765,7 +765,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           </IconButton>
         </Toolbar>
 
-        <FormulaBar className="hidden md:flex">
+        <FormulaBar className="hidden md:!flex">
           <RangeSelector
             sheetId={activeSheetId}
             selections={selections}
