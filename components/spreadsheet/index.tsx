@@ -1057,7 +1057,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
         <ErrorStateDialog />
 
-        <div className="sm:hidden">
+        {/* <div className="sm:hidden">
           <FloatingCellEditor
             initialValue={getUserEnteredValue(
               activeSheetId,
@@ -1074,7 +1074,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onInsertColumn={onInsertColumn}
             functionDescriptions={functionDescriptions}
           />
-        </div>
+        </div> */}
       </>
     );
   };
