@@ -1,5 +1,5 @@
 "use client";
-import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
+
 import { useState, useMemo, Suspense } from "react";
 import {
   Sheet,
@@ -64,6 +64,7 @@ import {
   DataValidationRuleRecord,
   ButtonPrint,
   ButtonClearFormatting,
+  FloatingCellEditor,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -288,6 +289,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
       importCSVFile,
       importExcelFile,
+
+      getUserEnteredValue,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -407,7 +410,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         ) : (
           false
         )} */}
-        <Toolbar>
+        <Toolbar className="hidden md:flex">
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
           <ButtonPrint onClick={() => window.print()} />
@@ -762,7 +765,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           </IconButton>
         </Toolbar>
 
-        <FormulaBar>
+        <FormulaBar className="hidden md:flex">
           <RangeSelector
             sheetId={activeSheetId}
             selections={selections}
@@ -1053,6 +1056,25 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         </InsertLinkDialog>
 
         <ErrorStateDialog />
+
+        <div className="sm:hidden">
+          <FloatingCellEditor
+            initialValue={getUserEnteredValue(
+              activeSheetId,
+              activeCell.rowIndex,
+              activeCell.columnIndex
+            )}
+            theme={theme}
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            onChange={onChange}
+            cellFormat={currentCellFormat}
+            onChangeFormatting={onChangeFormatting}
+            onInsertRow={onInsertRow}
+            onInsertColumn={onInsertColumn}
+            functionDescriptions={functionDescriptions}
+          />
+        </div>
       </>
     );
   };

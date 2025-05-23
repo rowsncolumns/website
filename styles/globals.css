@@ -1,3 +1,5 @@
+@import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
