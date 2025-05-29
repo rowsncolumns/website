@@ -709,7 +709,13 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onClick={() => onCreateChart(activeSheetId, activeCell, selections)}
           />
 
-          <ButtonInsertImage onInsertFile={onInsertFile} />
+          <ButtonInsertImage
+            onInsertFile={(file) => {
+              onInsertFile(file, activeSheetId, activeCell, {
+                insertOverCells: true,
+              });
+            }}
+          />
 
           <ButtonInsertLink
             onClick={() =>

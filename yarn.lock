@@ -946,10 +946,10 @@
     "@rowsncolumns/fast-formula-parser" "^3.0.46"
     "@rowsncolumns/utils" "^5.0.43"
 
-"@rowsncolumns/charts@^16.0.50":
-  version "16.0.50"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/16.0.50/1959bee7bb12fc11378f5bc3fd3c444e94c4ed67#1959bee7bb12fc11378f5bc3fd3c444e94c4ed67"
-  integrity sha512-wqPatuNUmIm62CPVGDXZG+TkVwVqFvnsTtKVTWfC/QbtsTHohJQjUo0Ch2y7T0ZgsmXmiJjiHJBQzfJlvdOcgA==
+"@rowsncolumns/charts@^17.0.0":
+  version "17.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/17.0.0/0cd882bd7dada5bcf8b68f261834b5535b47aec9#0cd882bd7dada5bcf8b68f261834b5535b47aec9"
+  integrity sha512-2bVXBj0SfJg096VTbJi1AvDqiE+KE8n6Z7SWkDjks8tV8y2kAAPf70sxY1kKMcXTTO9eTELFJgFo3REBdmuEWA==
   dependencies:
     echarts "^5.6.0"
     formik "^2.4.6"
@@ -1006,24 +1006,24 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^17.0.97":
-  version "17.0.97"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/17.0.97/edeb1c51e81a1fb0c9f5097829cfabf6be0ae38a#edeb1c51e81a1fb0c9f5097829cfabf6be0ae38a"
-  integrity sha512-6KRmO+BK+fAP0QkNk2OnfxGDu0xjKlUSTdhgvCySYg4q3Tad3JP93DKswOyeF+vJSdEt2QkX89BFinT53nCKOQ==
+"@rowsncolumns/spreadsheet-state@^18.0.0":
+  version "18.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/18.0.0/0fb0279364130f37d88d3641d59d6fd87d83dcaa#0fb0279364130f37d88d3641d59d6fd87d83dcaa"
+  integrity sha512-HC8cIFhEJty4si/mV/eR346oD/VIooI79kA/HMi9iWzAQVPibqal6rzYz/Tq46+IGhF5taXRmZMTqRcnwXTuIg==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.45"
     "@rowsncolumns/functions" "^4.0.43"
-    "@rowsncolumns/toolkit" "^19.0.59"
+    "@rowsncolumns/toolkit" "^20.0.0"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
     rxjs "^7.8.2"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.0.97":
-  version "7.0.97"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.97/15b681e00f40177184a42c2c1f28ddd970a60a53#15b681e00f40177184a42c2c1f28ddd970a60a53"
-  integrity sha512-PVqPGOydS0y9ALiJvwEjnJ3ILCjqcwKlsB3UTQEzJibV4XyPSx0gb0P9khT8m2gVLCf+tjexMO0Zg32SxZo/WQ==
+"@rowsncolumns/spreadsheet@^7.0.98":
+  version "7.0.98"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.0.98/e5c7c87fc06889650167bf7d85aed521a585b348#e5c7c87fc06889650167bf7d85aed521a585b348"
+  integrity sha512-zNIeRuR1jzkNGfwh+E8tvrYcM77W96xL2yTsmpvRfkfepqWlqPRK/YMilXsCcDWdzMgqgleyLB09F55UXhmcpA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1044,17 +1044,17 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^18.0.44":
-  version "18.0.44"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/18.0.44/0d932fb042d02b72ee9359bff8b15f1f1020b987#0d932fb042d02b72ee9359bff8b15f1f1020b987"
-  integrity sha512-yz5YA5tRt/b0xptJw1O1JGttyt0A7Fg/wmim1gPGm0dDnDheN21/9yEWvmxYsYQ7sOH3TP2ybNUSQH/b8e25ow==
+"@rowsncolumns/supabase-spreadsheet@^19.0.0":
+  version "19.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/19.0.0/0e4f39b5514fe153f8df230a8f2acc81dc708483#0e4f39b5514fe153f8df230a8f2acc81dc708483"
+  integrity sha512-U100IRAq+9UAFxJRnwyL/vpiNmLdOV6c1atkB6LsL5vyX8NWe3NQ/WN8Q2x215fzZKbIXZVEiWtuQt14HW4/+w==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^19.0.59":
-  version "19.0.59"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/19.0.59/23df8644d5cfc3539ced7d2191ce414f5e6fab8a#23df8644d5cfc3539ced7d2191ce414f5e6fab8a"
-  integrity sha512-EjyqMdNxFoFWcVRfjS8pCy1fERL8YnR4wO8zfhaURNNTEU+wwDwgZsSNISwIee8xZyt5d1Ll+hpXj5x9oBK4xA==
+"@rowsncolumns/toolkit@^20.0.0":
+  version "20.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/20.0.0/a852df7caba36c5ab61de3dd7ecebbf0144ef4ea#a852df7caba36c5ab61de3dd7ecebbf0144ef4ea"
+  integrity sha512-lugg9Hh4qF7BR1r3Vd4kMMMbJ5+hEjBqM5MFE9vc5WquvdquifpLyVMRkIzmral5hhe//sIitiXNPRsAGF0FUg==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
