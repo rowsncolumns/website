@@ -14,7 +14,7 @@
     "@rowsncolumns/charts": "^17.0.12",
     "@rowsncolumns/spreadsheet": "^7.0.120",
     "@rowsncolumns/spreadsheet-state": "^18.0.29",
-    "@rowsncolumns/supabase-spreadsheet": "^19.0.12",
+    "@rowsncolumns/supabase-spreadsheet": "^19.0.13",
     "@sendgrid/mail": "^7.7.0",
     "@types/node": "20.2.1",
     "@types/react": "^19.0.1",
