@@ -23,7 +23,12 @@ const generateLicenseCode = async (
     .map((byte) => byte.toString(16).padStart(2, "0"))
     .join(""); // Convert the hash buffer to hexadecimal string
   const formattedLicenseCode = formatLicenseCode(hash); // Format the license code
-  return `${userId}-${licenseType}-${formattedLicenseCode}`;
+  const startDate = new Date().toISOString().split("T")[0];
+  const startDateObj = new Date(startDate);
+  startDateObj.setFullYear(startDateObj.getFullYear() + 1);
+
+  const endDate = startDateObj.toISOString().split("T")[0];
+  return `${userId}-${licenseType}-${formattedLicenseCode}|${startDate} ${endDate}`;
 };
 
 const formatLicenseCode = (hash: string) => {
