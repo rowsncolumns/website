@@ -87,6 +87,8 @@ import {
   DataValidationEditorDialog,
   DataValidationEditor,
   ErrorStateDialog,
+  EmbedEditorDialog,
+  EmbedEditor,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -1054,6 +1056,15 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onInsertImage={onInsertImage}
           />
         </InsertImageDialog>
+
+        <EmbedEditorDialog>
+          <EmbedEditor
+            sheetId={activeSheetId}
+            activeCell={activeCell}
+            selections={selections}
+            onInsertImage={onInsertImage}
+          />
+        </EmbedEditorDialog>
 
         <InsertLinkDialog>
           <InsertLinkEditor
