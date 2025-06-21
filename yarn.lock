@@ -946,10 +946,10 @@
     "@rowsncolumns/fast-formula-parser" "^3.0.58"
     "@rowsncolumns/utils" "^5.0.55"
 
-"@rowsncolumns/charts@^17.0.12":
-  version "17.0.12"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/17.0.12/74abd0967396a85af8b544eb4b58420ff3cd0ccd#74abd0967396a85af8b544eb4b58420ff3cd0ccd"
-  integrity sha512-CTtQX+33hefk7ZFUjO8xU/K1uCGKFM1ZHSKXQ1F8Wb07nMGlLWsNrRCEwGCHK+BAENimgQAwCReVDBJF/rZb/A==
+"@rowsncolumns/charts@^17.0.13":
+  version "17.0.13"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/17.0.13/0cbae323fc5058926b3f1305f05e2e6038c5f961#0cbae323fc5058926b3f1305f05e2e6038c5f961"
+  integrity sha512-zGMwoS2U8HidRt/plkhSO31KyuLxhKXingbgempiz2IcwBRVin12X5AftOGVPMidOFRQ3dwYB2BVnWfK1Q9W7w==
   dependencies:
     echarts "^5.6.0"
     formik "^2.4.6"
