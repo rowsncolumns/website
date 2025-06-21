@@ -1006,14 +1006,14 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^18.0.30":
-  version "18.0.30"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/18.0.30/b57f217c6b2fe6445317dd43f11b234f44778d4e#b57f217c6b2fe6445317dd43f11b234f44778d4e"
-  integrity sha512-26im5l0tMoXxiSZFVM62F21F39anY9/mG+w2gCL2Hk3uKPEInFQhacuhZCIQw2v9wKSj39W9gekhzlLTcwwfrw==
+"@rowsncolumns/spreadsheet-state@^18.0.31":
+  version "18.0.31"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/18.0.31/f71283d71d1f5181ff37f5b91463f8083abbe546#f71283d71d1f5181ff37f5b91463f8083abbe546"
+  integrity sha512-dav59afJTeC1ucREuCko+Df9eIWoeGsmfSre7vnnZEVO+fecJ3fk+ivgWoy59ZzTyqAmn1pOR1RbKWGoqAJY4Q==
   dependencies:
     "@rowsncolumns/date-parser" "^3.0.57"
     "@rowsncolumns/functions" "^4.0.55"
-    "@rowsncolumns/toolkit" "^20.0.18"
+    "@rowsncolumns/toolkit" "^20.0.19"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1051,10 +1051,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^20.0.18":
-  version "20.0.18"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/20.0.18/eb5b7f8d712bc023ed7fdb0c168bb146bae89404#eb5b7f8d712bc023ed7fdb0c168bb146bae89404"
-  integrity sha512-X875gRhWFtrgCei3J3l3tpJHRgj9u2l2XT6vCuzYVPQjt31u4QzQ1K1xpsOq9ecrekAEzux16FHRS2FnIQtqwQ==
+"@rowsncolumns/toolkit@^20.0.19":
+  version "20.0.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/20.0.19/3f1364aeafa22163246000e3749c165ab8d70a1e#3f1364aeafa22163246000e3749c165ab8d70a1e"
+  integrity sha512-SGujWIWo3OW+wx3jS9+qmKFVuI5Ynd2ZMMyw8P6JvI2ePj0LpjQ+p0oJMmU2o885F9CrhbLhzKPjhSJnSCysDA==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
