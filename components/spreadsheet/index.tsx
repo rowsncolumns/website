@@ -291,6 +291,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       importExcelFile,
 
       getUserEnteredValue,
+      getFormattedValue,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -365,6 +366,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     } = useCharts({
       createHistory,
       onChangeCharts,
+      getEffectiveValue,
+      getFormattedValue,
     });
 
     // Format fo the current cell
