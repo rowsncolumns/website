@@ -288,6 +288,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onDeleteTableRow,
       onInsertTableRow,
       onInsertAutoSum,
+      onRequestEditEmbed,
 
       importCSVFile,
       importExcelFile,
@@ -922,6 +923,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           onDeleteTableRow={onDeleteTableRow}
           onInsertTableRow={onInsertTableRow}
           onInsertAutoSum={onInsertAutoSum}
+          onRequestEditEmbed={onRequestEditEmbed}
         />
 
         <LoadingIndicator />
