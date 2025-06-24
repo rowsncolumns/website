@@ -295,6 +295,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
       getUserEnteredValue,
       getFormattedValue,
+      calculateNow,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -401,6 +402,11 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   } else if (isExcel) {
                     await importExcelFile(file);
                   }
+
+                  calculateNow({
+                    disableEvaluation: true,
+                    shouldResetCellDependencyGraph: true,
+                  });
                 }
               }}
             />
