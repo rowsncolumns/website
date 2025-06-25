@@ -483,6 +483,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             }
           />
           <TextFormatSelector
+            cellFormat={currentCellFormat}
             onChangeFormatting={(type, value) => {
               onChangeFormatting(
                 activeSheetId,
