@@ -25,6 +25,7 @@ import {
   DEFAULT_FONT_SIZE_PT,
   ButtonBold,
   ButtonItalic,
+  ButtonPaintFormat,
   ButtonUnderline,
   ButtonStrikethrough,
   TextColorSelector,
@@ -296,6 +297,10 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       getUserEnteredValue,
       getFormattedValue,
       calculateNow,
+
+      // Paint format,
+      onSavePaintFormat,
+      isPaintFormatActive,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -430,6 +435,12 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onClick={() => {
               onClearFormatting(activeSheetId, activeCell, selections);
             }}
+          />
+          <ButtonPaintFormat
+            isActive={isPaintFormatActive}
+            onClick={() =>
+              onSavePaintFormat(activeSheetId, activeCell, selections)
+            }
           />
           <ToolbarSeparator />
           <ScaleSelector value={scale} onChange={onChangeScale} />
