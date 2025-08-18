@@ -947,7 +947,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <LoadingIndicator />
 
         <BottomBar>
-          <NewSheetButton onClick={onCreateNewSheet} />
+          <NewSheetButton onClick={() => onCreateNewSheet()} />
 
           <SheetSwitcher
             sheets={sheets}
