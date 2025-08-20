@@ -66,6 +66,8 @@ import {
   ButtonPrint,
   ButtonClearFormatting,
   FloatingCellEditor,
+  ButtonCopyToClipboard,
+  useSpreadsheetApi,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -107,6 +109,7 @@ import {
   ChartComponent,
 } from "@rowsncolumns/charts";
 import { Styles } from "./style";
+import { selectionFromActiveCell } from "@rowsncolumns/grid";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -390,6 +393,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       [activeSheetId, activeCell, getEffectiveFormat]
     );
 
+    const api = useSpreadsheetApi();
+
     return (
       <>
         <Styles />
@@ -441,6 +446,21 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onClick={() =>
               onSavePaintFormat(activeSheetId, activeCell, selections)
             }
+          />
+          <ButtonCopyToClipboard
+            onClick={() => {
+              const range = selections.length
+                ? selections[selections.length - 1].range
+                : selectionFromActiveCell(activeCell)[0].range;
+              api?.exportRange?.(
+                {
+                  ...range,
+                  sheetId: activeSheetId,
+                },
+                undefined,
+                "clipboard"
+              );
+            }}
           />
           <ToolbarSeparator />
           <ScaleSelector value={scale} onChange={onChangeScale} />
