@@ -298,6 +298,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       importExcelFile,
 
       getUserEnteredValue,
+      getTextFormatRuns,
       getFormattedValue,
       calculateNow,
 
@@ -1120,6 +1121,11 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="sm:hidden">
           <FloatingCellEditor
             initialValue={getUserEnteredValue(
+              activeSheetId,
+              activeCell.rowIndex,
+              activeCell.columnIndex
+            )}
+            initialTextFormatRuns={getTextFormatRuns(
               activeSheetId,
               activeCell.rowIndex,
               activeCell.columnIndex
