@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { Stack, Input, canUseDOM } from "@rowsncolumns/ui";
+import { Stack, Input } from "@rowsncolumns/ui";
+import { canUseDOM } from "@rowsncolumns/grid";
 import { Button } from "./ui/button";
 import Script from "next/script";
 import { Loader2 } from "lucide-react";
