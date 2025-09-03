@@ -110,6 +110,7 @@ import {
 } from "@rowsncolumns/charts";
 import { Styles } from "./style";
 import { selectionFromActiveCell } from "@rowsncolumns/grid";
+import { isExcelFile, isCSVFile } from "@rowsncolumns/toolkit";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -406,11 +407,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               onChange={async (e) => {
                 const file = e.target.files?.[0];
                 if (file) {
-                  const isCSV = file.type === "text/csv";
-                  const isExcel = file.name.endsWith("xlsx");
-                  if (isCSV) {
+                  if (isCSVFile(file)) {
                     await importCSVFile(file);
-                  } else if (isExcel) {
+                  } else if (isExcelFile(file)) {
                     await importExcelFile(file);
                   }
 
