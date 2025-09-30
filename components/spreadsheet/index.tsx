@@ -306,6 +306,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       // Paint format,
       onSavePaintFormat,
       isPaintFormatActive,
+      onRemoveLink,
     } = useSpreadsheetState({
       sheets,
       sheetData,
@@ -844,6 +845,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
         <CanvasGrid
           {...spreadsheetColors}
+          onRemoveLink={onRemoveLink}
           showSelectionResizeHandles
           getSheetId={getSheetId}
           showGridLines={showGridLines}
