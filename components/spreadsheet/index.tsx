@@ -1039,10 +1039,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           onSubmit={onUpdateTable}
           theme={theme}
         />
-        <DeleteSheetConfirmation
-          sheetId={activeSheetId}
-          onDeleteSheet={onDeleteSheet}
-        />
+        <DeleteSheetConfirmation onDeleteSheet={onDeleteSheet} />
         <NamedRangeEditor
           sheetId={activeSheetId}
           onCreateNamedRange={onCreateNamedRange}
