@@ -1028,10 +1028,10 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.132":
-  version "19.0.132"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.132/6236d27a265c5ac3c6cb917e0f5be3830730ce96#6236d27a265c5ac3c6cb917e0f5be3830730ce96"
-  integrity sha512-Xc1D4+xWvPU+qS6N1uhESzCe/vHs1rQ7csToNMAKALZ8poFzBW4au2ggjP5fGXq4YP8UAxFas4bMMv24HieS0Q==
+"@rowsncolumns/spreadsheet-state@^19.0.134":
+  version "19.0.134"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.134/aecc62f7220bae51e457638a43678e99526a5782#aecc62f7220bae51e457638a43678e99526a5782"
+  integrity sha512-SJat8ve8BXu+N+N2i3IqGghZlpmDdq3auMV4MWkNWkOCgtpGUCcYmMM9RLlLT6sveU4pFkh0MQkanPZ75IKRyQ==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.59"
     "@rowsncolumns/functions" "^5.0.60"
@@ -1043,10 +1043,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.115":
-  version "7.1.115"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.115/a4657369f8e3cbe61c450226ff1f7c2830fbe034#a4657369f8e3cbe61c450226ff1f7c2830fbe034"
-  integrity sha512-jJ+QYHdxC0bOw5diux5YNWmeSkiNsz/Z1dHAuYqCX08h3XQyV814LBs7cP/Y700TEpiry92kGA4m5/ENXgGqXw==
+"@rowsncolumns/spreadsheet@^7.1.116":
+  version "7.1.116"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.116/4a4e9c17314f6bf5cb39677e2bd739200938f3a4#4a4e9c17314f6bf5cb39677e2bd739200938f3a4"
+  integrity sha512-iHl2ikB/d7T9Zf+UJ0tlYK4t9z0Ju6MwL0Zn146AyKHQ0bIad4GmfP906Bt5/9F/fKwQes1FIrnd6G9gzDDu4A==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
