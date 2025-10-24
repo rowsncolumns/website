@@ -434,6 +434,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   theme,
                 });
               }}
+              variant={"primary"}
             >
               Export to excel
             </Button>
