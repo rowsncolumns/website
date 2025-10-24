@@ -1028,14 +1028,14 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.137":
-  version "19.0.137"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.137/613c51d6398ccef56339fd9f5837445a7233276d#613c51d6398ccef56339fd9f5837445a7233276d"
-  integrity sha512-DT0NznwV/pRIwOwLadN6j7+2kfMOvYpU4nGGEx1zPfVAH6xACUNR6wnQl+zJG44lRUO51A/KbUTGMMfUBhErrg==
+"@rowsncolumns/spreadsheet-state@^19.0.138":
+  version "19.0.138"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.138/7c923fe363e7b9f53fc936620275d537f596b323#7c923fe363e7b9f53fc936620275d537f596b323"
+  integrity sha512-rd+4XXJ8J95j682PX5fQTFQI+NgRXs9jtRndXFGFY/c6xoD74Mlg3Gc7LAf/g8usI6cNN3Zv27o21A94A/rVJA==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.60"
     "@rowsncolumns/functions" "^5.0.61"
-    "@rowsncolumns/toolkit" "^21.0.59"
+    "@rowsncolumns/toolkit" "^21.0.60"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1043,10 +1043,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.117":
-  version "7.1.117"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.117/2da1c087bad836df96edc2acee05a95d646a0682#2da1c087bad836df96edc2acee05a95d646a0682"
-  integrity sha512-vUfix4dJgvADiubjBmT56w3UgbkVUKJTLJVMgETPj24mwPNnu8CCF+4TnWzzorF2f/+J86n0DblMHSud2UUc2w==
+"@rowsncolumns/spreadsheet@^7.1.118":
+  version "7.1.118"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.118/3c85638f59bdb98fbdf51550078f38cab5ec6f23#3c85638f59bdb98fbdf51550078f38cab5ec6f23"
+  integrity sha512-OMv4VOmZHiqNlzrSj6aMZuBQnhC6x38Ht4xbH3nkLB8rFEop1AxWxIrNEj675brCVEO9jAvaLJcjNTHX6EzdcQ==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1074,10 +1074,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^21.0.59":
-  version "21.0.59"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.59/86266c77973159a160673fa897941738831e3842#86266c77973159a160673fa897941738831e3842"
-  integrity sha512-kT+d8U4B3m5H1xBsE50eBxJmsvB236a3SeVpcT2dZTQ8L4KR3racbQO0b0XkVaX9VlB+RUE2dJdXa1Bc913N5w==
+"@rowsncolumns/toolkit@^21.0.60":
+  version "21.0.60"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.60/ff39405939256292aaf81abf42ba5de924ccb2f5#ff39405939256292aaf81abf42ba5de924ccb2f5"
+  integrity sha512-E5V15yD59mqTRx2yeThx+8jIAdFLHfyiS0svhiSzRvEXbSnxi4uFHnh4GEFbQcjtKIPiT6i/qwW7Emoe5o0akQ==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
