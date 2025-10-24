@@ -93,7 +93,7 @@ import {
   EmbedEditorDialog,
   EmbedEditor,
 } from "@rowsncolumns/spreadsheet-state";
-import { Separator, IconButton } from "@rowsncolumns/ui";
+import { Separator, IconButton, Button } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
 import { mockConditionalFormatting, mockSheets, mockTables } from "./mocks";
 import { mockSheetdata } from "./mock-sheetdata";
@@ -110,7 +110,7 @@ import {
 } from "@rowsncolumns/charts";
 import { Styles } from "./style";
 import { selectionFromActiveCell } from "@rowsncolumns/grid";
-import { isExcelFile, isCSVFile } from "@rowsncolumns/toolkit";
+import { isExcelFile, isCSVFile, exportToExcel } from "@rowsncolumns/toolkit";
 
 const supabaseClient = createClient(
   process.env.SUPABASE_URL,
@@ -402,7 +402,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       <>
         <Styles />
         {allowUpload ? (
-          <div className="p-2">
+          <div className="p-2 flex gap-4">
             <input
               type="file"
               onChange={async (e) => {
@@ -421,6 +421,22 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 }
               }}
             />
+
+            <Button
+              onClick={() => {
+                exportToExcel({
+                  filename: "Excel-Export-RnC",
+                  sheetData,
+                  sheets,
+                  tables,
+                  conditionalFormats,
+                  // cellXfs,
+                  theme,
+                });
+              }}
+            >
+              Export to excel
+            </Button>
           </div>
         ) : null}
 
