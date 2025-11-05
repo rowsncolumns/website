@@ -1035,19 +1035,19 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^1.0.9":
-  version "1.0.9"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.9/83134c7f7ea24168935f47a95df4aa02b4556bf5#83134c7f7ea24168935f47a95df4aa02b4556bf5"
-  integrity sha512-WNM4ZyQXqSkZZBK14SJv47Q/dKPZi7jozf0HDbsLN9YjwhzGWG04od8+HYEecV6U16OhYc5mAd+I/g3xbCeqqw==
+"@rowsncolumns/pivot@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.10/9bf2be5f6a48c02eafd8ab134bc1ac491bb3f2d1#9bf2be5f6a48c02eafd8ab134bc1ac491bb3f2d1"
+  integrity sha512-8+P9ELk7NpHwSjvDT/VWJNcbNFuB/dHd7Mp2jpCqwlaL9GVKWPSSTfpg+Eu7MI9MwAtpHGIKJpzK6+tnIJC7Kw==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.153":
-  version "19.0.153"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.153/f2d43cae1582a24b61152baff40327dc8a065a0b#f2d43cae1582a24b61152baff40327dc8a065a0b"
-  integrity sha512-lEKovFuZhvT56qeZy1kjDixv68jPo8NClYcvTBblEkHL3IPLuIuhhA1TxX+FhBQh21tcy5+KczOK+GdM2D73yg==
+"@rowsncolumns/spreadsheet-state@^19.0.156":
+  version "19.0.156"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.156/9f2ce69a95749128fc95af11abc5b847292f773c#9f2ce69a95749128fc95af11abc5b847292f773c"
+  integrity sha512-sjHckaSPb+5u92sggb+MYlO7tZqQzIsqvstMZezZi7myXFVNKMZS6xsRSaamfEZ7NhlvZP8AuA3DgRBpI9prgA==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.70"
     "@rowsncolumns/functions" "^5.0.71"
@@ -1059,10 +1059,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.133":
-  version "7.1.133"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.133/448c12e3ffb1a8b39abd2e1046bc481c34213c95#448c12e3ffb1a8b39abd2e1046bc481c34213c95"
-  integrity sha512-nDMaSWaHxjp+pVkeAKLk9jeYkSlZiQTDmX265gCgmIwBC5m1LkKXiSwed9iVHBl0BQnsK0aA3vi6CSEJnUx9xQ==
+"@rowsncolumns/spreadsheet@^7.1.134":
+  version "7.1.134"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.134/475de9041b65f546f258e7f41c3929d74907436e#475de9041b65f546f258e7f41c3929d74907436e"
+  integrity sha512-22HNBI0rDIiEOYBFLZ/MtJjkhTZJplV3edKQylVPSdvCV6X7OXYIy97hE/2asNrkp2DYNoXh93WrbwM+u1UjIQ==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
