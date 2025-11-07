@@ -1044,10 +1044,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.169":
-  version "19.0.169"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.169/aab1c791cd9fe5060f3c93177cac5c5783fa44cc#aab1c791cd9fe5060f3c93177cac5c5783fa44cc"
-  integrity sha512-lrgVKNeWjSkClbCtyseuTgrlHQdNpASXcjCN0bqPCdGLbQCMYzWaR7RFtHX3G61FCZNtH3d9GQ7FDSsJVgzRZg==
+"@rowsncolumns/spreadsheet-state@^19.0.170":
+  version "19.0.170"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.170/0fd2b59e067ae9b8ec5524ea3294998d46be70f3#0fd2b59e067ae9b8ec5524ea3294998d46be70f3"
+  integrity sha512-2zGjO5THPCRvifYvJoGXKrtUfuVUKvH4x1LavhvG2CcKa3a29hLrAI8TLkBlkMyjactv3tqYeqHLSsZ8tFBN5Q==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.75"
     "@rowsncolumns/functions" "^5.0.76"
@@ -1059,10 +1059,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.140":
-  version "7.1.140"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.140/eeb10e171944f349da69363517ddab77df93f2c4#eeb10e171944f349da69363517ddab77df93f2c4"
-  integrity sha512-7PBHudX84F98jVyUDlVqJwnAU5JLJN4bxxDYPTXbaB4O8JDuIoSqIa67lVkWDmujztUipCC0fDdNuRbwHH5Cmw==
+"@rowsncolumns/spreadsheet@^7.1.141":
+  version "7.1.141"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.141/9a1efa9421c0f11279cc7d07492d7c6f2966eaf4#9a1efa9421c0f11279cc7d07492d7c6f2966eaf4"
+  integrity sha512-tcuIBABDsPPQcWd0TDY31DaEbnxSeCnD7mhukhiZb+s7ICYmvE6VxWYCmlJcFh6giUGRqpS1h4pmkxwV4onedQ==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
