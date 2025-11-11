@@ -1035,10 +1035,10 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^1.0.18":
-  version "1.0.18"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.18/e7af04324932bea854f99979a6b929b5c967e3b1#e7af04324932bea854f99979a6b929b5c967e3b1"
-  integrity sha512-/Yp9z6Vr/TcOYkn+/CrfK6jF4Npag6LUtyONOFtE3mPqzrxRfyvw9434UPD61MyBY9PtTEmOyCuz5dar0AHCgw==
+"@rowsncolumns/pivot@^1.0.19":
+  version "1.0.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.19/6df23f113690a39dd0db40a0ccdc1b9166ff6975#6df23f113690a39dd0db40a0ccdc1b9166ff6975"
+  integrity sha512-uLTN0VAwIjng0f8HFb8tRqle+5r0wOpKmROS45W9fg2tilIutzJzQg6tqex4g64SvWjJYOQlgHA7eXmFnTr8Cw==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
