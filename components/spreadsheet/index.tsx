@@ -950,7 +950,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           />
         </FormulaBar>
 
-        <div className="flex flex-row flex-1 relative">
+        <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
             onRemoveLink={onRemoveLink}
