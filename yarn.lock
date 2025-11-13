@@ -1044,14 +1044,14 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.186":
-  version "19.0.186"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.186/4e6f33a051bae26ecc98a26e2d5da12182a2fc45#4e6f33a051bae26ecc98a26e2d5da12182a2fc45"
-  integrity sha512-WpKXfiab+LBg/q01bHt77l1O51bGWH704hFjq0X55Cl+UnspOmdbD/3G8Os4YtMK3ilMM1jaziSXnK9mmI94Sw==
+"@rowsncolumns/spreadsheet-state@^19.0.189":
+  version "19.0.189"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.189/32152083c39c77138616549eeaad8d1450ef6bbb#32152083c39c77138616549eeaad8d1450ef6bbb"
+  integrity sha512-IS87chKHAQh/MqRnEmOOKhUGGYLiBMIyXJxz7Dw8I/5qNWdx4I5IQE9CO6EILNR5Jw0VATqcuyohICH9Cf0kRQ==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.83"
     "@rowsncolumns/functions" "^5.0.84"
-    "@rowsncolumns/toolkit" "^21.0.87"
+    "@rowsncolumns/toolkit" "^21.0.89"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1059,10 +1059,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.152":
-  version "7.1.152"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.152/fff019f8fb635c25808eedea1ef76d25c582caf6#fff019f8fb635c25808eedea1ef76d25c582caf6"
-  integrity sha512-zR1Jiu5+0JzC/FlKVLU/EWWBwJVSKsBibBky/KV1lIBUPgxRj+njH2XWfm16iN1ozE7o4ItVBR9nJCeObsKnmg==
+"@rowsncolumns/spreadsheet@^7.1.153":
+  version "7.1.153"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.153/80f6405e0721ea2ac3afbefc48071ec6daa7344c#80f6405e0721ea2ac3afbefc48071ec6daa7344c"
+  integrity sha512-IP+7HZkjmAu96YvK9J3CP51zrTNDTULhYP2/1kb738fAX2MfQrf0yMYslaZSw5/mHT1R5wLv9Q5qi/P6NdpwXA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1090,10 +1090,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^21.0.87":
-  version "21.0.87"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.87/90d8cd01fc3c19384b69dc843342d6442cba8d53#90d8cd01fc3c19384b69dc843342d6442cba8d53"
-  integrity sha512-9fiKu1T9XSZ5g/9Ce1Yo9w7NxpvuuskMbDyCOLIGjJeQzOLbz4WrafkT731jjypgEulaBNt0tvM56B4yEaKBUA==
+"@rowsncolumns/toolkit@^21.0.89":
+  version "21.0.89"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.89/c1eed987f0bdea93f1ff51c22d54ed1151b553e9#c1eed987f0bdea93f1ff51c22d54ed1151b553e9"
+  integrity sha512-ctFE8DPbYur6VxQBso6hMWLv40tVu4bnm330FLTPDtKN96IO7Aj213lXAIYJcyuXuE5V/P0TtKqRCZGEIxfYLw==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
