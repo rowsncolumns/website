@@ -1035,10 +1035,10 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^1.0.28":
-  version "1.0.28"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.28/46625b628b1430aa19cb698a8d85cf02ec21e76e#46625b628b1430aa19cb698a8d85cf02ec21e76e"
-  integrity sha512-t/bDmDia6vgTFmyithPZ4OIalcrq3l3brYj4sTTq+twutVymLvQgOdlLF2lMTwocHv4rRgGb15vtD1Zir6a/2A==
+"@rowsncolumns/pivot@^1.0.29":
+  version "1.0.29"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/1.0.29/e184094e887169c387c5e52e7326c3c08596b762#e184094e887169c387c5e52e7326c3c08596b762"
+  integrity sha512-9mZ4DWWBElRCkFU6cw9qniWheUuuNjnyaKuYEJ51ZTHogt97PuzOu9l+qg/w3Yjq9qqvVuaPcR08qEo9E5nS7Q==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
@@ -1059,10 +1059,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.154":
-  version "7.1.154"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.154/2e2e9bfaae18ed8cf0bb4686d852ffd64ecf409c#2e2e9bfaae18ed8cf0bb4686d852ffd64ecf409c"
-  integrity sha512-kpKPD2o/0foK8AhRiVy/KAbGwoXrxFYVAOn4MjsuaxglU/yv0JTVE/C+eQdo4H60r/zEzLxE7MwwsaXn2+fMVQ==
+"@rowsncolumns/spreadsheet@^7.1.155":
+  version "7.1.155"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.155/53c28f1faedc9fbdec5883126a12a15a241a0f24#53c28f1faedc9fbdec5883126a12a15a241a0f24"
+  integrity sha512-qeZ+qZA07zx5tXm8zjS23I7hSawSAOE4Cxvlwr/AD7ks/tWApAnCPyxTNvjuWJHydJWermNdAGybT8mTmAbGPg==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
