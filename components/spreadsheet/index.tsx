@@ -453,6 +453,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       activePivotId,
       onClosePivotSettings,
       updatePivotSourceRange,
+      onExpandCollapseRow,
     } = usePivot({
       locale,
       pivotTables,
@@ -1075,6 +1076,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             pivotTables={pivotTables}
             onRequestDeletePivotTable={onRequestDeletePivotTable}
             onRequestEditPivotTable={onRequestEditPivotTable}
+            onExpandCollapse={onExpandCollapseRow}
           />
 
           {activePivotTable ? (
