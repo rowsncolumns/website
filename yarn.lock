@@ -1044,14 +1044,14 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^19.0.196":
-  version "19.0.196"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.196/756ac20d41e975b63e3e948e9fcb32bea47335f0#756ac20d41e975b63e3e948e9fcb32bea47335f0"
-  integrity sha512-1vL10VfnVZs0rAair92CQPWSvu3oKQvPi2nIipqdH6bPj1jXCp3iy+v6MobNw8+EYB5Mt+jkbJWybA3d6CV07w==
+"@rowsncolumns/spreadsheet-state@^19.0.197":
+  version "19.0.197"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/19.0.197/b11b8ec35a6b1d7ef4cde0045464b3a00dd79d58#b11b8ec35a6b1d7ef4cde0045464b3a00dd79d58"
+  integrity sha512-gDYmJCN+x/Ar3u/BV69cVVeX/eQIAh0DlbNk2xHYmMVLgJsLtR6hatxDiE1UswhBE/kw1WMSoeZYqwsEJ2V2/w==
   dependencies:
     "@rowsncolumns/date-parser" "^4.0.83"
     "@rowsncolumns/functions" "^5.0.84"
-    "@rowsncolumns/toolkit" "^21.0.89"
+    "@rowsncolumns/toolkit" "^21.0.90"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1090,10 +1090,10 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^21.0.89":
-  version "21.0.89"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.89/c1eed987f0bdea93f1ff51c22d54ed1151b553e9#c1eed987f0bdea93f1ff51c22d54ed1151b553e9"
-  integrity sha512-ctFE8DPbYur6VxQBso6hMWLv40tVu4bnm330FLTPDtKN96IO7Aj213lXAIYJcyuXuE5V/P0TtKqRCZGEIxfYLw==
+"@rowsncolumns/toolkit@^21.0.90":
+  version "21.0.90"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.0.90/155c502166236c60edbfc3956bbcf981d0e892b4#155c502166236c60edbfc3956bbcf981d0e892b4"
+  integrity sha512-ma0Luy59GSFlU4qljIjWY4/TryF2UPYUt0wmQaIRorJpN71Ff7YcpXsMNLhY9X5+/0cJDYaGjgj/cbi0Kpl4PQ==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
