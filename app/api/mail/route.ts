@@ -7,7 +7,8 @@ export async function POST(request: Request) {
 
   const apiKey = process.env.BIRD_API_KEY;
   const workspaceId = process.env.BIRD_WORKSPACE_ID;
-  const apiUrl = process.env.BIRD_API_URL || "https://email.us-west-2.api.bird.com";
+  const apiUrl =
+    process.env.BIRD_API_URL || "https://email.us-west-2.api.bird.com";
 
   if (!apiKey || !workspaceId) {
     console.error("BIRD_API_KEY or BIRD_WORKSPACE_ID is not set");
@@ -31,7 +32,7 @@ export async function POST(request: Request) {
     ],
     content: {
       from: {
-        email: "test@rowsncolumns.app",
+        email: "support@rowsncolumns.app",
         name: "Rows & Columns Contact Form",
       },
       subject: `Contact email - ${name} - ${company}`,
@@ -49,7 +50,10 @@ export async function POST(request: Request) {
   </div>
 </div>`,
       text: `New Contact Form Submission\n\nFrom: ${name}\nEmail: ${email}\nCompany: ${company}\n\nMessage:\n${message}`,
-      reply_to: email,
+      reply_to: {
+        email: email,
+        name: name,
+      },
     },
   };
 
