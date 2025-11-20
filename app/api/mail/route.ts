@@ -50,10 +50,7 @@ export async function POST(request: Request) {
   </div>
 </div>`,
       text: `New Contact Form Submission\n\nFrom: ${name}\nEmail: ${email}\nCompany: ${company}\n\nMessage:\n${message}`,
-      reply_to: {
-        email: email,
-        name: name,
-      },
+      reply_to: email,
     },
   };
 
