@@ -140,18 +140,17 @@ type SpreadsheetProps = {
 };
 
 const createCalculationWorker = () => {
-  if (typeof Worker === "undefined") {
-    throw new Error(
-      "The calculation worker requires a browser environment. " +
-        "Provide a custom createCalculationWorker when rendering on the server."
-    );
-  }
   return new Worker(new URL("./worker-entry.ts", import.meta.url), {
     type: "module",
   });
 };
 
 export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
+  // Don't render during SSR - wait for client-side hydration
+  if (typeof window === "undefined") {
+    return null;
+  }
+
   const App = () => {
     const locale = "en-US";
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
