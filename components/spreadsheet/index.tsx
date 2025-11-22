@@ -139,6 +139,18 @@ type SpreadsheetProps = {
   allowUpload?: boolean;
 };
 
+const createCalculationWorker = () => {
+  if (typeof Worker === "undefined") {
+    throw new Error(
+      "The calculation worker requires a browser environment. " +
+        "Provide a custom createCalculationWorker when rendering on the server."
+    );
+  }
+  return new Worker(new URL("./worker-entry.ts", import.meta.url), {
+    type: "module",
+  });
+};
+
 export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
   const App = () => {
     const locale = "en-US";
@@ -320,6 +332,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       //
       cellXfsRegistry,
     } = useSpreadsheetState({
+      calculationMode: "worker",
+      createCalculationWorker,
       sheets,
       sheetData,
       tables,
