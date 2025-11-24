@@ -541,6 +541,16 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             >
               Export to excel
             </Button>
+            <Button
+              onClick={() => {
+                calculateNow({
+                  disableEvaluation: false,
+                  shouldResetCellDependencyGraph: true,
+                });
+              }}
+            >
+              Trigger calculation
+            </Button>
           </div>
         ) : null}
 
