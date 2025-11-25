@@ -987,10 +987,10 @@
     "@rowsncolumns/fast-formula-parser" "^3.1.98"
     "@rowsncolumns/utils" "^6.0.96"
 
-"@rowsncolumns/charts@^19.0.13":
-  version "19.0.13"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.13/ce761e16ca87fb8c2e49834b56b62a77d14b73e1#ce761e16ca87fb8c2e49834b56b62a77d14b73e1"
-  integrity sha512-reFCjkJC98SOWdN3PP0E+9q2jFzAfTS2plLGSZMXt3AbFK57jBTla6odwoSfysYdrJMovbKxUTNk4n/g5Cfm/Q==
+"@rowsncolumns/charts@^19.0.15":
+  version "19.0.15"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.15/eaa8427c126a8db0482a3527297c610c23a3984a#eaa8427c126a8db0482a3527297c610c23a3984a"
+  integrity sha512-HwdAXs8YlA7OicZwWwVlnjaO3wIVsywh5BbckOtLEMcTNaq2vLwvkxxBRHkKthVFbrtr3+1uTUqVKBioG/mZ9A==
   dependencies:
     echarts "^5.6.0"
     formik "^2.4.6"
@@ -1072,10 +1072,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.177":
-  version "7.1.177"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.177/e5bf377c9e2f80d8965edac3bb7c78ba9779358b#e5bf377c9e2f80d8965edac3bb7c78ba9779358b"
-  integrity sha512-TSsn2QlrG//EERdITkkJWq+V6ejOPX90C/cMTcKt39zZNn5QKzOyEOlm1KTzCxcCacwZxopNp/HYlbbac2eOgA==
+"@rowsncolumns/spreadsheet@^7.1.178":
+  version "7.1.178"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.178/5094cc4c90d9e7b7294b4d7692eeba3c384a4860#5094cc4c90d9e7b7294b4d7692eeba3c384a4860"
+  integrity sha512-TJomHRWxaESxEnFMKjG2GKmmxBSaLHU5p/W+B2234qDzLuYjnvXDvYL6tOwZssCAcvBP/gPgc7CVMxohJjukOg==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
