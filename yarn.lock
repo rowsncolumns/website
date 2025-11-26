@@ -971,105 +971,105 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/rect/-/rect-1.1.1.tgz#78244efe12930c56fd255d7923865857c41ac8cb"
   integrity sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==
 
-"@rowsncolumns/calculation-worker@^1.0.27":
-  version "1.0.27"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculation-worker/1.0.27/8c51afa6fbb8c465890fd5c2e19f005a06cf5855#8c51afa6fbb8c465890fd5c2e19f005a06cf5855"
-  integrity sha512-/OX5im769fSDnozUcXU/sqG/O+m7doifEAm/mdJ9yvsCfwB3DBMTjUgBy/3V+be8NAGNMV2EjRH0hbM31pbV+w==
+"@rowsncolumns/calculation-worker@^1.0.28":
+  version "1.0.28"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculation-worker/1.0.28/683e6510b4a2364dfd92ea8a68a970b125f59a42#683e6510b4a2364dfd92ea8a68a970b125f59a42"
+  integrity sha512-i/kxDJVe+rAdRNLnPTNIACJWcZypiy+3D4PadWFV4ZP73my3LtFAozuuDvr1h+oEn/tqQSrDsbOB6AXUMaX1WQ==
   dependencies:
-    "@rowsncolumns/dag" "^4.1.100"
-    "@rowsncolumns/fast-formula-parser" "^3.1.103"
-    "@rowsncolumns/functions" "^6.0.17"
-    "@rowsncolumns/utils" "^6.0.101"
+    "@rowsncolumns/dag" "^4.1.101"
+    "@rowsncolumns/fast-formula-parser" "^3.1.104"
+    "@rowsncolumns/functions" "^6.0.18"
+    "@rowsncolumns/utils" "^6.0.102"
     lodash "^4.17.21"
     rxjs "^7.8.2"
 
-"@rowsncolumns/calculator@^4.1.102":
-  version "4.1.102"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/4.1.102/29b9d9a53d15df75e873e4d591b3467dd85f041d#29b9d9a53d15df75e873e4d591b3467dd85f041d"
-  integrity sha512-wzsloZTtatNnCelruK3r58M5HJaD4tWq5T60k7wtQhtloi/lSJ+1T72An46NbTNy1bT31YCcfQ8NpzVBzQKadA==
+"@rowsncolumns/calculator@^4.1.103":
+  version "4.1.103"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/calculator/4.1.103/c4d17f6d0fe929e2ffaf9584c643a5bbc2c964c0#c4d17f6d0fe929e2ffaf9584c643a5bbc2c964c0"
+  integrity sha512-XZfjrPCwPRav+mS+2iYYZe4JLvvJwoLp27kWUWUAk8B6+oLUKKNHabE0qkId/o8e4LMCKzZC6r1pb0KxfuF62Q==
   dependencies:
-    "@rowsncolumns/dag" "^4.1.100"
-    "@rowsncolumns/fast-formula-parser" "^3.1.103"
-    "@rowsncolumns/utils" "^6.0.101"
+    "@rowsncolumns/dag" "^4.1.101"
+    "@rowsncolumns/fast-formula-parser" "^3.1.104"
+    "@rowsncolumns/utils" "^6.0.102"
 
-"@rowsncolumns/charts@^19.0.20":
-  version "19.0.20"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.20/dcde8db97468989f671bf798f2b1e36d0d8e48bc#dcde8db97468989f671bf798f2b1e36d0d8e48bc"
-  integrity sha512-aiCZlDsZJOVBNzAq8uQVgp3n+9dr09C/SaUfhL07sXZkn9HMKklnvxyODxxRU+P1r8zk7PlaGFuXKUnC9VZ+5w==
+"@rowsncolumns/charts@^19.0.21":
+  version "19.0.21"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.21/4d4fc968426ac2679a09ab6b0cb9a14a65a4be7b#4d4fc968426ac2679a09ab6b0cb9a14a65a4be7b"
+  integrity sha512-QVgNRrsuMRVc8V89aDBtpmoedZGrFP8Kh6HJhmguB9EcdmXvGxBr2zGHEcP8/kf+XbyMqKVhYLZj0TSqE7rRbA==
   dependencies:
     echarts "^5.6.0"
     formik "^2.4.6"
 
-"@rowsncolumns/common-types@^2.1.101":
-  version "2.1.101"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/common-types/2.1.101/3d582d59f6a566fe427f208bdd44f01e20af1ed2#3d582d59f6a566fe427f208bdd44f01e20af1ed2"
-  integrity sha512-iJqzWbg+3M0UnnBBfRaOmcLXpcahjlZ5xT6MvBhAPqlrN0YPj2uAmvQD3NJyqkRE71+/ND+l67x6ftNoOdZrLQ==
+"@rowsncolumns/common-types@^2.1.102":
+  version "2.1.102"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/common-types/2.1.102/032eb51293e65795e2e5d3852b054b850f087ac9#032eb51293e65795e2e5d3852b054b850f087ac9"
+  integrity sha512-0w6jZqOH2Wg9FnjlNEsQu0SQs9IUu8l8pX1UycU/JM2cL4Tk93SV8VJ48yN5FW1S8JoSxMTC8vjmLJkMZBvnTg==
 
-"@rowsncolumns/dag@^4.1.100":
-  version "4.1.100"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/4.1.100/d0ff08d02104f5da71a7e3916c4cb2be04d4a263#d0ff08d02104f5da71a7e3916c4cb2be04d4a263"
-  integrity sha512-7/whky9cyDGmL/tDXc1J9KqRC82O0GA/0dHSJgM86mgEXwkJGaLUk5l/leAw/EEeva5/F133sH9Gv7s0lcyNlA==
+"@rowsncolumns/dag@^4.1.101":
+  version "4.1.101"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/dag/4.1.101/c09c6c3bb93929157b5a32971f403769cb927be2#c09c6c3bb93929157b5a32971f403769cb927be2"
+  integrity sha512-J6yigeOXWJfcZGoBxteZ0JI9pU/uESH/wp3yieBlQzlYEX+q0k7QO9D4bGG/psEH+ZY5CMy6CPgfGmv7M0VyYg==
   dependencies:
-    "@rowsncolumns/utils" "^6.0.101"
+    "@rowsncolumns/utils" "^6.0.102"
 
-"@rowsncolumns/date-parser@^4.0.100":
-  version "4.0.100"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/4.0.100/c959b97b4d2f46e5d889cc472d986e686361dcae#c959b97b4d2f46e5d889cc472d986e686361dcae"
-  integrity sha512-o6ATqmiMGQTlHfJMqYt6cjwLdH9M+5Fn+swEXZy2cOflw7uIXX+O2JIJd9eEM0sA2adncWOpCWFM0s7f/gH30A==
+"@rowsncolumns/date-parser@^4.0.101":
+  version "4.0.101"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/date-parser/4.0.101/ba12bd6c1e113d63ba9248b056ac7d32cc727716#ba12bd6c1e113d63ba9248b056ac7d32cc727716"
+  integrity sha512-lGwfAuKl63xLV8i6B6jLGPRLhdD9qYNpmrv8nnEanAYJHon9cz1f5A98tCXzgWqEbkmGI/LdwRwAeVsLBA4g9g==
 
-"@rowsncolumns/fast-formula-parser@^3.1.103":
-  version "3.1.103"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/fast-formula-parser/3.1.103/418e21bef228be2f468ba963d825b72a760cfabc#418e21bef228be2f468ba963d825b72a760cfabc"
-  integrity sha512-IDkqKT8Th4WeOuD9BzNFZH47rbg9dbar9WwDxBphp827G5fp7162fqQeqFeA0Sg2CFbGYDS+y3yZDnzQGnOZog==
+"@rowsncolumns/fast-formula-parser@^3.1.104":
+  version "3.1.104"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/fast-formula-parser/3.1.104/280b81d72323aca4acd8fd4dea323feee04c7736#280b81d72323aca4acd8fd4dea323feee04c7736"
+  integrity sha512-RsmWA7mzURaB3hvSHmrOriR6q9aRNmVAyZset4qQmES2tNwiSpjb6ZSidxuduNvVRwJ62eEERB88WbfjqJSrTg==
   dependencies:
-    "@rowsncolumns/utils" "^6.0.101"
+    "@rowsncolumns/utils" "^6.0.102"
     bahttext "^2.3.0"
     bessel "^1.0.2"
     chevrotain "^10.5.0"
     jstat "^1.9.6"
 
-"@rowsncolumns/functions@^6.0.17":
-  version "6.0.17"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/functions/6.0.17/1ed6b40f4878e88c289a7185f8f6a58c97af9ad0#1ed6b40f4878e88c289a7185f8f6a58c97af9ad0"
-  integrity sha512-4KN6rf/B/VmMOXsCp0r8N0qD/PfI1wTAuksvkGg5eqpFPqw7odpfZNgwRxboWoUYhyNMmWBao02pEx30Xj0IzA==
+"@rowsncolumns/functions@^6.0.18":
+  version "6.0.18"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/functions/6.0.18/90415a01a5c2603a819cd4d39b3978074b99db52#90415a01a5c2603a819cd4d39b3978074b99db52"
+  integrity sha512-egAfOrWaVw+mYGYJhzYzomp4B45UooM0BAGuwAbyFVV0NTl8Ka//LouXYCqIr9R5aEuQz5t1wLqyr9EGFMJyFA==
   dependencies:
     xlsx "^0.18.5"
 
-"@rowsncolumns/grid@^10.1.103":
-  version "10.1.103"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/10.1.103/b3e0e822d4f46743caa5b08752a5812d6831fee8#b3e0e822d4f46743caa5b08752a5812d6831fee8"
-  integrity sha512-GdOvojr40qGEaNswN5pqcTxDNLsPlWTUDbaK5K9K2ugzZhr41/dLGf2BaDm6nnvH/Mnl/qVp8kGPOoGDkQGMqA==
+"@rowsncolumns/grid@^10.1.104":
+  version "10.1.104"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/grid/10.1.104/0cbc4b4725cf9c56217a992f0bc63d8808f50393#0cbc4b4725cf9c56217a992f0bc63d8808f50393"
+  integrity sha512-ybGp2zyDPB7LrmJTuH+3JFWHE2nbRyTb0w8buPJ5GKMI1Kp2Cs91srL+dxyXk21s+YQUu2yR5lm8Dauah+NjkA==
   dependencies:
     konva "^10.0.2"
     react-konva "^19.0.10"
     scheduler "^0.26.0"
     tiny-invariant "^1.3.3"
 
-"@rowsncolumns/icons@^4.1.101":
-  version "4.1.101"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/4.1.101/75ddfb4e9659dc7aa35cc8c8537fb3f381615f13#75ddfb4e9659dc7aa35cc8c8537fb3f381615f13"
-  integrity sha512-pEiU+mb2P1ifxDi6ed3c5cjfeMpSciKvVVPfwEYfk0lRfDxbkt6jkOJpzhHVCaDxn+pJcO6uEaDLfnMss51IMA==
+"@rowsncolumns/icons@^4.1.102":
+  version "4.1.102"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/icons/4.1.102/8ea24b95376429b9f47966843ea3cd59f9d120c0#8ea24b95376429b9f47966843ea3cd59f9d120c0"
+  integrity sha512-V1AdqJ9C9R4K+5dIvYgf3hFx+GPF9/0SCqs2npZXmH+O5b4YV6sdIVBGGAIEIjy28bmI7yAo0p2MFqfqgL2T7A==
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^2.0.17":
-  version "2.0.17"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/2.0.17/b9c8c721ed4121897e58c7cfb9eed50bf47b0fb3#b9c8c721ed4121897e58c7cfb9eed50bf47b0fb3"
-  integrity sha512-nVbiVre+jGy3MMOVD4Khn9iB0GIdOlw/yvNF6M7rF5U0y/U1y1sLKBIzb+XA8hF6m1W8t/C1A8j4O3rZwMcYMg==
+"@rowsncolumns/pivot@^2.0.18":
+  version "2.0.18"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/2.0.18/fae5c15963a3c90670d3708837d9e1ae2d2ed3f4#fae5c15963a3c90670d3708837d9e1ae2d2ed3f4"
+  integrity sha512-56WL3boUaK+VzbpBP38Lg9cvyCfqowW2bD6N2H7HkMdjAh0dj54ho8B5HFf9roaN96FBduc9c3914g+7yPcRzw==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^20.0.25":
-  version "20.0.25"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.25/b37d8149c43bb72175952f66e14dda4f9e702a6d#b37d8149c43bb72175952f66e14dda4f9e702a6d"
-  integrity sha512-tTXiJ50KjZQnxvOOdrBFOe61ADYfkcOJ3GzV0inDAuytoFTBva+lhiyO/Jh1JjzP/anoMiRgK3BhfC2bGl/Jgg==
+"@rowsncolumns/spreadsheet-state@^20.0.26":
+  version "20.0.26"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.26/a9219275fe4a427ba5a362787586fd6ac5fc5372#a9219275fe4a427ba5a362787586fd6ac5fc5372"
+  integrity sha512-mhu9RxiO2iG0TulSllve5pcmtjiafc8wCyVKiREyDXutMBcFrTj2KcPNLhbOdEmxnjiFwEgQhCQZcU06tTwffw==
   dependencies:
-    "@rowsncolumns/calculation-worker" "^1.0.27"
-    "@rowsncolumns/date-parser" "^4.0.100"
-    "@rowsncolumns/functions" "^6.0.17"
-    "@rowsncolumns/toolkit" "^21.1.18"
+    "@rowsncolumns/calculation-worker" "^1.0.28"
+    "@rowsncolumns/date-parser" "^4.0.101"
+    "@rowsncolumns/functions" "^6.0.18"
+    "@rowsncolumns/toolkit" "^21.1.19"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1077,22 +1077,22 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.184":
-  version "7.1.184"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.184/cda3d23340a2996f8382952c978563093cb0cd8b#cda3d23340a2996f8382952c978563093cb0cd8b"
-  integrity sha512-SYqwL8fAIrn1dCPq/Wj9DqDXNhQrDpiVRBc9rJqMJTdVVAyQPZkkLfqP+2RvfgTbFQuwiFFkaSx43tT6N/jGug==
+"@rowsncolumns/spreadsheet@^7.1.185":
+  version "7.1.185"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.185/2448caaf4f3c494a825eb2fa6571d074bd70bc0d#2448caaf4f3c494a825eb2fa6571d074bd70bc0d"
+  integrity sha512-T8Sh1NFrUYHTjXwI/49XmEqJrpe1GIansQzkGDiBl0hiTGDj8fhDLSxbQELVAgUQzplWikn5hW0SKzYAh++Q+Q==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
-    "@rowsncolumns/calculator" "^4.1.102"
-    "@rowsncolumns/common-types" "^2.1.101"
-    "@rowsncolumns/functions" "^6.0.17"
-    "@rowsncolumns/grid" "^10.1.103"
-    "@rowsncolumns/icons" "^4.1.101"
-    "@rowsncolumns/ui" "^7.0.17"
-    "@rowsncolumns/utils" "^6.0.101"
+    "@rowsncolumns/calculator" "^4.1.103"
+    "@rowsncolumns/common-types" "^2.1.102"
+    "@rowsncolumns/functions" "^6.0.18"
+    "@rowsncolumns/grid" "^10.1.104"
+    "@rowsncolumns/icons" "^4.1.102"
+    "@rowsncolumns/ui" "^7.0.18"
+    "@rowsncolumns/utils" "^6.0.102"
     "@tanstack/react-virtual" "3.13.9"
     jotai "^2.12.4"
     jotai-effect "^2.0.2"
@@ -1101,17 +1101,17 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^21.0.17":
-  version "21.0.17"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.17/9ec4d94e171a40865ee1601d19cd4ac295cf8052#9ec4d94e171a40865ee1601d19cd4ac295cf8052"
-  integrity sha512-X1u8EAYo+5YlY74l3gGujb7dTqlKFXCjaskR4USIrJf4llpRfOWBlOjU9jyQBYJtMG0qWvGwp62HgHR25Un8cQ==
+"@rowsncolumns/supabase-spreadsheet@^21.0.18":
+  version "21.0.18"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.18/5f298870fc273662a791ca63bec5dfec6554dfe7#5f298870fc273662a791ca63bec5dfec6554dfe7"
+  integrity sha512-Yhdh4tDKXXh5W7dxr8ZN9Yg8VmLWceVnJPQx5HaYeM3EXYgtlBClNwD54CoS0hpEBQZlhquXibIOnNlepXIdbw==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@^21.1.18":
-  version "21.1.18"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.1.18/d0c8f64fbab670bd74b238a2cc7547d8475094c1#d0c8f64fbab670bd74b238a2cc7547d8475094c1"
-  integrity sha512-RDvrP+IMZIn7cw0aL9J1vKHTFgBAAnnZls5L4HrAp59PWZ3rC/HKhC8AC0d6tcwM4Pj6+ad8iSGMMYlWTqPmFQ==
+"@rowsncolumns/toolkit@^21.1.19":
+  version "21.1.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/toolkit/21.1.19/16b686fbe580367af5a21adfc9d1bb5f7c7320eb#16b686fbe580367af5a21adfc9d1bb5f7c7320eb"
+  integrity sha512-ibFT5JEIK2bUMBfiDtpc76ThrqcLbeQq/8qmP+q8QXvA4DoxkFlw1PSkf0YRPAtkEdXXIP9ZxPtWZqhfsoNRng==
   dependencies:
     "@wmakeev/exceljs" "^4.4.5"
     fast-xml-parser "^5.2.3"
@@ -1119,10 +1119,10 @@
     uzip "^0.20201231.0"
     xlsx "^0.18.5"
 
-"@rowsncolumns/ui@^7.0.17":
-  version "7.0.17"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/7.0.17/0ae2e71589288cef6eb5ba6744dd1a6a80b8a32c#0ae2e71589288cef6eb5ba6744dd1a6a80b8a32c"
-  integrity sha512-ju92jlea1GE2nYAtb4O0K7Io9TQtlROhZ+aqLH7wSQzBbNu1WknHDvZzf0sXilsQvlxuEPBt0J3XeqdXHD4Rvw==
+"@rowsncolumns/ui@^7.0.18":
+  version "7.0.18"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/7.0.18/54163ace10bac2bff8385b86611584f74f3c7ff4#54163ace10bac2bff8385b86611584f74f3c7ff4"
+  integrity sha512-1ESeLPxupVJ4ifGYCMfgqPWZNx0tm725uE9D7gWvsB6wANS+EVeDMoKwWm1CCPBEXn+WiShImYvJqZ4eiHw4MQ==
   dependencies:
     "@radix-ui/react-dialog" "^1.1.14"
     "@radix-ui/react-dropdown-menu" "^2.1.15"
@@ -1148,12 +1148,12 @@
     react-error-boundary "^4.1.2"
     tailwind-merge "^3.3.0"
 
-"@rowsncolumns/utils@^6.0.101":
-  version "6.0.101"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/6.0.101/0e75db840be6b9277a5953af7d027861621a313f#0e75db840be6b9277a5953af7d027861621a313f"
-  integrity sha512-78n/YPzqlGPv+Dz7YxiPnG/2J/q42TnmoQMQXurtw3paDZAwY5K+SpSwhjY42DR3m8NoPaY6qE9+JRB411/bzA==
+"@rowsncolumns/utils@^6.0.102":
+  version "6.0.102"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/utils/6.0.102/b3dc2c31cd5b28e76645bd6d91ba72199e61d8b5#b3dc2c31cd5b28e76645bd6d91ba72199e61d8b5"
+  integrity sha512-KA4qyG3aIot2IEN9LRKZN1WZnFLyh71TJ7z4T/dab4B+L2xNNMk906gxx7ox05GjmH4jtiMC3P+tZpt2+jXjZw==
   dependencies:
-    "@rowsncolumns/common-types" "^2.1.101"
+    "@rowsncolumns/common-types" "^2.1.102"
     numfmt "^3.2.2"
 
 "@rtsao/scc@^1.1.0":
