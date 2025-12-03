@@ -992,10 +992,10 @@
     "@rowsncolumns/fast-formula-parser" "^3.1.107"
     "@rowsncolumns/utils" "^6.0.105"
 
-"@rowsncolumns/charts@^19.0.25":
-  version "19.0.25"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.25/a7bfecfe3db6112bc8d4374734dcf49d2a35c3ab#a7bfecfe3db6112bc8d4374734dcf49d2a35c3ab"
-  integrity sha512-dCwDo6WUniISf9ym3Gzqa2cdUDw6Dw7Ifx96GJnFbEn52Kij0pmeJDt3tXe7mSBvro2vBi4L2cwk9Y9dxHZjGw==
+"@rowsncolumns/charts@^19.0.26":
+  version "19.0.26"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/charts/19.0.26/71d70fff2d751dec7ff9245ef7c4599673988eb6#71d70fff2d751dec7ff9245ef7c4599673988eb6"
+  integrity sha512-c88sey+RaAl8AqTTnsF3idFN3ylMSyVMy9lQFd42JbCGbz96x3LIH8w1c4kJ0qgZmzvkqXRM6+SKyvzpGbBJ6w==
   dependencies:
     echarts "^5.6.0"
     formik "^2.4.6"
@@ -1061,10 +1061,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^20.0.31":
-  version "20.0.31"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.31/324d6f3e64dd7503b7e38edf0bc141019e5db778#324d6f3e64dd7503b7e38edf0bc141019e5db778"
-  integrity sha512-NHbSFkaOJlAIJ51mLosS1dNbT3p8AcQcsjIlcKNs6cllj1Z7aW2TJOOS+kUB8sejnEF6UJVtp4g+u8hd9YtvBA==
+"@rowsncolumns/spreadsheet-state@^20.0.32":
+  version "20.0.32"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.32/29a1248a7d655963400519dd08fdfbef0c52373a#29a1248a7d655963400519dd08fdfbef0c52373a"
+  integrity sha512-WLRGnc+fegvm0muolK1HjqScCNu3cFoh41Cgd2OX7A9tZlo/wKQRe5Ye6KT4epOtDW8AGkCUm2iCIS9/5PkT4w==
   dependencies:
     "@rowsncolumns/calculation-worker" "^1.0.31"
     "@rowsncolumns/date-parser" "^4.0.104"
@@ -1077,10 +1077,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^7.1.188":
-  version "7.1.188"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.188/4ae73636143aff8ae942ff1fbd403cce3f27ca5a#4ae73636143aff8ae942ff1fbd403cce3f27ca5a"
-  integrity sha512-gEWGMO44e9Hkl0/w5ofBqR/Jceyz4MnRtCBWnWxNw5s/y5fyuuLpH/zD9uOSbxbT1s/4ysH7NHu0mNWHxVL6SQ==
+"@rowsncolumns/spreadsheet@^7.1.189":
+  version "7.1.189"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/7.1.189/c958afd2e6b91e84667843df6d503074e71756fb#c958afd2e6b91e84667843df6d503074e71756fb"
+  integrity sha512-MAdv8+r/xGlDu8JiO9UDuS+JDFmiPKfABSd5Enh5N+F2UjAReulxD2qooDH1PHwTip23rZyvpx0KyIqrpL+TmA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
