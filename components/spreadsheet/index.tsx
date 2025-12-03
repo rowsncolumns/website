@@ -331,8 +331,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       //
       cellXfsRegistry,
     } = useSpreadsheetState({
-      calculationMode: "worker",
-      createCalculationWorker,
+      // calculationMode: "worker",
+      // createCalculationWorker,
       sheets,
       sheetData,
       tables,
