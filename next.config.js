@@ -2,10 +2,6 @@ const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack (config) {
-    config.externals.push('canvas')
-    return config
-  },
   experimental: {
     // outputFileTracingRoot: path.join(__dirname, '../../'),
     // outputFileTracingExcludes: {

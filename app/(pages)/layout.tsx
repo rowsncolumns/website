@@ -58,7 +58,7 @@ export default function RootLayout({
                   title={siteConfig.name}
                 >
                   <Image
-                    src="/logo-square.png?v=1"
+                    src="/logo-square.png"
                     alt="RowsnColumns"
                     width={50}
                     height={39}

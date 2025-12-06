@@ -1,5 +1,3 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { useRouter } from "next/navigation";
 import { NextResponse } from "next/server";
 
 const secret = "rowsncolumns-license";
