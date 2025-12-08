@@ -588,8 +588,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   ...range,
                   sheetId: activeSheetId,
                 },
-                undefined,
-                "clipboard"
+                { format: "clipboard" }
               );
             }}
           />
