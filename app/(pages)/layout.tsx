@@ -165,7 +165,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/terms" legacyBehavior>
+                    <Link href="/terms">
                       <a className="text-sm no-underline  transition  text-muted-foreground hover:text-foreground">
                         Terms of Service
                       </a>
