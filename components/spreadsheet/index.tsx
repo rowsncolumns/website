@@ -514,13 +514,12 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   if (isCSVFile(file)) {
                     await importCSVFile(file);
                   } else if (isExcelFile(file)) {
-                    await importExcelFile(file);
+                    const { requiresRecalc } = await importExcelFile(file);
+                    calculateNow({
+                      disableEvaluation: !requiresRecalc,
+                      shouldResetCellDependencyGraph: true,
+                    });
                   }
-
-                  calculateNow({
-                    disableEvaluation: true,
-                    shouldResetCellDependencyGraph: true,
-                  });
                 }
               }}
             />
