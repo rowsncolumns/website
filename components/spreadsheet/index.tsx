@@ -559,7 +559,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               }}
               variant={"primary"}
             >
-              Use {workerMode ? "UI threaded" : "Web worker"}
+              Calculation mode: {workerMode ? "UI" : "Web worker"}
             </Button>
           </div>
         ) : null}
