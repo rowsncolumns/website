@@ -166,6 +166,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
       defaultSpreadsheetTheme
     );
+    const [workerMode, setWorkerMode] = useState(false);
     const [conditionalFormats, onChangeConditionalFormats] = useState<
       ConditionalFormatRule[]
     >(mockConditionalFormatting);
@@ -331,8 +332,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       //
       cellXfsRegistry,
     } = useSpreadsheetState({
-      // calculationMode: "worker",
-      // createCalculationWorker,
+      calculationMode: workerMode ? "worker" : "single",
+      createCalculationWorker: workerMode ? createCalculationWorker : undefined,
       sheets,
       sheetData,
       tables,
@@ -549,6 +550,14 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               }}
             >
               Trigger calculation
+            </Button>
+
+            <Button
+              onClick={() => {
+                setWorkerMode((prev) => !prev);
+              }}
+            >
+              Use {workerMode ? "UI threaded" : "Web worker"}
             </Button>
           </div>
         ) : null}
