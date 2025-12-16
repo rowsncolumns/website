@@ -548,6 +548,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   shouldResetCellDependencyGraph: true,
                 });
               }}
+              variant={"primary"}
             >
               Trigger calculation
             </Button>
@@ -556,6 +557,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               onClick={() => {
                 setWorkerMode((prev) => !prev);
               }}
+              variant={"primary"}
             >
               Use {workerMode ? "UI threaded" : "Web worker"}
             </Button>
