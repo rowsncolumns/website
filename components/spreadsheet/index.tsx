@@ -166,6 +166,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
       defaultSpreadsheetTheme
     );
+    const [workerMode, setWorkerMode] = useState(false);
     const [conditionalFormats, onChangeConditionalFormats] = useState<
       ConditionalFormatRule[]
     >(mockConditionalFormatting);
@@ -327,12 +328,13 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onSavePaintFormat,
       isPaintFormatActive,
       onRemoveLink,
+      getDataRowCount,
 
       //
       cellXfsRegistry,
     } = useSpreadsheetState({
-      // calculationMode: "worker",
-      // createCalculationWorker,
+      calculationMode: workerMode ? "worker" : "single",
+      createCalculationWorker: workerMode ? createCalculationWorker : undefined,
       sheets,
       sheetData,
       tables,
@@ -514,13 +516,12 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   if (isCSVFile(file)) {
                     await importCSVFile(file);
                   } else if (isExcelFile(file)) {
-                    await importExcelFile(file);
+                    const { requiresRecalc } = await importExcelFile(file);
+                    calculateNow({
+                      disableEvaluation: !requiresRecalc,
+                      shouldResetCellDependencyGraph: true,
+                    });
                   }
-
-                  calculateNow({
-                    disableEvaluation: true,
-                    shouldResetCellDependencyGraph: true,
-                  });
                 }
               }}
             />
@@ -548,8 +549,18 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   shouldResetCellDependencyGraph: true,
                 });
               }}
+              variant={"primary"}
             >
               Trigger calculation
+            </Button>
+
+            <Button
+              onClick={() => {
+                setWorkerMode((prev) => !prev);
+              }}
+              variant={"primary"}
+            >
+              Calculation mode: {workerMode ? "UI" : "Web worker"}
             </Button>
           </div>
         ) : null}
@@ -976,6 +987,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
+            getDataRowCount={getDataRowCount}
             onRemoveLink={onRemoveLink}
             showSelectionResizeHandles
             getSheetId={getSheetId}
