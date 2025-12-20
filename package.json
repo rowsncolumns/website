@@ -16,7 +16,7 @@
     "@rowsncolumns/pivot": "^2.0.50",
     "@rowsncolumns/spreadsheet": "^7.1.226",
     "@rowsncolumns/spreadsheet-state": "^20.0.75",
-    "@rowsncolumns/supabase-spreadsheet": "^21.0.48",
+    "@rowsncolumns/supabase-spreadsheet": "^21.0.50",
     "@sendgrid/mail": "^8.1.6",
     "@types/node": "20.2.1",
     "@types/react": "^19.0.1",

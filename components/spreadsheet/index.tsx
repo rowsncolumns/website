@@ -346,6 +346,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       colorMode,
       conditionalFormats,
       locale,
+      dataValidations,
       onChangeSheets,
       onChangeSheetData,
       onChangeEmbeds,
