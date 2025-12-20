@@ -330,7 +330,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onRemoveLink,
       getDataRowCount,
 
-      //
+      getDataValidation,
+
+      // Cell Xfs
       cellXfsRegistry,
     } = useSpreadsheetState({
       calculationMode: workerMode ? "worker" : "single",
@@ -987,6 +989,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
+            getDataValidation={getDataValidation}
             getDataRowCount={getDataRowCount}
             onRemoveLink={onRemoveLink}
             showSelectionResizeHandles
