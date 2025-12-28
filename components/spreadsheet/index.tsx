@@ -94,6 +94,7 @@ import {
   ErrorStateDialog,
   EmbedEditorDialog,
   EmbedEditor,
+  CellXfs,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton, Button } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -153,6 +154,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
   const App = () => {
     const locale = "en-US";
+    const [cellXfs, onChangeCellXfs] = useState<CellXfs | null | undefined>(
+      new Map()
+    );
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
@@ -347,6 +351,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       conditionalFormats,
       locale,
       dataValidations,
+      cellXfs,
+      onChangeCellXfs,
       onChangeSheets,
       onChangeSheetData,
       onChangeEmbeds,
