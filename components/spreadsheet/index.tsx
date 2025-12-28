@@ -353,6 +353,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       dataValidations,
       cellXfs,
       onChangeCellXfs,
+      onChangePivotTables,
       onChangeSheets,
       onChangeSheetData,
       onChangeEmbeds,
@@ -998,6 +999,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             {...spreadsheetColors}
             getDataValidation={getDataValidation}
             getDataRowCount={getDataRowCount}
+            getEffectiveFormat={getEffectiveFormat}
             onRemoveLink={onRemoveLink}
             showSelectionResizeHandles
             getSheetId={getSheetId}
