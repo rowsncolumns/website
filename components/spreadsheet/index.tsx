@@ -362,6 +362,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onChangeNamedRanges,
       onChangeTheme,
       onChangeHistory(patches) {
+        if (allowUpload) {
+          return;
+        }
         onBroadcastPatch(patches);
       },
       onChangeProtectedRanges,
