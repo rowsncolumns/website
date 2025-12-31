@@ -181,6 +181,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       ProtectedRange[]
     >([]);
     const [userDefinedColors, setUserDefinedColors] = useState<string[]>([]);
+    const [iterativeEnabled, setIterativeEnabled] = useState(true);
+    const [iterativeMaxChange, setIterativeMaxChange] = useState(0.001);
+    const [iterativeMaxIterations, setIterativeMaxIterations] = useState(100);
 
     const {
       activeCell,
@@ -371,6 +374,11 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onChangeConditionalFormats,
       onChangeDataValidations,
       fileSizeLimit: 100 * 1024 * 1024, // 100 MB Limit
+      iterativeCalculation: {
+        enabled: iterativeEnabled,
+        maxChange: iterativeMaxChange,
+        maxIterations: iterativeMaxIterations,
+      },
     });
 
     const {
@@ -520,61 +528,134 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       <>
         <Styles />
         {allowUpload ? (
-          <div className="p-2 flex gap-4">
-            <input
-              type="file"
-              onChange={async (e) => {
-                const file = e.target.files?.[0];
-                if (file) {
-                  if (isCSVFile(file)) {
-                    await importCSVFile(file);
-                  } else if (isExcelFile(file)) {
-                    const { requiresRecalc } = await importExcelFile(file);
-                    calculateNow({
-                      disableEvaluation: !requiresRecalc,
-                      shouldResetCellDependencyGraph: true,
-                    });
-                  }
-                }
-              }}
-            />
+          <div className="p-3 md:p-4 rounded-lg border border-slate-200/80 bg-white/90 shadow-sm backdrop-blur">
+            <div className="flex flex-col gap-4 md:flex-row md:items-start">
+              <div className="flex-1">
+                <div className="text-xs uppercase tracking-wide text-slate-500">
+                  Import / Export
+                </div>
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <label className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-200 bg-slate-50 text-slate-700 text-sm font-medium hover:bg-slate-100 cursor-pointer">
+                    <input
+                      type="file"
+                      className="hidden"
+                      onChange={async (e) => {
+                        const file = e.target.files?.[0];
+                        if (file) {
+                          if (isCSVFile(file)) {
+                            await importCSVFile(file);
+                          } else if (isExcelFile(file)) {
+                            const { requiresRecalc } = await importExcelFile(
+                              file
+                            );
+                            calculateNow({
+                              disableEvaluation: !requiresRecalc,
+                              shouldResetCellDependencyGraph: true,
+                            });
+                          }
+                        }
+                      }}
+                    />
+                    Upload CSV / XLSX
+                  </label>
+                  <Button
+                    onClick={() => {
+                      exportToExcel({
+                        filename: "Excel-Export-RnC",
+                        sheetData,
+                        sheets,
+                        tables,
+                        conditionalFormats,
+                        cellXfs,
+                        theme,
+                        charts,
+                        dataValidations,
+                        embeds,
+                        namedRanges,
+                      });
+                    }}
+                    variant={"primary"}
+                  >
+                    Export to excel
+                  </Button>
+                </div>
+              </div>
 
-            <Button
-              onClick={() => {
-                exportToExcel({
-                  filename: "Excel-Export-RnC",
-                  sheetData,
-                  sheets,
-                  tables,
-                  conditionalFormats,
-                  // cellXfs,
-                  theme,
-                });
-              }}
-              variant={"primary"}
-            >
-              Export to excel
-            </Button>
-            <Button
-              onClick={() => {
-                calculateNow({
-                  disableEvaluation: false,
-                  shouldResetCellDependencyGraph: true,
-                });
-              }}
-              variant={"primary"}
-            >
-              Trigger calculation
-            </Button>
+              <div className="h-px w-full bg-slate-200/70 md:h-auto md:w-px" />
 
-            <Button
-              onClick={() => {
-                setWorkerMode((prev) => !prev);
-              }}
-              variant={"primary"}
-            >
-              Calculation mode: {workerMode ? "UI" : "Web worker"}
-            </Button>
+              <div className="flex-1">
+                <div className="text-xs uppercase tracking-wide text-slate-500">
+                  Calculation
+                </div>
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <Button
+                    onClick={() => {
+                      calculateNow({
+                        disableEvaluation: false,
+                        shouldResetCellDependencyGraph: true,
+                      });
+                    }}
+                    variant={"primary"}
+                  >
+                    Trigger calculation
+                  </Button>
+                  <Button
+                    onClick={() => {
+                      setWorkerMode((prev) => !prev);
+                    }}
+                    variant={"primary"}
+                  >
+                    Calculation mode: {workerMode ? "Web worker" : "UI"}
+                  </Button>
+                </div>
+
+                <div className="mt-3 flex flex-wrap items-end gap-3">
+                  <label className="flex items-center gap-2 text-sm text-slate-700">
+                    <input
+                      type="checkbox"
+                      checked={iterativeEnabled}
+                      onChange={(e) => setIterativeEnabled(e.target.checked)}
+                      className="h-4 w-4 rounded border-slate-300 text-slate-700 focus:ring-slate-400"
+                    />
+                    Iterative calculation
+                  </label>
+                  <label className="flex flex-col gap-1 text-xs text-slate-500">
+                    Max change
+                    <input
+                      type="number"
+                      min={0}
+                      step={0.0001}
+                      disabled={!iterativeEnabled}
+                      value={iterativeMaxChange}
+                      onChange={(e) => {
+                        const nextValue = Number(e.target.value);
+                        if (!Number.isNaN(nextValue)) {
+                          setIterativeMaxChange(nextValue);
+                        }
+                      }}
+                      className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-1 text-xs text-slate-500">
+                    Max iterations
+                    <input
+                      type="number"
+                      min={1}
+                      step={1}
+                      disabled={!iterativeEnabled}
+                      value={iterativeMaxIterations}
+                      onChange={(e) => {
+                        const nextValue = Number(e.target.value);
+                        if (!Number.isNaN(nextValue)) {
+                          setIterativeMaxIterations(Math.max(1, nextValue));
+                        }
+                      }}
+                      className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
+                    />
+                  </label>
+                </div>
+              </div>
+            </div>
           </div>
         ) : null}
 
