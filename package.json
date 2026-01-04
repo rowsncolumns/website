@@ -15,7 +15,7 @@
     "@rowsncolumns/charts": "^19.0.76",
     "@rowsncolumns/pivot": "^2.0.70",
     "@rowsncolumns/spreadsheet": "^7.1.251",
-    "@rowsncolumns/spreadsheet-state": "^20.0.96",
+    "@rowsncolumns/spreadsheet-state": "^20.0.97",
     "@rowsncolumns/supabase-spreadsheet": "^21.0.70",
     "@sendgrid/mail": "^8.1.6",
     "@types/node": "20.2.1",
