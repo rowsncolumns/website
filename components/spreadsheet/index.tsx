@@ -529,8 +529,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <Styles />
         {allowUpload ? (
           <div className="p-3 md:p-4 rounded-lg border border-slate-200/80 bg-white/90 shadow-sm backdrop-blur">
-            <div className="flex flex-col gap-4 md:flex-row md:items-start">
-              <div className="flex-1">
+            <div className="flex flex-row gap-4 md:flex-row md:items-start">
+              <div>
                 <div className="text-xs uppercase tracking-wide text-slate-500">
                   Import / Export
                 </div>
@@ -581,78 +581,78 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 </div>
               </div>
 
-              <div className="h-px w-full bg-slate-200/70 md:h-auto md:w-px" />
-
               <div className="flex-1">
                 <div className="text-xs uppercase tracking-wide text-slate-500">
                   Calculation
                 </div>
-                <div className="mt-2 flex flex-wrap items-center gap-2">
-                  <Button
-                    onClick={() => {
-                      calculateNow({
-                        disableEvaluation: false,
-                        shouldResetCellDependencyGraph: true,
-                      });
-                    }}
-                    variant={"primary"}
-                  >
-                    Trigger calculation
-                  </Button>
-                  <Button
-                    onClick={() => {
-                      setWorkerMode((prev) => !prev);
-                    }}
-                    variant={"primary"}
-                  >
-                    Calculation mode: {workerMode ? "Web worker" : "UI"}
-                  </Button>
-                </div>
+                <div className="flex flex-row items-start gap-3">
+                  <div className="mt-2 flex flex-wrap flex-row items-center gap-2">
+                    <Button
+                      onClick={() => {
+                        calculateNow({
+                          disableEvaluation: false,
+                          shouldResetCellDependencyGraph: true,
+                        });
+                      }}
+                      variant={"primary"}
+                    >
+                      Trigger calculation
+                    </Button>
+                    <Button
+                      onClick={() => {
+                        setWorkerMode((prev) => !prev);
+                      }}
+                      variant={"primary"}
+                    >
+                      Calculation mode: {workerMode ? "Web worker" : "UI"}
+                    </Button>
+                  </div>
 
-                <div className="mt-3 flex flex-wrap items-end gap-3">
-                  <label className="flex items-center gap-2 text-sm text-slate-700">
-                    <input
-                      type="checkbox"
-                      checked={iterativeEnabled}
-                      onChange={(e) => setIterativeEnabled(e.target.checked)}
-                      className="h-4 w-4 rounded border-slate-300 text-slate-700 focus:ring-slate-400"
-                    />
-                    Iterative calculation
-                  </label>
-                  <label className="flex flex-col gap-1 text-xs text-slate-500">
-                    Max change
-                    <input
-                      type="number"
-                      min={0}
-                      step={0.0001}
-                      disabled={!iterativeEnabled}
-                      value={iterativeMaxChange}
-                      onChange={(e) => {
-                        const nextValue = Number(e.target.value);
-                        if (!Number.isNaN(nextValue)) {
-                          setIterativeMaxChange(nextValue);
-                        }
-                      }}
-                      className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
-                    />
-                  </label>
-                  <label className="flex flex-col gap-1 text-xs text-slate-500">
-                    Max iterations
-                    <input
-                      type="number"
-                      min={1}
-                      step={1}
-                      disabled={!iterativeEnabled}
-                      value={iterativeMaxIterations}
-                      onChange={(e) => {
-                        const nextValue = Number(e.target.value);
-                        if (!Number.isNaN(nextValue)) {
-                          setIterativeMaxIterations(Math.max(1, nextValue));
-                        }
-                      }}
-                      className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
-                    />
-                  </label>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <label className="flex items-center gap-2 text-sm text-slate-700">
+                      <input
+                        type="checkbox"
+                        checked={iterativeEnabled}
+                        onChange={(e) => setIterativeEnabled(e.target.checked)}
+                        className="h-4 w-4 rounded border-slate-300 text-slate-700 focus:ring-slate-400"
+                      />
+                      Iterative calculation
+                    </label>
+                    <label className="flex flex-col gap-1 text-xs text-slate-500">
+                      Max change
+                      <input
+                        type="number"
+                        min={0}
+                        step={0.0001}
+                        disabled={!iterativeEnabled}
+                        value={iterativeMaxChange}
+                        onChange={(e) => {
+                          const nextValue = Number(e.target.value);
+                          if (!Number.isNaN(nextValue)) {
+                            setIterativeMaxChange(nextValue);
+                          }
+                        }}
+                        className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
+                      />
+                    </label>
+                    <label className="flex flex-col gap-1 text-xs text-slate-500">
+                      Max iterations
+                      <input
+                        type="number"
+                        min={1}
+                        step={1}
+                        disabled={!iterativeEnabled}
+                        value={iterativeMaxIterations}
+                        onChange={(e) => {
+                          const nextValue = Number(e.target.value);
+                          if (!Number.isNaN(nextValue)) {
+                            setIterativeMaxIterations(Math.max(1, nextValue));
+                          }
+                        }}
+                        className="w-32 rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-700 shadow-sm focus:border-slate-400 focus:outline-none focus:ring-1 focus:ring-slate-300 disabled:bg-slate-100"
+                      />
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>
