@@ -181,7 +181,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       ProtectedRange[]
     >([]);
     const [userDefinedColors, setUserDefinedColors] = useState<string[]>([]);
-    const [iterativeEnabled, setIterativeEnabled] = useState(true);
+    const [iterativeEnabled, setIterativeEnabled] = useState(false);
     const [iterativeMaxChange, setIterativeMaxChange] = useState(0.001);
     const [iterativeMaxIterations, setIterativeMaxIterations] = useState(100);
 
