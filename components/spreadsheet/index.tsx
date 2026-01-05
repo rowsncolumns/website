@@ -113,7 +113,13 @@ import {
 } from "@rowsncolumns/charts";
 import { Styles } from "./style";
 import { selectionFromActiveCell } from "@rowsncolumns/grid";
-import { isExcelFile, isCSVFile, exportToExcel } from "@rowsncolumns/toolkit";
+import {
+  isExcelFile,
+  isCSVFile,
+  exportToExcel,
+  exportToODS,
+  exportToCSV,
+} from "@rowsncolumns/toolkit";
 import {
   NewPivotTableDialog,
   NewPivotTableEditor,
@@ -556,7 +562,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                         }
                       }}
                     />
-                    Upload CSV / XLSX
+                    Upload CSV / XLSX / XLSM / ODS
                   </label>
                   <Button
                     onClick={() => {
@@ -577,6 +583,37 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                     variant={"primary"}
                   >
                     Export to excel
+                  </Button>
+                  <Button
+                    onClick={() => {
+                      exportToODS({
+                        filename: "ODS-Export-RnC",
+                        sheetData,
+                        sheets,
+                        tables,
+                        conditionalFormats,
+                        cellXfs,
+                        theme,
+                        charts,
+                        dataValidations,
+                        embeds,
+                        namedRanges,
+                      });
+                    }}
+                    variant={"primary"}
+                  >
+                    Export to ODS
+                  </Button>
+                  <Button
+                    onClick={() => {
+                      exportToCSV({
+                        filename: "CSV-Export-RnC",
+                        rowData: sheetData[activeSheetId],
+                      });
+                    }}
+                    variant={"primary"}
+                  >
+                    Export to CSV
                   </Button>
                 </div>
               </div>
@@ -1306,6 +1343,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           sheetId={activeSheetId}
           onSubmit={onUpdateTable}
           theme={theme}
+          onRemoveTable={onRemoveTable}
         />
         <DeleteSheetConfirmation onDeleteSheet={onDeleteSheet} />
         <NamedRangeEditor

@@ -1093,10 +1093,10 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^21.0.72":
-  version "21.0.72"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.72/29a6bf5b5d6184dc03553abe4d7400c7bb430abb#29a6bf5b5d6184dc03553abe4d7400c7bb430abb"
-  integrity sha512-0327DySpHbwS/6p40B9CKdpSkh68l4NZeu/c6dTsCRS6nouUIcYdMt+xDzJiQZR3+hWJIkCAhtOdcSkUK2d+uQ==
+"@rowsncolumns/supabase-spreadsheet@^21.0.76":
+  version "21.0.76"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.76/9063c7996454f31ca543d7301dffebaf26bfdd11#9063c7996454f31ca543d7301dffebaf26bfdd11"
+  integrity sha512-iZ/BR/yiw73WRjj483g5eC9wQWltj//4NHYA2+TSXPOC0tIgttQFiBix66pChYF1hLakl05TgMdaCwPtrhyMfA==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
