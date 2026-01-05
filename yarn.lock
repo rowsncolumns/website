@@ -1053,10 +1053,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^20.0.103":
-  version "20.0.103"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.103/5581b7f176e7a9950c4ed3a02dcb77fa49ea8772#5581b7f176e7a9950c4ed3a02dcb77fa49ea8772"
-  integrity sha512-06vM/lADSN5ij/se5MId2A9DWILe2Z8RDx1sFIUiQiMnOWt89rkTFUVhngTpVPFcPgV3/H3xzI9VVLVt13gyGQ==
+"@rowsncolumns/spreadsheet-state@^20.0.104":
+  version "20.0.104"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.104/27c0270d37e1e6f9c61ef084a1d010af52c3ba1e#27c0270d37e1e6f9c61ef084a1d010af52c3ba1e"
+  integrity sha512-GTBKNooqdDeC7Ypepd8wDheTFPpo8+9lHzc6KVcEZ3/kvnejDhP8XCowZEbpOrXtxpEvon2FbJnlrPkp7SAW7g==
   dependencies:
     "@rowsncolumns/calculation-worker" "^1.0.86"
     "@rowsncolumns/date-parser" "^4.0.159"
@@ -1093,7 +1093,7 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^21.0.72":
+"@rowsncolumns/supabase-spreadsheet@^21.0.76":
   version "21.0.76"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.76/9063c7996454f31ca543d7301dffebaf26bfdd11#9063c7996454f31ca543d7301dffebaf26bfdd11"
   integrity sha512-iZ/BR/yiw73WRjj483g5eC9wQWltj//4NHYA2+TSXPOC0tIgttQFiBix66pChYF1hLakl05TgMdaCwPtrhyMfA==
