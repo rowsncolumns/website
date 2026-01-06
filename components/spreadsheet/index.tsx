@@ -70,6 +70,7 @@ import {
   useSpreadsheetApi,
   PivotTable,
   SheetRange,
+  isTouchDevice,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -705,7 +706,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         ) : (
           false
         )} */}
-        <Toolbar>
+        <Toolbar enableFloating={isTouchDevice}>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
           <ButtonPrint onClick={() => window.print()} />
