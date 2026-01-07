@@ -553,10 +553,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                             await importCSVFile(file);
                           } else if (isExcelFile(file)) {
                             const { requiresRecalc } = await importExcelFile(
-                              file,
-                              1000,
-                              100,
-                              true
+                              file
                             );
                             calculateNow({
                               disableEvaluation: !requiresRecalc,
