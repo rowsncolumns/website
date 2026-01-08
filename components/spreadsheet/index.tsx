@@ -164,6 +164,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [cellXfs, onChangeCellXfs] = useState<CellXfs | null | undefined>(
       new Map()
     );
+    const [sharedStrings, onChangeSharedStrings] = useState<string[]>([]);
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
@@ -362,6 +363,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       locale,
       dataValidations,
       cellXfs,
+      sharedStrings,
+      onChangeSharedStrings,
       onChangeCellXfs,
       onChangePivotTables,
       onChangeSheets,
@@ -579,6 +582,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                         dataValidations,
                         embeds,
                         namedRanges,
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
@@ -599,6 +603,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                         dataValidations,
                         embeds,
                         namedRanges,
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
@@ -610,6 +615,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                       exportToCSV({
                         filename: "CSV-Export-RnC",
                         rowData: sheetData[activeSheetId],
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
