@@ -349,6 +349,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
       // Cell Xfs
       cellXfsRegistry,
+      // Shared strings
+      sharedStringRegistry,
     } = useSpreadsheetState({
       calculationMode: workerMode ? "worker" : "single",
       createCalculationWorker: workerMode ? createCalculationWorker : undefined,
@@ -506,6 +508,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       activeCell,
       sheetId: activeSheetId,
       cellXfsRegistry,
+      sharedStringRegistry,
       onChangeSheets,
       onChangePivotTables,
       onChangeSheetData,

@@ -1044,19 +1044,19 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^2.0.85":
-  version "2.0.85"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/2.0.85/a53127311bd32dec68c7aabcf647be9ae0ef68ba#a53127311bd32dec68c7aabcf647be9ae0ef68ba"
-  integrity sha512-Ub4mdPBCloYWbSHnbszHDsFMjPRyNfex1ZX+kACr5bzZJ/fWcHEAMhWVYFjxuWnjV9+nkhR875QATlxzoUR71w==
+"@rowsncolumns/pivot@^2.0.86":
+  version "2.0.86"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/pivot/2.0.86/dd5267dc4c8d593b15a046be76250ff48e210836#dd5267dc4c8d593b15a046be76250ff48e210836"
+  integrity sha512-/Eud1zqTbDOXaMatptv2+iHxkI9XHArGG9j+7Ivq4bgDdkPnAjS9fvsAor4cAL1RNf7+A9+ctZgSkSOxhSeO8g==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^20.0.122":
-  version "20.0.122"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.122/623968fbf642bc3d07786385db5304f283885d31#623968fbf642bc3d07786385db5304f283885d31"
-  integrity sha512-ZOrEMe2ustnyO0vl7I9VeI+fA4NPWE91dzZtfqS0915TG2KupThD3t1WcQ9A5ZEfMcM7qZ5PuFIK5ZdweZRDUg==
+"@rowsncolumns/spreadsheet-state@^20.0.124":
+  version "20.0.124"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.124/1c3ce254687c28597131b11abed24a1977c4fe1e#1c3ce254687c28597131b11abed24a1977c4fe1e"
+  integrity sha512-v71NTj+rYxQ09UG3jVNt0CibuK2fdkWWMpPPsJWdQi0kYyav2kV3nFAdERX6gXkVNPEKB2PEXlUxKVGZPsXhZQ==
   dependencies:
     "@rowsncolumns/calculation-worker" "^1.0.95"
     "@rowsncolumns/date-parser" "^4.0.168"
