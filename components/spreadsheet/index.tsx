@@ -1125,6 +1125,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
+            getFormattedValue={getFormattedValue}
             getDataValidation={getDataValidation}
             getDataRowCount={getDataRowCount}
             getEffectiveFormat={getEffectiveFormat}
