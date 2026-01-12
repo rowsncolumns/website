@@ -14,7 +14,7 @@
     "@radix-ui/react-navigation-menu": "^1.1.1",
     "@rowsncolumns/charts": "^19.0.93",
     "@rowsncolumns/pivot": "^2.0.88",
-    "@rowsncolumns/spreadsheet": "^7.1.269",
+    "@rowsncolumns/spreadsheet": "^7.1.270",
     "@rowsncolumns/spreadsheet-state": "^20.0.127",
     "@rowsncolumns/supabase-spreadsheet": "^21.0.87",
     "@sendgrid/mail": "^8.1.6",
