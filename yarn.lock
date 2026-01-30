@@ -1064,10 +1064,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^20.0.205":
-  version "20.0.205"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.205/8f88dc6f69102ca8df66e28674fa0fc834ea2ee6#8f88dc6f69102ca8df66e28674fa0fc834ea2ee6"
-  integrity sha512-BF3DHhpGomnWPnEwIXkPRg/EEgrGLwsiRrewRROOX/aRtRfOeBaP2C5VI41MIFVueQoXTblNRzV1M80acEBgiQ==
+"@rowsncolumns/spreadsheet-state@^20.0.208":
+  version "20.0.208"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/20.0.208/644c1997148b5ebb270051be0ea6499a4c45e318#644c1997148b5ebb270051be0ea6499a4c45e318"
+  integrity sha512-3yTT/23ijsPm4RCqoC0eJ8G0n6Ub5Nx1T/5Alh6MYFaBG8xteK+W/AkDeIBGybe3LCjjNBUorJcWv8lWJn1zoA==
   dependencies:
     "@rowsncolumns/calculation-worker" "^1.0.127"
     "@rowsncolumns/date-parser" "^4.0.199"
