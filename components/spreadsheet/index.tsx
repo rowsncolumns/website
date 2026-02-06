@@ -70,6 +70,7 @@ import {
   useSpreadsheetApi,
   PivotTable,
   SheetRange,
+  isTouchDevice,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -136,7 +137,7 @@ const supabaseClient = createClient(
         eventsPerSecond: 20,
       },
     },
-  }
+  },
 );
 
 const userId = crypto.randomUUID();
@@ -161,8 +162,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
   const App = () => {
     const locale = "en-US";
     const [cellXfs, onChangeCellXfs] = useState<CellXfs | null | undefined>(
-      new Map()
+      new Map(),
     );
+    const [sharedStrings, onChangeSharedStrings] = useState<string[]>([]);
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
@@ -174,7 +176,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [pivotTables, onChangePivotTables] = useState<PivotTable[]>([]);
     const [namedRanges, onChangeNamedRanges] = useState<NamedRange[]>([]);
     const [theme, onChangeTheme] = useState<SpreadsheetTheme>(
-      defaultSpreadsheetTheme
+      defaultSpreadsheetTheme,
     );
     const [workerMode, setWorkerMode] = useState(false);
     const [conditionalFormats, onChangeConditionalFormats] = useState<
@@ -347,6 +349,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
       // Cell Xfs
       cellXfsRegistry,
+      // Shared strings
+      sharedStringRegistry,
     } = useSpreadsheetState({
       calculationMode: workerMode ? "worker" : "single",
       createCalculationWorker: workerMode ? createCalculationWorker : undefined,
@@ -361,6 +365,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       locale,
       dataValidations,
       cellXfs,
+      sharedStrings,
+      onChangeSharedStrings,
       onChangeCellXfs,
       onChangePivotTables,
       onChangeSheets,
@@ -456,7 +462,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             columnIndex++
           ) {
             row.push(
-              getEffectiveValue(range.sheetId, rowIndex, columnIndex) ?? ""
+              getEffectiveValue(range.sheetId, rowIndex, columnIndex) ?? "",
             );
           }
           if (isHeader) {
@@ -471,7 +477,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           rows,
         };
       },
-      [getEffectiveValue]
+      [getEffectiveValue],
     );
 
     // Pivot
@@ -502,6 +508,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       activeCell,
       sheetId: activeSheetId,
       cellXfsRegistry,
+      sharedStringRegistry,
       onChangeSheets,
       onChangePivotTables,
       onChangeSheetData,
@@ -514,7 +521,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
     const activePivotTable = useMemo(
       () => pivotTables.find((table) => table.pivotId === activePivotId),
-      [pivotTables, activePivotId]
+      [pivotTables, activePivotId],
     );
 
     // Format fo the current cell
@@ -523,9 +530,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         getEffectiveFormat(
           activeSheetId,
           activeCell.rowIndex,
-          activeCell.columnIndex
+          activeCell.columnIndex,
         ),
-      [activeSheetId, activeCell, getEffectiveFormat]
+      [activeSheetId, activeCell, getEffectiveFormat],
     );
 
     const api = useSpreadsheetApi();
@@ -551,9 +558,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                           if (isCSVFile(file)) {
                             await importCSVFile(file);
                           } else if (isExcelFile(file)) {
-                            const { requiresRecalc } = await importExcelFile(
-                              file
-                            );
+                            const { requiresRecalc } =
+                              await importExcelFile(file);
                             calculateNow({
                               disableEvaluation: !requiresRecalc,
                               shouldResetCellDependencyGraph: true,
@@ -578,6 +584,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                         dataValidations,
                         embeds,
                         namedRanges,
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
@@ -598,6 +605,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                         dataValidations,
                         embeds,
                         namedRanges,
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
@@ -609,6 +617,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                       exportToCSV({
                         filename: "CSV-Export-RnC",
                         rowData: sheetData[activeSheetId],
+                        sharedStrings,
                       });
                     }}
                     variant={"primary"}
@@ -705,7 +714,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         ) : (
           false
         )} */}
-        <Toolbar>
+        <Toolbar enableFloating={isTouchDevice}>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
           <ButtonPrint onClick={() => window.print()} />
@@ -730,7 +739,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                   ...range,
                   sheetId: activeSheetId,
                 },
-                { format: "clipboard" }
+                { format: "clipboard" },
               );
             }}
           />
@@ -747,7 +756,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 {
                   type: "CURRENCY",
                   pattern: pattern_currency_decimal,
-                }
+                },
               );
             }}
           />
@@ -761,7 +770,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 {
                   type: "PERCENT",
                   pattern: pattern_percent_decimal,
-                }
+                },
               );
             }}
           />
@@ -771,7 +780,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeSheetId,
                 activeCell,
                 selections,
-                "decrement"
+                "decrement",
               )
             }
           />
@@ -781,7 +790,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeSheetId,
                 activeCell,
                 selections,
-                "increment"
+                "increment",
               )
             }
           />
@@ -793,7 +802,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeCell,
                 selections,
                 type,
-                value
+                value,
               );
             }}
             onRequestFormatCells={onRequestFormatCells}
@@ -810,7 +819,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   fontFamily: value,
-                }
+                },
               );
             }}
           />
@@ -827,7 +836,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   fontSize,
-                }
+                },
               );
             }}
           />
@@ -842,7 +851,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   bold: !currentCellFormat?.textFormat?.bold,
-                }
+                },
               );
             }}
           />
@@ -856,7 +865,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   italic: !currentCellFormat?.textFormat?.italic,
-                }
+                },
               );
             }}
           />
@@ -870,7 +879,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   underline: !currentCellFormat?.textFormat?.underline,
-                }
+                },
               );
             }}
           />
@@ -884,7 +893,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   strikethrough: !currentCellFormat?.textFormat?.strikethrough,
-                }
+                },
               );
             }}
           />
@@ -900,7 +909,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 "textFormat",
                 {
                   color,
-                }
+                },
               );
             }}
             userDefinedColors={userDefinedColors}
@@ -918,7 +927,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeCell,
                 selections,
                 "backgroundColor",
-                color
+                color,
               );
             }}
             userDefinedColors={userDefinedColors}
@@ -936,7 +945,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 selections,
                 location,
                 color,
-                style
+                style,
               );
             }}
             theme={theme}
@@ -963,7 +972,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeCell,
                 selections,
                 "horizontalAlignment",
-                value
+                value,
               );
             }}
           />
@@ -976,7 +985,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeCell,
                 selections,
                 "verticalAlignment",
-                value
+                value,
               );
             }}
           />
@@ -988,7 +997,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeCell,
                 selections,
                 "wrapStrategy",
-                value
+                value,
               );
             }}
           />
@@ -1059,7 +1068,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 activeSheetId,
                 activeCell,
                 selections,
-                ...args
+                ...args,
               );
             }}
             selectedFormat={currentCellFormat}
@@ -1118,6 +1127,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
+            getFormattedValue={getFormattedValue}
             getDataValidation={getDataValidation}
             getDataRowCount={getDataRowCount}
             getEffectiveFormat={getEffectiveFormat}
@@ -1284,6 +1294,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           />
 
           <SheetTabs
+            enableNavigationButton
             sheets={sheets}
             protectedRanges={protectedRanges}
             activeSheetId={activeSheetId}
@@ -1427,12 +1438,12 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             initialValue={getUserEnteredValue(
               activeSheetId,
               activeCell.rowIndex,
-              activeCell.columnIndex
+              activeCell.columnIndex,
             )}
             initialTextFormatRuns={getTextFormatRuns(
               activeSheetId,
               activeCell.rowIndex,
-              activeCell.columnIndex
+              activeCell.columnIndex,
             )}
             theme={theme}
             sheetId={activeSheetId}
