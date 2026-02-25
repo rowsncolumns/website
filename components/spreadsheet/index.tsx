@@ -96,6 +96,7 @@ import {
   EmbedEditorDialog,
   EmbedEditor,
   CellXfs,
+  SharedStrings,
 } from "@rowsncolumns/spreadsheet-state";
 import { Separator, IconButton, Button } from "@rowsncolumns/ui";
 import { functionDescriptions, functions } from "@rowsncolumns/functions";
@@ -164,7 +165,9 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [cellXfs, onChangeCellXfs] = useState<CellXfs | null | undefined>(
       new Map(),
     );
-    const [sharedStrings, onChangeSharedStrings] = useState<string[]>([]);
+    const [sharedStrings, onChangeSharedStrings] = useState<SharedStrings>(
+      new Map(),
+    );
     const [sheets, onChangeSheets] = useState<Sheet[]>(mockSheets);
     const [sheetData, onChangeSheetData] =
       useState<SheetData<CellData>>(mockSheetdata);
