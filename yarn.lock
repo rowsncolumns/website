@@ -1060,10 +1060,17 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
+<<<<<<< HEAD
 "@rowsncolumns/spreadsheet-state@^21.0.17":
   version "21.0.17"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/21.0.17/1dafdcb06c291ecd92497ff742ec6d1d5e347b76#1dafdcb06c291ecd92497ff742ec6d1d5e347b76"
   integrity sha512-X4vEYJxFTEj6KRDfGPqYbe5L3ySdIeaHSyhe/D0iwNKsIPSCYw5+6tGSqz5lIhRcIQoRhWObCYgqMSHMLWgXYA==
+=======
+"@rowsncolumns/spreadsheet-state@^21.0.19":
+  version "21.0.19"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet-state/21.0.19/4631acdf497f96d3cbce2969008b6f3029e5115f#4631acdf497f96d3cbce2969008b6f3029e5115f"
+  integrity sha512-QeER4g1JHr91R9c4hPyhofyaSprP1vEDUDnzNW0Dp4JK4DGZDn2QLTndM7XMiJE+3eTH8JY9IoCfvJAMd8ql2g==
+>>>>>>> 9e41ec1 (Fix locale aware formatting)
   dependencies:
     "@rowsncolumns/calculation-worker" "^2.0.7"
     "@rowsncolumns/date-parser" "^5.0.6"
@@ -1076,10 +1083,17 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
+<<<<<<< HEAD
 "@rowsncolumns/spreadsheet@^8.0.8":
   version "8.0.8"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/8.0.8/d7ef5c163d8d03bae95dad1210c4f466ba00d4f4#d7ef5c163d8d03bae95dad1210c4f466ba00d4f4"
   integrity sha512-f4Wtd4keo9tnTRrTQglIDqCH7G9kwLyYcZOq3IpJfTIWCc6fPuF1c1a2nwlfmwbPCbi1i1PxKZRP32Fjj5W6tQ==
+=======
+"@rowsncolumns/spreadsheet@^8.0.9":
+  version "8.0.9"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/8.0.9/1e0a6d19ea39a1f1a3081db360672cb6a670312b#1e0a6d19ea39a1f1a3081db360672cb6a670312b"
+  integrity sha512-7WhPEbVrKnWx61z6Ylyp7Ah6hr5MhhZWBlLFIDlNV7F7DCxLIK/3isYXWGfe3MiIoY4Wbn8eM3Bf5gEaDaFT0Q==
+>>>>>>> 9e41ec1 (Fix locale aware formatting)
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1100,10 +1114,10 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^21.0.144":
-  version "21.0.144"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/21.0.144/4180b0e35dc56ace8df5ea0b8e874fbc4d3299ca#4180b0e35dc56ace8df5ea0b8e874fbc4d3299ca"
-  integrity sha512-/yvzyRWPWGCRU14HAdX4PlTbH6FCP74Sj7VcWOBUGDwdUXxHCGUMxWsjeTxpKPGxSWPUi1cHDX4/nvBmqzSfVA==
+"@rowsncolumns/supabase-spreadsheet@^22.0.6":
+  version "22.0.6"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/22.0.6/4eaa30f732bce7bad70464920d0865f54d323b92#4eaa30f732bce7bad70464920d0865f54d323b92"
+  integrity sha512-a3jJkMYRHwfYzT494QTHN1bXjkRqhj9XG/r63dVKQKD7vdiuGdOj1V45GxD8FDOZsbAbqJ1G5/HFAm724Uq3vA==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
@@ -1122,9 +1136,15 @@
     xlsx "^0.18.5"
 
 "@rowsncolumns/ui@^8.0.6":
+<<<<<<< HEAD
   version "8.0.6"
   resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/8.0.6/51d34301abaacc7ed7c881eecf590a57c7dd8abb#51d34301abaacc7ed7c881eecf590a57c7dd8abb"
   integrity sha512-NAzTCxWCurdmQ20W4JbuPof9w2+6HuAc1VcCvqM6rIGasU7RBAJFy/t4cZZFQ7uMjScJJ7cf+EYIklaWpbCFrw==
+=======
+  version "8.0.7"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/ui/8.0.7/626488bfd5b07e56a8e816563977706182030668#626488bfd5b07e56a8e816563977706182030668"
+  integrity sha512-dj5njXaoAhKwG1cIkwceQRX5YG5sH9ivnEb3B+7ex6lbny08hpUOCe6xqHezn7SQiMroGtih6W2CnWCoyFgdNQ==
+>>>>>>> 9e41ec1 (Fix locale aware formatting)
   dependencies:
     "@radix-ui/react-dialog" "^1.1.14"
     "@radix-ui/react-dropdown-menu" "^2.1.15"

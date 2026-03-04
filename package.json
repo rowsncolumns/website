@@ -14,9 +14,15 @@
     "@radix-ui/react-navigation-menu": "^1.1.1",
     "@rowsncolumns/charts": "^20.0.6",
     "@rowsncolumns/pivot": "^3.0.6",
+<<<<<<< HEAD
     "@rowsncolumns/spreadsheet": "^8.0.8",
     "@rowsncolumns/spreadsheet-state": "^21.0.17",
     "@rowsncolumns/supabase-spreadsheet": "^21.0.144",
+=======
+    "@rowsncolumns/spreadsheet": "^8.0.9",
+    "@rowsncolumns/spreadsheet-state": "^21.0.19",
+    "@rowsncolumns/supabase-spreadsheet": "^22.0.6",
+>>>>>>> 9e41ec1 (Fix locale aware formatting)
     "@sendgrid/mail": "^8.1.6",
     "@types/node": "20.2.1",
     "@types/react": "^19.0.1",
