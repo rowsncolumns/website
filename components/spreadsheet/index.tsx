@@ -299,6 +299,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       enqueueCalculation,
       getNonEmptyColumnCount,
       getNonEmptyRowCount,
+      getEffectiveValue,
       onIncreaseIndent,
       onDecreaseIndent,
       onRequestResize,
@@ -336,6 +337,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       importCSVFile,
       importExcelFile,
 
+      getUserEnteredValue,
+      getTextFormatRuns,
       getFormattedValue,
       calculateNow,
 
@@ -352,25 +355,6 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       cellXfsRegistry,
       // Shared strings
       sharedStringRegistry,
-
-      // Value getters (required)
-      getUserEnteredValue,
-      getUserEnteredFormulaValue,
-      getEffectiveValue,
-      getErrorValue,
-
-      // Cell metadata getters (required)
-      getCellMetaType,
-      getHyperlink,
-      getNote,
-      getComment,
-      getCitation,
-      getCellImageUrl,
-      getTextFormatRuns,
-      getCellGroupingInfo,
-      getCellGroupKeys,
-      getChildrenCount,
-      getConditionalFormattingResultById,
     } = useSpreadsheetState({
       calculationMode: workerMode ? "worker" : "single",
       createCalculationWorker: workerMode ? createCalculationWorker : undefined,
@@ -1147,23 +1131,6 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
-            getUserEnteredValue={getUserEnteredValue}
-            getUserEnteredFormulaValue={getUserEnteredFormulaValue}
-            getEffectiveValue={getEffectiveValue}
-            getErrorValue={getErrorValue}
-            getCellMetaType={getCellMetaType}
-            getHyperlink={getHyperlink}
-            getNote={getNote}
-            getComment={getComment}
-            getCitation={getCitation}
-            getCellImageUrl={getCellImageUrl}
-            getTextFormatRuns={getTextFormatRuns}
-            getCellGroupingInfo={getCellGroupingInfo}
-            getCellGroupKeys={getCellGroupKeys}
-            getChildrenCount={getChildrenCount}
-            getConditionalFormattingResultById={
-              getConditionalFormattingResultById
-            }
             onSelectLink={onSelectLink}
             getFormattedValue={getFormattedValue}
             getDataValidation={getDataValidation}
@@ -1473,11 +1440,11 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
         <div className="sm:hidden">
           <FloatingCellEditor
-            // initialValue={getUserEnteredValue(
-            //   activeSheetId,
-            //   activeCell.rowIndex,
-            //   activeCell.columnIndex,
-            // )}
+            initialValue={getUserEnteredValue(
+              activeSheetId,
+              activeCell.rowIndex,
+              activeCell.columnIndex,
+            )}
             initialTextFormatRuns={getTextFormatRuns(
               activeSheetId,
               activeCell.rowIndex,
