@@ -14,7 +14,7 @@
     "@radix-ui/react-navigation-menu": "^1.1.1",
     "@rowsncolumns/charts": "^22.0.17",
     "@rowsncolumns/pivot": "^5.0.17",
-    "@rowsncolumns/spreadsheet": "^9.1.18",
+    "@rowsncolumns/spreadsheet": "^9.1.19",
     "@rowsncolumns/spreadsheet-state": "^23.0.20",
     "@rowsncolumns/supabase-spreadsheet": "^22.0.17",
     "@rowsncolumns/toolkit": "^23.1.26",
