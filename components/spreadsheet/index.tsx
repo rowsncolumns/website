@@ -1131,6 +1131,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <div className="flex flex-row flex-1 relative min-h-0">
           <CanvasGrid
             {...spreadsheetColors}
+            getTextFormatRuns={getTextFormatRuns}
             onSelectLink={onSelectLink}
             getFormattedValue={getFormattedValue}
             getDataValidation={getDataValidation}
