@@ -71,6 +71,8 @@ import {
   PivotTable,
   SheetRange,
   isTouchDevice,
+  ColumnOutlineGutter,
+  RowOutlineGutter,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -252,6 +254,15 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onShowColumn,
       onHideRow,
       onShowRow,
+      onGroupRows,
+      onUngroupRows,
+      onCollapseRowGroup,
+      onExpandRowGroup,
+      onGroupColumns,
+      onUngroupColumns,
+      onCollapseColumnGroup,
+      onExpandColumnGroup,
+      onSetOutlineDepth,
       onFill,
       onFillRange,
       onMoveEmbed,
@@ -526,6 +537,11 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const activePivotTable = useMemo(
       () => pivotTables.find((table) => table.pivotId === activePivotId),
       [pivotTables, activePivotId],
+    );
+
+    const activeSheet = useMemo(
+      () => sheets.find((sheet) => sheet.sheetId === activeSheetId),
+      [sheets, activeSheetId],
     );
 
     // Format fo the current cell
@@ -1128,139 +1144,167 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
           />
         </FormulaBar>
 
-        <div className="flex flex-row flex-1 relative min-h-0">
-          <CanvasGrid
-            {...spreadsheetColors}
-            getTextFormatRuns={getTextFormatRuns}
-            onSelectLink={onSelectLink}
-            getFormattedValue={getFormattedValue}
-            getDataValidation={getDataValidation}
-            getDataRowCount={getDataRowCount}
-            getEffectiveFormat={getEffectiveFormat}
-            onRemoveLink={onRemoveLink}
-            showSelectionResizeHandles
-            getSheetId={getSheetId}
-            showGridLines={showGridLines}
-            borderStyles={borderStyles}
-            stickyEditor={true}
-            scale={scale}
-            conditionalFormats={conditionalFormats}
+        <div className="flex flex-col flex-1 relative min-h-0 min-w-0">
+          <ColumnOutlineGutter
             sheetId={activeSheetId}
-            rowCount={rowCount}
-            columnCount={columnCount}
-            frozenColumnCount={frozenColumnCount}
-            frozenRowCount={frozenRowCount}
-            rowMetadata={rowMetadata}
             columnMetadata={columnMetadata}
-            activeCell={activeCell}
-            selections={selections}
-            theme={theme}
-            merges={merges}
-            charts={charts}
-            embeds={embeds}
-            basicFilter={basicFilter}
-            tables={tables}
-            protectedRanges={protectedRanges}
-            bandedRanges={bandedRanges}
-            functionDescriptions={functionDescriptions}
-            getSheetName={getSheetName}
-            getCellData={getCellData}
-            onChangeActiveCell={onChangeActiveCell}
-            onChangeSelections={onChangeSelections}
-            onChangeActiveSheet={onChangeActiveSheet}
-            onRequestCalculate={onRequestCalculate}
-            onSelectNextSheet={onSelectNextSheet}
-            onSelectPreviousSheet={onSelectPreviousSheet}
-            onChangeFormatting={onChangeFormatting}
-            onRepeatFormatting={onRepeatFormatting}
-            onHideColumn={onHideColumn}
-            onShowColumn={onShowColumn}
-            onHideRow={onHideRow}
-            onShowRow={onShowRow}
-            onDelete={onDelete}
-            onClearContents={onDelete}
-            onFill={onFill}
-            onFillRange={onFillRange}
-            onResize={onResize}
-            onMoveChart={onMoveChart}
-            onMoveEmbed={onMoveEmbed}
-            onResizeChart={onResizeChart}
-            onDeleteChart={onDeleteChart}
-            onResizeEmbed={onResizeEmbed}
-            onDeleteEmbed={onDeleteEmbed}
-            onDeleteRow={onDeleteRow}
-            onDeleteColumn={onDeleteColumn}
-            onDeleteCellsShiftUp={onDeleteCellsShiftUp}
-            onDeleteCellsShiftLeft={onDeleteCellsShiftLeft}
-            onInsertCellsShiftRight={onInsertCellsShiftRight}
-            onInsertCellsShiftDown={onInsertCellsShiftDown}
-            onInsertRow={onInsertRow}
-            onInsertColumn={onInsertColumn}
-            onMoveColumns={onMoveColumns}
-            onMoveRows={onMoveRows}
-            onMoveSelection={onMoveSelection}
-            onCreateNewSheet={onCreateNewSheet}
-            onChange={onChange}
-            onChangeBatch={onChangeBatch}
-            onUndo={onUndo}
-            onRedo={onRedo}
-            onSortColumn={onSortColumn}
-            onSortTable={onSortTable}
-            onFilterTable={onFilterTable}
-            onResizeTable={onResizeTable}
-            onClearFormatting={onClearFormatting}
-            onCopy={onCopy}
-            onPaste={onPaste}
-            onDragOver={onDragOver}
-            onDrop={onDrop}
-            onRequestEditTable={onRequestEditTable}
-            onRequestDefineNamedRange={onRequestDefineNamedRange}
-            onFreezeColumn={onFreezeColumn}
-            onFreezeRow={onFreezeRow}
-            onUpdateNote={onUpdateNote}
-            onSortRange={onSortRange}
-            onProtectRange={onProtectRange}
-            onUnProtectRange={onUnProtectRange}
-            namedRanges={namedRanges}
-            users={users}
-            userId={userId}
-            licenseKey="rmdort-personal-0adf-45de-5fbc-81ce-b007-99e2-982d-b8bb-df0f-7c84-0ed8-74f2-8dd0-7993-bb88-9f64"
-            onRequestSearch={onRequestSearch}
-            onRequestResize={onRequestResize}
-            onAutoResize={onAutoResize}
-            onCreateBasicFilter={onCreateBasicFilter}
-            onCreateTable={onCreateTable}
-            onRemoveTable={onRemoveTable}
-            onChangeScale={onChangeScale}
-            onInsertDate={onInsertDate}
-            onInsertTime={onInsertTime}
-            onInsertDateTime={onInsertDateTime}
-            onRequestFormatCells={onRequestFormatCells}
-            onRequestConditionalFormat={onRequestConditionalFormat}
-            onRequestDataValidation={onRequestDataValidation}
-            getSheetColumnCount={getSheetColumnCount}
-            getSheetRowCount={getSheetRowCount}
-            getChartComponent={(props) => (
-              <ChartComponent
-                {...props}
-                isDarkMode={isDarkMode}
-                getSeriesValuesFromRange={getSeriesValuesFromRange}
-                getDomainValuesFromRange={getDomainValuesFromRange}
-                onRequestEdit={onRequestEditChart}
-                onRequestCalculate={onRequestCalculate}
-              />
-            )}
-            onInsertTableColumn={onInsertTableColumn}
-            onDeleteTableColumn={onDeleteTableColumn}
-            onDeleteTableRow={onDeleteTableRow}
-            onInsertTableRow={onInsertTableRow}
-            onInsertAutoSum={onInsertAutoSum}
-            onRequestEditEmbed={onRequestEditEmbed}
-            pivotTables={pivotTables}
-            onRequestDeletePivotTable={onRequestDeletePivotTable}
-            onRequestEditPivotTable={onRequestEditPivotTable}
-            onExpandCollapse={onExpandCollapseRow}
+            rowMetadata={rowMetadata}
+            summaryRight={activeSheet?.outlinePr?.summaryRight !== false}
+            onCollapseColumnGroup={onCollapseColumnGroup}
+            onExpandColumnGroup={onExpandColumnGroup}
+            onSetOutlineDepth={onSetOutlineDepth}
           />
+          <div className="flex flex-row flex-1 min-h-0 min-w-0">
+            <RowOutlineGutter
+              sheetId={activeSheetId}
+              rowMetadata={rowMetadata}
+              summaryBelow={activeSheet?.outlinePr?.summaryBelow !== false}
+              onCollapseRowGroup={onCollapseRowGroup}
+              onExpandRowGroup={onExpandRowGroup}
+              onSetOutlineDepth={onSetOutlineDepth}
+            />
+            <CanvasGrid
+              {...spreadsheetColors}
+              getTextFormatRuns={getTextFormatRuns}
+              onSelectLink={onSelectLink}
+              getFormattedValue={getFormattedValue}
+              getDataValidation={getDataValidation}
+              getDataRowCount={getDataRowCount}
+              getEffectiveFormat={getEffectiveFormat}
+              onRemoveLink={onRemoveLink}
+              showSelectionResizeHandles
+              getSheetId={getSheetId}
+              showGridLines={showGridLines}
+              borderStyles={borderStyles}
+              stickyEditor={true}
+              scale={scale}
+              conditionalFormats={conditionalFormats}
+              sheetId={activeSheetId}
+              rowCount={rowCount}
+              columnCount={columnCount}
+              frozenColumnCount={frozenColumnCount}
+              frozenRowCount={frozenRowCount}
+              rowMetadata={rowMetadata}
+              columnMetadata={columnMetadata}
+              activeCell={activeCell}
+              selections={selections}
+              theme={theme}
+              merges={merges}
+              charts={charts}
+              embeds={embeds}
+              basicFilter={basicFilter}
+              tables={tables}
+              protectedRanges={protectedRanges}
+              bandedRanges={bandedRanges}
+              functionDescriptions={functionDescriptions}
+              getSheetName={getSheetName}
+              getCellData={getCellData}
+              onChangeActiveCell={onChangeActiveCell}
+              onChangeSelections={onChangeSelections}
+              onChangeActiveSheet={onChangeActiveSheet}
+              onRequestCalculate={onRequestCalculate}
+              onSelectNextSheet={onSelectNextSheet}
+              onSelectPreviousSheet={onSelectPreviousSheet}
+              onChangeFormatting={onChangeFormatting}
+              onRepeatFormatting={onRepeatFormatting}
+              onHideColumn={onHideColumn}
+              onShowColumn={onShowColumn}
+              onHideRow={onHideRow}
+              onShowRow={onShowRow}
+              onGroupRows={onGroupRows}
+              onUngroupRows={onUngroupRows}
+              onCollapseRowGroup={onCollapseRowGroup}
+              onExpandRowGroup={onExpandRowGroup}
+              onGroupColumns={onGroupColumns}
+              onUngroupColumns={onUngroupColumns}
+              onCollapseColumnGroup={onCollapseColumnGroup}
+              onExpandColumnGroup={onExpandColumnGroup}
+              onSetOutlineDepth={onSetOutlineDepth}
+              onDelete={onDelete}
+              onClearContents={onDelete}
+              onFill={onFill}
+              onFillRange={onFillRange}
+              onResize={onResize}
+              onMoveChart={onMoveChart}
+              onMoveEmbed={onMoveEmbed}
+              onResizeChart={onResizeChart}
+              onDeleteChart={onDeleteChart}
+              onResizeEmbed={onResizeEmbed}
+              onDeleteEmbed={onDeleteEmbed}
+              onDeleteRow={onDeleteRow}
+              onDeleteColumn={onDeleteColumn}
+              onDeleteCellsShiftUp={onDeleteCellsShiftUp}
+              onDeleteCellsShiftLeft={onDeleteCellsShiftLeft}
+              onInsertCellsShiftRight={onInsertCellsShiftRight}
+              onInsertCellsShiftDown={onInsertCellsShiftDown}
+              onInsertRow={onInsertRow}
+              onInsertColumn={onInsertColumn}
+              onMoveColumns={onMoveColumns}
+              onMoveRows={onMoveRows}
+              onMoveSelection={onMoveSelection}
+              onCreateNewSheet={onCreateNewSheet}
+              onChange={onChange}
+              onChangeBatch={onChangeBatch}
+              onUndo={onUndo}
+              onRedo={onRedo}
+              onSortColumn={onSortColumn}
+              onSortTable={onSortTable}
+              onFilterTable={onFilterTable}
+              onResizeTable={onResizeTable}
+              onClearFormatting={onClearFormatting}
+              onCopy={onCopy}
+              onPaste={onPaste}
+              onDragOver={onDragOver}
+              onDrop={onDrop}
+              onRequestEditTable={onRequestEditTable}
+              onRequestDefineNamedRange={onRequestDefineNamedRange}
+              onFreezeColumn={onFreezeColumn}
+              onFreezeRow={onFreezeRow}
+              onUpdateNote={onUpdateNote}
+              onSortRange={onSortRange}
+              onProtectRange={onProtectRange}
+              onUnProtectRange={onUnProtectRange}
+              namedRanges={namedRanges}
+              users={users}
+              userId={userId}
+              licenseKey="rmdort-personal-0adf-45de-5fbc-81ce-b007-99e2-982d-b8bb-df0f-7c84-0ed8-74f2-8dd0-7993-bb88-9f64"
+              onRequestSearch={onRequestSearch}
+              onRequestResize={onRequestResize}
+              onAutoResize={onAutoResize}
+              onCreateBasicFilter={onCreateBasicFilter}
+              onCreateTable={onCreateTable}
+              onRemoveTable={onRemoveTable}
+              onChangeScale={onChangeScale}
+              onInsertDate={onInsertDate}
+              onInsertTime={onInsertTime}
+              onInsertDateTime={onInsertDateTime}
+              onRequestFormatCells={onRequestFormatCells}
+              onRequestConditionalFormat={onRequestConditionalFormat}
+              onRequestDataValidation={onRequestDataValidation}
+              getSheetColumnCount={getSheetColumnCount}
+              getSheetRowCount={getSheetRowCount}
+              getChartComponent={(props) => (
+                <ChartComponent
+                  {...props}
+                  isDarkMode={isDarkMode}
+                  getSeriesValuesFromRange={getSeriesValuesFromRange}
+                  getDomainValuesFromRange={getDomainValuesFromRange}
+                  onRequestEdit={onRequestEditChart}
+                  onRequestCalculate={onRequestCalculate}
+                />
+              )}
+              onInsertTableColumn={onInsertTableColumn}
+              onDeleteTableColumn={onDeleteTableColumn}
+              onDeleteTableRow={onDeleteTableRow}
+              onInsertTableRow={onInsertTableRow}
+              onInsertAutoSum={onInsertAutoSum}
+              onRequestEditEmbed={onRequestEditEmbed}
+              pivotTables={pivotTables}
+              onRequestDeletePivotTable={onRequestDeletePivotTable}
+              onRequestEditPivotTable={onRequestEditPivotTable}
+              onExpandCollapse={onExpandCollapseRow}
+            />
+          </div>
 
           {activePivotTable ? (
             <div className="absolute right-0 top-0 bottom-0 w-96 z-10">
