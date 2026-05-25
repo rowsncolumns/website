@@ -1,6 +1,6 @@
 "use client";
 import "@rowsncolumns/spreadsheet/dist/spreadsheet.min.css";
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import {
   Sheet,
   CellData,
@@ -73,6 +73,7 @@ import {
   isTouchDevice,
   ColumnOutlineGutter,
   RowOutlineGutter,
+  PrintPreviewDialog,
 } from "@rowsncolumns/spreadsheet";
 import {
   SheetData,
@@ -197,6 +198,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     const [iterativeEnabled, setIterativeEnabled] = useState(false);
     const [iterativeMaxChange, setIterativeMaxChange] = useState(0.001);
     const [iterativeMaxIterations, setIterativeMaxIterations] = useState(100);
+    const [isPrintOpen, setPrintOpen] = useState(false);
 
     const {
       activeCell,
@@ -222,6 +224,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       getSheetName,
       getSheetId,
       getEffectiveFormat,
+      getDataColumnCount,
       onRequestCalculate,
       onRequestFormatCells,
       onChangeActiveCell,
@@ -557,6 +560,27 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
 
     const api = useSpreadsheetApi();
 
+    useEffect(() => {
+      const handler = (event: KeyboardEvent) => {
+        if (
+          (event.metaKey || event.ctrlKey) &&
+          event.key.toLowerCase() === "p"
+        ) {
+          event.preventDefault();
+          setPrintOpen(true);
+          return;
+        }
+
+        if (event.key === "Escape" && isPrintOpen) {
+          event.preventDefault();
+          setPrintOpen(false);
+        }
+      };
+
+      document.addEventListener("keydown", handler);
+      return () => document.removeEventListener("keydown", handler);
+    }, [isPrintOpen]);
+
     return (
       <>
         <Styles />
@@ -737,7 +761,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         <Toolbar enableFloating={isTouchDevice}>
           <ButtonUndo onClick={onUndo} disabled={!canUndo} />
           <ButtonRedo onClick={onRedo} disabled={!canRedo} />
-          <ButtonPrint onClick={() => window.print()} />
+          <ButtonPrint onClick={() => setPrintOpen(true)} />
           <ButtonClearFormatting
             onClick={() => {
               onClearFormatting(activeSheetId, activeCell, selections);
@@ -1482,6 +1506,20 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
         </InsertLinkDialog>
 
         <ErrorStateDialog />
+
+        <PrintPreviewDialog
+          isOpen={isPrintOpen}
+          onClose={() => setPrintOpen(false)}
+          title="RowsnColumns Spreadsheet"
+          sheets={sheets}
+          activeSheetId={activeSheetId}
+          selections={selections}
+          getFormattedValue={getFormattedValue}
+          getEffectiveFormat={getEffectiveFormat}
+          getDataRowCount={getDataRowCount}
+          getDataColumnCount={getDataColumnCount}
+          getCellData={getCellData}
+        />
 
         <div className="sm:hidden">
           <FloatingCellEditor

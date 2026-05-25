@@ -1154,10 +1154,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.2.1":
-  version "10.2.1"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/10.2.1/08239b771193b0ba0c354848ccb563bfe2477735#08239b771193b0ba0c354848ccb563bfe2477735"
-  integrity sha512-PXj1DAy4QRRPPUyVNRlHVmrCLxdZtSix2Vu2qLMQGUZlm/rNDFVZrReRir3RmHrVk50dYnkKhYDfv8CYPe5v3Q==
+"@rowsncolumns/spreadsheet@^10.2.2":
+  version "10.2.2"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/spreadsheet/10.2.2/4244899604c2c01499d15c63bdce86d4b76fe614#4244899604c2c01499d15c63bdce86d4b76fe614"
+  integrity sha512-2o/DIa6+4sspLqSSi/BSco48tHdixwn+kHt8xPhahHpXo9gIjj6zWtbQg1vcB8Dr6pl7m/C8XXnCDb2zElv0/A==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1179,10 +1179,10 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^22.0.17":
-  version "22.0.17"
-  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/22.0.17/f157f5508feb1cd4a31b962d630c174cd58a9f12#f157f5508feb1cd4a31b962d630c174cd58a9f12"
-  integrity sha512-e8GEJ/9wfUq4FIWpvN0uYQo03mU7odiobLA8cXnjJJijpee5mzzCQ9R0yfTScwTcu9bz+cJ6jhleKejNFkVb3g==
+"@rowsncolumns/supabase-spreadsheet@^29.0.0":
+  version "29.0.0"
+  resolved "https://npm.pkg.github.com/download/@rowsncolumns/supabase-spreadsheet/29.0.0/1a406111dcf30d20e701b1c09b553bdc91e64029#1a406111dcf30d20e701b1c09b553bdc91e64029"
+  integrity sha512-NxjSjHz4kozugl6OEZBism8baA1xtZ/jRISB3BZ0yamOp8Bbk9yNpJ7oWV7E8OVDShhYgYOUhT5iiAKWf4W1hQ==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
