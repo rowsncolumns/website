@@ -369,6 +369,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       cellXfsRegistry,
       // Shared strings
       sharedStringRegistry,
+      getEffectiveExtendedValue,
+      getUserEnteredExtendedValue,
     } = useSpreadsheetState({
       calculationMode: workerMode ? "worker" : "single",
       createCalculationWorker: workerMode ? createCalculationWorker : undefined,
@@ -1195,6 +1197,8 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               getDataValidation={getDataValidation}
               getDataRowCount={getDataRowCount}
               getEffectiveFormat={getEffectiveFormat}
+              getEffectiveExtendedValue={getEffectiveExtendedValue}
+              getUserEnteredExtendedValue={getUserEnteredExtendedValue}
               onRemoveLink={onRemoveLink}
               showSelectionResizeHandles
               getSheetId={getSheetId}
