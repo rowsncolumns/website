@@ -522,6 +522,14 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
       onClosePivotSettings,
       updatePivotSourceRange,
       onExpandCollapseRow,
+      toggleSubtotals,
+      toggleRowGrandTotals,
+      toggleColumnGrandTotals,
+      sortPivotField,
+      removeSortPivotField,
+      setShowAs,
+      addFilter,
+      refreshPivot,
     } = usePivot({
       locale,
       pivotTables,
@@ -1347,6 +1355,15 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
                 setAggregationFunction={setAggregationFunction}
                 onRequestClose={onClosePivotSettings}
                 updatePivotSourceRange={updatePivotSourceRange}
+                toggleSubtotals={toggleSubtotals}
+                toggleRowGrandTotals={toggleRowGrandTotals}
+                toggleColumnGrandTotals={toggleColumnGrandTotals}
+                sortPivotField={sortPivotField}
+                removeSortPivotField={removeSortPivotField}
+                setShowAs={setShowAs}
+                addFilter={addFilter}
+                removeFilter={removeFilter}
+                refreshPivot={refreshPivot}
               />
             </div>
           ) : null}
