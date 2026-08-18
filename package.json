@@ -17,7 +17,7 @@
     "@rowsncolumns/spreadsheet": "^10.2.54",
     "@rowsncolumns/spreadsheet-state": "^28.0.56",
     "@rowsncolumns/supabase-spreadsheet": "^29.0.4",
-    "@rowsncolumns/toolkit": "^24.2.37",
+    "@rowsncolumns/toolkit": "^24.2.38",
     "@sendgrid/mail": "^8.1.6",
     "@types/node": "20.2.1",
     "@types/react": "^19.0.1",
