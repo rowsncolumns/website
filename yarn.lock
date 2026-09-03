@@ -1181,10 +1181,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^28.0.68":
-  version "28.0.68"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.68.tgz#80ed39536b1d8adbc0cb24dc30ed0beb1926004e"
-  integrity sha512-sg4z6/4cG70cp1LXn8mi7InkT2OcgBFxgBDyLoH7CmNYwJ9HMR+ZFv2/1AKi3Mw9bhRfPe+CYfGMV/ThiG8jnQ==
+"@rowsncolumns/spreadsheet-state@^28.0.69":
+  version "28.0.69"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.69.tgz#08a10f24172daad4f020fc1aef55642bf9d56559"
+  integrity sha512-W8ZWz2rInpQNcYyH7Kpbepg8EpMkp6vCeEMp72L+ouX5WGYLJap9fntSLXnuevFmWVJTX29n5oQLCoG9Wx7+gQ==
   dependencies:
     "@rowsncolumns/calculation-worker" ">=9.0.30"
     "@rowsncolumns/date-parser" ">=12.0.31"
@@ -1197,10 +1197,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.2.69":
-  version "10.2.69"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.69.tgz#55b87aa1c65395c81c008a6fcf87f53c56f9857c"
-  integrity sha512-Nm+lAIahJI4aoD6IAYv5HxmQ62jUqf7C2iqxgXC+KESmURSt2Wqq9GnRAsJvBQvmaLWResYFQmh8F6128RD0nQ==
+"@rowsncolumns/spreadsheet@^10.2.70":
+  version "10.2.70"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.70.tgz#42cc56cdc5d4ac54e1fce9dbdfffca86a3a6de42"
+  integrity sha512-XMwtF30N3AXoYFXjnNI3EDRC1WBJAQR++/Qyr2rt17qWsZt7IayFcpA0DNzR8JBIVUmq1gZrt44R38XXU7n3MQ==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
