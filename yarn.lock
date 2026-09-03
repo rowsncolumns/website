@@ -1051,10 +1051,10 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/rect/-/rect-1.1.1.tgz#78244efe12930c56fd255d7923865857c41ac8cb"
   integrity sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==
 
-"@rowsncolumns/calculation-worker@>=9.0.29":
-  version "9.0.29"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculation-worker/-/calculation-worker-9.0.29.tgz#8c11731e567084901e7493c049d985fcef675076"
-  integrity sha512-u6C43KPcwhx3MfAMq4UAoZnUQMcLJOyl19AJkB0aLgT+9igNUOZucNikyyAxYEjmHEqCXPD9oT5QftNGPNaMBA==
+"@rowsncolumns/calculation-worker@>=9.0.30":
+  version "9.0.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculation-worker/-/calculation-worker-9.0.30.tgz#64ee830c9b9821e6c44311ac2fe4cadae107e5fd"
+  integrity sha512-NUFFse1zR14ikzNzOeUNrenFNKPvz7JG0StEIzALDpv3VyYPP3Df2X6gOBxWAiAiO7Vglb5/0j5Ju8uTAY8DTQ==
   dependencies:
     lodash "^4.17.21"
     rxjs "^7.8.2"
@@ -1068,10 +1068,19 @@
     "@rowsncolumns/fast-formula-parser" ">=6.2.32"
     "@rowsncolumns/utils" ">=9.2.35"
 
-"@rowsncolumns/charts@^27.0.30":
-  version "27.0.30"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/charts/-/charts-27.0.30.tgz#ada8ce46ef0f458b9dd9674cae161981326275d3"
-  integrity sha512-oQkKFOJ9pYU6i7OAg5fO5i4gYf9lrvKUI2XySmWiTqOp3AthSruEwy5wMPk13UUGe4dU/WyMLSz7GfkkfcXyXw==
+"@rowsncolumns/calculator@>=7.2.30":
+  version "7.2.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculator/-/calculator-7.2.30.tgz#38c903d512a911ba1ca9499e673ccefa02bf4a3d"
+  integrity sha512-GmKCXlEn+Iw2TvknmbTnSOM+S2MsmaUpYbpoRQqk7S7bMl/2HR29JAyA2bPkAL6oZ3Gd1h8q3uASYdfI0wjOhQ==
+  dependencies:
+    "@rowsncolumns/dag" ">=7.2.30"
+    "@rowsncolumns/fast-formula-parser" ">=6.2.33"
+    "@rowsncolumns/utils" ">=9.2.37"
+
+"@rowsncolumns/charts@^27.0.31":
+  version "27.0.31"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/charts/-/charts-27.0.31.tgz#e1aac651a5c56292f0e5e8afb70112902982c391"
+  integrity sha512-zoqQ6ZSZqzAiV8osaMUFSTFeaiiwwPldap7oJg5omamx5YB0JzAMS0tazNF/w2YvGPliSqyl87PwJtJ4qSSl0Q==
   dependencies:
     echarts "^6.1.0"
     echarts-gl "^2.1.0"
@@ -1084,6 +1093,11 @@
   resolved "https://registry.yarnpkg.com/@rowsncolumns/common-types/-/common-types-5.2.29.tgz#7c83fc99dcaf01e7d7ef32d23f555d22c3f8511f"
   integrity sha512-kTH7WeGHpr2KHcjFdX3tsNXEFZpfEdgy1y1Y3LSJ4IyHS6lY14aCep0VnefRcNgHZm5JOthi+ZpQMkmPpFQ8Jw==
 
+"@rowsncolumns/common-types@>=5.2.30":
+  version "5.2.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/common-types/-/common-types-5.2.30.tgz#1116dfef5ca9b8e58ca59effcb9d4babf5439f9b"
+  integrity sha512-1rRTmztzJc2XBF2+xfpnKWxDHeZcKIPtn/1+dIrN9zpgd8wlWqPV56O8I7z/ZnuZjaZVJwJ3I2ZogOelEPYP2Q==
+
 "@rowsncolumns/dag@>=7.2.29":
   version "7.2.29"
   resolved "https://registry.yarnpkg.com/@rowsncolumns/dag/-/dag-7.2.29.tgz#a8e5dcd2785631acfb49f57b865e64180def2f47"
@@ -1091,10 +1105,17 @@
   dependencies:
     "@rowsncolumns/utils" ">=9.2.35"
 
-"@rowsncolumns/date-parser@>=12.0.30":
-  version "12.0.30"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/date-parser/-/date-parser-12.0.30.tgz#f8a661f82151d8610b308d28d573dab4eee40543"
-  integrity sha512-9qSs+ocibDdnw8t7Lld5qpfouRrwa4bbsTAFdrijTBBUttONILQzdE3223TNyTyn3nutYOHcx89d/yWBr8wAyQ==
+"@rowsncolumns/dag@>=7.2.30":
+  version "7.2.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/dag/-/dag-7.2.30.tgz#ed24612e8e03aa300f277ecf314d2bfd2d5e47ad"
+  integrity sha512-e/o55gectsfrt0JdJ8Tfckw6uqyBZKF76QKwRxvQP1l+Eo4L9Val6J9J7MmEmgU3tYWYLlezI0ByezurFTtrsw==
+  dependencies:
+    "@rowsncolumns/utils" ">=9.2.37"
+
+"@rowsncolumns/date-parser@>=12.0.31":
+  version "12.0.31"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/date-parser/-/date-parser-12.0.31.tgz#1b53ac86a8ba12cffe55a01155902518d229c9fd"
+  integrity sha512-e53akeh2jDZjwW/87gOPDeaxRWpv3uNQT8k4lPBg6SXQjBjuJO2WwCnUEYVILkvvVORBbx7swxJ0Au9bVgXpaQ==
 
 "@rowsncolumns/fast-formula-parser@>=6.2.32":
   version "6.2.32"
@@ -1108,10 +1129,29 @@
     jsonpath-plus "^10.2.0"
     jstat "^1.9.6"
 
+"@rowsncolumns/fast-formula-parser@>=6.2.33":
+  version "6.2.33"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/fast-formula-parser/-/fast-formula-parser-6.2.33.tgz#88e965cbe292c090d5488ff3c817b4968d75e27d"
+  integrity sha512-4waeOnlHJsyAZsgIGi4ukq/2/TCYNC3E7YwdWAiQ7ajnUbxmkjLpxN5iZyfCkKftwZSTx2nbP6PQD9H3+DzDEA==
+  dependencies:
+    "@rowsncolumns/utils" ">=9.2.37"
+    bahttext "^2.3.0"
+    bessel "^1.0.2"
+    chevrotain "^10.5.0"
+    jsonpath-plus "^10.2.0"
+    jstat "^1.9.6"
+
 "@rowsncolumns/functions@>=14.0.29":
   version "14.0.29"
   resolved "https://registry.yarnpkg.com/@rowsncolumns/functions/-/functions-14.0.29.tgz#b0db3837dce14374b8ff3da1e9fdd062e7eebae2"
   integrity sha512-KEvL5YH67uB3QFn7IeCh7uInboPHIFkoqTHFIbdF3KsbtVf6RYCSBgi6hfkWWYzFiPp+mnXNjqYjV8eN6DBWdg==
+  dependencies:
+    xlsx "^0.18.5"
+
+"@rowsncolumns/functions@>=14.0.30":
+  version "14.0.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/functions/-/functions-14.0.30.tgz#f9fdad9bd21c7ee4c632f6f6bdfff674244c0f17"
+  integrity sha512-swz5ocOY/6ko91vj+FHeTGWLfcMNIUew6t9msC27tHnIZGI/q5HkXcDNPznYlx0k3c7WlKnjsAMZJ6uTZ/cQ/A==
   dependencies:
     xlsx "^0.18.5"
 
@@ -1132,24 +1172,24 @@
   dependencies:
     "@radix-ui/react-icons" "^1.3.2"
 
-"@rowsncolumns/pivot@^10.0.29":
-  version "10.0.29"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/pivot/-/pivot-10.0.29.tgz#db6bdbdf928c7e224cc1dcc496345009e4066773"
-  integrity sha512-OCh6G8v6CKWd4xuq1yryZgNHE2LvtnGV1CASevLpQqO4RQHNU1qtGjzBL4svLHC0avkZUu+8K7sJJwp2QIFBhg==
+"@rowsncolumns/pivot@^10.0.30":
+  version "10.0.30"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/pivot/-/pivot-10.0.30.tgz#a38a200c18101de546ea3ec6897ee9d3aa4e9d5b"
+  integrity sha512-ZsIool5xlR2nrm0BsUC4dGrarODbsB+pf4D23XzhBIGw699uFQiOgbiWUtxASBZ1gc8aCA4GT7x7VQpMfnKTyA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^28.0.66":
-  version "28.0.66"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.66.tgz#8411e0170862096912844cabf9b6250b5846c7bb"
-  integrity sha512-H6t+FT+cSbekt4Wg8iGbk5zyZRQxWCF2v2Dsf3721ldvWqRYLctQQ9nIjdlBaZFfhVJAgc1jQLYJNhSzRUc+tQ==
+"@rowsncolumns/spreadsheet-state@^28.0.68":
+  version "28.0.68"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.68.tgz#80ed39536b1d8adbc0cb24dc30ed0beb1926004e"
+  integrity sha512-sg4z6/4cG70cp1LXn8mi7InkT2OcgBFxgBDyLoH7CmNYwJ9HMR+ZFv2/1AKi3Mw9bhRfPe+CYfGMV/ThiG8jnQ==
   dependencies:
-    "@rowsncolumns/calculation-worker" ">=9.0.29"
-    "@rowsncolumns/date-parser" ">=12.0.30"
-    "@rowsncolumns/functions" ">=14.0.29"
-    "@rowsncolumns/toolkit" ">=24.4.1"
+    "@rowsncolumns/calculation-worker" ">=9.0.30"
+    "@rowsncolumns/date-parser" ">=12.0.31"
+    "@rowsncolumns/functions" ">=14.0.30"
+    "@rowsncolumns/toolkit" ">=24.4.2"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1157,10 +1197,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.2.68":
-  version "10.2.68"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.68.tgz#d219b626d4f6fc80204521353549189172edfbb5"
-  integrity sha512-TZXM6n9v088HCT8t/HwMyBK+pdGaZqJXdntRsK9VJipUB9RF09MrQIcDTh5qsbFFm8Lm46L8McpvGkkNdXAeUQ==
+"@rowsncolumns/spreadsheet@^10.2.69":
+  version "10.2.69"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.69.tgz#55b87aa1c65395c81c008a6fcf87f53c56f9857c"
+  integrity sha512-Nm+lAIahJI4aoD6IAYv5HxmQ62jUqf7C2iqxgXC+KESmURSt2Wqq9GnRAsJvBQvmaLWResYFQmh8F6128RD0nQ==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1189,14 +1229,14 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@>=24.4.1", "@rowsncolumns/toolkit@^24.4.1":
-  version "24.4.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.4.1.tgz#de4acf242d8aee0a84aa8b32600b28e20c42dbcd"
-  integrity sha512-Nuj8gvwdHLykwZKpL4/Qx9YTfaE40cuY2cHc8wUSbtKLZ1K93vWCfjUbz5GCtVQYYAwb+BY9vasOzFyZI7hwXg==
+"@rowsncolumns/toolkit@>=24.4.2", "@rowsncolumns/toolkit@^24.4.2":
+  version "24.4.2"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.4.2.tgz#b71130861b3783456c515b293c3949e761352550"
+  integrity sha512-dS5oJzhGd8Xv6b0dt141DQWtvmQLCmENFoyd2fDENJKDXbpiooGMVZ1prHXwoLQ7mVby7ASZwPF7nfZg4aKtWw==
   dependencies:
     "@noble/ciphers" "^0.5.3"
     "@noble/hashes" "^1.4.0"
-    "@rowsncolumns/calculator" ">=7.2.29"
+    "@rowsncolumns/calculator" ">=7.2.30"
     "@zip.js/zip.js" "^2.8.17"
     fast-xml-parser "^5.8.0"
     fflate "^0.8.2"
@@ -1241,6 +1281,14 @@
   integrity sha512-VqR6E2UtDrDkg2zNlV/ePhJzty2ZZmZFTc9qjeWOYnKmeJswAKtJNdlTMT72tV/FkcNaqpaNe8+P6cWtQXyQaw==
   dependencies:
     "@rowsncolumns/common-types" ">=5.2.29"
+    numfmt "^3.2.2"
+
+"@rowsncolumns/utils@>=9.2.37":
+  version "9.2.37"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/utils/-/utils-9.2.37.tgz#b24a043095f4e9def0b82cea18944f81b95ca689"
+  integrity sha512-kn881oxyuodbCiWdH4IPK2Xy6EjQJRBdvRf2mU0AU0oLpLZO2wmHTqv1Disv1nyjmji6ptPDNFmz9gIsAyAzdg==
+  dependencies:
+    "@rowsncolumns/common-types" ">=5.2.30"
     numfmt "^3.2.2"
 
 "@rowsncolumns/version-comparison@>=8.0.33":
