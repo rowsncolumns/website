@@ -1181,10 +1181,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^28.0.69":
-  version "28.0.69"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.69.tgz#08a10f24172daad4f020fc1aef55642bf9d56559"
-  integrity sha512-W8ZWz2rInpQNcYyH7Kpbepg8EpMkp6vCeEMp72L+ouX5WGYLJap9fntSLXnuevFmWVJTX29n5oQLCoG9Wx7+gQ==
+"@rowsncolumns/spreadsheet-state@^28.0.70":
+  version "28.0.70"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-28.0.70.tgz#81d594d5cea992a07c00d1c72d48a350926841a2"
+  integrity sha512-RdMFeF+374CDwW0CjSGlpSOsaA6GWo7RzQYMFAhjeZfhFcPpRRiOk7Kg1Vi9evDBq63WRrrC0tJklnL/9Fnv3g==
   dependencies:
     "@rowsncolumns/calculation-worker" ">=9.0.30"
     "@rowsncolumns/date-parser" ">=12.0.31"
@@ -1197,10 +1197,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.2.70":
-  version "10.2.70"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.70.tgz#42cc56cdc5d4ac54e1fce9dbdfffca86a3a6de42"
-  integrity sha512-XMwtF30N3AXoYFXjnNI3EDRC1WBJAQR++/Qyr2rt17qWsZt7IayFcpA0DNzR8JBIVUmq1gZrt44R38XXU7n3MQ==
+"@rowsncolumns/spreadsheet@^10.2.71":
+  version "10.2.71"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.2.71.tgz#6287899b3a10473a8dd9df55c5a6cfb128059862"
+  integrity sha512-OT1XXn1zQx8Pvqy5k5D0Xa+dlj3pjwCimybZKNpT2Wg0mRNhk3DtfUa+YZIZDDRzzWvHHHNwUlx5PzSjExKUkA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1211,7 +1211,7 @@
     "@rowsncolumns/functions" ">=14.0.29"
     "@rowsncolumns/grid" ">=13.2.32"
     "@rowsncolumns/icons" ">=7.2.30"
-    "@rowsncolumns/ui" ">=15.0.38"
+    "@rowsncolumns/ui" ">=15.0.40"
     "@rowsncolumns/utils" ">=9.2.35"
     "@rowsncolumns/version-comparison" ">=8.0.33"
     "@tanstack/react-virtual" "3.13.9"
@@ -1245,10 +1245,10 @@
     rxjs "^7.8.2"
     xlsx "^0.18.5"
 
-"@rowsncolumns/ui@>=15.0.38":
-  version "15.0.38"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/ui/-/ui-15.0.38.tgz#c5bd7e7f51f2468edfef25701aa87db088ecec60"
-  integrity sha512-roAUdY3x0sTvaOxBfW8q+wFAhg5GSYBH6br7NkivcQPEwH5wkjlYEupzvUnQlnMQoXNkzGuq0yKDUmYO8+wmCg==
+"@rowsncolumns/ui@>=15.0.40":
+  version "15.0.40"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/ui/-/ui-15.0.40.tgz#9b2104ceef3e7c53fdab8a185c7af555497436a8"
+  integrity sha512-r9tUZk9IimPzH0rdBOgwhoezdHFO6TK3ve9CaO/oqOxfokp1XDD/3vhkeO1LomuIrjN/6HfBidCHj4niqEwVhg==
   dependencies:
     "@radix-ui/react-dialog" "^1.1.14"
     "@radix-ui/react-dropdown-menu" "^2.1.15"
