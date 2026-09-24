@@ -108,7 +108,7 @@ import { mockSheetdata } from "./mock-sheetdata";
 import { useColorMode } from "@/lib/theme";
 import { useSupabaseSpreadsheet } from "@rowsncolumns/supabase-spreadsheet";
 import { MagnifyingGlassIcon } from "@rowsncolumns/icons";
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { getUniqueName } from "./names";
 import {
   ChartEditor,
@@ -132,17 +132,29 @@ import {
   usePivot,
 } from "@rowsncolumns/pivot";
 
-const supabaseClient = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY,
-  {
-    realtime: {
-      params: {
-        eventsPerSecond: 20,
-      },
-    },
-  },
-);
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_KEY;
+/**
+ * Realtime collaboration needs SUPABASE_URL and SUPABASE_KEY (put them in `.env.local`;
+ * `next.config.js` forwards them to the browser). Without them the sheet runs single-user
+ * instead of crashing at module load: `useSupabaseSpreadsheet` never touches the client while
+ * `disable` is true, so a null client is safe there.
+ */
+const supabaseClient: SupabaseClient | null =
+  supabaseUrl && supabaseKey
+    ? createClient(supabaseUrl, supabaseKey, {
+        realtime: {
+          params: {
+            eventsPerSecond: 20,
+          },
+        },
+      })
+    : null;
+if (!supabaseClient && typeof window !== "undefined") {
+  console.warn(
+    "[spreadsheet demo] SUPABASE_URL / SUPABASE_KEY are not set — realtime collaboration is off.",
+  );
+}
 
 const userId = crypto.randomUUID();
 const userName = getUniqueName();
@@ -437,12 +449,12 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
     });
 
     const { onBroadcastPatch, users } = useSupabaseSpreadsheet({
-      supabase: supabaseClient,
+      supabase: supabaseClient as SupabaseClient,
       userId,
       userName,
       activeCell,
       sheetId: activeSheetId,
-      disable: false,
+      disable: supabaseClient === null,
       onChangeSheetData,
       enqueueCalculation,
       onChangeSheets,
