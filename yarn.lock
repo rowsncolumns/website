@@ -686,16 +686,16 @@
     "@radix-ui/react-use-callback-ref" "1.1.1"
     "@radix-ui/react-use-escape-keydown" "1.1.1"
 
-"@radix-ui/react-dropdown-menu@^2.1.15":
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.15.tgz#f507320de8e11bc1e671a6ec0c27a7a89e725131"
-  integrity sha512-mIBnOjgwo9AH3FyKaSWoSu/dYj6VdhJ7frEPiGTeXCdUFHjl9h3mFh2wwhEtINOmYXWhdpf1rY2minFsmaNgVQ==
+"@radix-ui/react-dropdown-menu@2.1.16":
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.16.tgz#5ee045c62bad8122347981c479d92b1ff24c7254"
+  integrity sha512-1PLGQEynI/3OX/ftV54COn+3Sud/Mn8vALg2rWnBLnRaGtJDduNW/22XjlGgPdpcIbiQxjKtb7BkcjP00nqfJw==
   dependencies:
-    "@radix-ui/primitive" "1.1.2"
+    "@radix-ui/primitive" "1.1.3"
     "@radix-ui/react-compose-refs" "1.1.2"
     "@radix-ui/react-context" "1.1.2"
     "@radix-ui/react-id" "1.1.1"
-    "@radix-ui/react-menu" "2.1.15"
+    "@radix-ui/react-menu" "2.1.16"
     "@radix-ui/react-primitive" "2.1.3"
     "@radix-ui/react-use-controllable-state" "1.2.2"
 
@@ -730,25 +730,25 @@
   dependencies:
     "@radix-ui/react-use-layout-effect" "1.1.1"
 
-"@radix-ui/react-menu@2.1.15":
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-menu/-/react-menu-2.1.15.tgz#a1a8f06cab3c309f9998cdbd2b3ad279e42ed483"
-  integrity sha512-tVlmA3Vb9n8SZSd+YSbuFR66l87Wiy4du+YE+0hzKQEANA+7cWKH1WgqcEX4pXqxUFQKrWQGHdvEfw00TjFiew==
+"@radix-ui/react-menu@2.1.16":
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-menu/-/react-menu-2.1.16.tgz#528a5a973c3a7413d3d49eb9ccd229aa52402911"
+  integrity sha512-72F2T+PLlphrqLcAotYPp0uJMr5SjP5SL01wfEspJbru5Zs5vQaSHb4VB3ZMJPimgHHCHG7gMOeOB9H3Hdmtxg==
   dependencies:
-    "@radix-ui/primitive" "1.1.2"
+    "@radix-ui/primitive" "1.1.3"
     "@radix-ui/react-collection" "1.1.7"
     "@radix-ui/react-compose-refs" "1.1.2"
     "@radix-ui/react-context" "1.1.2"
     "@radix-ui/react-direction" "1.1.1"
-    "@radix-ui/react-dismissable-layer" "1.1.10"
-    "@radix-ui/react-focus-guards" "1.1.2"
+    "@radix-ui/react-dismissable-layer" "1.1.11"
+    "@radix-ui/react-focus-guards" "1.1.3"
     "@radix-ui/react-focus-scope" "1.1.7"
     "@radix-ui/react-id" "1.1.1"
-    "@radix-ui/react-popper" "1.2.7"
+    "@radix-ui/react-popper" "1.2.8"
     "@radix-ui/react-portal" "1.1.9"
-    "@radix-ui/react-presence" "1.1.4"
+    "@radix-ui/react-presence" "1.1.5"
     "@radix-ui/react-primitive" "2.1.3"
-    "@radix-ui/react-roving-focus" "1.1.10"
+    "@radix-ui/react-roving-focus" "1.1.11"
     "@radix-ui/react-slot" "1.2.3"
     "@radix-ui/react-use-callback-ref" "1.1.1"
     aria-hidden "^1.2.4"
@@ -799,6 +799,22 @@
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-popper/-/react-popper-1.2.7.tgz#531cf2eebb3d3270d58f7d8136e4517646429978"
   integrity sha512-IUFAccz1JyKcf/RjB552PlWwxjeCJB8/4KxT7EhBHOJM+mN7LdW+B3kacJXILm32xawcMMjb2i0cIZpo+f9kiQ==
+  dependencies:
+    "@floating-ui/react-dom" "^2.0.0"
+    "@radix-ui/react-arrow" "1.1.7"
+    "@radix-ui/react-compose-refs" "1.1.2"
+    "@radix-ui/react-context" "1.1.2"
+    "@radix-ui/react-primitive" "2.1.3"
+    "@radix-ui/react-use-callback-ref" "1.1.1"
+    "@radix-ui/react-use-layout-effect" "1.1.1"
+    "@radix-ui/react-use-rect" "1.1.1"
+    "@radix-ui/react-use-size" "1.1.1"
+    "@radix-ui/rect" "1.1.1"
+
+"@radix-ui/react-popper@1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-popper/-/react-popper-1.2.8.tgz#a79f39cdd2b09ab9fb50bf95250918422c4d9602"
+  integrity sha512-0NJQ4LFFUuWkE7Oxf0htBKS6zLkkjBH+hM1uk7Ng705ReR8m/uelduy1DBo0PyBXPKVnBA6YBlU94MBGXrSBCw==
   dependencies:
     "@floating-ui/react-dom" "^2.0.0"
     "@radix-ui/react-arrow" "1.1.7"
@@ -878,6 +894,21 @@
   integrity sha512-dT9aOXUen9JSsxnMPv/0VqySQf5eDQ6LCk5Sw28kamz8wSOW2bJdlX2Bg5VUIIcV+6XlHpWTIuTPCf/UNIyq8Q==
   dependencies:
     "@radix-ui/primitive" "1.1.2"
+    "@radix-ui/react-collection" "1.1.7"
+    "@radix-ui/react-compose-refs" "1.1.2"
+    "@radix-ui/react-context" "1.1.2"
+    "@radix-ui/react-direction" "1.1.1"
+    "@radix-ui/react-id" "1.1.1"
+    "@radix-ui/react-primitive" "2.1.3"
+    "@radix-ui/react-use-callback-ref" "1.1.1"
+    "@radix-ui/react-use-controllable-state" "1.2.2"
+
+"@radix-ui/react-roving-focus@1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.11.tgz#ef54384b7361afc6480dcf9907ef2fedb5080fd9"
+  integrity sha512-7A6S9jSgm/S+7MdtNDSb+IU859vQqJ/QAtcYQcfFC6W8RS4IxIZDldLR0xqCFZ6DCyrQLjLPsxtTNch5jVA4lA==
+  dependencies:
+    "@radix-ui/primitive" "1.1.3"
     "@radix-ui/react-collection" "1.1.7"
     "@radix-ui/react-compose-refs" "1.1.2"
     "@radix-ui/react-context" "1.1.2"
@@ -1059,20 +1090,20 @@
     lodash "^4.17.21"
     rxjs "^7.8.2"
 
-"@rowsncolumns/calculator@>=7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculator/-/calculator-7.3.1.tgz#10b331f6c28c916550de531fe723bebbdef95711"
-  integrity sha512-GkBBWuApKmwNS9y6ggCnCo4GaMLLH1/IQumIve8UZ8UTXEK/7cbwMv6c84K3jVVIcxokCS9fyKi4dIJMiNV94g==
+"@rowsncolumns/calculator@>=7.3.2":
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculator/-/calculator-7.3.2.tgz#aa749c581aafbfa58141d1ada17539ded45a4aee"
+  integrity sha512-vz9hPfQlkMNtwk8uIBgQ/2vMNAF1Q0FhjiPV7N52PFOvq+9CnLGhJZvS9TQGmzU5yhFGYuoEWxbkzGSKCEhKTA==
   dependencies:
     "@rowsncolumns/common-types" ">=5.3.1"
     "@rowsncolumns/dag" ">=7.2.31"
-    "@rowsncolumns/fast-formula-parser" ">=6.2.41"
+    "@rowsncolumns/fast-formula-parser" ">=6.2.43"
     "@rowsncolumns/utils" ">=9.5.1"
 
-"@rowsncolumns/charts@^28.1.1":
-  version "28.1.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/charts/-/charts-28.1.1.tgz#c0296c8ea7687b150e3c246e01bd6492d4622491"
-  integrity sha512-SPH3LuAyeyUXQWMpj/i+bPO84jh1ZtKND8ZQDT1xGZVTVrpACbeZ5uw7SYKH5MhQ90Uu4O5hYakNGpOUirASYw==
+"@rowsncolumns/charts@^28.1.17":
+  version "28.1.17"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/charts/-/charts-28.1.17.tgz#4972441592909606c7df82b0a39316f18223e77c"
+  integrity sha512-3SLGko8nBb7VD6tJ6ATq2G53Jj9R6UlHD2Om7/+kz0xU74k38Gk7jzqKJQAplyF8WAJjrPkxRHc9Sq5ZmjSy7A==
   dependencies:
     echarts "^6.1.0"
     echarts-gl "^2.1.0"
@@ -1085,6 +1116,11 @@
   resolved "https://registry.yarnpkg.com/@rowsncolumns/common-types/-/common-types-5.3.1.tgz#f5fd660257b0eb1d36e4980f5ce2390197a3400b"
   integrity sha512-e1Fk1k1SqdySLeXjSkdiobmbDG1QtUi0V+v6FtitL0G9nNGzhRKcX24TMXx/3f8o2Uvd/B8P2B/IQy2hZVu7DQ==
 
+"@rowsncolumns/common-types@>=5.3.2":
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/common-types/-/common-types-5.3.3.tgz#d8ef8f196978e74ceb77798427629fd316c60e65"
+  integrity sha512-yQenCQ4AnlFbf9s7rEXVlyqldIvw4jbJVgWQBPRLeoejTk9giH/6wtSkTzfI128fTauVzwUBQI5kL4yDBk8BVw==
+
 "@rowsncolumns/dag@>=7.2.31":
   version "7.2.31"
   resolved "https://registry.yarnpkg.com/@rowsncolumns/dag/-/dag-7.2.31.tgz#7e2accbdc97d5eee2eeb083370aeeb4f0442bac4"
@@ -1092,35 +1128,35 @@
   dependencies:
     "@rowsncolumns/utils" ">=9.5.1"
 
-"@rowsncolumns/date-parser@>=13.0.2":
-  version "13.0.2"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/date-parser/-/date-parser-13.0.2.tgz#45a9e7be975920f16a26f7a1b8fd7f283f23db57"
-  integrity sha512-vLVuIM2FQx+UeryNemCR+ExCMMANzPXmSZNUZ+V1qok7JHrpCopwHv+0Z6XHi1GYKgDIuPpJ1UVjGwFtCD4ngw==
+"@rowsncolumns/date-parser@>=13.0.4":
+  version "13.0.4"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/date-parser/-/date-parser-13.0.4.tgz#5c825deeddd3dc8b22fb2b1df7f0b4e87beeab77"
+  integrity sha512-l5XJuTtOaK5FM6qOXv8yYYhgn04WL71Bq5ORJ5w+QuHPXEi3JuMieBEtBY3UVyGWJ3wROQWm8cMUJ109yOM6GQ==
 
-"@rowsncolumns/fast-formula-parser@>=6.2.41":
-  version "6.2.41"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/fast-formula-parser/-/fast-formula-parser-6.2.41.tgz#4ba811f75a9e0f096597495c101c5146a91aea93"
-  integrity sha512-s/OSUFPGm0NX7u5tLeZaHiVWBHzwnKjUzscNn5nREDmdstigx2E3TrtFrQP2OiUMJ3nNnzfAEQH0H2e9wXQtlQ==
+"@rowsncolumns/fast-formula-parser@>=6.2.43":
+  version "6.2.44"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/fast-formula-parser/-/fast-formula-parser-6.2.44.tgz#d123b0f4c42de7f4840bfcbc3e308a95ad4a3d53"
+  integrity sha512-YMuoNJdGiSPoYfzsdxrGsKMpZlyezCLWzNlKpKZQAKm07Ry42qgpm0EXrXXdB89Od6Kamqc4cBBi0zDIcQbnqg==
   dependencies:
     "@rowsncolumns/dag" ">=7.2.31"
-    "@rowsncolumns/utils" ">=9.5.1"
+    "@rowsncolumns/utils" ">=9.5.6"
     bahttext "^2.3.0"
     bessel "^1.0.2"
     chevrotain "^10.5.0"
     jsonpath-plus "^10.2.0"
     jstat "^1.9.6"
 
-"@rowsncolumns/functions@>=15.0.2":
-  version "15.0.2"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/functions/-/functions-15.0.2.tgz#73c6d2c52e72bba89260cc646594cb8aa6ed4422"
-  integrity sha512-Oeyom1MHOtzIDVNRwWCX8URjjoiV7HdR73KrUheDLzoXm0LcKwNZgxIlNQF+oFMxBD47bUeA8nhKYWxx82TL/Q==
+"@rowsncolumns/functions@>=15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/functions/-/functions-15.1.0.tgz#14e7bc5b257f1f4ffec4666fec24dc795bc0d810"
+  integrity sha512-bS6A05EciE+l/OxOn0zE+JqOh95pid1nEbxWfqSsQq0Smo+VXiQ+wefDeaMJzSqdV8JZbtidrStKWsr2n2vc/A==
   dependencies:
     xlsx "^0.18.5"
 
-"@rowsncolumns/grid@>=13.2.35":
-  version "13.2.35"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/grid/-/grid-13.2.35.tgz#5cf9ff425175d355a023726dac75b89a7c95fef5"
-  integrity sha512-slPQngy+Zs25e5/K2hzUtU+DZr25Ih5CX4lWVIbCdId1Cuf8MaOG/vzgm/4S6ORZSyFl82pN6occGEI+9KDb0g==
+"@rowsncolumns/grid@>=13.2.36":
+  version "13.2.36"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/grid/-/grid-13.2.36.tgz#0deb94626bb68dbffa077c8e1e727947f143c306"
+  integrity sha512-BwLTQyLqNhwxMGUYE+A4E8KQA1ZfP4Exixo6opveItiCezVmuAqbZuxX+kRMmvORGRUE2OLtI12a4lBzcyrj8w==
   dependencies:
     konva "^10.0.12"
     react-konva "^19.2.1"
@@ -1143,15 +1179,15 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^29.1.4":
-  version "29.1.4"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.1.4.tgz#b0e468be008c4537fb20ade96962aa03ec81ecd5"
-  integrity sha512-NpkdSVua0iHtREzIJu3A6X6y+taFsonLMz9fgJEqTs4U4NpCiPmdAbDCTJNmb9h7zHh01fpoUBTjM3yFTtKAVA==
+"@rowsncolumns/spreadsheet-state@^29.1.12":
+  version "29.1.12"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.1.12.tgz#8f0ba8f4a4d977efa85c33d8b3c6690cc2134db0"
+  integrity sha512-xxLkItusqim5iUeySzySBMlFjOqwbOPxXdK1ptepOwXlwX0HJvF3l+omSlSCFIhBBUnYsaTfnY5xxVicdOUBJA==
   dependencies:
     "@rowsncolumns/calculation-worker" ">=10.0.1"
-    "@rowsncolumns/date-parser" ">=13.0.2"
-    "@rowsncolumns/functions" ">=15.0.2"
-    "@rowsncolumns/toolkit" ">=24.5.3"
+    "@rowsncolumns/date-parser" ">=13.0.4"
+    "@rowsncolumns/functions" ">=15.1.0"
+    "@rowsncolumns/toolkit" ">=24.5.15"
     formik "^2.4.6"
     immer "^10.1.1"
     jotai "^2.12.4"
@@ -1159,23 +1195,23 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.4.1":
-  version "10.4.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.4.1.tgz#69e2a60777de88fe5a7f75ea1111035e770addf5"
-  integrity sha512-Unxx/gCnd4eYF0YSnWYLloEmKgRml49L172hQIkE2yRnosGotZVRlxb3EL8yE0jhS/XvirL5cmzNz7MLeU0fWw==
+"@rowsncolumns/spreadsheet@^10.5.3":
+  version "10.5.3"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.5.3.tgz#37136e097fbd36b6d3fc33f5c9d9ca0fd3d50fca"
+  integrity sha512-ghphO8qjLSbSypIjYPDZKdXGOxfmCTlYDYOY/e8DFmNcJfYemaCw9ZzS1xwGs0wgK7r47zlLp3MhjRc13bW3dA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
-    "@rowsncolumns/calculator" ">=7.3.1"
-    "@rowsncolumns/common-types" ">=5.3.1"
-    "@rowsncolumns/fast-formula-parser" ">=6.2.41"
-    "@rowsncolumns/functions" ">=15.0.2"
-    "@rowsncolumns/grid" ">=13.2.35"
+    "@rowsncolumns/calculator" ">=7.3.2"
+    "@rowsncolumns/common-types" ">=5.3.2"
+    "@rowsncolumns/fast-formula-parser" ">=6.2.43"
+    "@rowsncolumns/functions" ">=15.1.0"
+    "@rowsncolumns/grid" ">=13.2.36"
     "@rowsncolumns/icons" ">=7.2.33"
-    "@rowsncolumns/ui" ">=16.0.3"
-    "@rowsncolumns/utils" ">=9.5.1"
+    "@rowsncolumns/ui" ">=16.1.0"
+    "@rowsncolumns/utils" ">=9.5.4"
     "@rowsncolumns/version-comparison" ">=9.0.1"
     "@tanstack/react-virtual" "3.13.9"
     jotai "^2.12.4"
@@ -1185,23 +1221,23 @@
     react-resizable "^3.0.5"
     rxjs "^7.8.2"
 
-"@rowsncolumns/supabase-spreadsheet@^29.0.29":
-  version "29.0.29"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/supabase-spreadsheet/-/supabase-spreadsheet-29.0.29.tgz#eb429c5e930775625ef8e380477e33d2245464d8"
-  integrity sha512-bJjL2gHbv1xb6OsPQ+Qzn/rADeFUb+gU+0ZoaVP6KBzxXkd2+QVCXFsaqk/nPRHWhxNN8boQ54jc4QdGWJ4YEw==
+"@rowsncolumns/supabase-spreadsheet@^30.0.1":
+  version "30.0.1"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/supabase-spreadsheet/-/supabase-spreadsheet-30.0.1.tgz#622ffa23cb63703e576b59fc4079f22f889c5e52"
+  integrity sha512-E+dCHRJmk74I3G4lP+aYhQOI7F7YFrB3f1Osv4NxeCCjcUMJuz6qJwOWntz16EmZWCTn8sxUnSY+M8RZNNROkQ==
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@>=24.5.3", "@rowsncolumns/toolkit@^24.5.3":
-  version "24.5.3"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.5.3.tgz#6c5cd1ffad1afe0be8388e1f58e76ce5d2a210ed"
-  integrity sha512-odFU7Qhtu08WvpJEuKkFQa2c2HCS+Ae+yQsYx2h+6PKW5YvBwLPhuS+nS81dtSjjHaESTLwqXTaBIEpZ5DjNmA==
+"@rowsncolumns/toolkit@>=24.5.15", "@rowsncolumns/toolkit@^24.5.15":
+  version "24.5.15"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.5.15.tgz#4837fcfe9ff6a94b6bedd153bf92b7b21e94de97"
+  integrity sha512-ILPm62aBzs2cyiGCoAiylpZDmPWtpo76IqAflwBV3LyzlULEQNCw7NoQhDVvKljrYbhv6JvbzCOTe2ICTKheXg==
   dependencies:
     "@noble/ciphers" "^0.5.3"
     "@noble/hashes" "^1.4.0"
-    "@rowsncolumns/calculator" ">=7.3.1"
-    "@rowsncolumns/common-types" ">=5.3.1"
-    "@rowsncolumns/date-parser" ">=13.0.2"
+    "@rowsncolumns/calculator" ">=7.3.2"
+    "@rowsncolumns/common-types" ">=5.3.2"
+    "@rowsncolumns/date-parser" ">=13.0.4"
     "@zip.js/zip.js" "^2.8.17"
     fast-xml-parser "^5.8.0"
     fflate "^0.8.2"
@@ -1210,13 +1246,13 @@
     rxjs "^7.8.2"
     xlsx "^0.18.5"
 
-"@rowsncolumns/ui@>=16.0.3":
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/ui/-/ui-16.0.3.tgz#421423b0cf13db0cf8440dad7329e67c36e86126"
-  integrity sha512-mVFOIzG1cLxYW08DOUJITlUBbnANPogveog3kc5XwB5UNhzx0PKuGhZ9wKoiBd+fbip/BaLhjemNxD3pkYheKA==
+"@rowsncolumns/ui@>=16.1.0":
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/ui/-/ui-16.1.0.tgz#05e3d3bbeb76e5907bea95c9c0e0fd69342541ad"
+  integrity sha512-E1/GtdTTGa4vNaC9J2dNCN5QyrKMFXmaqgOC59kojplH1BbaystvOcToNoUYAvqADym1Z+C+aPKRPx0Tobt19Q==
   dependencies:
     "@radix-ui/react-dialog" "^1.1.14"
-    "@radix-ui/react-dropdown-menu" "^2.1.15"
+    "@radix-ui/react-dropdown-menu" "2.1.16"
     "@radix-ui/react-popover" "^1.1.14"
     "@radix-ui/react-progress" "^1.1.7"
     "@radix-ui/react-select" "^2.2.5"
@@ -1246,6 +1282,14 @@
   integrity sha512-xCro4+MTr7amwk7+HtI0ijCJW7TxBxOnqJeSlv9+zGegXYK6kbLdt/luv9Ls0mptAOrZBAqmEAIDBy5/7GvyOg==
   dependencies:
     "@rowsncolumns/common-types" ">=5.3.1"
+    numfmt "^3.2.2"
+
+"@rowsncolumns/utils@>=9.5.4", "@rowsncolumns/utils@>=9.5.6":
+  version "9.5.6"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/utils/-/utils-9.5.6.tgz#c2450b7ed907c271099dff0aa96fd40721f7e622"
+  integrity sha512-Hz7vSQvC+yjRmqujqBe33q/oTAJypgDUffZtE3Ef2uEVYJbdfEENKuvgCPol3ya1KIV9JrpFfEDTDmKvrN2ILA==
+  dependencies:
+    "@rowsncolumns/common-types" ">=5.3.2"
     numfmt "^3.2.2"
 
 "@rowsncolumns/version-comparison@>=9.0.1":
