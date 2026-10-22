@@ -1082,10 +1082,10 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/rect/-/rect-1.1.1.tgz#78244efe12930c56fd255d7923865857c41ac8cb"
   integrity sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==
 
-"@rowsncolumns/calculation-worker@>=10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculation-worker/-/calculation-worker-10.0.1.tgz#7daaa4a2013d7ff172e6f8e365495b2d14e83078"
-  integrity sha512-mbYcIiB5KRdnQCU10p8nMV8cLT02kAx3MGAp1P81KB6XTwVQmNAfR1o72ok9KIcY1OIMDIfDZZDibSkwDAM40Q==
+"@rowsncolumns/calculation-worker@>=10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/calculation-worker/-/calculation-worker-10.0.3.tgz#c69c466b8b230b3f867e9ef0fefaa91467725ca8"
+  integrity sha512-ZQ/VKhjHcv49tvnZgSHkXWaqGaScX2zlqiLs3Y/6ExIVVpKN503CC1M0haWeB9/NJrLiMZMWd/0sK1ObCy8L3w==
   dependencies:
     lodash "^4.17.21"
     rxjs "^7.8.2"
@@ -1153,10 +1153,10 @@
   dependencies:
     xlsx "^0.18.5"
 
-"@rowsncolumns/grid@>=13.2.37":
-  version "13.2.37"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/grid/-/grid-13.2.37.tgz#0117b042457d0f9cbe9a2a4b192c183de6aa0a10"
-  integrity sha512-HX1aGMJNO9A7UfLJ67l+zvYNJHuIeo+hvcx1bBjYdH+VLvFHxD19aanmokUXGOogk9CSF6Abazx/SeGO8yBzzQ==
+"@rowsncolumns/grid@>=13.2.38":
+  version "13.2.39"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/grid/-/grid-13.2.39.tgz#2215399e54cc2f256a1faa7bb5de62e25a3e1c81"
+  integrity sha512-kOm4WJhwf4BF4VdewO7wkvcM1AkYke9xaxDgOKybLyXCIl3PRrJbeO4GIPVSSdW1X7N5F8A1pANjhbzuGTu3rw==
   dependencies:
     konva "^10.0.12"
     react-konva "^19.2.1"
@@ -1179,12 +1179,12 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^29.1.14":
-  version "29.1.14"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.1.14.tgz#c05124b16d4ab825b0925824fd2dc03fa21e4276"
-  integrity sha512-04M8pBMBrivAfJ0hT0QFX4j7XED4KWlXDui+SHCzQZBdifAJ42J7A1mdVqZRtg0Wz6bSQA7taK+O0GZjmxLgPA==
+"@rowsncolumns/spreadsheet-state@^29.1.17":
+  version "29.1.17"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.1.17.tgz#922811e23f86848582ddbecfcb758eabada1ecbd"
+  integrity sha512-NG65Cs6zVXfLj8kMuAzYvcxHrWMvXcKyCG1gGuU2W5ZCoTZSDA8/Cq2LycB04t/TtRnD2o5gXhWRyOcTJltYGg==
   dependencies:
-    "@rowsncolumns/calculation-worker" ">=10.0.1"
+    "@rowsncolumns/calculation-worker" ">=10.0.3"
     "@rowsncolumns/date-parser" ">=13.0.4"
     "@rowsncolumns/functions" ">=15.1.0"
     "@rowsncolumns/toolkit" ">=24.5.15"
@@ -1195,10 +1195,10 @@
     xlsx "^0.18.5"
     yup "^1.6.1"
 
-"@rowsncolumns/spreadsheet@^10.5.8":
-  version "10.5.8"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.5.8.tgz#ce9768ede80550a1e3bba2a465f7a08250269054"
-  integrity sha512-IfwIPCt2He4BSdO1zWPuzjuagh7LUoAzypZ7kHRJUjg8wdemqyna5DX8jLEI+FAvRbEF6orb5nWjXZxwlmLS6w==
+"@rowsncolumns/spreadsheet@^10.5.13":
+  version "10.5.13"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet/-/spreadsheet-10.5.13.tgz#792efa45f4ea992a446536f37b81478ad890109f"
+  integrity sha512-Mp7eeU8JnVtQIod5ds1ncqA5i9Ozl7K47lx0DPcLU1/y0FP1KM+Sc9WQbNoNA7h6ZgyPVHAClqIDWr/2YznXKw==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1208,7 +1208,7 @@
     "@rowsncolumns/common-types" ">=5.3.2"
     "@rowsncolumns/fast-formula-parser" ">=6.2.43"
     "@rowsncolumns/functions" ">=15.1.0"
-    "@rowsncolumns/grid" ">=13.2.37"
+    "@rowsncolumns/grid" ">=13.2.38"
     "@rowsncolumns/icons" ">=7.2.33"
     "@rowsncolumns/ui" ">=16.1.0"
     "@rowsncolumns/utils" ">=9.5.4"
@@ -1228,10 +1228,28 @@
   dependencies:
     "@supabase/supabase-js" "^2.49.8"
 
-"@rowsncolumns/toolkit@>=24.5.15", "@rowsncolumns/toolkit@^24.5.15":
+"@rowsncolumns/toolkit@>=24.5.15":
   version "24.5.15"
   resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.5.15.tgz#4837fcfe9ff6a94b6bedd153bf92b7b21e94de97"
   integrity sha512-ILPm62aBzs2cyiGCoAiylpZDmPWtpo76IqAflwBV3LyzlULEQNCw7NoQhDVvKljrYbhv6JvbzCOTe2ICTKheXg==
+  dependencies:
+    "@noble/ciphers" "^0.5.3"
+    "@noble/hashes" "^1.4.0"
+    "@rowsncolumns/calculator" ">=7.3.2"
+    "@rowsncolumns/common-types" ">=5.3.2"
+    "@rowsncolumns/date-parser" ">=13.0.4"
+    "@zip.js/zip.js" "^2.8.17"
+    fast-xml-parser "^5.8.0"
+    fflate "^0.8.2"
+    htmlparser2 "^9.1.0"
+    lodash-es "^4.18.1"
+    rxjs "^7.8.2"
+    xlsx "^0.18.5"
+
+"@rowsncolumns/toolkit@^24.5.16":
+  version "24.5.16"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/toolkit/-/toolkit-24.5.16.tgz#f41e5117578ca73a27f99f4b18f68b60332b9188"
+  integrity sha512-DtMV7P9OA8+4gY4vwAqRa7cRpXHqSXG4ogsndYOrHqyO2WH3VZgci98ayJ67HUe35Q1AJE/JPGhKfOEVPq4Zxg==
   dependencies:
     "@noble/ciphers" "^0.5.3"
     "@noble/hashes" "^1.4.0"
