@@ -1,15 +1,5 @@
-const path = require('path')
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    // outputFileTracingRoot: path.join(__dirname, '../../'),
-    // outputFileTracingExcludes: {
-    //   '**/*': ["**canvas**"],
-    // },
-    outputFileTracingIgnores: ["**canvas**"],
-    // esmExternals: 'loose'
-  },
   env: {
     SUPABASE_URL: process.env.SUPABASE_URL,
     SUPABASE_KEY: process.env.SUPABASE_KEY
