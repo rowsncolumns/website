@@ -12,6 +12,7 @@
     "@duckdb/duckdb-wasm": "^1.30.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
+    "@rowsncolumns/calculator": "^7.3.4",
     "@rowsncolumns/charts": "^28.1.18",
     "@rowsncolumns/pivot": "^11.1.1",
     "@rowsncolumns/spreadsheet": "^10.5.13",
