@@ -12,13 +12,13 @@
     "@duckdb/duckdb-wasm": "^1.30.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/calculator": "^7.3.4",
-    "@rowsncolumns/charts": "^28.1.18",
-    "@rowsncolumns/pivot": "^11.1.1",
-    "@rowsncolumns/spreadsheet": "^10.5.13",
-    "@rowsncolumns/spreadsheet-state": "^29.5.2",
-    "@rowsncolumns/supabase-spreadsheet": "^30.0.1",
-    "@rowsncolumns/toolkit": "^24.5.16",
+    "@rowsncolumns/calculator": "^7.3.5",
+    "@rowsncolumns/charts": "^28.1.21",
+    "@rowsncolumns/pivot": "^11.1.2",
+    "@rowsncolumns/spreadsheet": "^10.10.1",
+    "@rowsncolumns/spreadsheet-state": "^29.5.3",
+    "@rowsncolumns/supabase-spreadsheet": "^30.0.2",
+    "@rowsncolumns/toolkit": "^24.5.25",
     "@sendgrid/mail": "^8.1.6",
     "@types/node": "20.2.1",
     "@types/react": "^19.0.1",
@@ -28,6 +28,7 @@
     "clsx": "^1.2.1",
     "eslint": "8.41.0",
     "eslint-config-next": "^15.1.0",
+    "immer": "^11.2.10",
     "lucide-react": "^0.221.0",
     "next": "^16.0.7",
     "next-auth": "^4.22.1",
@@ -50,6 +51,6 @@
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "resolutions": {
-    "@rowsncolumns/cell-model": "^0.1.1"
+    "@rowsncolumns/cell-model": "^0.1.2"
   }
 }
