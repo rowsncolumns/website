@@ -1199,6 +1199,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
             onCollapseColumnGroup={onCollapseColumnGroup}
             onExpandColumnGroup={onExpandColumnGroup}
             onSetOutlineDepth={onSetOutlineDepth}
+            scale={scale}
           />
           <div className="flex flex-row flex-1 min-h-0 min-w-0">
             <RowOutlineGutter
@@ -1208,6 +1209,7 @@ export const Spreadsheet = ({ allowUpload }: SpreadsheetProps) => {
               onCollapseRowGroup={onCollapseRowGroup}
               onExpandRowGroup={onExpandRowGroup}
               onSetOutlineDepth={onSetOutlineDepth}
+              scale={scale}
             />
             <CanvasGrid
               {...spreadsheetColors}
