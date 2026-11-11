@@ -1042,10 +1042,10 @@
     "@rowsncolumns/fast-formula-parser" ">=6.2.47"
     "@rowsncolumns/utils" ">=9.8.0"
 
-"@rowsncolumns/cell-model@>=0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/cell-model/-/cell-model-0.1.0.tgz#75d17cdede37aea3de668321b9a236d250e51756"
-  integrity sha512-9JtkWiQABAXgfkKzxU9hoL/7TfWMirBekF/rKQ3VVGN3y3+6KseTZEZX6bCX13D1U6JaKAfOxn9b98l7YJkehQ==
+"@rowsncolumns/cell-model@>=0.1.0", "@rowsncolumns/cell-model@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/cell-model/-/cell-model-0.1.1.tgz#9a84deffe8c5314b50566da411ebfbb28c9fe624"
+  integrity sha512-ublytxJy0hYn9uveOSO90Z1wTIH+G9xSoaLDhsk530nw1KQskDCqgewzX1VptkKKb1erJBGbVRQjJPTtzyOFcQ==
   dependencies:
     "@rowsncolumns/calculator" ">=7.3.3"
     "@rowsncolumns/common-types" ">=5.5.0"
@@ -1128,10 +1128,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^29.1.17":
-  version "29.5.1"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.5.1.tgz#fcd44cd47a7451506362ac15c648999927183d7a"
-  integrity sha512-4g2YCjwiyd47XXK8zSnEGw1LDo9tU/LPkevevWdmqQAxivh7SPKypZgFJMg9KMVJN8heFj6ZWbUIhTPz3rUYxw==
+"@rowsncolumns/spreadsheet-state@^29.5.2":
+  version "29.5.2"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.5.2.tgz#d0062f5f22cb86d95a8990ae203bb909fc5b3941"
+  integrity sha512-38zDgS5I19BDIE6UOvUbXiW1RycnljLm92HM2IHMSkhYykRKOmPCfRU742km9k9HFdhStd25nJ43Y1t+bv44HQ==
   dependencies:
     "@rowsncolumns/calculation-worker" ">=10.0.5"
     "@rowsncolumns/cell-model" ">=0.1.0"
