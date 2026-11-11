@@ -316,7 +316,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -513,7 +513,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2002",
+          numberValue: 2002,
         },
         effectiveValue: {
           numberValue: 2002,
@@ -710,7 +710,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -907,7 +907,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -1101,7 +1101,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -1298,7 +1298,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -1496,7 +1496,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -1690,7 +1690,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -1887,7 +1887,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -2081,7 +2081,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -2278,7 +2278,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -2472,7 +2472,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1991",
+          numberValue: 1991,
         },
         effectiveValue: {
           numberValue: 1991,
@@ -2655,7 +2655,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -2849,7 +2849,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2002",
+          numberValue: 2002,
         },
         effectiveValue: {
           numberValue: 2002,
@@ -3043,7 +3043,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -3237,7 +3237,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -3434,7 +3434,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -3631,7 +3631,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -3825,7 +3825,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -4019,7 +4019,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -4213,7 +4213,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -4410,7 +4410,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -4604,7 +4604,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -4801,7 +4801,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -4996,7 +4996,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -5191,7 +5191,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -5388,7 +5388,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -5582,7 +5582,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -5779,7 +5779,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -5976,7 +5976,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -6170,7 +6170,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -6364,7 +6364,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -6558,7 +6558,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -6752,7 +6752,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -6949,7 +6949,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -7144,7 +7144,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -7338,7 +7338,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -7532,7 +7532,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -7729,7 +7729,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -7923,7 +7923,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -8117,7 +8117,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -8311,7 +8311,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -8505,7 +8505,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -8702,7 +8702,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1998",
+          numberValue: 1998,
         },
         effectiveValue: {
           numberValue: 1998,
@@ -8899,7 +8899,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -9093,7 +9093,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -9287,7 +9287,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -9481,7 +9481,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -9675,7 +9675,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -9872,7 +9872,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -10066,7 +10066,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -10263,7 +10263,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -10457,7 +10457,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -10651,7 +10651,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -10845,7 +10845,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -11042,7 +11042,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -11239,7 +11239,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -11436,7 +11436,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -11630,7 +11630,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -11824,7 +11824,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -12018,7 +12018,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -12212,7 +12212,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -12409,7 +12409,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -12604,7 +12604,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -12798,7 +12798,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -12992,7 +12992,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -13186,7 +13186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -13380,7 +13380,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -13577,7 +13577,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -13771,7 +13771,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -13968,7 +13968,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -14162,7 +14162,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -14356,7 +14356,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -14550,7 +14550,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -14744,7 +14744,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -14941,7 +14941,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -15135,7 +15135,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -15332,7 +15332,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -15526,7 +15526,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -15723,7 +15723,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1996",
+          numberValue: 1996,
         },
         effectiveValue: {
           numberValue: 1996,
@@ -15920,7 +15920,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -16114,7 +16114,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -16311,7 +16311,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -16505,7 +16505,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -16699,7 +16699,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1998",
+          numberValue: 1998,
         },
         effectiveValue: {
           numberValue: 1998,
@@ -16893,7 +16893,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -17087,7 +17087,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -17281,7 +17281,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -17478,7 +17478,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -17672,7 +17672,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -17866,7 +17866,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -18063,7 +18063,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -18257,7 +18257,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -18454,7 +18454,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -18651,7 +18651,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -18845,7 +18845,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -19042,7 +19042,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -19239,7 +19239,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -19433,7 +19433,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -19630,7 +19630,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -19825,7 +19825,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -20019,7 +20019,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -20213,7 +20213,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -20407,7 +20407,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -20601,7 +20601,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -20795,7 +20795,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -20992,7 +20992,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -21186,7 +21186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -21380,7 +21380,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -21577,7 +21577,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -21771,7 +21771,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -21965,7 +21965,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -22160,7 +22160,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -22354,7 +22354,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -22548,7 +22548,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -22742,7 +22742,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -22936,7 +22936,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -23133,7 +23133,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -23330,7 +23330,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1994",
+          numberValue: 1994,
         },
         effectiveValue: {
           numberValue: 1994,
@@ -23525,7 +23525,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -23719,7 +23719,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -23913,7 +23913,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -24107,7 +24107,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -24301,7 +24301,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -24495,7 +24495,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -24690,7 +24690,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -24887,7 +24887,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -25081,7 +25081,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -25275,7 +25275,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -25472,7 +25472,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1994",
+          numberValue: 1994,
         },
         effectiveValue: {
           numberValue: 1994,
@@ -25666,7 +25666,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -25863,7 +25863,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -26057,7 +26057,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -26251,7 +26251,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -26445,7 +26445,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -26642,7 +26642,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -26836,7 +26836,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -27033,7 +27033,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -27227,7 +27227,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -27421,7 +27421,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -27618,7 +27618,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -27815,7 +27815,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -28009,7 +28009,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -28206,7 +28206,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -28400,7 +28400,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -28597,7 +28597,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -28791,7 +28791,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -28985,7 +28985,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -29182,7 +29182,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -29376,7 +29376,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -29573,7 +29573,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -29767,7 +29767,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -29961,7 +29961,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -30158,7 +30158,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -30352,7 +30352,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -30546,7 +30546,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -30740,7 +30740,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -30934,7 +30934,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -31131,7 +31131,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -31325,7 +31325,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -31519,7 +31519,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -31716,7 +31716,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -31913,7 +31913,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1998",
+          numberValue: 1998,
         },
         effectiveValue: {
           numberValue: 1998,
@@ -32107,7 +32107,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -32301,7 +32301,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -32495,7 +32495,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -32692,7 +32692,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -32886,7 +32886,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -33083,7 +33083,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -33280,7 +33280,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -33463,7 +33463,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -33657,7 +33657,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -33851,7 +33851,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -34045,7 +34045,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -34239,7 +34239,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -34433,7 +34433,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -34627,7 +34627,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -34824,7 +34824,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -35021,7 +35021,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -35215,7 +35215,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -35409,7 +35409,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -35603,7 +35603,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -35797,7 +35797,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -35994,7 +35994,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -36191,7 +36191,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -36388,7 +36388,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -36585,7 +36585,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -36779,7 +36779,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -36973,7 +36973,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -37167,7 +37167,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1919",
+          numberValue: 1919,
         },
         effectiveValue: {
           numberValue: 1919,
@@ -37361,7 +37361,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -37555,7 +37555,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -37752,7 +37752,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -37946,7 +37946,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -38140,7 +38140,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -38334,7 +38334,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -38529,7 +38529,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -38726,7 +38726,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -38923,7 +38923,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -39117,7 +39117,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -39314,7 +39314,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -39511,7 +39511,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -39708,7 +39708,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -39902,7 +39902,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -40099,7 +40099,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -40293,7 +40293,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -40490,7 +40490,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -40687,7 +40687,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -40881,7 +40881,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -41075,7 +41075,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -41270,7 +41270,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -41464,7 +41464,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1995",
+          numberValue: 1995,
         },
         effectiveValue: {
           numberValue: 1995,
@@ -41661,7 +41661,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -41855,7 +41855,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -42049,7 +42049,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -42248,7 +42248,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -42442,7 +42442,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -42636,7 +42636,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -42831,7 +42831,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -43025,7 +43025,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -43222,7 +43222,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -43419,7 +43419,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -43614,7 +43614,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -43808,7 +43808,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -44002,7 +44002,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -44196,7 +44196,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -44390,7 +44390,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -44584,7 +44584,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -44781,7 +44781,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -44978,7 +44978,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -45175,7 +45175,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -45369,7 +45369,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -45563,7 +45563,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -45757,7 +45757,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -45951,7 +45951,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -46148,7 +46148,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -46345,7 +46345,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -46539,7 +46539,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -46733,7 +46733,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -46927,7 +46927,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -47124,7 +47124,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -47318,7 +47318,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -47501,7 +47501,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -47695,7 +47695,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -47889,7 +47889,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -48083,7 +48083,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -48277,7 +48277,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -48474,7 +48474,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -48671,7 +48671,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -48868,7 +48868,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -49065,7 +49065,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -49248,7 +49248,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -49445,7 +49445,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -49639,7 +49639,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -49833,7 +49833,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -50027,7 +50027,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -50221,7 +50221,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -50415,7 +50415,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -50609,7 +50609,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -50803,7 +50803,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -50997,7 +50997,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -51191,7 +51191,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -51385,7 +51385,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -51582,7 +51582,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -51776,7 +51776,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -51971,7 +51971,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -52166,7 +52166,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -52360,7 +52360,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -52557,7 +52557,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -52754,7 +52754,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -52948,7 +52948,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -53145,7 +53145,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -53339,7 +53339,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -53533,7 +53533,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -53727,7 +53727,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -53924,7 +53924,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -54121,7 +54121,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -54315,7 +54315,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -54509,7 +54509,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -54706,7 +54706,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -54903,7 +54903,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -55097,7 +55097,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -55291,7 +55291,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -55486,7 +55486,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -55681,7 +55681,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -55876,7 +55876,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -56073,7 +56073,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -56267,7 +56267,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -56464,7 +56464,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -56658,7 +56658,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -56852,7 +56852,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -57046,7 +57046,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -57240,7 +57240,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -57434,7 +57434,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -57631,7 +57631,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -57825,7 +57825,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -58022,7 +58022,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -58216,7 +58216,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -58410,7 +58410,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -58607,7 +58607,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -58804,7 +58804,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -59001,7 +59001,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -59198,7 +59198,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -59395,7 +59395,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -59592,7 +59592,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -59787,7 +59787,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -59981,7 +59981,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -60178,7 +60178,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -60372,7 +60372,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -60566,7 +60566,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -60763,7 +60763,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -60957,7 +60957,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -61154,7 +61154,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -61348,7 +61348,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -61542,7 +61542,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -61736,7 +61736,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -61930,7 +61930,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -62127,7 +62127,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -62321,7 +62321,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -62518,7 +62518,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -62712,7 +62712,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -62906,7 +62906,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -63103,7 +63103,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -63300,7 +63300,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -63497,7 +63497,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -63680,7 +63680,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -63874,7 +63874,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -64068,7 +64068,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -64262,7 +64262,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -64456,7 +64456,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -64653,7 +64653,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -64847,7 +64847,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -65044,7 +65044,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -65241,7 +65241,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -65435,7 +65435,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -65630,7 +65630,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -65827,7 +65827,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -66021,7 +66021,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -66218,7 +66218,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -66415,7 +66415,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -66612,7 +66612,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -66809,7 +66809,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -67006,7 +67006,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -67200,7 +67200,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -67394,7 +67394,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -67588,7 +67588,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -67785,7 +67785,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -67979,7 +67979,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -68173,7 +68173,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -68370,7 +68370,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -68564,7 +68564,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -68761,7 +68761,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -68958,7 +68958,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -69152,7 +69152,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -69346,7 +69346,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -69540,7 +69540,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -69734,7 +69734,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -69931,7 +69931,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -70125,7 +70125,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -70319,7 +70319,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -70513,7 +70513,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1995",
+          numberValue: 1995,
         },
         effectiveValue: {
           numberValue: 1995,
@@ -70710,7 +70710,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -70904,7 +70904,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -71101,7 +71101,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -71298,7 +71298,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -71492,7 +71492,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -71686,7 +71686,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -71880,7 +71880,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -72077,7 +72077,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -72274,7 +72274,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -72471,7 +72471,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -72665,7 +72665,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -72862,7 +72862,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -73056,7 +73056,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1979",
+          numberValue: 1979,
         },
         effectiveValue: {
           numberValue: 1979,
@@ -73251,7 +73251,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -73445,7 +73445,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -73642,7 +73642,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -73836,7 +73836,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1992",
+          numberValue: 1992,
         },
         effectiveValue: {
           numberValue: 1992,
@@ -74030,7 +74030,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -74224,7 +74224,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -74418,7 +74418,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -74615,7 +74615,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -74798,7 +74798,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -74995,7 +74995,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -75189,7 +75189,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -75383,7 +75383,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -75577,7 +75577,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -75771,7 +75771,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -75968,7 +75968,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -76162,7 +76162,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -76359,7 +76359,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -76556,7 +76556,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -76750,7 +76750,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -76944,7 +76944,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -77138,7 +77138,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -77332,7 +77332,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -77530,7 +77530,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -77724,7 +77724,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -77918,7 +77918,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -78115,7 +78115,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -78312,7 +78312,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -78506,7 +78506,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -78703,7 +78703,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -78900,7 +78900,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -79095,7 +79095,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -79290,7 +79290,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -79487,7 +79487,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -79682,7 +79682,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -79876,7 +79876,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -80073,7 +80073,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -80267,7 +80267,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -80461,7 +80461,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -80655,7 +80655,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -80849,7 +80849,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -81046,7 +81046,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -81240,7 +81240,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -81437,7 +81437,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -81631,7 +81631,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -81828,7 +81828,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -82022,7 +82022,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -82216,7 +82216,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -82410,7 +82410,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -82607,7 +82607,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -82801,7 +82801,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -82997,7 +82997,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -83194,7 +83194,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -83389,7 +83389,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -83586,7 +83586,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -83780,7 +83780,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -83977,7 +83977,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -84171,7 +84171,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -84368,7 +84368,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -84562,7 +84562,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -84756,7 +84756,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -84950,7 +84950,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -85147,7 +85147,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -85344,7 +85344,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -85538,7 +85538,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -85735,7 +85735,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -85932,7 +85932,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -86129,7 +86129,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -86323,7 +86323,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -86517,7 +86517,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -86714,7 +86714,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -86911,7 +86911,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -87108,7 +87108,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -87305,7 +87305,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -87499,7 +87499,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -87693,7 +87693,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -87887,7 +87887,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -88084,7 +88084,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -88281,7 +88281,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -88478,7 +88478,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -88672,7 +88672,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -88866,7 +88866,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -89063,7 +89063,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -89257,7 +89257,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -89451,7 +89451,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -89645,7 +89645,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -89839,7 +89839,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -90033,7 +90033,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -90227,7 +90227,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -90424,7 +90424,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -90621,7 +90621,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -90815,7 +90815,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -91009,7 +91009,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -91203,7 +91203,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -91397,7 +91397,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -91591,7 +91591,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -91785,7 +91785,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -91979,7 +91979,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -92173,7 +92173,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -92367,7 +92367,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -92564,7 +92564,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -92758,7 +92758,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -92955,7 +92955,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -93150,7 +93150,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -93347,7 +93347,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -93544,7 +93544,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -93738,7 +93738,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -93935,7 +93935,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -94132,7 +94132,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -94326,7 +94326,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -94523,7 +94523,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -94717,7 +94717,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -94911,7 +94911,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -95105,7 +95105,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -95299,7 +95299,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -95493,7 +95493,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -95690,7 +95690,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -95884,7 +95884,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -96078,7 +96078,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -96272,7 +96272,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -96466,7 +96466,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -96660,7 +96660,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -96857,7 +96857,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -97054,7 +97054,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -97251,7 +97251,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -97445,7 +97445,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -97642,7 +97642,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -97836,7 +97836,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -98033,7 +98033,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -98227,7 +98227,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -98421,7 +98421,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -98618,7 +98618,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -98812,7 +98812,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -99006,7 +99006,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -99200,7 +99200,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -99397,7 +99397,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -99591,7 +99591,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -99788,7 +99788,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -99985,7 +99985,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -100179,7 +100179,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -100373,7 +100373,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -100567,7 +100567,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -100764,7 +100764,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -100958,7 +100958,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -101152,7 +101152,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -101349,7 +101349,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -101543,7 +101543,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -101737,7 +101737,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -101931,7 +101931,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -102125,7 +102125,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -102322,7 +102322,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -102520,7 +102520,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -102717,7 +102717,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -102914,7 +102914,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -103111,7 +103111,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -103305,7 +103305,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -103502,7 +103502,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -103696,7 +103696,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -103890,7 +103890,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -104087,7 +104087,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -104284,7 +104284,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -104478,7 +104478,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -104672,7 +104672,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -104869,7 +104869,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -105063,7 +105063,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -105260,7 +105260,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -105457,7 +105457,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -105652,7 +105652,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -105838,7 +105838,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -106032,7 +106032,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -106229,7 +106229,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -106423,7 +106423,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -106620,7 +106620,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -106817,7 +106817,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -107011,7 +107011,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -107205,7 +107205,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -107402,7 +107402,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -107599,7 +107599,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -107793,7 +107793,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -107987,7 +107987,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -108181,7 +108181,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -108378,7 +108378,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -108575,7 +108575,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -108770,7 +108770,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -108964,7 +108964,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -109158,7 +109158,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -109352,7 +109352,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -109549,7 +109549,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -109746,7 +109746,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -109940,7 +109940,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -110134,7 +110134,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -110331,7 +110331,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -110528,7 +110528,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -110722,7 +110722,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -110921,7 +110921,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -111115,7 +111115,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -111309,7 +111309,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -111506,7 +111506,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -111703,7 +111703,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -111900,7 +111900,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -112094,7 +112094,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -112288,7 +112288,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -112482,7 +112482,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -112676,7 +112676,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -112873,7 +112873,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -113070,7 +113070,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -113267,7 +113267,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -113461,7 +113461,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -113658,7 +113658,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -113852,7 +113852,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -114046,7 +114046,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -114243,7 +114243,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -114437,7 +114437,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -114634,7 +114634,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -114828,7 +114828,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -115025,7 +115025,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -115219,7 +115219,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -115416,7 +115416,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -115610,7 +115610,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -115804,7 +115804,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -115998,7 +115998,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -116192,7 +116192,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -116389,7 +116389,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -116583,7 +116583,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -116777,7 +116777,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -116971,7 +116971,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -117165,7 +117165,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -117359,7 +117359,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -117556,7 +117556,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -117750,7 +117750,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -117944,7 +117944,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -118141,7 +118141,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -118335,7 +118335,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -118529,7 +118529,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -118726,7 +118726,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -118920,7 +118920,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -119117,7 +119117,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -119314,7 +119314,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -119508,7 +119508,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -119705,7 +119705,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -119899,7 +119899,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -120093,7 +120093,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -120290,7 +120290,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -120487,7 +120487,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -120684,7 +120684,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -120878,7 +120878,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -121075,7 +121075,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -121269,7 +121269,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -121463,7 +121463,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -121660,7 +121660,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1998",
+          numberValue: 1998,
         },
         effectiveValue: {
           numberValue: 1998,
@@ -121857,7 +121857,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -122054,7 +122054,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -122248,7 +122248,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -122442,7 +122442,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -122636,7 +122636,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -122833,7 +122833,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -123027,7 +123027,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -123221,7 +123221,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -123418,7 +123418,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -123612,7 +123612,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -123806,7 +123806,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -124003,7 +124003,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -124200,7 +124200,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -124397,7 +124397,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -124594,7 +124594,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -124791,7 +124791,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -124987,7 +124987,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -125181,7 +125181,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -125375,7 +125375,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -125572,7 +125572,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -125766,7 +125766,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -125960,7 +125960,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -126157,7 +126157,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -126354,7 +126354,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -126548,7 +126548,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -126745,7 +126745,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -126942,7 +126942,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -127136,7 +127136,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -127335,7 +127335,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -127532,7 +127532,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -127727,7 +127727,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -127921,7 +127921,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -128115,7 +128115,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -128309,7 +128309,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -128503,7 +128503,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -128697,7 +128697,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -128894,7 +128894,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -129091,7 +129091,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -129285,7 +129285,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -129479,7 +129479,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -129673,7 +129673,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2002",
+          numberValue: 2002,
         },
         effectiveValue: {
           numberValue: 2002,
@@ -129870,7 +129870,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -130067,7 +130067,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -130261,7 +130261,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -130455,7 +130455,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -130652,7 +130652,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -130846,7 +130846,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -131040,7 +131040,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -131237,7 +131237,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -131434,7 +131434,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -131629,7 +131629,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -131823,7 +131823,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -132018,7 +132018,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -132213,7 +132213,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -132407,7 +132407,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -132601,7 +132601,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -132798,7 +132798,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -132992,7 +132992,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -133186,7 +133186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -133380,7 +133380,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -133574,7 +133574,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -133768,7 +133768,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -133965,7 +133965,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -134159,7 +134159,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -134353,7 +134353,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -134550,7 +134550,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -134747,7 +134747,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -134941,7 +134941,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -135135,7 +135135,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -135329,7 +135329,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -135523,7 +135523,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -135717,7 +135717,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -135911,7 +135911,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -136108,7 +136108,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -136302,7 +136302,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -136496,7 +136496,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -136691,7 +136691,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1984",
+          numberValue: 1984,
         },
         effectiveValue: {
           numberValue: 1984,
@@ -136888,7 +136888,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -137082,7 +137082,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -137276,7 +137276,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -137473,7 +137473,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -137670,7 +137670,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -137864,7 +137864,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -138061,7 +138061,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -138258,7 +138258,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -138452,7 +138452,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -138646,7 +138646,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -138840,7 +138840,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -139034,7 +139034,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -139228,7 +139228,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -139425,7 +139425,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -139622,7 +139622,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -139816,7 +139816,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -140013,7 +140013,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -140209,7 +140209,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -140403,7 +140403,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -140600,7 +140600,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -140794,7 +140794,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -140991,7 +140991,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -141186,7 +141186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -141380,7 +141380,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -141574,7 +141574,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -141768,7 +141768,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -141962,7 +141962,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -142156,7 +142156,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -142350,7 +142350,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -142547,7 +142547,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -142744,7 +142744,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -142938,7 +142938,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -143133,7 +143133,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -143330,7 +143330,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -143527,7 +143527,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -143721,7 +143721,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -143915,7 +143915,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -144112,7 +144112,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -144306,7 +144306,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -144500,7 +144500,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -144697,7 +144697,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -144891,7 +144891,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -145085,7 +145085,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -145282,7 +145282,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -145476,7 +145476,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -145670,7 +145670,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -145864,7 +145864,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -146061,7 +146061,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -146255,7 +146255,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -146449,7 +146449,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -146646,7 +146646,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -146840,7 +146840,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -147037,7 +147037,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -147231,7 +147231,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -147425,7 +147425,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -147622,7 +147622,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -147816,7 +147816,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -148013,7 +148013,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -148208,7 +148208,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -148405,7 +148405,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -148599,7 +148599,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -148793,7 +148793,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -148987,7 +148987,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -149181,7 +149181,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -149378,7 +149378,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -149575,7 +149575,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -149772,7 +149772,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -149969,7 +149969,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -150166,7 +150166,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -150363,7 +150363,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -150560,7 +150560,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -150757,7 +150757,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -150951,7 +150951,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -151145,7 +151145,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -151342,7 +151342,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -151539,7 +151539,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -151733,7 +151733,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -151930,7 +151930,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -152127,7 +152127,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -152321,7 +152321,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -152518,7 +152518,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -152712,7 +152712,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -152909,7 +152909,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -153104,7 +153104,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -153298,7 +153298,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -153492,7 +153492,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -153686,7 +153686,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -153883,7 +153883,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -154077,7 +154077,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -154274,7 +154274,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -154468,7 +154468,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -154662,7 +154662,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -154856,7 +154856,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -155050,7 +155050,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -155244,7 +155244,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -155438,7 +155438,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -155635,7 +155635,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -155832,7 +155832,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -156026,7 +156026,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -156223,7 +156223,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -156420,7 +156420,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -156617,7 +156617,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -156811,7 +156811,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -157008,7 +157008,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -157202,7 +157202,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -157396,7 +157396,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -157590,7 +157590,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -157787,7 +157787,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -157981,7 +157981,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -158175,7 +158175,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -158372,7 +158372,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -158558,7 +158558,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -158752,7 +158752,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -158949,7 +158949,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -159143,7 +159143,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -159337,7 +159337,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -159531,7 +159531,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2001",
+          numberValue: 2001,
         },
         effectiveValue: {
           numberValue: 2001,
@@ -159725,7 +159725,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -159919,7 +159919,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -160113,7 +160113,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -160310,7 +160310,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -160507,7 +160507,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -160701,7 +160701,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -160895,7 +160895,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -161089,7 +161089,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -161286,7 +161286,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -161481,7 +161481,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -161675,7 +161675,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -161870,7 +161870,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -162067,7 +162067,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -162261,7 +162261,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -162458,7 +162458,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -162652,7 +162652,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -162846,7 +162846,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -163040,7 +163040,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -163234,7 +163234,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -163431,7 +163431,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -163625,7 +163625,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -163819,7 +163819,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -164016,7 +164016,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -164213,7 +164213,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1990",
+          numberValue: 1990,
         },
         effectiveValue: {
           numberValue: 1990,
@@ -164407,7 +164407,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -164604,7 +164604,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -164798,7 +164798,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -164992,7 +164992,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -165186,7 +165186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -165380,7 +165380,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -165577,7 +165577,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -165763,7 +165763,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -165958,7 +165958,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -166155,7 +166155,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -166349,7 +166349,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -166543,7 +166543,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -166740,7 +166740,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -166937,7 +166937,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -167131,7 +167131,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -167328,7 +167328,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -167525,7 +167525,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -167719,7 +167719,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -167916,7 +167916,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -168113,7 +168113,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -168307,7 +168307,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -168501,7 +168501,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -168698,7 +168698,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -168893,7 +168893,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -169090,7 +169090,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -169286,7 +169286,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -169480,7 +169480,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -169677,7 +169677,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -169871,7 +169871,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -170066,7 +170066,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -170263,7 +170263,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -170460,7 +170460,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -170657,7 +170657,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -170851,7 +170851,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -171045,7 +171045,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -171239,7 +171239,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -171436,7 +171436,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -171633,7 +171633,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -171830,7 +171830,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -172013,7 +172013,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -172210,7 +172210,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -172404,7 +172404,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -172598,7 +172598,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -172795,7 +172795,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -172989,7 +172989,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -173186,7 +173186,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -173383,7 +173383,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -173577,7 +173577,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -173760,7 +173760,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -173959,7 +173959,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -174153,7 +174153,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -174350,7 +174350,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -174533,7 +174533,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -174727,7 +174727,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -174921,7 +174921,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -175118,7 +175118,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -175315,7 +175315,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -175509,7 +175509,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -175706,7 +175706,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -175901,7 +175901,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -176096,7 +176096,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -176290,7 +176290,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -176487,7 +176487,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -176685,7 +176685,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -176879,7 +176879,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -177073,7 +177073,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -177270,7 +177270,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -177467,7 +177467,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -177661,7 +177661,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -177858,7 +177858,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -178052,7 +178052,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -178249,7 +178249,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -178443,7 +178443,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -178637,7 +178637,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -178831,7 +178831,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -179028,7 +179028,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -179222,7 +179222,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -179416,7 +179416,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -179613,7 +179613,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -179807,7 +179807,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2004",
+          numberValue: 2004,
         },
         effectiveValue: {
           numberValue: 2004,
@@ -180002,7 +180002,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -180199,7 +180199,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -180393,7 +180393,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -180590,7 +180590,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -180784,7 +180784,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -180981,7 +180981,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -181175,7 +181175,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -181369,7 +181369,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -181564,7 +181564,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -181761,7 +181761,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -181955,7 +181955,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -182149,7 +182149,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -182344,7 +182344,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -182538,7 +182538,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -182735,7 +182735,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -182932,7 +182932,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -183126,7 +183126,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -183323,7 +183323,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -183517,7 +183517,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -183711,7 +183711,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -183905,7 +183905,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -184099,7 +184099,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -184293,7 +184293,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -184487,7 +184487,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -184686,7 +184686,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -184883,7 +184883,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -185079,7 +185079,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2002",
+          numberValue: 2002,
         },
         effectiveValue: {
           numberValue: 2002,
@@ -185273,7 +185273,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -185467,7 +185467,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -185661,7 +185661,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -185858,7 +185858,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -186052,7 +186052,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -186249,7 +186249,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -186443,7 +186443,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -186640,7 +186640,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -186837,7 +186837,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -187034,7 +187034,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -187228,7 +187228,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -187422,7 +187422,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -187616,7 +187616,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -187811,7 +187811,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -188006,7 +188006,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -188200,7 +188200,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -188397,7 +188397,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -188594,7 +188594,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -188791,7 +188791,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -188986,7 +188986,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2021",
+          numberValue: 2021,
         },
         effectiveValue: {
           numberValue: 2021,
@@ -189181,7 +189181,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -189375,7 +189375,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -189572,7 +189572,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -189766,7 +189766,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -189960,7 +189960,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -190157,7 +190157,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -190354,7 +190354,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1998",
+          numberValue: 1998,
         },
         effectiveValue: {
           numberValue: 1998,
@@ -190551,7 +190551,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -190745,7 +190745,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -190942,7 +190942,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -191136,7 +191136,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -191330,7 +191330,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -191516,7 +191516,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -191713,7 +191713,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -191907,7 +191907,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -192104,7 +192104,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1999",
+          numberValue: 1999,
         },
         effectiveValue: {
           numberValue: 1999,
@@ -192298,7 +192298,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -192495,7 +192495,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -192678,7 +192678,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -192875,7 +192875,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -193069,7 +193069,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -193266,7 +193266,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -193460,7 +193460,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -193654,7 +193654,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -193848,7 +193848,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -194042,7 +194042,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -194225,7 +194225,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -194422,7 +194422,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -194619,7 +194619,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -194799,7 +194799,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -194982,7 +194982,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -195162,7 +195162,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -195343,7 +195343,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -195523,7 +195523,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -195702,7 +195702,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -195882,7 +195882,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -196062,7 +196062,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -196242,7 +196242,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -196422,7 +196422,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -196605,7 +196605,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -196785,7 +196785,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -196968,7 +196968,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2000",
+          numberValue: 2000,
         },
         effectiveValue: {
           numberValue: 2000,
@@ -197148,7 +197148,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -197328,7 +197328,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -197508,7 +197508,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -197688,7 +197688,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -197868,7 +197868,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -198048,7 +198048,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -198228,7 +198228,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -198411,7 +198411,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -198591,7 +198591,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -198771,7 +198771,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -198951,7 +198951,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -199134,7 +199134,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -199317,7 +199317,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -199500,7 +199500,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -199683,7 +199683,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -199864,7 +199864,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -200047,7 +200047,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -200227,7 +200227,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -200410,7 +200410,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2003",
+          numberValue: 2003,
         },
         effectiveValue: {
           numberValue: 2003,
@@ -200593,7 +200593,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -200776,7 +200776,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -200957,7 +200957,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -201137,7 +201137,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -201320,7 +201320,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2006",
+          numberValue: 2006,
         },
         effectiveValue: {
           numberValue: 2006,
@@ -201503,7 +201503,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -201683,7 +201683,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2020",
+          numberValue: 2020,
         },
         effectiveValue: {
           numberValue: 2020,
@@ -201863,7 +201863,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -202043,7 +202043,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -202223,7 +202223,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -202403,7 +202403,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -202586,7 +202586,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -202766,7 +202766,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -202947,7 +202947,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -203127,7 +203127,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1993",
+          numberValue: 1993,
         },
         effectiveValue: {
           numberValue: 1993,
@@ -203310,7 +203310,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -203493,7 +203493,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -203676,7 +203676,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -203857,7 +203857,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -204037,7 +204037,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -204217,7 +204217,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -204397,7 +204397,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2007",
+          numberValue: 2007,
         },
         effectiveValue: {
           numberValue: 2007,
@@ -204580,7 +204580,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -204760,7 +204760,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -204940,7 +204940,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -205120,7 +205120,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2016",
+          numberValue: 2016,
         },
         effectiveValue: {
           numberValue: 2016,
@@ -205300,7 +205300,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2010",
+          numberValue: 2010,
         },
         effectiveValue: {
           numberValue: 2010,
@@ -205483,7 +205483,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -205666,7 +205666,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -205846,7 +205846,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -206029,7 +206029,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2019",
+          numberValue: 2019,
         },
         effectiveValue: {
           numberValue: 2019,
@@ -206209,7 +206209,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2017",
+          numberValue: 2017,
         },
         effectiveValue: {
           numberValue: 2017,
@@ -206378,7 +206378,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2013",
+          numberValue: 2013,
         },
         effectiveValue: {
           numberValue: 2013,
@@ -206559,7 +206559,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2009",
+          numberValue: 2009,
         },
         effectiveValue: {
           numberValue: 2009,
@@ -206739,7 +206739,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -206919,7 +206919,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
@@ -207099,7 +207099,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -207279,7 +207279,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "1997",
+          numberValue: 1997,
         },
         effectiveValue: {
           numberValue: 1997,
@@ -207459,7 +207459,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2008",
+          numberValue: 2008,
         },
         effectiveValue: {
           numberValue: 2008,
@@ -207642,7 +207642,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2011",
+          numberValue: 2011,
         },
         effectiveValue: {
           numberValue: 2011,
@@ -207825,7 +207825,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2012",
+          numberValue: 2012,
         },
         effectiveValue: {
           numberValue: 2012,
@@ -208005,7 +208005,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2015",
+          numberValue: 2015,
         },
         effectiveValue: {
           numberValue: 2015,
@@ -208185,7 +208185,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2018",
+          numberValue: 2018,
         },
         effectiveValue: {
           numberValue: 2018,
@@ -208368,7 +208368,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2005",
+          numberValue: 2005,
         },
         effectiveValue: {
           numberValue: 2005,
@@ -208551,7 +208551,7 @@ export const sheetInitialData = [
       },
       {
         userEnteredValue: {
-          stringValue: "2014",
+          numberValue: 2014,
         },
         effectiveValue: {
           numberValue: 2014,
