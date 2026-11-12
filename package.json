@@ -12,11 +12,11 @@
     "@duckdb/duckdb-wasm": "^1.30.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-navigation-menu": "^1.1.1",
-    "@rowsncolumns/calculator": "^7.3.5",
+    "@rowsncolumns/calculator": "^7.3.6",
     "@rowsncolumns/charts": "^28.1.21",
     "@rowsncolumns/pivot": "^11.1.2",
-    "@rowsncolumns/spreadsheet": "^10.10.2",
-    "@rowsncolumns/spreadsheet-state": "^29.5.4",
+    "@rowsncolumns/spreadsheet": "^10.10.3",
+    "@rowsncolumns/spreadsheet-state": "^29.5.6",
     "@rowsncolumns/supabase-spreadsheet": "^30.0.2",
     "@rowsncolumns/toolkit": "^24.5.25",
     "@sendgrid/mail": "^8.1.6",
@@ -51,6 +51,6 @@
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "resolutions": {
-    "@rowsncolumns/cell-model": "^0.1.2"
+    "@rowsncolumns/cell-model": "^0.1.3"
   }
 }
