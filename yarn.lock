@@ -1128,10 +1128,10 @@
     "@dnd-kit/sortable" "^10.0.0"
     "@dnd-kit/utilities" "^3.2.2"
 
-"@rowsncolumns/spreadsheet-state@^29.5.6":
-  version "29.5.6"
-  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.5.6.tgz#f000a2fae9bc1c3adc1039db62a0a4bc316b18ab"
-  integrity sha512-dFtIrfzCp0jAO9vE562TOhQdr5B3RdL4ZHgaDymnmGL5Pes1x1QZmNQE9p0cGBl1zZDJ9HhKECLB3J9GyxOXXw==
+"@rowsncolumns/spreadsheet-state@^29.5.7":
+  version "29.5.7"
+  resolved "https://registry.yarnpkg.com/@rowsncolumns/spreadsheet-state/-/spreadsheet-state-29.5.7.tgz#d2ee666f488b39f0ae3cfa063fb84b2c00e9d31d"
+  integrity sha512-o0X3n2/WUa0TkTGXd91a2lXVTSEz0kelPURnmW27B8dOshzDtpLyGlM8atB2/wMfToNucOv2C2wiKBT8FMSbAQ==
   dependencies:
     "@rowsncolumns/calculation-worker" ">=10.0.7"
     "@rowsncolumns/cell-model" ">=0.1.3"
