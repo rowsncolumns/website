@@ -15,7 +15,7 @@
     "@rowsncolumns/calculator": "^7.3.6",
     "@rowsncolumns/charts": "^28.1.21",
     "@rowsncolumns/pivot": "^11.1.2",
-    "@rowsncolumns/spreadsheet": "^10.10.3",
+    "@rowsncolumns/spreadsheet": "^10.10.4",
     "@rowsncolumns/spreadsheet-state": "^29.5.7",
     "@rowsncolumns/supabase-spreadsheet": "^30.0.2",
     "@rowsncolumns/toolkit": "^24.5.25",
